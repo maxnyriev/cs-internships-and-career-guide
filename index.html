@@ -12,20 +12,15 @@ title: "Things I Wish I Knew: CS Edition"
     <svg class="scribble" viewBox="0 0 560 22" preserveAspectRatio="none" aria-hidden="true" focusable="false">
       <path d="M4 14 C 90 4, 180 20, 270 11 S 450 6, 556 13" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
     </svg>
-    <p class="lede">Internships, new-grad jobs and early programs, copied straight from company career sites every morning. Plus the notes I'd pass to a younger student: resumes, projects, applying, interviews, and what to do if you started late.</p>
+    <p class="lede">Internships, new-grad jobs and early programs, copied straight from company career sites. Plus the notes I'd pass to a younger student: resumes, projects, applying, interviews, and what to do if you started late.</p>
     <div class="actions">
       <a class="btn primary" href="{{ '/where.html' | relative_url }}">Get my 30-day plan</a>
       <a class="btn" href="{{ '/INTERNSHIPS.html' | relative_url }}">Browse {{ s.internships | default: "all" }} internships</a>
-      <span class="hint" aria-hidden="true">
-        <svg viewBox="0 0 46 28" focusable="false"><path d="M44 22 C 32 26, 14 22, 8 8 M8 8 L 4 16 M8 8 L 15 12" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        not sure? start with the plan
-      </span>
     </div>
     <p class="meta">Last updated {{ s.updated | date: "%B %-d, %Y" }}. The board checks {{ s.boards }} company career sites every day. It's free, and there's nothing to sign up for.</p>
   </section>
 
   <section class="block" id="jobs" aria-labelledby="jobs-title">
-    <span class="margin-note" aria-hidden="true">newest first, every link goes to the real application</span>
     <h2 id="jobs-title"><span class="mark-h">The lists</span></h2>
     <p class="sub">Each list shows where a job is, when it was posted, and any rules the posting states (citizenship, clearance, sponsorship), quoted from the posting itself.</p>
     <div class="grid jobs">
@@ -45,7 +40,7 @@ title: "Things I Wish I Knew: CS Edition"
         <p>{% if s.early > 0 %}Programs and internships open to first- and second-years.{% else %}None open right now. See what first- and second-years can do instead.{% endif %}</p>
       </a>
       <a class="card" href="{{ '/NEW_THIS_WEEK.html' | relative_url }}">
-        <h3>Posted this week</h3>
+        <h3>New this week</h3>
         <div class="num">{{ s.new_week }}</div>
         <p>Roles companies posted in the last 7 days.</p>
       </a>
@@ -53,24 +48,22 @@ title: "Things I Wish I Knew: CS Edition"
   </section>
 
   <section class="block" id="lanes" aria-labelledby="lanes-title">
-    <span class="margin-note" aria-hidden="true">not everyone wants web dev, and that's fine</span>
-    <h2 id="lanes-title"><span class="mark-h">Pick your track</span></h2>
-    <p class="sub">The same jobs, sorted by the kind of work. <a href="{{ '/guides/tracks.html' | relative_url }}">Not sure which fits?</a> The tracks guide covers classes, starter projects and how interviews differ.</p>
+    <h2 id="lanes-title"><span class="mark-h">Jobs by track</span></h2>
+    <p class="sub">The same jobs, sorted by the kind of work. Not sure which fits? The <a href="{{ '/guides/tracks.html' | relative_url }}">Career tracks guide</a> covers classes, starter projects and how interviews differ.</p>
     <div class="grid lanes">
       <a class="card lane" href="{{ '/track-software.html' | relative_url }}"><h3>Software</h3><div class="num">{{ t.software | default: "–" }}</div><p>Web, backend, mobile, tools.</p></a>
       <a class="card lane" href="{{ '/track-data.html' | relative_url }}"><h3>Data and ML</h3><div class="num">{{ t.data | default: "–" }}</div><p>Analytics, data science, AI.</p></a>
       <a class="card lane" href="{{ '/track-it.html' | relative_url }}"><h3>IT and networking</h3><div class="num">{{ t.it | default: "–" }}</div><p>Help desk, networks, cloud ops.</p></a>
       <a class="card lane" href="{{ '/track-security.html' | relative_url }}"><h3>Security</h3><div class="num">{{ t.security | default: "–" }}</div><p>Cyber, SOC, testing systems.</p></a>
       <a class="card lane" href="{{ '/track-hardware.html' | relative_url }}"><h3>Hardware and chips</h3><div class="num">{{ t.hardware | default: "–" }}</div><p>FPGA, ASIC, verification.</p></a>
-      <a class="card lane" href="{{ '/track-embedded.html' | relative_url }}"><h3>Embedded</h3><div class="num">{{ t.embedded | default: "–" }}</div><p>Firmware, microcontrollers.</p></a>
+      <a class="card lane" href="{{ '/track-embedded.html' | relative_url }}"><h3>Embedded and firmware</h3><div class="num">{{ t.embedded | default: "–" }}</div><p>Firmware, microcontrollers.</p></a>
       <a class="card lane" href="{{ '/track-gov.html' | relative_url }}"><h3>Government and defense</h3><div class="num">{{ t.gov | default: "–" }}</div><p>Agencies, contractors, labs.</p></a>
     </div>
   </section>
 
   <section class="block" id="guides" aria-labelledby="guides-title">
     <span class="margin-note" aria-hidden="true">read these in any order</span>
-    <h2 id="guides-title"><span class="mark-h">Contents</span></h2>
-    <p class="sub">Short, honest guides. Each one ends with free resources.</p>
+    <h2 id="guides-title"><span class="mark-h">Guides</span></h2>
     <ul class="toc">
       <li><a href="{{ '/guides/' | relative_url }}"><span class="t">Start here</span><span class="dots" aria-hidden="true"></span><span class="why">you don't know where to begin</span></a></li>
       <li><a href="{{ '/guides/resume.html' | relative_url }}"><span class="t">Your first resume</span><span class="dots" aria-hidden="true"></span><span class="why">you need one, or yours gets no replies</span></a></li>
@@ -79,44 +72,17 @@ title: "Things I Wish I Knew: CS Edition"
       <li><a href="{{ '/guides/interviews.html' | relative_url }}"><span class="t">Interviews</span><span class="dots" aria-hidden="true"></span><span class="why">what interviewers actually score</span></a></li>
       <li><a href="{{ '/guides/networking.html' | relative_url }}"><span class="t">Networking</span><span class="dots" aria-hidden="true"></span><span class="why">you know nobody yet</span></a></li>
       <li><a href="{{ '/guides/timeline.html' | relative_url }}"><span class="t">4-year timeline</span><span class="dots" aria-hidden="true"></span><span class="why">what to do each semester</span></a></li>
-      <li><a href="{{ '/guides/tracks.html' | relative_url }}"><span class="t">Pick your track</span><span class="dots" aria-hidden="true"></span><span class="why">software isn't your only option</span></a></li>
+      <li><a href="{{ '/guides/tracks.html' | relative_url }}"><span class="t">Career tracks</span><span class="dots" aria-hidden="true"></span><span class="why">software isn't your only option</span></a></li>
       <li><a href="{{ '/guides/github.html' | relative_url }}"><span class="t">GitHub</span><span class="dots" aria-hidden="true"></span><span class="why">Git basics and a clean profile</span></a></li>
       <li><a href="{{ '/guides/linkedin.html' | relative_url }}"><span class="t">LinkedIn</span><span class="dots" aria-hidden="true"></span><span class="why">a simple profile and alumni</span></a></li>
       <li><a href="{{ '/guides/resources.html' | relative_url }}"><span class="t">Resources</span><span class="dots" aria-hidden="true"></span><span class="why">free courses, clubs, scholarships</span></a></li>
     </ul>
   </section>
 
-  <section class="block" aria-labelledby="steps-title">
-    <span class="margin-note" aria-hidden="true">that's enough for this month</span>
-    <h2 id="steps-title"><span class="mark-h">If you only do three things</span></h2>
-    <ol class="steps">
-      <li><strong><a href="{{ '/where.html' | relative_url }}">Get your 30-day plan</a></strong><span>Four questions, and you get the 2 to 4 things that matter for your year.</span></li>
-      <li><strong><a href="{{ '/guides/resume.html' | relative_url }}">Write a one-page resume</a></strong><span>Plain, honest, built around what you've made. Then ask one person to mark it up.</span></li>
-      <li><strong><a href="{{ '/INTERNSHIPS.html' | relative_url }}">Apply early</a></strong><span>Big-company summer internships open around July to September of the year before. Smaller and local employers hire into spring.</span></li>
-    </ol>
-  </section>
-
-  <section class="block" aria-labelledby="tags-title">
-    <div class="tags-strip">
-      <h2 id="tags-title"><span class="mark-h">What the stickers mean</span></h2>
-      <p>Tags come from the posting's own words, and the sentence each tag came from is shown under the job title.</p>
-      <ul class="chips" aria-label="Tags used on the job lists">
-        <li class="chip">🇺🇸 citizens only</li>
-        <li class="chip">🔒 clearance</li>
-        <li class="chip">📜 mentions ITAR</li>
-        <li class="chip">🛂✅ sponsors visas</li>
-        <li class="chip">🛂❌ won't sponsor</li>
-        <li class="chip">🚫 no CPT/OPT</li>
-        <li class="chip">🌐 remote</li>
-        <li class="chip">🔄 co-op</li>
-      </ul>
-    </div>
-  </section>
-
   <section class="block" aria-labelledby="about-title">
     <h2 id="about-title"><span class="mark-h">About this board</span></h2>
-    <p class="sub">{{ s.total }} open roles from {{ s.boards }} company career sites, checked every day with automated tests on every run. It won't catch everything, so also check Handshake, LinkedIn and <a href="https://github.com/SimplifyJobs/Summer2027-Internships">Simplify's internship list</a>. How the board works and how accurate it is: <a href="https://github.com/rohitpeets/cs-internships-and-career-guide/blob/main/docs/WRITEUP.md">the write-up</a>.</p>
-    <p class="disclaimer"><strong>Disclaimer.</strong> This board is provided as is, without warranty of any kind. Listings and tags are generated automatically from employers' public job postings and can be wrong, incomplete or out of date. Always read the full posting on the employer's site. Visa, CPT, OPT and citizenship notes are general information, not legal or immigration advice; confirm your situation with your school's DSO or an immigration attorney. This project is free, non-commercial, and not affiliated with or endorsed by any employer listed or any university.</p>
+    <p class="sub">The board won't catch everything, so also check Handshake, LinkedIn and <a href="https://github.com/SimplifyJobs">Simplify's internship lists</a>. How the board works and how accurate it is: <a href="https://github.com/rohitpeets/cs-internships-and-career-guide/blob/main/docs/WRITEUP.md">the write-up</a>.</p>
+    <p class="disclaimer"><strong>Disclaimer.</strong> This board is provided as is, without warranty of any kind. Listings and tags are generated automatically from employers' public job postings and can be wrong, incomplete or out of date. Always read the full posting on the employer's site. Sponsorship, CPT/OPT and citizenship tags are general information, not legal or immigration advice. This project is free, non-commercial, and not affiliated with or endorsed by any employer listed or any university.</p>
     <p class="disclaimer"><strong>License.</strong> Code: <a href="https://github.com/rohitpeets/cs-internships-and-career-guide/blob/main/LICENSE">MIT</a>. Guides: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Job listings belong to the employers who posted them. Fonts: Kalam and Atkinson Hyperlegible, SIL Open Font License.</p>
   </section>
 </main>

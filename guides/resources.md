@@ -1,6 +1,6 @@
 # Resources
 
-Too many lists make it hard to start. Begin with the 15 picks below. Use the groups after that when they fit your situation.
+Too many lists make it hard to start. Begin with the top picks below. Use the groups after that when they fit your situation.
 
 *Last checked: November 2026. Programs, dates, and prices change, so confirm on each site.*
 
@@ -29,7 +29,7 @@ Too many lists make it hard to start. Begin with the 15 picks below. Use the gro
 - [Pramp](https://www.pramp.com): free peer mock interviews with other students.
 
 **More job lists**
-- [Simplify's internship list](https://github.com/SimplifyJobs/Summer2027-Internships): a community-kept list of postings.
+- [Simplify's internship and new-grad lists](https://github.com/SimplifyJobs): community-kept lists of postings.
 - [Handshake](https://joinhandshake.com) (through your school) and your career center.
 - [USAJOBS](https://www.usajobs.gov): federal jobs.
 
@@ -70,7 +70,6 @@ Join one or two. Many give free conference trips, mentors, and recruiter connect
 - [Out in Tech](https://outintech.com) and [oSTEM](https://ostem.org): LGBTQ+ people in tech and STEM.
 - [AISES](https://www.aises.org): Indigenous students in STEM.
 - [Code2040](https://www.code2040.org) and [SEO Tech Developer](https://tech.seo-usa.org): career programs for students from underrepresented groups.
-- Women Who Code closed in 2024. Use the groups above instead.
 
 ### Wellbeing
 Job searching is stressful. Rejections are normal and say little about you.
@@ -83,6 +82,4 @@ Job searching is stressful. Rejections are normal and say little about you.
 - Ask your department, your ACM chapter, and student government for travel money. Say what you will learn and how you will share it with others at school.
 - Many conferences have volunteer or student-rate options. Ask the organizers.
 
-Back to [all guides](README.md).
-
-Next: [start with the 4-year timeline](timeline.md).
+That's every guide. Back to [Start here](README.md).

@@ -8,7 +8,7 @@ import sys
 from datetime import date
 
 sys.path.insert(0, str(__import__("pathlib").Path(__file__).parent))
-from common import POSTINGS, load_json, save_json  # noqa: E402
+from common import POSTINGS, load_json, save_json, today_date  # noqa: E402
 
 TITLE_KEEP = re.compile(r"\b(intern(ship)?s?|co-?op|new grad(uate)?|entry[- ]level|early career|university grad(uate)?|graduate program|graduate (software|engineer\w*|developer|program\w*|analyst)|apprentice(ship)?|explore program|freshm[ae]n|sophomore)\b", re.I)
 TITLE_DROP = re.compile(r"\b(senior|sr\.?|staff(?! augmentation)|principal|director|manager(?!\s*intern)|lead(?!ership)|phd|ph\.d|postdoc|mba|student worker)\b", re.I)
@@ -113,20 +113,23 @@ def us_job(location: str) -> bool:
     return not (NON_US.search(loc) or COUNTRY_CODE.search(loc)) or bool(US_MARK.search(loc))
 
 
-# campus-specific reqs ("HEC Engineer Intern - LSU") are only open to that school's students
+# campus-specific reqs ("HEC Engineer Intern - LSU") are only open to that school's students.
+# HOME_SCHOOL is the one exception: the board started at McNeese, and McNeese students still use it.
+# Change it (or set it to None) if you fork the board for another school.
+HOME_SCHOOL = re.compile(r"mcneese", re.I)
 OTHER_SCHOOL = re.compile(r"-\s*(colorado school of mines|montana( state| tech)?|lsu|texas a&m|a&m|ou|clemson|ut|tulsa|purdue|georgia tech|"
                           r"[a-z .&]+ (university|college|state))\s*$", re.I)
 
 
 # Allow-list: the title has to name CS or computer-engineering work. "Engineer" or "analyst" alone isn't enough.
 CS_TITLE = re.compile(
-    r"\b(robotic\w*|applied scientist|gpu|cuda|dft|(software|hardware|electrical|silicon|firmware|design) (validation|verification)|validation engineer\w*|fpga|asic|test automation|automation test\w*|erp|telecom\w*|software|developer|programmer\w*|programming|coding|data|machine learning|deep learning|ml|ai|a\.i\.|artificial intelligence|llm|nlp|"
+    r"\b(robotic\w*|applied scientist|gpu|cuda|dft|(software|hardware|electrical|silicon|firmware|design) (validation|verification)|validation engineer\w*|automation test\w*|erp|telecom\w*|software|developer|programmer\w*|programming|coding|data|machine learning|deep learning|ml|ai|a\.i\.|artificial intelligence|llm|nlp|"
     r"computer|cs|swe|cyber\w*|(information|network|cloud|application|product|software|it|data) security|security (engineer\w*|analyst|operations|research\w*)|offensive security|appsec|penetration test\w*|pentest\w*|information technology|it|information systems|network (engineer\w*|administrat\w*|operations|infrastructure|analyst)|networking|cloud|devops|sre|site reliability|"
     r"web|mobile (app\w*|developer|software|engineer\w*)|android|ios|full[- ]?stack|front[- ]?end|back[- ]?end|firmware|embedded|database|analytics|bioinformatics|"
     r"quant\w*|automation engineer\w*|robotics software|autonomy|computer vision|perception|slam|infrastructure engineer\w*|"
     r"platform engineer\w*|systems? administrat\w*|help ?desk|technical support|qa (engineer\w*|automation|test\w*|analyst)|software (qa|quality|test\w*)|quality assurance (engineer\w*|automation|analyst)|sdet|test automation|"
     r"technology intern\w*|tech intern\w*|technology (analyst|associate|program)|digital (design|technology)|"
-    r"hardware|asic|fpga|vlsi|chip|silicon|semiconductor|soc|digital design|verification|signal processing|dsp|"
+    r"hardware|asic|fpga|vlsi|chip|silicon|semiconductor|soc|verification|signal processing|dsp|"
     r"computer engineering|electrical (and|&) computer|game (developer|engine|programmer)|gameplay|(computer|real-time) graphics|graphics (software|engineer\w*|programmer)|simulation software|solutions engineer\w*)\b", re.I)
 # Visual and creative design roles ("Creative & Digital Design", "Web Designer") aren't CS/CE work.
 # Chip and circuit design ("Digital Design Engineer", "ASIC Design") is, so those words keep a title.
@@ -140,7 +143,7 @@ def keep_title(title: str) -> bool:
         return False
     if GRAD_ONLY.search(title) and not UNDERGRAD.search(title):
         return False
-    if OTHER_SCHOOL.search(title) and not re.search(r"mcneese", title, re.I):
+    if OTHER_SCHOOL.search(title) and not (HOME_SCHOOL and HOME_SCHOOL.search(title)):
         return False
     if not TITLE_KEEP.search(title) or TITLE_DROP.search(title):  # CS_TITLE above already requires technical work
         return False
@@ -157,7 +160,7 @@ def keep_title(title: str) -> bool:
 def expired_term(title: str, today: date | None = None) -> bool:
     """ "2026 Summer Intern" listed in November 2026 is over. A term counts as past once its season has started:
     spring after February, summer after July, fall after October, winter after January of that year."""
-    today = today or date.today()
+    today = today or today_date()
     starts = {"winter": 1, "spring": 3, "summer": 8, "fall": 11, "autumn": 11}
     for m in PAST_TERM.finditer(title):
         year, season = int(m.group(2)), (m.group(1) or m.group(3) or "").lower()
@@ -186,7 +189,7 @@ def section(title: str, text: str = "") -> str | None:
         return "new_grad"
     if INTERN.search(title):
         return "internship"
-    y = date.today().year
+    y = today_date().year
     if re.search(rf"\b(class of|graduat\w*[^.]{{0,30}})({y}|{y + 1})\b", blob, re.I) and not INTERN.search(blob[:500]):
         return "new_grad"
     return None
@@ -222,7 +225,7 @@ def _hit(sents, rx, skip=None):
 # One primary track per row, first match wins. Specific roles (security, embedded, hardware, a named data or IT role)
 # beat "software"; a passing mention ("Software Engineer, AI Platform") stays software. Anything else CS-generic is software.
 TRACKS = [("software", "Software"), ("embedded", "Embedded and firmware"), ("hardware", "Hardware and chips"),
-          ("security", "Security"), ("it", "IT and networking"), ("data", "Data, ML and AI"), ("gov", "Government and defense")]
+          ("security", "Security"), ("it", "IT and networking"), ("data", "Data and ML"), ("gov", "Government and defense")]
 SECURITY_T = re.compile(r"\b(cyber\w*|security|pen(etration)?[- ]?test\w*|pentest\w*|soc analyst|security operations|appsec|red team|blue team|threat|vulnerabilit\w*|malware|forensic\w*)\b", re.I)
 EMBEDDED_T = re.compile(r"\b(firmware|embedded|rtos|real[- ]time operating|micro-?controllers?|bare[- ]metal)\b", re.I)
 HARDWARE_T = re.compile(r"\b(fpga|asic|rtl|vlsi|silicon|chips?|semiconductor|soc|system[- ]on[- ]chip|dft|digital design|physical design|"

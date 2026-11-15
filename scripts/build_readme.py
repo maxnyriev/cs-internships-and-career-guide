@@ -8,19 +8,15 @@ import json
 import re
 import sys
 from collections import Counter
-from datetime import date, datetime, timedelta
-from zoneinfo import ZoneInfo
+from datetime import date, timedelta
 from pathlib import Path
 from urllib.parse import quote, urlsplit
 
 sys.path.insert(0, str(Path(__file__).parent))
-from common import COMPANIES, DATA, POSTINGS, ROOT, load_json, load_yaml  # noqa: E402
+from common import COMPANIES, DATA, POSTINGS, ROOT, load_json, load_yaml, today, today_date  # noqa: E402
 from classify import TRACKS, clearance_level, is_gov, terms, track  # noqa: E402
 
 
-def today() -> str:
-    """Dates on the page are U.S. Central time, not the server's UTC."""
-    return datetime.now(ZoneInfo("America/Chicago")).date().isoformat()
 
 SECTIONS = [("internship", "Internships", "INTERNSHIPS.md"),
             ("new_grad", "New Grad", "NEW_GRAD.md"),
@@ -35,21 +31,22 @@ LEGEND = """<details markdown="1">
 - 🛂✅ **sponsors**: the posting says it sponsors visas
 - 🛂❌ **no sponsor**: it says it doesn't sponsor visas
 - 🚫 **no CPT/OPT**: it says it won't take CPT or OPT
-- 🇺🇸 **citizens**: limited to U.S. citizens, green-card holders or U.S. persons
+- 🗽 **citizens**: limited to U.S. citizens, green-card holders or U.S. persons
 - 📜 **ITAR**: mentions ITAR export rules, often limited to U.S. persons (check)
 - 🔒 **clearance**: needs a security clearance (🔒 secret, 🔒 top secret, 🔒 ts/sci and 🔒 public trust show the level when the posting names it)
 - 🏛 **gov**: government or national-lab role, often U.S.-only (check)
 - 🧪 **OA**: the posting mentions an online coding test (HackerRank, CodeSignal, Codility or an "online assessment")
 - 🎓 **3.0+ GPA**: the posting asks for a minimum GPA (the number shown is the minimum it states)
 - 🔄 **co-op** · 🍂 **fall** · 🌱 **spring** · ⏱ **part-time**: the term or schedule named in the job title. No tag means summer or not stated
-- 🌐 **remote** · ⚠ **unverified**: link couldn't be verified recently · ⏳ **60+ days**: listed for 60+ days
+- 🌐 **remote** · ⏳ **60+ days**: listed for 60+ days
+- ⚠ **unverified**: the company's job feed left it out at least once, or its link couldn't be checked recently. It may have closed
 
 **Posted** is the date the company posted the job. A date with * is when this board first saw it, because that company's job site doesn't give one. Companies sometimes re-post a job, which resets its date.
 
-> 🛂❌ usually means no visa sponsorship later (for example H-1B). Unless the row also shows 🚫, CPT or OPT may still work. Check with the recruiter and your DSO.
+> 🛂❌ usually means no visa sponsorship later (for example H-1B). Unless the row also shows 🚫, CPT or OPT may still work. Check with the recruiter. None of this is legal or immigration advice.
 
 </details>"""
-DISCLAIMER = """> **Disclaimer:** listings and tags are generated automatically from employers' public job postings and can be wrong, incomplete or out of date. Always read the full posting on the employer's site. Visa, CPT, OPT and citizenship notes are general information, not legal or immigration advice; confirm your situation with your school's DSO or an immigration attorney. This board is not affiliated with or endorsed by any employer listed."""
+DISCLAIMER = "_Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._"
 
 def text(s: str) -> str:
     """Escape untrusted text for a markdown table cell: no HTML, no links or emphasis, no new rows or columns."""
@@ -83,7 +80,7 @@ def tag_str(r) -> str:
     if t.get("no_cpt"):
         out.append("🚫 no CPT/OPT")
     if t.get("citizen"):
-        out.append("🇺🇸 citizens")
+        out.append("🗽 citizens")
     elif t.get("itar"):
         out.append("📜 ITAR")
     if t.get("clearance"):
@@ -100,7 +97,7 @@ def tag_str(r) -> str:
         out.append("🌐 remote")
     if r.get("status") == "uncertain" or r.get("misses", 0) > 0:  # missed its company's feed at least once
         out.append("⚠ unverified")
-    if date.fromisoformat(when(r)) < date.today() - timedelta(days=60):
+    if date.fromisoformat(when(r)) < today_date() - timedelta(days=60):
         out.append("⏳ 60+ days")
     return "<br>".join(out)
 
@@ -186,7 +183,7 @@ def write_track_pages(rows) -> int:
                "The track comes from the words in the job title, so a few jobs may land in the wrong one. If a title doesn't say, it goes under Software.\n\n")
         (ROOT / f"track-{slug}.md").write_text(
             f"# {name}\n\n[⬅ Back to the main page](./) · {len(part)} open · updated {today()}\n\n"
-            f"{TRACK_BLURB[slug]} New to this track? Read the [{name.lower()} section of the tracks guide]({TRACK_GUIDE[slug]}).\n\n{why}"
+            f"{TRACK_BLURB[slug]} New to this track? Read the [{name} section of the Career tracks guide]({TRACK_GUIDE[slug]}).\n\n{why}"
             f"**Click a job title to open the company's application page.**\n\n{LEGEND}\n\n{FILTER_SLOT}\n\n" + "\n\n".join(blocks) + f"\n\n{DISCLAIMER}\n", encoding="utf-8")
     return skipped
 
@@ -209,7 +206,7 @@ def main():
         if r["section"] == "early" and not (r.get("tag_evidence") or {}).get("early"):
             r["section"] = "internship"
     counts = Counter(r["section"] for r in rows)
-    week_ago = (date.today() - timedelta(days=7)).isoformat()
+    week_ago = (today_date() - timedelta(days=7)).isoformat()
     # "new" means the company posted it this week; a row without a posting date counts from when the board first saw it,
     # but only after the board's first week (otherwise every launch-week row would be "new")
     launched = min((r["first_seen"] for r in rows), default=today())
@@ -222,8 +219,9 @@ def main():
     must = (load_yaml(DATA / "must_have.yaml", {}) or {}).get("companies") or []
     names = " ".join(r["company"].lower() for r in rows)
     missing = [m for m in must if m.lower() not in names]
-    not_yet = (f"**Not on this board yet:** {', '.join(missing)}. These companies hire CS interns, but their job sites aren't read here yet. "
-               f"Check their careers pages directly.") if missing else ""
+    def not_yet(roles):
+        return (f"**Not on this board yet:** {', '.join(missing)}. These companies hire {roles}, but their job sites aren't read here yet. "
+                f"Check their careers pages directly.") if missing else ""
 
     skipped = 0
     for key, name, fname in SECTIONS:
@@ -232,7 +230,7 @@ def main():
         skipped += n
         (ROOT / fname).write_text(f"# {name}\n\n[⬅ Back to the main page](./) · {len(part)} open · updated {today()}\n\n"
                                   f"{intro.get(key, '')}**Click a job title to open the company's application page.**\n\n{LEGEND}\n\n{FILTER_SLOT}\n\n{body}\n"
-                                  + (f"\n{not_yet}\n" if key != "early" and not_yet else "") + f"\n{DISCLAIMER}\n", encoding="utf-8")
+                                  + (f"\n{not_yet('new grads' if key == 'new_grad' else 'CS interns')}\n" if key != "early" and missing else "") + f"\n{DISCLAIMER}\n", encoding="utf-8")
 
 
     skipped += write_track_pages(rows)
@@ -271,7 +269,7 @@ Last updated **{today()}**.
 |---|---|
 {track_table}
 
-Every row links straight to the company's application page. International students: each posting is tagged for visa sponsorship, CPT/OPT and citizenship rules, with the sentence from the posting that the tag came from.
+Every row links straight to the company's application page. Postings are tagged for citizenship, clearance and sponsorship rules, with the sentence each tag came from.
 
 ## 📘 Guides
 
@@ -279,31 +277,25 @@ Every row links straight to the company's application page. International studen
 |---|---|
 | 🧭 **[Start here](guides/README.md)** | You're a freshman or sophomore and don't know where to begin |
 | 📝 **[Your first resume](guides/resume.md)** | You need a resume, or yours isn't getting replies |
-| 🛠️ **[Your first projects](guides/projects.md)** | You don't know what to build or how to finish it |
-| 📨 **[Applying and interviews](guides/applying.md)** | You're about to apply: timing, referrals, coding tests, interviews |
-| 🤝 **[Networking and getting involved](guides/networking.md)** | You want clubs, research, hackathons, contests, programs |
+| 🛠️ **[Projects](guides/projects.md)** | You don't know what to build or how to finish it |
+| 📨 **[Applying](guides/applying.md)** | You're about to apply: timing, referrals, coding tests, offers |
+| 🤝 **[Networking](guides/networking.md)** | You know nobody yet: clubs, alumni, hackathons, career fairs |
 | 🎤 **[Interviews](guides/interviews.md)** | You have a recruiter call, coding round or behavioral interview coming up |
 | 🧩 **[Career tracks](guides/tracks.md)** | You're curious about embedded, hardware, security, IT, data or software, and what each takes |
-| 🗓️ **[4-year timeline](guides/timeline.md)** | You want to know what to do each semester (and F-1 rules) |
+| 🗓️ **[4-year timeline](guides/timeline.md)** | You want to know what to do each semester |
 | 🐙 **[GitHub](guides/github.md)** | You need to set up GitHub or make your repos look good |
 | 💼 **[LinkedIn](guides/linkedin.md)** | You need a LinkedIn profile or want to reach alumni |
 | 🧰 **[Resources](guides/resources.md)** | You want free courses, communities, scholarships, and tools |
 
-## 🚀 New here? Do these 3 things
-
-1. **Read [Start here](guides/README.md).** Five steps for your first year, nothing more.
-2. **Make a one-page resume** with the [resume guide](guides/resume.md).
-3. **Apply as early as you can.** Big-company summer internships open about **July to September of the year before**, and many are rolling, so earlier is better. Local employers often hire into spring. Open the [internships list](INTERNSHIPS.md) and start applying.
-
 ## ℹ️ About
 
 - **{len(rows):,} open roles** from **{boards} company job boards**, checked every day with automated tests on every run. How it works and how accurate it is: [docs/WRITEUP.md](docs/WRITEUP.md).
-- It doesn't catch everything. Also check Handshake, LinkedIn, and [Simplify's internship list](https://github.com/SimplifyJobs/Summer2027-Internships).
+- It doesn't catch everything. Also check Handshake, LinkedIn, and [Simplify's internship lists](https://github.com/SimplifyJobs).
 - Found a missing posting, a broken link, or a mistake? [Open an issue](https://github.com/rohitpeets/cs-internships-and-career-guide/issues).
 
 ## ⚖️ Disclaimer
 
-This board is provided as is, without warranty of any kind. Listings and tags are generated automatically from employers' public job postings and can be wrong, incomplete or out of date. Always read the full posting on the employer's site. Visa, CPT, OPT and citizenship notes are general information, not legal or immigration advice; confirm your situation with your school's DSO or an immigration attorney. This project is free, non-commercial, and not affiliated with or endorsed by any employer listed or any university.
+This board is provided as is, without warranty of any kind. Listings and tags are generated automatically from employers' public job postings and can be wrong, incomplete or out of date. Always read the full posting on the employer's site. Sponsorship, CPT/OPT and citizenship tags are general information, not legal or immigration advice. This project is free, non-commercial, and not affiliated with or endorsed by any employer listed or any university.
 
 ## License
 

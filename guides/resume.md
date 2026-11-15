@@ -38,7 +38,7 @@ Write each bullet as: **Accomplished X, measured by Y, by doing Z.** Start with 
 - **Club:** "Grew weekly workshop attendance from about 10 to 30 by moving sessions right after intro CS labs and posting in class Discord servers."
 - **Food service:** "Trained 5 new hires on the register and drive-thru headset during the holiday rush, cutting the time the manager spent on training."
 - **Caregiving:** "Managed medications and 6+ appointments a week for a family member by setting up a shared calendar and checklist the family still uses."
-- **Family business:** "Cut weekly inventory counting from about 6 hours to 2 by building a Google Sheets tracker with barcode-scanner input for the family store."
+- **Campus job:** "Cut weekly inventory counting at the campus bookstore from about 6 hours to 2 by building a Google Sheets tracker with barcode-scanner input."
 
 Good numbers: real users, tests written, time or money saved, response time, records handled, people trained or led. Lines of code is not a good number.
 
@@ -121,13 +121,7 @@ Tailor carefully for your top 10 to 15 applications. Send a solid general versio
 
 ## Keep it current
 
-Keep a private **master file** (a Google Doc is fine). It lists everything you've done, with more detail than any one resume:
-
-- Every project, job, club role, and class project.
-- For each: dates, tools used, links, and real numbers (users, tests, time saved) with how you got each number.
-- All the bullets you've ever written for it.
-
-Build each resume by copying the best pieces from the master file. **Add to it the week you finish something**, while you still remember the details and numbers. This also makes LinkedIn and interview prep much faster.
+Build each resume from your [wins file](README.md#start-a-wins-file), and add to that file the week you finish something. Update dates every term.
 
 ## Resume audit
 
@@ -167,9 +161,6 @@ Run this before you send a resume anywhere. Every answer should be "yes."
 
 - [Tech Interview Handbook: resume guide](https://www.techinterviewhandbook.org/resume/)
 - [Jake's Resume template (Overleaf)](https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs) (optional, LaTeX)
-- [Forage](https://www.theforage.com): free virtual job simulations.
-- [Parker Dewey](https://www.parkerdewey.com): short paid micro-internships.
-- [Extern](https://www.extern.com): remote externships; paid membership after a free trial.
 - Need project material first? See [projects](projects.md).
 
-Next: [start applying](applying.md).
+Next: [Projects](projects.md)

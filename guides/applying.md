@@ -4,8 +4,7 @@ For most students, the hard part isn't being good enough. It's applying early, a
 
 ## Timing
 
-- **Earlier is better.** Many big-company summer internships open **July to September of the year before** and fill on a rolling basis, so the first applicants get the first interview slots.
-- **Late is not too late.** Plenty of big-company postings stay open into winter. Local employers, government contractors, and startups hire into spring, some as late as April or May.
+- **Earlier is better, and late is not too late.** Big-company summer internships open about **July to September of the year before** and fill on a rolling basis. Local employers, government contractors, and startups hire into spring. Full dates by year: [4-year timeline](timeline.md).
 - New postings show up on this [job board](../INTERNSHIPS.md) daily with the date each company posted them. Check it a few times a week in the fall and about once a week the rest of the year.
 
 ## Where to apply
@@ -24,7 +23,7 @@ A first internship anywhere makes the next one much easier. Local, then mid-size
 
 - **Big-company searches often take 100 or more applications.** Most get no answer. That alone doesn't mean you're bad.
 - **Referrals and local employers do far better per application.** Ten applications with referrals can beat 100 cold ones.
-- **Tailor only your top 10 to 15 targets** (adjust your resume's keywords and project order to the posting). Send a solid general version to everyone else. Volume matters more than polish after the first version is good.
+- **[Tailor](resume.md#tailor-it) only your top 10 to 15 targets.** Send a solid general version to everyone else. Volume matters more than polish after the first version is good.
 - If you've sent 40 or more and almost nobody replies, stop sending and run the [funnel check](#funnel-check).
 
 ## Weekly routine in season
@@ -88,7 +87,7 @@ Applying is a funnel: applications, then replies, then online assessments (OAs),
 | What you see | Most likely problem | What to do |
 |---|---|---|
 | Under about 5% replies after 40+ applications | Resume or targeting | Run the [resume audit](resume.md#resume-audit), get a human to review it, apply to more regional and mid-size employers, get referrals |
-| You get OAs but no interviews | OA speed and accuracy | Timed [coding practice](timeline.md#coding-interview-practice), 4 to 5 problems a week, under a timer |
+| You get OAs but no interviews | OA speed and accuracy | Timed [coding practice](timeline.md#coding-interview-practice) at the before-you-apply pace, under a timer |
 | You get interviews but no offers | Interview skills | Practice out loud with [interviews](interviews.md), do mock interviews at your career center |
 
 Run the check after every 40 applications or so, not after every rejection.
@@ -100,7 +99,7 @@ For a junior, transfer, or anyone starting late with no internship, no projects,
 | Week | Do this | Done looks like |
 |---|---|---|
 | 1 | Write or fix your [resume](resume.md). Get it reviewed by your career center or an upperclassman. Start your tracker and answer sheet. | A one-page resume someone else has read |
-| 2 | Pick one [project](projects.md) that real people will use (a club, a family business, classmates). Start building. Start daily practice: one easy coding problem a day. | A repo with a README and a first working piece |
+| 2 | Pick one [project](projects.md) that real people will use (a club, a job, classmates). Start building. Start daily practice: one easy coding problem a day. | A repo with a README and a first working piece |
 | 3 | Send 10 targeted applications, mostly local and mid-size employers. Ask 3 people for referrals. Go to any career fair or employer event. | 10 rows in your tracker, 3 referral requests sent |
 | 4 | Ship a first version of the project to its users. Another 10 applications and 3 referral asks. | Someone other than you has used it |
 | 5 | Add the project to your resume with a result ("used by 40 club members"). 10 more applications. One mock interview. | Updated resume, 30+ applications total |
@@ -109,7 +108,7 @@ For a junior, transfer, or anyone starting late with no internship, no projects,
 **Widen what counts:**
 
 - **Spring, fall, and off-cycle internships.** Fewer applicants. Some schools let you take a semester off for these.
-- **Co-ops.** Paid, longer (often a semester plus a summer), and common at manufacturers, utilities, and defense companies.
+- **[Co-ops](timeline.md#co-ops).** Common at manufacturers, utilities, and defense companies.
 - **Part-time roles** during the school year, including IT help desk and campus tech jobs.
 - **Undergrad research** with a professor at your school.
 - **Local employers** that never post on national lists. Look them up by industry in your city and check their careers pages directly.
@@ -158,7 +157,7 @@ You will get many. Every person who got an internship also got rejections.
 
 **Job lists** (this board doesn't catch everything)
 - [This job board](../INTERNSHIPS.md): internships, refreshed daily.
-- [Simplify's Summer 2027 internship list](https://github.com/SimplifyJobs/Summer2027-Internships) and [new-grad list](https://github.com/SimplifyJobs/New-Grad-Positions).
+- [Simplify's internship and new-grad lists](https://github.com/SimplifyJobs).
 - [Handshake](https://joinhandshake.com) (through your school) and LinkedIn Jobs.
 
 **Coding tests**
@@ -167,6 +166,6 @@ You will get many. Every person who got an internship also got rejections.
 **Scams**
 - [FTC: Job scams](https://consumer.ftc.gov/articles/job-scams): official warning signs and what to do if you've paid.
 
-**No internship yet?** [Extern](https://www.extern.com), [Forage](https://www.theforage.com), [Parker Dewey](https://www.parkerdewey.com), undergrad research, and campus jobs all count as experience.
+**No internship yet?** Research, campus jobs, and short company projects all count: [experience that isn't an internship](resume.md#experience-that-isnt-an-internship).
 
-Next: [interviews](interviews.md).
+Next: [Interviews](interviews.md)

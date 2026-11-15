@@ -2,7 +2,7 @@
 
 [⬅ Back to the main page](./) · 252 open · updated 2026-11-14
 
-IT support, networking, systems administration and cloud operations. New to this track? Read the [it and networking section of the tracks guide](guides/tracks.md#it-and-networking).
+IT support, networking, systems administration and cloud operations. New to this track? Read the [IT and networking section of the Career tracks guide](guides/tracks.md#it-and-networking).
 
 The track comes from the words in the job title, so a few jobs may land in the wrong one. If a title doesn't say, it goes under Software.
 
@@ -16,18 +16,19 @@ The track comes from the words in the job title, so a few jobs may land in the w
 - 🛂✅ **sponsors**: the posting says it sponsors visas
 - 🛂❌ **no sponsor**: it says it doesn't sponsor visas
 - 🚫 **no CPT/OPT**: it says it won't take CPT or OPT
-- 🇺🇸 **citizens**: limited to U.S. citizens, green-card holders or U.S. persons
+- 🗽 **citizens**: limited to U.S. citizens, green-card holders or U.S. persons
 - 📜 **ITAR**: mentions ITAR export rules, often limited to U.S. persons (check)
 - 🔒 **clearance**: needs a security clearance (🔒 secret, 🔒 top secret, 🔒 ts/sci and 🔒 public trust show the level when the posting names it)
 - 🏛 **gov**: government or national-lab role, often U.S.-only (check)
 - 🧪 **OA**: the posting mentions an online coding test (HackerRank, CodeSignal, Codility or an "online assessment")
 - 🎓 **3.0+ GPA**: the posting asks for a minimum GPA (the number shown is the minimum it states)
 - 🔄 **co-op** · 🍂 **fall** · 🌱 **spring** · ⏱ **part-time**: the term or schedule named in the job title. No tag means summer or not stated
-- 🌐 **remote** · ⚠ **unverified**: link couldn't be verified recently · ⏳ **60+ days**: listed for 60+ days
+- 🌐 **remote** · ⏳ **60+ days**: listed for 60+ days
+- ⚠ **unverified**: the company's job feed left it out at least once, or its link couldn't be checked recently. It may have closed
 
 **Posted** is the date the company posted the job. A date with * is when this board first saw it, because that company's job site doesn't give one. Companies sometimes re-post a job, which resets its date.
 
-> 🛂❌ usually means no visa sponsorship later (for example H-1B). Unless the row also shows 🚫, CPT or OPT may still work. Check with the recruiter and your DSO.
+> 🛂❌ usually means no visa sponsorship later (for example H-1B). Unless the row also shows 🚫, CPT or OPT may still work. Check with the recruiter. None of this is legal or immigration advice.
 
 </details>
 
@@ -47,7 +48,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Intermountain Health | [IT Student Intern System Support 1](https://imh.wd108.myworkdayjobs.com/IntermountainCareers/job/Key-Bank-Tower/IT-Student-Intern-System-Support-1_R189508) | Key Bank Tower |  | Nov 12 |
 | Jabil | [IT Programmer Analyst Spring Co-Op](https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Florence-KY/IT-Programmer-Analyst-Spring-Co-Op_J2471333) | Florence, KY | 🎓 3.0+ GPA<br>🔄 co-op<br>🌱 spring | Nov 12 |
 | Micron Technology | [Intern - IT Software Engineer](https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Intern---IT-Software-Engineer_JR111582) | Boise, ID - Main Site | ⚠ unverified | Nov 12 |
-| Muon Space | [Software Engineering Intern-Information Systems \(Summer 2027\)](https://job-boards.greenhouse.io/muonspace/jobs/5293973007)<br><sub>“To conform to U.S. Government export regulations applicable to that information, applicant must either be \(A\) a U.S. person, defined as a \(i…”</sub> | San Jose, CA | 🇺🇸 citizens | Nov 12 |
+| Muon Space | [Software Engineering Intern-Information Systems \(Summer 2027\)](https://job-boards.greenhouse.io/muonspace/jobs/5293973007)<br><sub>“To conform to U.S. Government export regulations applicable to that information, applicant must either be \(A\) a U.S. person, defined as a \(i…”</sub> | San Jose, CA | 🗽 citizens | Nov 12 |
 | PTC | [Onshape Site Reliability Engineering Intern \(Summer 2027\)](https://ptc.wd1.myworkdayjobs.com/PTC/job/Boston-MA-USA/Onshape-Site-Reliability-Engineering-Intern--Summer-2027-_JR112926)<br><sub>“Applicants must be authorized to work in the United States without requiring current or future sponsorship from PTC.”</sub> | Boston, MA, USA | 🛂❌ no sponsor | Nov 12 |
 | Cummins | [Information Technology Co-op Positions](https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2442195) | Columbus, IN, United States | 🎓 2.5+ GPA<br>🔄 co-op | Nov 11 |
 | Arch Insurance Group Inc | [IT Intern](https://archgroup.wd1.myworkdayjobs.com/Careers/job/Jersey-City-NJ-United-States-of-America/IT-Intern_R26_1092) | Jersey City, NJ United States of America | 🎓 3.0+ GPA | Nov 10 |
@@ -59,7 +60,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | T-Mobile | [Summer 2027 Site Reliability Engineering Internship](https://tmobile.wd1.myworkdayjobs.com/External/job/Frisco-Texas/Summer-2027-Site-Reliability-Engineering-Internship_REQ381393) | Frisco, Texas |  | Nov 10 |
 | First Bank &amp; Trust | [IT Services Intern](https://bankeasy.wd5.myworkdayjobs.com/bank-easy-job-openings/job/Brookings-SD-East/IT-Services-Intern_R-100853) | Brookings, SD \(East\) |  | Nov 9 |
 | HP | [Cloud Engineering Intern - HP IQ](https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/San-Francisco-California-United-States-of-America/Cloud-Engineering-Intern_UNI4799-1) | San Francisco, California, United States of A… | ⚠ unverified | Nov 9 |
-| Leidos | [Helpdesk IT Support Intern](https://leidos.wd5.myworkdayjobs.com/External/job/Arlington-VA/Helpdesk-IT-Support-Intern_R-00196247-1)<br><sub>“U.S. Citizenship is required.”</sub> | Arlington, VA | 🇺🇸 citizens<br>🔒 secret | Nov 9 |
+| Leidos | [Helpdesk IT Support Intern](https://leidos.wd5.myworkdayjobs.com/External/job/Arlington-VA/Helpdesk-IT-Support-Intern_R-00196247-1)<br><sub>“U.S. Citizenship is required.”</sub> | Arlington, VA | 🗽 citizens<br>🔒 secret | Nov 9 |
 | NBCUniversal | [Universal Film Production IT Support Internships – Summer 2027](https://jobs.smartrecruiters.com/NBCUniversal3/744000160648119-universal-film-production-it-support-internships-summer-2027)<br><sub>“For further clarification, candidates currently on any student or exchange visa \(e.g. F-1 CPT, F-1 OPT, J-1, M-1\) are not eligible to apply…”</sub> | North Hollywood, CA, US | 🚫 no CPT/OPT<br>🎓 3.0+ GPA | Nov 9 |
 | Regal Rexnord | [Information Technology Summer Intern](https://regalrexnord.wd1.myworkdayjobs.com/Careers/job/Grafton-Wisconsin-United-States/Information-Technology-Summer-Intern_R26_04545-1) | Grafton, Wisconsin, United States | 🎓 3.0+ GPA | Nov 9 |
 | Ryder Supply Chain Solutions | [IT Internship - Summer 2027](https://ryder.wd5.myworkdayjobs.com/RyderCareers/job/USA---Coral-Gables-FL-HQ/IT-Internship---Summer-2027_R188357) | USA - Coral Gables FL HQ | ⚠ unverified | Nov 9* |
@@ -91,7 +92,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | ParetoHealth | [Information Technology Summer Intern](https://job-boards.greenhouse.io/paretocaptiveservicesllc/jobs/4725319006)<br><sub>“Please note that ParetoHealth does not provide employment visa sponsorship for this position.”</sub> | Philadelphia, Pennsylvania, United States | 🛂❌ no sponsor | Nov 2 |
 | Veterinary Emergency Group \(VEG\) | [Intern IT Support Specialist I - White Plains, NY](https://boards.greenhouse.io/veterinaryemergencygroupst/jobs/6233349004?gh_jid=6233349004) | VEG Headquarters, White Plains, NY |  | Nov 2 |
 | Splish Splash Water Park | [Adventureland Park - IT Support Intern](https://hfecorp.wd503.myworkdayjobs.com/palace_jobs/job/Adventureland-3200-Adventureland-drive-Altoona--IA-50009-United-States-of-America/Adventureland-Park---IT-Support-Intern_JR107889) | Adventureland, 3200 Adventureland drive, Alto… |  | Nov 1 |
-| Axiom Space | [IT Infrastructure Intern \(Summer 2027\)](https://axiomspace.wd5.myworkdayjobs.com/External_Career_Site/job/Houston/IT-Infrastructure-Intern--Summer-2027-_JR100826)<br><sub>“Must qualify as a “U.S. person” under U.S. export control laws \(U.S. citizen, lawful permanent resident, or protected individual\)”</sub> | Houston | 🇺🇸 citizens<br>🎓 3.0+ GPA | Oct 30 |
+| Axiom Space | [IT Infrastructure Intern \(Summer 2027\)](https://axiomspace.wd5.myworkdayjobs.com/External_Career_Site/job/Houston/IT-Infrastructure-Intern--Summer-2027-_JR100826)<br><sub>“Must qualify as a “U.S. person” under U.S. export control laws \(U.S. citizen, lawful permanent resident, or protected individual\)”</sub> | Houston | 🗽 citizens<br>🎓 3.0+ GPA | Oct 30 |
 | Garda Capital Partners | [Infrastructure Engineer Intern](https://job-boards.greenhouse.io/gardacp/jobs/6239821004) | Wayzata, Minnesota, United States |  | Oct 30 |
 | Great American Insurance Group | [IT Intern - Summer 2027](https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/IT-Intern---Summer-2027_R9816-1) | Cincinnati, OH \(USA\) | 🎓 3.2+ GPA | Oct 30 |
 | Hunt | [IT Business Analyst Intern - Summer 2027](https://fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1100) | Dallas, TX, United States | 🎓 3.0+ GPA | Oct 30 |
@@ -105,7 +106,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Vestmark Internship Program | [Cloud Engineer Co-op](https://job-boards.greenhouse.io/internrecruiting/jobs/8310712) | Wakefield, MA \(Hybrid\) | 🔄 co-op | Oct 29 |
 | Federal Home Loan Bank of Indianapolis | [Network Engineer Intern](https://fhlbi.wd1.myworkdayjobs.com/FHLBI_Careers/job/Indianapolis/Network-Engineer-Intern_R630) | Indianapolis |  | Oct 28 |
 | Federal Reserve System | [2027 Summer Internship Program - IT Procurement Intern](https://rb.wd5.myworkdayjobs.com/FRS/job/Atlanta-GA/XMLNAME-2027-Summer-Internship-Program---IT-Procurement-Intern_R-0000033911)<br><sub>“Applicants must be currently authorized to work in the United States without the need for visa sponsorship now or in the future.”</sub> | Atlanta, GA | 🛂❌ no sponsor<br>🎓 3.0+ GPA | Oct 28 |
-| Leidos | [Systems Administration Intern](https://leidos.wd5.myworkdayjobs.com/External/job/Arlington-VA/Systems-Administration-Intern_R-00195528)<br><sub>“U.S. Citizenship is required.”</sub> | Arlington, VA | 🇺🇸 citizens<br>🔒 secret | Oct 28 |
+| Leidos | [Systems Administration Intern](https://leidos.wd5.myworkdayjobs.com/External/job/Arlington-VA/Systems-Administration-Intern_R-00195528)<br><sub>“U.S. Citizenship is required.”</sub> | Arlington, VA | 🗽 citizens<br>🔒 secret | Oct 28 |
 | Mosaic Life Care | [Administrative Intern - IT](https://ibcjqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/2632) | Saint Joseph, MO, United States |  | Oct 28 |
 | Mosaic Life Care | [Maryville Administrative Intern - IT](https://ibcjqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/2634) | Maryville, MO, United States |  | Oct 28 |
 | Prologis | [AI and Automation \(IT\) Intern](https://prologis.wd5.myworkdayjobs.com/Prologis_External_Careers/job/Denver-Colorado/AI-and-Automation--IT--Intern_R6883) | Denver, Colorado |  | Oct 28 |
@@ -144,7 +145,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Reflect Orbital | [IT Support Specialist Intern](https://jobs.ashbyhq.com/reflect-orbital/8f4f8e74-b386-41b4-8154-7e5e50a34205) | Hawthorne, CA |  | Oct 19 |
 | Werner Enterprises | [IT Cloud Engineering Intern](https://werner.wd501.myworkdayjobs.com/Werner/job/Omaha-NE/IT-Cloud-Engineering-Intern_JR23745) | Omaha, NE |  | Oct 19 |
 | Associated Wholesale Grocers | [Information Technology Intern](https://fa-etwq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2162) | Kansas City, KS, United States |  | Oct 18 |
-| ICF | [2027 Summer Intern, Cloud Engineer \(AWS/Azure\) \(Reston, VA\)](https://icf.wd5.myworkdayjobs.com/ICFExternal_Career_Site/job/Reston-VA/XMLNAME-2027-Summer-Intern--Cloud-Engineer--AWS-Azure---Reston--VA-_R2603554)<br><sub>“U.S. Citizenship or Permanent Work Authorization is required due to federal contract requirements.”</sub> | Reston, VA | 🇺🇸 citizens | Oct 16 |
+| ICF | [2027 Summer Intern, Cloud Engineer \(AWS/Azure\) \(Reston, VA\)](https://icf.wd5.myworkdayjobs.com/ICFExternal_Career_Site/job/Reston-VA/XMLNAME-2027-Summer-Intern--Cloud-Engineer--AWS-Azure---Reston--VA-_R2603554)<br><sub>“U.S. Citizenship or Permanent Work Authorization is required due to federal contract requirements.”</sub> | Reston, VA | 🗽 citizens | Oct 16 |
 | Jasper Engines &amp; Transmissions | [IT Full Stack Developer Internship: Summer 2027](https://jasperholdings.wd504.myworkdayjobs.com/JET_Careers/job/Jasper-IN/IT-Full-Stack-Developer-Internship--Summer-2027_R-100857) | Jasper, IN |  | Oct 16 |
 | Michael Baker International | [IT Support Desk Intern](https://ebxs.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_4004/job/310031) | Moon Township, PA, United States | 🎓 3.0+ GPA | Oct 15 |
 | Well Enterprises | [Internship - IT - Summer 2027](https://hcsb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2209703) | Le Mars, IA, United States |  | Oct 15 |
@@ -218,7 +219,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | EQT Corporation | [Water Infrastructure Engineering Intern](https://job-boards.greenhouse.io/eqtcorporation/jobs/5424757008) | Canonsburg, PA |  | Sep 24 |
 | Hitachi | [Intern – Network Engineering](https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Pittsburgh-Pennsylvania-United-States/Intern---Network-Engineering_R0145672-1) | Pittsburgh, Pennsylvania, United States |  | Sep 23 |
 | Insulet Corporation | [Intern, DevOps Engineer: June-August 2027 \(Onsite\)](https://insulet.wd5.myworkdayjobs.com/insuletcareers/job/San-Diego-California/Intern--DevOps-Engineer--June-August-2027--Onsite-_REQ-2026-18202)<br><sub>“Candidates must have authorization to work in the U.S. without current or future sponsorship needs.”</sub> | San Diego, California | 🛂❌ no sponsor | Sep 23 |
-| Muon Space | [Junior Help Desk Intern \(Summer 2027\)](https://job-boards.greenhouse.io/muonspace/jobs/5247733007)<br><sub>“To conform to U.S. Government export regulations applicable to that information, applicant must either be \(A\) a U.S. person, defined as a \(i…”</sub> | Mountain View, CA | 🇺🇸 citizens | Sep 23 |
+| Muon Space | [Junior Help Desk Intern \(Summer 2027\)](https://job-boards.greenhouse.io/muonspace/jobs/5247733007)<br><sub>“To conform to U.S. Government export regulations applicable to that information, applicant must either be \(A\) a U.S. person, defined as a \(i…”</sub> | Mountain View, CA | 🗽 citizens | Sep 23 |
 | Gordon Food Service | [Identity Analyst IT Internship](https://gfs.wd5.myworkdayjobs.com/usjobs-gen-gfs/job/Wyoming-Michigan/Identity-Analyst-IT-Internship_R-57499-1) | Wyoming, Michigan | 🎓 3.0+ GPA | Sep 22 |
 | Tencent | [IT Operations Intern](https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/IT-Operations-Intern_R108176-2) | US-California-Palo Alto |  | Sep 22 |
 | AutoZone | [AutoZone 2027 Summer Internship – Information Technology](https://egud.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155451) | Memphis, TN, United States |  | Sep 21 |
@@ -252,13 +253,13 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Vertiv | [IT Oracle CPQ Intern \(Summer 2027\)](https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20279229) | Westerville, OH, United States | ⚠ unverified<br>⏳ 60+ days | Sep 10 |
 | DV Trading | [DevOps Engineer Intern - Summer 2027](https://job-boards.greenhouse.io/dvtrading/jobs/4730886005) | Chicago | ⏳ 60+ days | Sep 9 |
 | Pilot Company | [Program Intern, Network Operations](https://jobs.smartrecruiters.com/PilotCompany/744000148572860-program-intern-network-operations) | Knoxville, TN, US | ⏳ 60+ days | Sep 9 |
-| Saronic Technologies | [Information Technology Intern \(Summer 2027\)](https://jobs.ashbyhq.com/saronic/0fa1ca8f-0dca-43cc-a5fa-59c40840986f)<br><sub>“If this role is based in the United States, it requires access to export-controlled information or items that require “U.S. Person” status.”</sub> | Austin, TX | 🇺🇸 citizens<br>⏳ 60+ days | Sep 9 |
+| Saronic Technologies | [Information Technology Intern \(Summer 2027\)](https://jobs.ashbyhq.com/saronic/0fa1ca8f-0dca-43cc-a5fa-59c40840986f)<br><sub>“If this role is based in the United States, it requires access to export-controlled information or items that require “U.S. Person” status.”</sub> | Austin, TX | 🗽 citizens<br>⏳ 60+ days | Sep 9 |
 | AtkinsRéalis | [Water Infrastructure Engineering Intern - Summer 2027](https://slihrms.wd3.myworkdayjobs.com/Careers/job/USGAAtlanta2018-Powers-Ferry-Rd/Water-Infrastructure-Engineering-Intern---Summer-2027_R-163480-1) | US.GA.Atlanta.2018 Powers Ferry Rd | ⏳ 60+ days | Sep 8 |
 | SWBC | [DevOps Intern](https://swbc.wd1.myworkdayjobs.com/CollegeInternships/job/San-Antonio-TX/DevOps-Intern_R0015484-1) | San Antonio, TX | ⏳ 60+ days | Sep 8 |
 | Swivel | [DevOps Intern](https://swbc.wd1.myworkdayjobs.com/Swivel/job/San-Antonio-TX/DevOps-Intern_R0015484) | San Antonio, TX | ⏳ 60+ days | Sep 8 |
 | Verkada | [Technical Support Engineering Intern - Spring 2027](https://job-boards.greenhouse.io/verkada/jobs/5056164007)<br><sub>“We do sponsor and take over sponsorship of employment visas for this role.”</sub> | San Mateo, CA United States | 🛂✅ sponsors<br>🌱 spring<br>⏳ 60+ days | Sep 8 |
 | Verkada | [Technical Support Engineering Intern - Summer 2027](https://job-boards.greenhouse.io/verkada/jobs/5233011007)<br><sub>“We do sponsor and take over sponsorship of employment visas for this role.”</sub> | San Mateo, CA United States | 🛂✅ sponsors<br>⏳ 60+ days | Sep 8 |
-| Arconic | [IT Infrastructure Observability Intern](https://hdnn.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/114157)<br><sub>“Visa sponsorship is not available for this position.”</sub> | Davenport, IA, United States | 🛂❌ no sponsor<br>🇺🇸 citizens<br>🎓 3.0+ GPA<br>⏳ 60+ days | Sep 4 |
+| Arconic | [IT Infrastructure Observability Intern](https://hdnn.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/114157)<br><sub>“Visa sponsorship is not available for this position.”</sub> | Davenport, IA, United States | 🛂❌ no sponsor<br>🗽 citizens<br>🎓 3.0+ GPA<br>⏳ 60+ days | Sep 4 |
 | POET | [IT Service Specialist Intern - Summer 2027](https://poet.wd1.myworkdayjobs.com/POET/job/Wichita-KS/IT-Service-Specialist-Intern---Summer-2027_R101707) | Wichita, KS | ⏳ 60+ days | Sep 4 |
 | Arconic | [IT Systems &amp; Automation Intern](https://hdnn.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/114146) | Pittsburgh, PA, United States | ⏳ 60+ days | Sep 3 |
 | BorgWarner | [IT Technician Intern](https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers/job/Arden---North-Carolina---USA/IT-Technician-Intern_R2026-2600) | Arden - North Carolina - USA | ⏳ 60+ days | Sep 3 |
@@ -268,7 +269,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | IAT Insurance Group | [Tier 2 IT Support Internship](https://iatinsurancegroup.wd1.myworkdayjobs.com/iat/job/Naperville-IL/Tier-2-IT-Support-Internship_JR100400)<br><sub>“Must be authorized to work in the United States without visa sponsorship by employer, now or in the future.”</sub> | Naperville IL | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 1 |
 | Pella Windows &amp; Doors | [IT Infrastructure Intern - Summer 2027](https://ebgj.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Pella-Careers/job/253297) | Pella, IA, United States | ⏳ 60+ days | Sep 1 |
 | Vanguard | [College to Corporate IT Internship - Application Development \(TX\)](https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/DallasFt-Worth-TX/College-to-Corporate-IT-Internship---Application-Development---TX-_181846)<br><sub>“Vanguard does not offer visa sponsorship for this role”</sub> | Dallas/Ft. Worth, TX | 🛂❌ no sponsor<br>🎓 3.2+ GPA<br>⏳ 60+ days | Sep 1 |
-| 3M | [Internship - 2027 Undergraduate IT Intern](https://3m.wd1.myworkdayjobs.com/Search/job/US-Minnesota-Maplewood/Internship---2027-Undergraduate-IT-Intern_R01170403-1)<br><sub>“Must be legally authorized to work in country of employment without sponsorship for employment visa status \(e.g., H1B status\).”</sub> | US, Minnesota, Maplewood | 🛂❌ no sponsor<br>🇺🇸 citizens<br>🎓 3.0+ GPA<br>⏳ 60+ days | Aug 31 |
+| 3M | [Internship - 2027 Undergraduate IT Intern](https://3m.wd1.myworkdayjobs.com/Search/job/US-Minnesota-Maplewood/Internship---2027-Undergraduate-IT-Intern_R01170403-1)<br><sub>“Must be legally authorized to work in country of employment without sponsorship for employment visa status \(e.g., H1B status\).”</sub> | US, Minnesota, Maplewood | 🛂❌ no sponsor<br>🗽 citizens<br>🎓 3.0+ GPA<br>⏳ 60+ days | Aug 31 |
 | Elanco | [Junior IT Engineer – Information Technology Intern \(Summer 2027\)](https://elanco.wd5.myworkdayjobs.com/External_Career/job/Indianapolis-IN/Junior-IT-Engineer---Information-Technology-Intern--Summer-2027-_R0026986-1) | Indianapolis, IN | ⏳ 60+ days | Aug 31 |
 | Vertiv | [IT Quality Assurance Intern \(Summer 2027\)](https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20279193) | Westerville, OH, United States | ⚠ unverified<br>⏳ 60+ days | Aug 31 |
 | Hewlett Packard Enterprise | [Cloud Engineer Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Spring-Texas-United-States-of-America/Cloud-Engineer-Intern_1213629) | Spring, Texas, United States of America | ⏳ 60+ days | Aug 28 |
@@ -295,4 +296,4 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Palantir Technologies | [Forward Deployed Infrastructure Engineer, New Grad - US Government](https://jobs.lever.co/palantir/91117724-9389-48dc-912f-98e48d4d45d8)<br><sub>“Active US Security clearance, or eligibility and willingness to obtain a US Security clearance”</sub> | New York, NY | 🔒 clearance<br>⏳ 60+ days | Oct 29 |
 | Verkada | [Technical Support Engineer - University Graduate 2026](https://job-boards.greenhouse.io/verkada/jobs/4715534007)<br><sub>“We do sponsor and take over sponsorship of employment visas for this role.”</sub> | San Mateo, CA United States | 🛂✅ sponsors<br>⏳ 60+ days | Aug 8 |
 
-> **Disclaimer:** listings and tags are generated automatically from employers' public job postings and can be wrong, incomplete or out of date. Always read the full posting on the employer's site. Visa, CPT, OPT and citizenship notes are general information, not legal or immigration advice; confirm your situation with your school's DSO or an immigration attorney. This board is not affiliated with or endorsed by any employer listed.
+_Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._

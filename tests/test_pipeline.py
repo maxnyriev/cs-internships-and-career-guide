@@ -1,4 +1,4 @@
-"""Safety rules from DESIGN.md: closing, gone boards, the failure threshold, the shrink guard, laptop staleness."""
+"""Safety rules from docs/WRITEUP.md: closing, gone boards, the failure threshold, the shrink guard, laptop staleness."""
 import json
 import subprocess
 import sys
@@ -172,7 +172,7 @@ def test_new_this_week_always_lists_jobs():
             "first_seen": today, "posted": today, "section": "internship"} for i in range(200)]
     out = build_readme.new_section(new)
     assert out.count("](https://x.com/") == 75
-    assert "above" not in out
+    assert "200 postings were posted this week" in out  # the footer counts all of them, not just the 75 shown
 
 
 def test_untrusted_text_cannot_inject_markdown_or_html():
@@ -302,3 +302,68 @@ def test_track_rows_and_gov_overlap():
     assert [r["title"] for r in build_readme.track_rows(rows, "embedded")] == ["Firmware Intern"]
     assert [r["title"] for r in build_readme.track_rows(rows, "gov")] == ["Software Intern"]
     assert len(build_readme.track_rows(rows, "software")) == 1  # a gov row also stays on its main track
+
+
+def test_manual_notes_never_become_public_tags(tmp_path, monkeypatch):
+    import load_manual
+    man, p = tmp_path / "m.yaml", tmp_path / "p.json"
+    man.write_text('postings:\n  - {company: X, title: "Software Intern", url: "https://x.com/p", location: Remote,'
+                   ' notes: "We are unable to sponsor visas. US citizens only."}\n')
+    p.write_text("[]")
+    monkeypatch.setattr(load_manual, "MANUAL", man)
+    monkeypatch.setattr(load_manual, "POSTINGS", p)
+    load_manual.main()
+    r = json.loads(p.read_text())[0]
+    assert not r["tags"].get("sponsor") and not r["tags"].get("citizen") and r["tags"].get("remote")
+    assert "sponsor" not in r["tag_evidence"] and "citizen" not in r["tag_evidence"]
+
+
+def test_laptop_closures_reach_removed_json(tmp_path, monkeypatch):
+    from common import now_iso
+    p, loc, rm = tmp_path / "p.json", tmp_path / "l.json", tmp_path / "r.json"
+    p.write_text("[]")
+    rm.write_text(json.dumps([{"id": "back", "removed_on": "2026-01-01"}, {"id": "old", "removed_on": "2026-01-01"}]))
+    loc.write_text(json.dumps({"fetched_at": now_iso(),
+                               "rows": [{"id": "back", "company": "X", "title": "t", "source": "workday"}],
+                               "removed": [{"id": "gone", "removed_on": "2026-02-01"}, {"id": "old", "removed_on": "2026-01-01"}]}))
+    for name, path in (("POSTINGS", p), ("LOCAL", loc), ("REMOVED", rm)):
+        monkeypatch.setattr(merge_local, name, path)
+    merge_local.main()
+    ids = sorted(r["id"] for r in json.loads(rm.read_text()))
+    assert ids == ["gone", "old"]  # new laptop closure added once, reopened row taken out, no duplicates
+
+
+def test_validate_refuses_a_big_drop(tmp_path, monkeypatch):
+    p = tmp_path / "p.json"
+    p.write_text("[]")
+    monkeypatch.setattr(validate, "POSTINGS", p)
+    monkeypatch.setattr(validate, "previous_count", lambda: 100)
+    with pytest.raises(SystemExit, match="refusing"):
+        validate.main()
+
+
+def test_validate_fails_in_ci_without_history(tmp_path, monkeypatch):
+    p = tmp_path / "p.json"
+    p.write_text("[]")
+    monkeypatch.setattr(validate, "POSTINGS", p)
+    monkeypatch.setattr(validate, "previous_count", lambda: None)
+    monkeypatch.setenv("GITHUB_ACTIONS", "true")
+    with pytest.raises(SystemExit):
+        validate.main()
+    monkeypatch.delenv("GITHUB_ACTIONS")
+    validate.main()  # on a laptop it only warns
+
+
+def test_check_links_open_resets_and_closed_twice_removes(tmp_path, monkeypatch):
+    rows = [{"id": "a", "url": "https://a", "source": "manual", "status": "uncertain", "misses": 1, "uncertain_since": None},
+            {"id": "b", "url": "https://b", "source": "manual", "status": "open", "misses": 1}]
+    p, rm = tmp_path / "p.json", tmp_path / "r.json"
+    p.write_text(json.dumps(rows))
+    monkeypatch.setattr(check_links, "POSTINGS", p)
+    monkeypatch.setattr(check_links, "REMOVED", rm)
+    monkeypatch.setattr(check_links, "check", lambda http, url: "open" if url == "https://a" else "closed")
+    monkeypatch.setattr(sys, "argv", ["check_links.py"])
+    check_links.main()
+    kept = json.loads(p.read_text())
+    assert [r["id"] for r in kept] == ["a"] and kept[0]["misses"] == 0 and kept[0]["status"] == "open"
+    assert [r["reason"] for r in json.loads(rm.read_text())] == ["link closed twice"]

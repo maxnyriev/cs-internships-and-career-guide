@@ -20,10 +20,10 @@
     <header class="site-header">
       <div class="inner">
         <a class="brand" href="{{ '/' | relative_url }}">
-          <span class="mark">Things I Wish I Knew</span><span class="pill">CS edition</span>
+          <span class="mark">Things I Wish I Knew</span><span class="pill">CS Edition</span>
         </a>
         <nav class="nav" aria-label="Main">
-          <a href="{{ '/where.html' | relative_url }}"{% if u contains 'where' %} aria-current="page"{% endif %}>30-day plan</a>
+          <a href="{{ '/where.html' | relative_url }}"{% if u == '/where.html' %} aria-current="page"{% endif %}>30-day plan</a>
           <a href="{{ '/INTERNSHIPS.html' | relative_url }}"{% if u contains 'INTERNSHIPS' %} aria-current="page"{% endif %}>Internships</a>
           <a href="{{ '/NEW_GRAD.html' | relative_url }}"{% if u contains 'NEW_GRAD' %} aria-current="page"{% endif %}>New grad</a>
           <a href="{{ '/guides/' | relative_url }}"{% if u contains '/guides/' and u != '/guides/resources.html' %} aria-current="page"{% endif %}>Guides</a>
@@ -45,7 +45,7 @@
 
     <footer class="site-footer">
       <div class="inner">
-        <span>Free, non-commercial and open source. Listings come from employers' public postings and can be wrong or out of date; visa notes are not legal advice. Not affiliated with any employer or university.</span>
+        <span>Free, non-commercial and open source. Listings come from employers' public postings and can be wrong or out of date; tags are not legal advice. Not affiliated with any employer or university.</span>
         <span>Found a mistake or a missing posting? <a href="https://github.com/rohitpeets/cs-internships-and-career-guide/issues">Open an issue</a>.</span>
       </div>
     </footer>

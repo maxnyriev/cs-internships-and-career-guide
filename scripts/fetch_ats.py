@@ -1,6 +1,6 @@
 """Fetch company boards from companies.yaml and merge them into a postings file.
 
-    python scripts/fetch_ats.py --cloud     Greenhouse, Lever, Ashby -> data/postings.json   (GitHub Action)
+    python scripts/fetch_ats.py --cloud     Greenhouse, Lever, Ashby, SmartRecruiters, Amazon, Eightfold -> data/postings.json   (GitHub Action)
     python scripts/fetch_ats.py --local     Workday, Oracle         -> data/local.json      (laptop, nightly)
     add --only workday --limit 5 for a quick test
 
@@ -82,9 +82,9 @@ def main():
         boards.remove(c)
 
     with ThreadPoolExecutor(max_workers=a.workers if a.local else 1) as pool:
-        futures = [pool.submit(fetch_one, c, fns) for c in boards]
+        futures = {pool.submit(fetch_one, c, fns): c for c in boards}
         for i, f in enumerate(as_completed(futures), 1):
-            c = boards[futures.index(f)]
+            c = futures[f]
             key = (c["ats"], c["board"])
             try:
                 _, jobs = f.result()

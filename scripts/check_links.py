@@ -12,7 +12,7 @@ from datetime import date
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from common import POSTINGS, REMOVED, Http, load_json, save_json, today  # noqa: E402
+from common import POSTINGS, REMOVED, Http, load_json, save_json, today, today_date  # noqa: E402
 
 CLOSED_TEXT = re.compile(r"no longer (accepting applications|available|open)|position has been filled|job (posting )?(is |has )?(closed|expired)|page (you are|you're) looking for (doesn't|does not) exist", re.I)
 
@@ -37,7 +37,7 @@ def main():
     keep = []
     for r in rows:
         since = r.get("uncertain_since")
-        if r.get("status") == "uncertain" and since and (date.today() - date.fromisoformat(since)).days >= 7:
+        if r.get("status") == "uncertain" and since and (today_date() - date.fromisoformat(since)).days >= 7:
             removed.append({**r, "removed_on": today(), "reason": "unverifiable for 7 days"})  # any source, not just manual
             continue
         if a.stale_only and r.get("source") != "manual":
@@ -53,10 +53,7 @@ def main():
                 continue
         else:
             r["status"] = "uncertain"
-            r["uncertain_since"] = r.get("uncertain_since") or today()
-            if (date.today() - date.fromisoformat(r["uncertain_since"])).days >= 7:
-                removed.append({**r, "removed_on": today(), "reason": "unverifiable for 7 days"})
-                continue
+            r["uncertain_since"] = r.get("uncertain_since") or today()  # the 7-day expiry at the top of the loop handles it
         r["last_checked"] = today()
         keep.append(r)
     save_json(POSTINGS, keep)

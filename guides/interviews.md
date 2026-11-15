@@ -1,4 +1,4 @@
-# What Interviewers Actually Look For
+# Interviews
 
 An interview is not a test you pass by getting the perfect answer. It's a sample of what you'd be like to work with: how you think, how you talk about your work, and what you do when you're stuck. This guide covers each round and what gets scored. To get the interview in the first place, see [applying](applying.md).
 
@@ -114,7 +114,7 @@ Behavioral questions start with "Tell me about a time..." They predict how you'l
 - [ ] A tight deadline
 - [ ] Learning something new fast
 
-One story can answer several questions. **Your stories don't have to be from tech.** A retail or restaurant job, caregiving, helping run a family business, organizing an event, a sports team, or a club fundraiser all count. Handling an angry customer, keeping a budget, or getting vendors to commit is real experience. Say what you did and what happened.
+One story can answer several questions. **Your stories don't have to be from tech.** A retail or restaurant job, caregiving, organizing an event, a sports team, or a club all count. Handling an angry customer, keeping a budget, or getting people to show up is real experience. Say what you did and what happened.
 
 ## Debugging story template
 
@@ -157,15 +157,14 @@ If something breaks mid-call, say so calmly and fix it. It happens to everyone.
 
 ## Hardware, embedded, and security interviews
 
-These tracks interview differently. Embedded and hardware roles ask about C, pointers and memory, microcontrollers, digital logic, and lab or debugging work with real hardware. Security roles often ask about networking, operating systems, and how attacks work, and may include a hands-on challenge. Coding problems still show up, but they're usually not the whole interview. See [tracks](tracks.md) for how to prepare for each one.
+These interview differently, with fewer coding problems. See "How interviews differ" for each track in [Career tracks](tracks.md).
 
 ## Resources
 
 - [Tech Interview Handbook: coding interview techniques](https://www.techinterviewhandbook.org/coding-interview-techniques/): how to approach a problem step by step.
 - [Tech Interview Handbook: behavioral interviews](https://www.techinterviewhandbook.org/behavioral-interview/): more on STAR and common questions.
 - [Tech Interview Handbook: self introduction](https://www.techinterviewhandbook.org/self-introduction/) and [questions to ask](https://www.techinterviewhandbook.org/final-questions/).
-- [NeetCode](https://neetcode.io): problem lists with video explanations.
-- [Pramp](https://www.pramp.com): free peer mock interviews. You take turns interviewing each other.
+- Coding practice: [pacing and problem lists](timeline.md#coding-interview-practice). Mock-interview sites: [Resources](resources.md).
 - Your career center: most offer free mock interviews and will review your STAR stories.
 
-Next: [the 4-year timeline](timeline.md).
+Next: [Networking](networking.md)

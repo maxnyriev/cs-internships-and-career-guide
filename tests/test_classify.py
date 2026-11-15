@@ -265,3 +265,15 @@ def test_public_trust_counts_as_clearance():
     assert tags("Must be able to obtain a Public Trust clearance.")[0]["clearance"] is True
     assert tags("This is a public trust position requiring a background investigation.")[0]["clearance"] is True
     assert tags("We value public trust in our products.")[0]["clearance"] is None
+
+
+def test_chip_and_test_titles_still_kept():
+    # CS_TITLE once listed fpga, asic, test automation and digital design twice; one copy each must still match
+    for t in ["ASIC Verification Intern", "FPGA Engineering Intern", "Test Automation Intern", "Digital Design Engineering Intern"]:
+        assert keep_title(t), t
+
+
+def test_home_school_is_the_only_campus_exception():
+    import classify
+    assert classify.HOME_SCHOOL.search("McNeese")
+    assert not keep_title("Software Engineering Intern - Tulsa University")

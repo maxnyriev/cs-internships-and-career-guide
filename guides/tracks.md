@@ -1,4 +1,4 @@
-# Pick Your Track
+# Career Tracks
 
 "CS internship" does not only mean software engineering. This guide covers seven paths, what each one asks for, and how to start. You do not have to choose now. Read the one or two that sound interesting, try a 4-week starter project, and see if you like it.
 
@@ -16,7 +16,6 @@ The job board has a page for each track. They are sorted by job title, so a few 
 **Words used here**
 - **CTF:** "capture the flag." A security puzzle contest. You find hidden text (a "flag") by solving challenges.
 - **Certification (cert):** a paid exam from a company that proves you know a topic.
-- **Co-op:** a paid, full-time job with a school-approved employer, often for a whole semester. See the [glossary](README.md#glossary).
 
 ## Software
 
@@ -150,13 +149,9 @@ Job list: [data track](../track-data.md).
 
 Job list: [government track](../track-gov.md).
 
-## Co-ops and timing
-
-Co-op programs vary by school, so ask your career office early. A co-op may take a full semester, so you plan your classes around it. Postings for many large employers appear in late summer and fall for the next year, but local employers, labs, and government programs follow their own calendars. Check each employer's page, and save the dates in your tracker ([applying](applying.md)).
-
 ## Resources
 
 - Practice sites and courses for data, hardware and security: [resources by situation](resources.md#by-situation).
 - [USAJOBS](https://www.usajobs.gov): federal job search.
 
-Next: [resources](resources.md).
+Next: [GitHub](github.md)

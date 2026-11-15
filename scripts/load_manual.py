@@ -8,7 +8,7 @@ manual.yaml:
       location: Houston, TX          # optional
       section: internship            # optional: internship | new_grad | early
       evidence: "Open to first- and second-year students."   # required for early: the sentence from the program page
-      notes: sponsors F-1 per recruiter   # optional, shown nowhere, for maintainers
+      notes: confirmed open by email      # optional, for maintainers only: never shown and never tagged
 """
 import sys
 from pathlib import Path
@@ -25,7 +25,7 @@ def main():
     for m in items:
         rid = url_key(m["url"])
         live.add(rid)
-        t, ev = tags(m.get("notes", ""), m.get("location", ""))
+        t, ev = tags("", m.get("location", ""))  # notes are private: only the location can tag a manual row (remote)
         if m.get("section") == "early":  # an early program shows the page's own eligibility sentence, like fetched ones
             if not m.get("evidence"):
                 sys.exit(f"manual.yaml: {m['company']} is marked early but has no evidence sentence")
@@ -34,7 +34,7 @@ def main():
         rows[rid] = {**old, "id": rid, "company": m["company"], "title": m["title"], "url": m["url"],
                      "location": m.get("location", ""), "source": "manual",
                      "section": m.get("section") or section(m["title"]) or "internship",
-                     "tags": old.get("tags") or t, "tag_evidence": {**(old.get("tag_evidence") or {}), **ev},
+                     "tags": t, "tag_evidence": ev,
                      "status": old.get("status", "open"), "misses": old.get("misses", 0),
                      "first_seen": old.get("first_seen", today()), "last_seen": today()}
     # a row deleted from manual.yaml leaves the board

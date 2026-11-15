@@ -1,6 +1,6 @@
 # Maintaining the board
 
-For ACM officers. You need write access to the repo and Python 3.12+.
+For maintainers. You need write access to the repo and Python 3.12+.
 
 ## Setup
 
@@ -13,7 +13,7 @@ python -m pytest -q
 
 ## Everyday tasks
 
-**Add a posting by hand.** Add it to `data/manual.yaml` (the format is at the top of `scripts/load_manual.py`) and push. A quick run publishes it within a few minutes. Hand-added links are checked daily and drop off once they've been closed on two checks.
+**Add a posting by hand.** Add it to `data/manual.yaml` (the format is at the top of `scripts/load_manual.py`) and push. The `notes` field is private: it's never shown and never tagged. A quick run publishes it within a few minutes. Hand-added links are checked daily and drop off once they've been closed on two checks.
 
 **Add a company.** Find its job board link and add one line to `data/companies.yaml`:
 
@@ -47,5 +47,5 @@ To check a guess before adding it, put it in `GUESSES` in `scripts/probe_sources
 - Workday, Oracle, Amazon and Eightfold (Netflix) don't document their JSON endpoints for outside use, so for those the fetcher follows each site's robots.txt. Greenhouse, Lever, Ashby and SmartRecruiters publish their job-board APIs for this purpose.
 - A site that answers 401 or 403, or whose robots.txt disallows the path, is recorded in `data/blocked.json` (cloud) or under `blocked` in `data/local.json` (laptop) and skipped from then on. Its rows show ⚠ and leave after 7 days. Never work around a block: no proxies, no fake browser headers, no logins.
 - To see what robots.txt allows for every board: `python scripts/check_robots.py`.
-- Only after a site has changed its rules to allow it: `python scripts/fetch_ats.py --local --retry-blocked`.
+- Only after a site has changed its rules to allow it, retry its blocked boards: `python scripts/fetch_ats.py --local --retry-blocked` for Workday and Oracle (laptop), or `python scripts/fetch_ats.py --cloud --retry-blocked` for Amazon and Eightfold (cloud).
 - The laptop job runs 4 boards in parallel and waits about a second between requests to the same host.

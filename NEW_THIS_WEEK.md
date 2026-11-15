@@ -12,18 +12,19 @@
 - 🛂✅ **sponsors**: the posting says it sponsors visas
 - 🛂❌ **no sponsor**: it says it doesn't sponsor visas
 - 🚫 **no CPT/OPT**: it says it won't take CPT or OPT
-- 🇺🇸 **citizens**: limited to U.S. citizens, green-card holders or U.S. persons
+- 🗽 **citizens**: limited to U.S. citizens, green-card holders or U.S. persons
 - 📜 **ITAR**: mentions ITAR export rules, often limited to U.S. persons (check)
 - 🔒 **clearance**: needs a security clearance (🔒 secret, 🔒 top secret, 🔒 ts/sci and 🔒 public trust show the level when the posting names it)
 - 🏛 **gov**: government or national-lab role, often U.S.-only (check)
 - 🧪 **OA**: the posting mentions an online coding test (HackerRank, CodeSignal, Codility or an "online assessment")
 - 🎓 **3.0+ GPA**: the posting asks for a minimum GPA (the number shown is the minimum it states)
 - 🔄 **co-op** · 🍂 **fall** · 🌱 **spring** · ⏱ **part-time**: the term or schedule named in the job title. No tag means summer or not stated
-- 🌐 **remote** · ⚠ **unverified**: link couldn't be verified recently · ⏳ **60+ days**: listed for 60+ days
+- 🌐 **remote** · ⏳ **60+ days**: listed for 60+ days
+- ⚠ **unverified**: the company's job feed left it out at least once, or its link couldn't be checked recently. It may have closed
 
 **Posted** is the date the company posted the job. A date with * is when this board first saw it, because that company's job site doesn't give one. Companies sometimes re-post a job, which resets its date.
 
-> 🛂❌ usually means no visa sponsorship later (for example H-1B). Unless the row also shows 🚫, CPT or OPT may still work. Check with the recruiter and your DSO.
+> 🛂❌ usually means no visa sponsorship later (for example H-1B). Unless the row also shows 🚫, CPT or OPT may still work. Check with the recruiter. None of this is legal or immigration advice.
 
 </details>
 
@@ -76,7 +77,7 @@
 | CACI International | [Embedded Software Development Intern - Summer 2027](https://caci.wd1.myworkdayjobs.com/External/job/Denver-CO-US/Embedded-Software-Development-Intern---Summer-2027_333147)<br><sub>“Must be legally authorized to work in the United States without the need for employer sponsorship, now or at any me in the future”</sub> | Denver, CO, US | 🛂❌ no sponsor<br>🔒 clearance<br>🎓 3.0+ GPA<br>⚠ unverified | Nov 12 |
 | CareSource | [2027 Summer Internship Program - Provider Analytics AI Intern](https://caresource.wd1.myworkdayjobs.com/CareSource/job/Remote/XMLNAME-2027-Summer-Internship-Program----Provider-Analytics-AI-Intern_R14481) | Remote | 🌐 remote | Nov 12 |
 | Cboe Global Markets | [DevOps Intern](https://cboe.wd1.myworkdayjobs.com/External_Career_CBOE/job/Overland-Park-OPX/Trade-Desk-Intern_R-4659)<br><sub>“This position is not eligible for visa sponsorship.”</sub> | Overland Park OPX | 🛂❌ no sponsor | Nov 12 |
-| General Motors | [Entry-Level - Compute Platforms &amp; SoC/MCU Semiconductor Systems Researcher](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/Entry-Level---Compute-Platforms---SoC-MCU-Semiconductor-Systems-Researcher_JR-202621829)<br><sub>“The position is subject to export control restrictions and requires the successful candidate to be a U.S. Person \(U.S. citizen, U.S. permane…”</sub> | Warren, Michigan, United States of America | 🇺🇸 citizens | Nov 12 |
+| General Motors | [Entry-Level - Compute Platforms &amp; SoC/MCU Semiconductor Systems Researcher](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/Entry-Level---Compute-Platforms---SoC-MCU-Semiconductor-Systems-Researcher_JR-202621829)<br><sub>“The position is subject to export control restrictions and requires the successful candidate to be a U.S. Person \(U.S. citizen, U.S. permane…”</sub> | Warren, Michigan, United States of America | 🗽 citizens | Nov 12 |
 | Highmark Health | [Summer 2027 Business Analysis and AI enGen Undergraduate Intern](https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/Pittsburgh-PA-15222-PAP-Penn-Avenue-Place/Summer-2027-Business-Analysis-and-AI-enGen-Undergraduate-Intern_J291552)<br><sub>“At this time, we do not offer visa sponsorship for this role.”</sub> | Pittsburgh PA, 15222, PAP, Penn Avenue Place | 🛂❌ no sponsor | Nov 12 |
 | HP | [Software and Engineering Intern Roles - Imaging and Print](https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Corvallis-Oregon-United-States-of-America/Software-and-Engineering-Intern-Roles---Imaging-and-Print_3168142-1)<br><sub>“This opportunity is intended for conversion to a full-time role that will not offer work authorization sponsorship in the future \(full-time…”</sub> | Corvallis, Oregon, United States of America | 🛂❌ no sponsor | Nov 12 |
 | Idaho National Laboratory | [Cybersecurity Vulnerability Assessment Internship - Summer 2027](https://elhe.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/pro/job/2328) | Idaho Falls, ID, United States | 🎓 3.0+ GPA | Nov 12 |
@@ -84,11 +85,11 @@
 | Intermountain Health | [IT Student Intern System Support 1](https://imh.wd108.myworkdayjobs.com/IntermountainCareers/job/Key-Bank-Tower/IT-Student-Intern-System-Support-1_R189508) | Key Bank Tower |  | Nov 12 |
 | Intermountain Health | [Machine Learning Operations \(MLOps\) Intern](https://imh.wd108.myworkdayjobs.com/IntermountainCareers/job/Key-Bank-Tower/Machine-Learning-Operations--MLOps--Intern_R188318) | Key Bank Tower |  | Nov 12 |
 | Jabil | [IT Programmer Analyst Spring Co-Op](https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Florence-KY/IT-Programmer-Analyst-Spring-Co-Op_J2471333) | Florence, KY | 🎓 3.0+ GPA<br>🔄 co-op<br>🌱 spring | Nov 12 |
-| Leidos | [Junior Software Engineer / Data Scientist Intern](https://leidos.wd5.myworkdayjobs.com/External/job/Tucson-AZ/Junior-Software-Engineer---Data-Scientist-Intern_R-00196510)<br><sub>“US citizenship required”</sub> | Tucson, AZ | 🇺🇸 citizens<br>🔒 ts/sci + poly | Nov 12 |
+| Leidos | [Junior Software Engineer / Data Scientist Intern](https://leidos.wd5.myworkdayjobs.com/External/job/Tucson-AZ/Junior-Software-Engineer---Data-Scientist-Intern_R-00196510)<br><sub>“US citizenship required”</sub> | Tucson, AZ | 🗽 citizens<br>🔒 ts/sci + poly | Nov 12 |
 | Micron Technology | [Intern - IT Software Engineer](https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Intern---IT-Software-Engineer_JR111582) | Boise, ID - Main Site | ⚠ unverified | Nov 12 |
 | Molina Healthcare | [Healthcare Quality &amp; Analytics Internship \(Wisconsin Health Plan\) – Summer 2027 \(Undergraduate\)](https://hckd.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2040143) | WI, United States | 🎓 3.0+ GPA | Nov 12 |
-| Muon Space | [Security Engineering Intern \(Summer 2027\)](https://job-boards.greenhouse.io/muonspace/jobs/5294028007)<br><sub>“To conform to U.S. Government export regulations applicable to that information, applicant must either be \(A\) a U.S. person, defined as a \(i…”</sub> | Mountain View, CA | 🇺🇸 citizens | Nov 12 |
-| Muon Space | [Software Engineering Intern-Information Systems \(Summer 2027\)](https://job-boards.greenhouse.io/muonspace/jobs/5293973007)<br><sub>“To conform to U.S. Government export regulations applicable to that information, applicant must either be \(A\) a U.S. person, defined as a \(i…”</sub> | San Jose, CA | 🇺🇸 citizens | Nov 12 |
+| Muon Space | [Security Engineering Intern \(Summer 2027\)](https://job-boards.greenhouse.io/muonspace/jobs/5294028007)<br><sub>“To conform to U.S. Government export regulations applicable to that information, applicant must either be \(A\) a U.S. person, defined as a \(i…”</sub> | Mountain View, CA | 🗽 citizens | Nov 12 |
+| Muon Space | [Software Engineering Intern-Information Systems \(Summer 2027\)](https://job-boards.greenhouse.io/muonspace/jobs/5293973007)<br><sub>“To conform to U.S. Government export regulations applicable to that information, applicant must either be \(A\) a U.S. person, defined as a \(i…”</sub> | San Jose, CA | 🗽 citizens | Nov 12 |
 | National Laboratory of the Rockies | [Graduate \(Year-Round\) Intern: Geospatial Data Science Modeling and Analysis](https://nrel.wd5.myworkdayjobs.com/NLR/job/Golden-CO/Graduate--Year-Round--Intern--Geospatial-Data-Science-Modeling-and-Analysis_R14510) | Golden, CO | 🎓 3.0+ GPA | Nov 12 |
 | Philips | [Intern - AI &amp; Analytics Analyst - Nashville, TN - Summer 2027](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Nashville-Tennessee-United-States/Intern---AI---Analytics-Analyst---Nashville--TN---Spring-2027_593012) | Nashville, Tennessee, United States |  | Nov 12 |
 | PTC | [Onshape Site Reliability Engineering Intern \(Summer 2027\)](https://ptc.wd1.myworkdayjobs.com/PTC/job/Boston-MA-USA/Onshape-Site-Reliability-Engineering-Intern--Summer-2027-_JR112926)<br><sub>“Applicants must be authorized to work in the United States without requiring current or future sponsorship from PTC.”</sub> | Boston, MA, USA | 🛂❌ no sponsor | Nov 12 |
@@ -109,4 +110,4 @@
 
 _209 postings were posted this week. This list shows up to 3 per company; the rest are in the [internships](INTERNSHIPS.md) and [new grad](NEW_GRAD.md) lists._
 
-> **Disclaimer:** listings and tags are generated automatically from employers' public job postings and can be wrong, incomplete or out of date. Always read the full posting on the employer's site. Visa, CPT, OPT and citizenship notes are general information, not legal or immigration advice; confirm your situation with your school's DSO or an immigration attorney. This board is not affiliated with or endorsed by any employer listed.
+_Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._

@@ -3,7 +3,8 @@
     python scripts/check_robots.py            # every Workday/Oracle/Amazon/Eightfold board
     python scripts/check_robots.py --limit 5  # quick look
 
-Only reads robots.txt files (one per site). Boards listed as BLOCKED will be skipped by fetch_ats.py.
+Only reads robots.txt files (one per site) and prints the result; it changes nothing. fetch_ats.py skips a board
+only after a real fetch is refused (robots.txt, 401 or 403) and recorded in blocked.json.
 """
 import argparse
 import sys

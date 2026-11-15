@@ -1,8 +1,8 @@
-# Your First Projects
+# Projects
 
 A project is a program (or a device) you build yourself. It shows you can learn, finish things, and explain them. On a first resume it counts as much as a job.
 
-Short on time? See [the 5-hours-a-week version](#the-5-hours-a-week-version).
+Short on time? See [a 6-week plan](#a-6-week-plan).
 
 ## Find an idea
 
@@ -44,16 +44,16 @@ Done looks like: you can explain every file without the tutorial open, and the p
 
 A finished small project beats five half-finished big ones. If a project is not done after 6 weeks, cut features until it is.
 
-## The 5-hours-a-week version
+## A 6-week plan
 
-Working or commuting? You can still finish a project. Use two 2-hour blocks and one 1-hour block per week:
+About 5 hours a week. On the [5-hour week](README.md#the-5-hour-week), where the project gets 2 hours, give each step twice as long.
 
 - **Week 1:** Talk to your 5 people. Pick one. Write 3 features.
 - **Weeks 2 to 4:** One feature per week. Push to GitHub at the end of every block.
 - **Week 5:** Make it work for someone else: write a README, fix the first-run problems.
 - **Week 6:** Get 3 people to use it. Fix the top thing that confuses them.
 
-That is 30 hours total, and it's enough for a real level 2 project.
+That's about 30 hours, enough for a real level 2 project.
 
 ## Using AI tools
 
@@ -89,16 +89,9 @@ Report what really happened. "My model beat the simple baseline on 3 of 5 catego
 
 Put real numbers in the README: how many users, how many tests, how fast, how accurate, and what you compared it to.
 
-## Hardware and CE project ideas
+## Hardware and CE projects
 
-Computer engineering and electronics students: a build you can photograph and demo is strong.
-
-- A sensor logger (temperature, light, soil moisture) that saves readings to a file or a web page.
-- A bus-time or weather display on a small screen.
-- A door or window alarm that sends you a message.
-- A line-following or obstacle-avoiding robot.
-
-Put the code, a wiring diagram, a parts list, and a photo or short video in the repo. For more on this path, see [embedded and hardware tracks](tracks.md).
+A build you can photograph and demo is strong. Put the code, a wiring diagram, a parts list, and a photo or short video in the repo. Starter builds: [embedded](tracks.md#embedded-and-firmware) and [hardware](tracks.md#hardware-and-chips) in Career tracks.
 
 ## Other ways to build experience
 
@@ -130,4 +123,4 @@ These also count as project experience. Some need more background, so they are l
 
 Never coded? Start with CS50x. It and the data and hardware courses are in [resources](resources.md).
 
-Next: [find people](networking.md) to build with.
+Next: [Applying](applying.md)

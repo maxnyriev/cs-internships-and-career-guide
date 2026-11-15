@@ -4,6 +4,7 @@ import os
 import threading
 import time
 from datetime import date, datetime, timezone
+from zoneinfo import ZoneInfo
 from pathlib import Path
 from urllib import robotparser
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
@@ -24,8 +25,15 @@ USER_AGENT = f"{BOT_NAME}/1.0 (free student job board; contact: https://github.c
 TRACKING = ("utm_", "source", "ref", "gh_src", "lever-source")
 
 
+TZ = ZoneInfo("America/Chicago")  # every date the board shows or compares is U.S. Central, not the runner's UTC
+
+
+def today_date() -> date:
+    return datetime.now(TZ).date()
+
+
 def today() -> str:
-    return date.today().isoformat()
+    return today_date().isoformat()
 
 
 def now_iso() -> str:

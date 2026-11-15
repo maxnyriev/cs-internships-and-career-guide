@@ -6,6 +6,7 @@ An intended shrink (a stricter filter) is committed with "[reset-baseline]" in t
 Skipped when there is no previous commit of postings.json (first run).
 """
 import json
+import os
 import subprocess
 import sys
 from pathlib import Path
@@ -30,7 +31,7 @@ def previous_count(n=7):
             out = subprocess.run(["git", "show", f"{sha}:data/postings.json"], capture_output=True, text=True, check=True).stdout
             counts.append(len(json.loads(out)))
         return max(counts) if counts else None
-    except Exception:
+    except FileNotFoundError:  # git isn't installed: can't check, said loudly below
         return None
 
 
@@ -40,6 +41,8 @@ def main():
     prev = previous_count()
     if prev and len(rows) < prev * 0.5:
         sys.exit(f"open postings fell from {prev} (7-commit high) to {len(rows)}; refusing to publish")
+    if prev is None and os.environ.get("GITHUB_ACTIONS"):
+        sys.exit("no postings.json in git history; the Action checks out full history, so this means something is wrong")
     if prev is None:
         print("WARNING: no previous postings.json found in git history; the shrink guard was skipped")
     print(f"valid: {len(rows)} postings" + (f" (7-commit high {prev})" if prev is not None else ""))

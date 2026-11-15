@@ -1,6 +1,16 @@
 # Things I Wish I Knew: CS Edition — original design
 
-> This is the original plan. Parts not built yet are marked *(planned)*. [WRITEUP.md](WRITEUP.md) describes what's built and what was measured.
+> **Historical.** This is the plan written before the build, kept as a record and not updated since. Counts, file names and some rules below are out of date. For how the board works now, read [WRITEUP.md](WRITEUP.md) (why) and [MAINTAINING.md](MAINTAINING.md) (how); the code and tests are the final word.
+>
+> | The plan said | What was built |
+> |---|---|
+> | 955 boards (523 Workday) | 977 boards: 535 Workday, 163 Greenhouse, 155 Oracle, 53 SmartRecruiters, 37 Ashby, 32 Lever, Amazon, Eightfold (`data/companies.yaml`) |
+> | One adapter module per source in `scripts/adapters/`, plus `scripts/local/fetch_workday.py` | All adapters in `scripts/adapters/__init__.py`; the laptop runs `fetch_ats.py --local` from `scripts/local/nightly.ps1` |
+> | `data/checks.json`, `check_links.py --local`, `find_boards.py`, an HN adapter, Workable/Recruitee/ADP | Not built |
+> | Shrink guard: under 50% of the last commit | Under 50% of the highest count in the last 7 commits (`validate.py`) |
+> | "New this week" at the top of the README | Its own page, `NEW_THIS_WEEK.md`, plus `track-*.md` pages and `_data/stats.json` for the site |
+> | Multi-city clones collapse into one row listing every location | One row per company, title and location (`build_readme.dedupe`) |
+> | Fixtures for every source | Saved fixtures for Greenhouse, Lever, Ashby; shape tests for Workday, Oracle, Eightfold, Amazon |
 
 A public GitHub repo that lists internships, new-grad roles and early-career programs for computer science and computer engineering students, refreshed daily. Built and owned by Rohitpreet Singh as a portfolio project. Only the maintainers (Rohit and the ACM officers) can change it; everyone else has read access.
 

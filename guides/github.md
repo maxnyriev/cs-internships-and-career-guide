@@ -1,4 +1,4 @@
-# GitHub Setup
+# GitHub
 
 GitHub is where programmers store and share code. Few recruiters look at it in the first screen. It matters later: when an interviewer or hiring manager clicks your link, it shows your resume is true. One finished repo with a good README is enough to start.
 
@@ -77,19 +77,10 @@ Put class projects on GitHub only if your professor allows it. Never post exam a
 
 The green squares on your profile are not required. Employers know students have busy weeks. A few real projects beat a streak of tiny commits.
 
-## Student Developer Pack
-
-Free tools and trials for students (developer tools, cloud credits, domains). To apply you need a GitHub account and proof you're enrolled: a school email you've added and verified, or a document such as a school ID, class schedule, or enrollment letter. Details and offers change, so read the [pack page](https://education.github.com/pack). It can take a few days.
-
 ## Protect your account
 
 - [ ] Turn on two-factor authentication (2FA) in Settings. Use an authenticator app or a passkey (a login stored on your phone or computer).
 - [ ] Download your **recovery codes** and save them somewhere safe (a password manager or a printed copy). Without them, losing your phone can lock you out of your own code.
-
-## Good habits
-
-- Read other people's code.
-- When you're ready for open source, pick a project you actually use and look for issues labeled "good first issue".
 
 ## Resources
 
@@ -97,6 +88,6 @@ Free tools and trials for students (developer tools, cloud credits, domains). To
 - [Pro Git](https://git-scm.com/book/en/v2): the free official Git book.
 - [Make a README](https://www.makeareadme.com): a simple guide with a template.
 - [First Contributions](https://github.com/firstcontributions/first-contributions): practice making your first pull request.
-- [GitHub Student Developer Pack](https://education.github.com/pack): free tools for students.
+- [GitHub Student Developer Pack](https://education.github.com/pack): free tools, cloud credits and domains for students. You need a verified school email or proof of enrollment, and approval can take a few days.
 
-Next: [build a project](projects.md) worth putting here.
+Next: [LinkedIn](linkedin.md)

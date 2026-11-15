@@ -44,7 +44,8 @@ def posted_date(v):
             d = datetime.strptime(str(v).strip(), "%B %d, %Y").date()
     except (ValueError, OverflowError, OSError):
         return None
-    return min(d, date.today()).isoformat()  # a future date is a data error; never show it
+    from common import today_date
+    return min(d, today_date()).isoformat()  # a future date is a data error; never show it
 
 
 def paginate(call, step, cap=1000):

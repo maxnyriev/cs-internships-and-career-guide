@@ -1,8 +1,8 @@
-# Networking and Getting Involved
+# Networking
 
 Networking means getting to know people who can teach you, vouch for you, or tell you about openings. A few real relationships beat hundreds of LinkedIn connections. You do not need to be outgoing. You need to ask small, specific questions.
 
-If you have about 5 hours a week or less, jump to the [low-time version](#low-time-version).
+If you have about 5 hours a week or less, jump to [low on time](#low-on-time).
 
 ## Your first 3 weeks
 
@@ -67,7 +67,7 @@ A month later, send two lines on what you did. This is what turns one chat into 
 ## Clubs and leadership
 
 - **ACM chapter or CS club.** Go to a meeting this month. After a semester, volunteer to run one thing: a workshop, a study session, a speaker night.
-- **Running an event or fundraiser counts.** Planning a fundraiser, with a venue, a budget, and asking local businesses to sponsor, is real leadership and negotiation. Put it on your resume with numbers (money raised, people who came). It also makes a strong answer to "tell me about a time you led a team" in [interviews](interviews.md#behavioral).
+- **Running an event counts.** A workshop, a study night, or a club event with a budget and a schedule is real leadership. Put it on your resume with numbers (people who came, money raised). It also makes a strong answer to "tell me about a time you led a team" in [interviews](interviews.md#behavioral).
 - **Other clubs.** A cybersecurity, robotics, or engineering club (IEEE student branch, for example) if your school has one. See [tracks](tracks.md) for which fit which career.
 
 ## Contests and hackathons
@@ -89,7 +89,7 @@ Big companies' reps often say "apply online." That's normal. **Local and regiona
 
 ## Campus jobs
 
-Tutor, lab assistant, IT help desk, or grader for a professor. They pay, they're flexible around classes, they go on your resume, and they put you next to faculty. A teaching assistant (TA) or tutor job also builds the skill of explaining code, which interviews test. (F-1 students: on-campus work has hour limits. Ask your DSO first.)
+Tutor, lab assistant, IT help desk, or grader for a professor. They pay, they're flexible around classes, they go on your resume, and they put you next to faculty. A teaching assistant (TA) or tutor job also builds the skill of explaining code, which interviews test.
 
 ## References
 
@@ -98,19 +98,9 @@ Employers and programs sometimes ask for a reference: someone who will say good 
 - Pick people who have seen your work, not only your grades.
 - Tell them each time you apply somewhere that might call.
 
-## Low-time version
+## Low on time
 
-If you work or commute and have about 5 hours a week, do only these:
-- **Once this month:** one office-hours visit or one upperclassman message.
-- **Once a week:** one alumni message (10 minutes).
-- **Skip** clubs that meet at night unless one fits. Join their chat group and read it.
-- **Take** one campus or online event a semester.
-
-Even three contacts you keep warm make a difference.
-
-## Communities and scholarships
-
-Many groups give free conference trips, mentors, and job connections. See [resources](resources.md) for the full list.
+On the [5-hour week](README.md#the-5-hour-week), your 1 hour on people goes to this: one alumni message a week (10 minutes), and once a month an office-hours visit or an upperclassman message. Skip clubs that meet at night unless one fits; join their chat group and read it. Even three contacts you keep warm make a difference.
 
 ## Resources
 
@@ -123,6 +113,8 @@ Many groups give free conference trips, mentors, and job connections. See [resou
 - [Major League Hacking (MLH)](https://mlh.com) and [Devpost](https://devpost.com): hackathon calendars, in person and online.
 - [ICPC](https://icpc.global): the big team programming contest.
 - [Advent of Code](https://adventofcode.com): daily puzzles every December.
-- Security contests (CTFs): [picoCTF](https://picoctf.org) for beginners. See [tracks](tracks.md).
+- Security contests (CTFs): [picoCTF](https://picoctf.org) for beginners. See [Career tracks](tracks.md).
 
-Next: [applying](applying.md).
+**Communities, scholarships, and conference trips:** [Resources](resources.md).
+
+Next: [4-year timeline](timeline.md)

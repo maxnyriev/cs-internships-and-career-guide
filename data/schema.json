@@ -10,7 +10,7 @@
       "title": {"type": "string", "minLength": 1},
       "url": {"type": "string", "pattern": "^https?://"},
       "location": {"type": "string"},
-      "source": {"enum": ["greenhouse", "lever", "ashby", "workday", "oracle", "smartrecruiters", "amazon", "workable", "recruitee", "eightfold", "adp", "hn", "manual", "company"]},
+      "source": {"enum": ["greenhouse", "lever", "ashby", "smartrecruiters", "amazon", "eightfold", "workday", "oracle", "manual"]},
       "section": {"enum": ["internship", "new_grad", "early"]},
       "tags": {
         "type": "object",

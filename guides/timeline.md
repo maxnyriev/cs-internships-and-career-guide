@@ -4,7 +4,7 @@ A map, not a rule. If you're behind, start where you are today. If you're taking
 
 > **Started late or transferred?** Don't read this as a list of what you missed. Find your row in [Where are you?](README.md#where-are-you), then use the [6-week sprint](applying.md#behind-start-here). Come back here for the dates.
 
-**The big date to know:** summer internships at big companies open about **July to September of the year before**, and many fill up by the fall. "Summer 2028 internship" means applying in fall 2027.
+**The big date to know:** summer internships at big companies open about **July to September of the year before**, and many fill up by the fall. So an internship for the summer after junior year means applying in the fall of junior year.
 
 That is the early path, not the only one. Many roles are rolling, which means the company reviews applications as they arrive and hires until the spots are full. Some stay open into winter. Local employers often hire into spring. If you missed the fall, keep applying.
 
@@ -15,7 +15,7 @@ That is the early path, not the only one. Many roles are rolling, which means th
 **Fall**
 - [ ] Go to class, do your own work, go to office hours.
 - [ ] Join your ACM chapter or CS club.
-- [ ] Early programs for first-years mostly close in the fall. Apply to one or two if you like, but they're long shots ([networking](networking.md)).
+- [ ] Early programs for first-years mostly close in the fall. Apply to one or two if you like, but they're long shots ([early programs](../EARLY.md)).
 
 **Spring**
 - [ ] Write your first [resume](resume.md).
@@ -24,7 +24,7 @@ That is the early path, not the only one. Many roles are rolling, which means th
 - [ ] Easy coding start: solve one easy problem a week in the language from your class.
 
 **Summer**
-- Any job is a good summer (international students: check your work rules first). If you have spare time, build a project or take a free course.
+- Any job is a good summer. If you have spare time, build a project or take a free course.
 
 **Done by the end of freshman year**
 
@@ -113,27 +113,13 @@ A return offer is an invitation to come back, for another internship or full-tim
 
 If there's no offer, ask for feedback and a reference, and keep in touch. Many people get offers from their second try.
 
-**Co-ops.** A co-op is a longer work term, often a full semester, and some schools have a formal co-op program that you sign up for through the career center. Co-ops can repeat, so you may work for the same company more than once. Ask your career center how co-ops work at your school and how they affect your graduation date.
+## Co-ops
 
-## Note for F-1 students
-
-> This is general information, not legal or immigration advice. Rules change and depend on your situation, so confirm everything with your DSO (Designated School Official, the person at your school who handles F-1 rules) or an immigration attorney.
-
-- **On-campus jobs** are generally limited to 20 hours a week while classes are in session. Ask your DSO first.
-- **CPT** (Curricular Practical Training) lets you work off campus in your field while you study. You usually need a full academic year of full-time study first. Each CPT approval covers one employer and set dates, and your DSO must approve it in the system **before** you start. Never start early.
-- **Full-time CPT is more than 20 hours a week.** A year or more of full-time CPT makes you ineligible for OPT.
-- **OPT** (Optional Practical Training) is usually how you work after graduation, for up to 12 months. Some STEM degrees can get a 24-month extension, but only with an employer that uses E-Verify and a written training plan. OPT has limits on unemployed days, and you must report your work. Unpaid work counts too. Ask your DSO about the timing well before your last semester.
-- **Rules are changing.** A 2026 federal rule replaced "duration of status" with fixed admission periods. Ask your DSO what it means for your dates.
-- **Read postings carefully.** Skip ones that say "no CPT/OPT" (the job board marks these 🚫) or "US citizens only" (🇺🇸). "We don't sponsor visas" is not the same thing: some of those companies still hire interns on CPT. Ask the recruiter.
-- **Application forms** ask "Are you authorized to work in the US?" and "Will you need sponsorship now or in the future?" Answer truthfully every time, and ask your DSO how to answer for your case.
-- **Many research programs** (such as most NSF REUs) are open to citizens and permanent residents only. Check each program's rules before you spend time on it.
-- Apply widely. Smaller companies, universities, and research labs are often more open to international students.
+A co-op is a longer work term, often a full semester, and some schools have a formal co-op program that you sign up for through the career center. Co-ops can repeat, so you may work for the same company more than once. Ask your career center how co-ops work at your school and how they affect your graduation date.
 
 ## Resources
 
-- [F-1 CPT, official DHS page](https://studyinthestates.dhs.gov/sevis-help-hub/student-records/fm-student-employment/f-1-curricular-practical-training-cpt)
-- [NeetCode](https://neetcode.io) (free problem list and videos) and [LeetCode](https://leetcode.com) (practice problems)
-- [Tech Interview Handbook: Grind 75](https://www.techinterviewhandbook.org/grind75/): a week-by-week study plan.
-- More: [GitHub](github.md#resources), [LinkedIn](linkedin.md#resources), [resume](resume.md#resources), [projects](projects.md#resources), [networking](networking.md#resources), [applying](applying.md#resources), [interviews](interviews.md#resources).
+- [Tech Interview Handbook: Grind 75](https://www.techinterviewhandbook.org/grind75/): a week-by-week coding study plan.
+- More free practice sites, courses, and programs: [Resources](resources.md).
 
-Next: [Projects](projects.md)
+Next: [Career tracks](tracks.md)

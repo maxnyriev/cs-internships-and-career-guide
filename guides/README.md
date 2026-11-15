@@ -1,4 +1,4 @@
-# Student Guides
+# Start Here
 
 Short, practical guides for computer science and computer engineering students at any U.S. school. They're written for students who have never had an internship and don't know where to start, including late starters, transfers, and students who work.
 
@@ -14,12 +14,12 @@ Find the row that fits you best. "Hours" means hours a week on top of your class
 |---|---|---|---|
 | **Freshman who has never coded** | 1. Keep up in your intro class and go to office hours once a week. 2. Join one CS club and go to a meeting. 3. Start a [wins file](#start-a-wins-file). | 2-4 | [Networking](networking.md), [projects](projects.md) |
 | **Freshman or sophomore with some coding, no projects** | 1. Pick one small project that fixes a real annoyance and finish a first version in 2 to 4 weeks. 2. Put it on GitHub with a README. 3. Write a one-page resume. | 4-6 | [Projects](projects.md), [GitHub](github.md), [resume](resume.md) |
-| **Sophomore ready to apply** | 1. Get your resume reviewed by one person. 2. Apply to 10-15 internships a week, including local and mid-size companies, and use Handshake and the career fair. 3. Do 2-3 coding problems a week. | 6-8 | [Applying](applying.md), [coding practice](timeline.md#coding-interview-practice) |
+| **Sophomore ready to apply** | 1. Get your resume reviewed by one person. 2. Apply to about 10 internships a week, including local and mid-size companies, and use Handshake and the career fair. 3. Do 2-3 coding problems a week. | 6-8 | [Applying](applying.md), [coding practice](timeline.md#coding-interview-practice) |
 | **Transfer or late-start junior** | 1. Visit your new school's career center and set up Handshake in your first month. 2. Build one project in 2 to 4 weeks. 3. Apply now, aiming at companies that hire into spring. | 8-10 | [Behind? Start here](applying.md#behind-start-here), [tracks](tracks.md) |
 | **Junior with lots of applications and no interviews** | 1. Run the funnel check to find where you're stuck. 2. Rewrite your resume and tailor it for your top 10 roles. 3. Ask 3 people for referrals before you apply anywhere new. | 6-10 | [Funnel check](applying.md#funnel-check), [resume](resume.md), [networking](networking.md) |
 | **Senior** | 1. Apply for new-grad roles now (big companies open in late summer and fall; smaller ones hire through spring). 2. Practice interviews every week. 3. If you interned, ask about a [return offer](timeline.md#return-offers). | 6-10 | [Interviews](interviews.md), [senior year](timeline.md#senior-year) |
 
-**Working or commuting? Try the 5-hour week.** About 1 hour on class help (office hours or tutoring), 2 hours on one project, 1 hour on applications or your resume, and 1 hour on people (a club meeting, or one message to an upperclassman or alumnus). It's slower, and it still works. Keep it steady and don't try to catch up in one weekend.
+<a id="the-5-hour-week"></a>**Working or commuting? Try the 5-hour week.** About 1 hour on class help (office hours or tutoring), 2 hours on one project, 1 hour on applications or your resume, and 1 hour on people (a club meeting, or one message to an upperclassman or alumnus). It's slower, and it still works. Keep it steady and don't try to catch up in one weekend.
 
 ## How internships work
 
@@ -41,9 +41,6 @@ Your resume, LinkedIn, and interview stories all come from this file, so you nev
 
 ## Glossary
 
-- **Internship:** a short job (usually summer) for students, most often paid in tech.
-- **Co-op:** a longer work term, often a full semester of full-time work, sometimes repeated.
-- **New grad:** a full-time job meant for people graduating soon or just graduated.
 - **OA (online assessment):** a timed coding test you take online, often the first step after you apply.
 - **Referral:** someone at the company submits your name or vouches for you, so a recruiter is more likely to look.
 - **ATS (applicant tracking system):** the software companies use to collect and sort applications. A person still usually makes the decision.
@@ -57,26 +54,20 @@ Your resume, LinkedIn, and interview stories all come from this file, so you nev
 
 ## All guides
 
-- [4-year timeline](timeline.md): what to do each semester, plus coding practice and return offers.
+- [Your first resume](resume.md): a one-page resume, with examples, even with no experience.
 - [Projects](projects.md): how to pick, build, and finish a project people can run.
+- [Applying](applying.md): where to apply, how many, referrals, offers, and what to do when you're stuck.
+- [Interviews](interviews.md): recruiter calls, technical rounds, project deep dives, and behavioral questions.
+- [Networking](networking.md): professors, clubs, career fairs, and messages to strangers.
+- [4-year timeline](timeline.md): what to do each semester, plus coding practice, co-ops, and return offers.
+- [Career tracks](tracks.md): paths beyond software engineering, like embedded, security, IT, and data.
 - [GitHub](github.md): set up your account and make your repos easy to check.
-- [Resume](resume.md): a one-page resume, with examples, even with no experience.
 - [LinkedIn](linkedin.md): a profile recruiters and alumni can find.
-- [Networking and getting involved](networking.md): professors, clubs, career fairs, and messages to strangers.
-- [Applying](applying.md): where to apply, how many, referrals, and what to do when you're stuck.
-- [Interviews](interviews.md): online assessments, technical rounds, behavioral questions, and offers.
-- [Tracks](tracks.md): paths beyond software engineering, like embedded, security, IT, and data.
 - [Resources](resources.md): communities, programs, free courses, hackathons, and tools.
+- [Job board](../INTERNSHIPS.md): current internships, plus new-grad roles and early programs from the main page.
 
-F-1 student? Read the [note for F-1 students](timeline.md#note-for-f-1-students) before you accept any job, even on campus.
-
-## Resources
-
-- [Resources](resources.md): the full list of clubs, programs, courses, and tools.
-- [Job board](../): current internships, new-grad roles, and early programs.
-
-Next: [4-year timeline](timeline.md)
+Next: [Your first resume](resume.md)
 
 ---
 
-These guides are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): share and adapt them with credit. They're general advice, not legal or immigration advice.
+These guides are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): share and adapt them with credit. They're general advice.

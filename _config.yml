@@ -50,7 +50,7 @@ defaults:
       description: "Timing, where to apply from any school, referrals, online assessments, a funnel check for stalled searches, a 6-week catch-up plan, offers and scams."
   - scope: { path: "guides/interviews.md" }
     values:
-      title: "What Software Engineering Interviewers Actually Look For"
+      title: "CS Interviews: What Interviewers Actually Look For"
       description: "Recruiter calls, technical rounds, take-homes, project deep dives and behavioral STAR answers, with templates and questions to ask."
   - scope: { path: "guides/networking.md" }
     values:
@@ -97,12 +97,12 @@ defaults:
   - scope: { path: "track-embedded.md" }
     values: { title: "Embedded and Firmware Internships (U.S.)", description: "Embedded, firmware and microcontroller internships and new-grad roles, updated daily." }
   - scope: { path: "track-hardware.md" }
-    values: { title: "Hardware, FPGA and Chip Internships (U.S.)", description: "Hardware, FPGA, ASIC and verification internships and new-grad roles, updated daily." }
+    values: { title: "Hardware and Chip Internships (U.S.)", description: "Hardware, FPGA, ASIC and verification internships and new-grad roles, updated daily." }
   - scope: { path: "track-security.md" }
     values: { title: "Cybersecurity Internships (U.S.)", description: "Security and cybersecurity internships and new-grad roles, updated daily." }
   - scope: { path: "track-it.md" }
     values: { title: "IT and Networking Internships (U.S.)", description: "IT, help desk, networking and infrastructure internships and new-grad roles, updated daily." }
   - scope: { path: "track-data.md" }
-    values: { title: "Data, AI and Machine Learning Internships (U.S.)", description: "Data science, analytics, AI and machine learning internships and new-grad roles, updated daily." }
+    values: { title: "Data and ML Internships (U.S.)", description: "Data science, analytics, AI and machine learning internships and new-grad roles, updated daily." }
   - scope: { path: "track-gov.md" }
-    values: { title: "Government, Defense and Clearance Internships (U.S.)", description: "Government, defense contractor and national lab internships, many needing U.S. citizenship or a clearance." }
+    values: { title: "Government and Defense Internships (U.S.)", description: "Government, defense contractor and national lab internships, many needing U.S. citizenship or a clearance." }
