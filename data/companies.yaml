@@ -505,6 +505,7 @@ companies:
   - {name: "Blue Cross and Blue Shield of Louisiana", ats: workday, board: "bcbsla.wd1/Generation_Blue"}
   - {name: "BMC Software", ats: workday, board: "bmc.wd1/BMC"}
   - {name: "Boeing", ats: workday, board: "boeing.wd1/INTERN"}
+  - {name: "Booz Allen", ats: workday, board: "bah.wd1/BAH_Jobs"}
   - {name: "BorgWarner", ats: workday, board: "borgwarner.wd5/BorgWarner_Careers"}
   - {name: "Bose Corporation", ats: workday, board: "boseallaboutme.wd503/Bose_Careers"}
   - {name: "Boyd Group Services", ats: workday, board: "boydgroup.wd1/boydcareers"}
@@ -522,6 +523,7 @@ companies:
   - {name: "Cadence Design Systems", ats: workday, board: "cadence.wd1/Univ_Careers"}
   - {name: "Cambridge Investment Research, Inc", ats: workday, board: "cir.wd108/CIR_External_Career_Site"}
   - {name: "Campbell's", ats: workday, board: "campbellsoup.wd5/ExternalCareers_GlobalSite"}
+  - {name: "Capital One", ats: workday, board: "capitalone.wd12/Capital_One"}
   - {name: "CareSource", ats: workday, board: "caresource.wd1/CareSource"}
   - {name: "CarMax", ats: workday, board: "carmax.wd1/External"}
   - {name: "Carnegie Mellon University", ats: workday, board: "cmu.wd115/CMU"}
@@ -540,10 +542,12 @@ companies:
   - {name: "Centific", ats: workday, board: "centific.wd1/Centific_Global"}
   - {name: "Cerity Partners", ats: workday, board: "ceritypartners.wd12/ceritypartnerscareers"}
   - {name: "Charter Manufacturing", ats: workday, board: "chartermfg.wd5/Charter_Careers"}
+  - {name: "Chevron", ats: workday, board: "chevron.wd5/jobs"}
   - {name: "Children's Wisconsin", ats: workday, board: "cwi.wd1/CW_Careers"}
   - {name: "Ciena", ats: workday, board: "ciena.wd5/Careers"}
   - {name: "Cigna Healthcare", ats: workday, board: "cigna.wd5/cignacareers"}
   - {name: "Circle K", ats: workday, board: "circlek.wd3/CircleKStoreJobs"}
+  - {name: "Cisco", ats: workday, board: "cisco.wd5/Cisco_Careers"}
   - {name: "City and County of Denver", ats: workday, board: "denver.wd1/CCD-denver-denvergov-CSC_Jobs-Civil_service_jobs-Police_Jobs-Fire_Jobs"}
   - {name: "City of Charlotte", ats: workday, board: "charlottenc.wd12/citgov"}
   - {name: "City of North Las Vegas", ats: workday, board: "cityofnorthlasvegas.wd12/CNLVExternalCareerSite"}
@@ -634,6 +638,7 @@ companies:
   - {name: "GE Vernova", ats: workday, board: "gevernova.wd5/Vernova_ExternalSite"}
   - {name: "GEICO", ats: workday, board: "geico.wd1/External"}
   - {name: "Generac Power Systems", ats: workday, board: "generac.wd5/External"}
+  - {name: "General Dynamics Information Technology", ats: workday, board: "gdit.wd5/External_Career_Site"}
   - {name: "General Motors", ats: workday, board: "generalmotors.wd5/Careers_GM"}
   - {name: "Genpact", ats: workday, board: "genpact.wd108/campussite"}
   - {name: "Genuine Parts Company", ats: workday, board: "genpt.wd1/Careers"}
@@ -732,6 +737,7 @@ companies:
   - {name: "Marvell Technology", ats: workday, board: "marvell.wd1/MarvellCareers"}
   - {name: "Marvell Technology", ats: workday, board: "marvell.wd1/MarvellCareers2"}
   - {name: "Mass General Brigham", ats: workday, board: "massgeneralbrigham.wd1/MGBExternal"}
+  - {name: "Mastercard", ats: workday, board: "mastercard.wd1/CorporateCareers"}
   - {name: "McKesson", ats: workday, board: "mckesson.wd3/External_Careers"}
   - {name: "Medline Industries, LP", ats: workday, board: "medline.wd5/Medline"}
   - {name: "Methode Electronics", ats: workday, board: "methode.wd5/methode"}
@@ -739,6 +745,7 @@ companies:
   - {name: "Micron Technology", ats: workday, board: "micron.wd1/External"}
   - {name: "Midland States Bank", ats: workday, board: "midlandsb.wd1/msbcareers"}
   - {name: "Midwest Heritage, A Hy-Vee Company", ats: workday, board: "hyvee.wd1/MidwestHeritageCareers"}
+  - {name: "MITRE", ats: workday, board: "mitre.wd5/MITRE"}
   - {name: "ModMed", ats: workday, board: "modmed.wd501/ModMed12"}
   - {name: "Monolithic Power Systems, Inc", ats: workday, board: "monolithicpower.wd12/MPS_Careers"}
   - {name: "Moog Inc", ats: workday, board: "moog.wd5/MOOG_External_Career_Site"}
@@ -765,6 +772,7 @@ companies:
   - {name: "Nissan Motor Corporation", ats: workday, board: "alliance.wd3/nissanjobs"}
   - {name: "NJM Insurance Group", ats: workday, board: "njm.wd1/njm"}
   - {name: "Nordson Corporation", ats: workday, board: "nordsonhcm.wd501/nordsoncareers"}
+  - {name: "Northrop Grumman", ats: workday, board: "ngc.wd1/Northrop_Grumman_External_Site"}
   - {name: "Northwestern Mutual", ats: workday, board: "northwesternmutual.wd5/CORPORATE-CAREERS"}
   - {name: "Novacore", ats: workday, board: "nsminc.wd1/Novacore_Careers"}
   - {name: "Novanta Inc", ats: workday, board: "novanta.wd5/Novanta-Careers"}
@@ -773,6 +781,7 @@ companies:
   - {name: "NXP Semiconductors", ats: workday, board: "nxp.wd3/careers"}
   - {name: "NYSTRS", ats: workday, board: "nystrs.wd12/NYSTRS_Careers"}
   - {name: "OCC", ats: workday, board: "theocc.wd5/careers"}
+  - {name: "Ochsner Health", ats: workday, board: "ochsner.wd1/Ochsner"}
   - {name: "ODL, Inc", ats: workday, board: "odl.wd5/ODL"}
   - {name: "ONEOK", ats: workday, board: "oneok.wd1/ONEOK_Early_Careers"}
   - {name: "Orion Steel Group", ats: workday, board: "orionsteel.wd5/externalcareers"}
@@ -784,6 +793,7 @@ companies:
   - {name: "Papa Johns", ats: workday, board: "papajohns.wd1/PapaJohnsCareers"}
   - {name: "Pape-Dawson", ats: workday, board: "papedawson.wd12/PDE"}
   - {name: "Parsons Corporation", ats: workday, board: "parsons.wd5/Search"}
+  - {name: "PayPal", ats: workday, board: "paypal.wd1/jobs"}
   - {name: "PCI Pharma Services", ats: workday, board: "pciservices.wd1/External"}
   - {name: "Penn State University", ats: workday, board: "psu.wd1/PSU_Staff"}
   - {name: "Permian Resources", ats: workday, board: "permianres.wd12/Permian_Resources_Careers"}
@@ -831,6 +841,7 @@ companies:
   - {name: "Rogue Fitness", ats: workday, board: "roguefitness.wd1/RogueFitness_External_Careers"}
   - {name: "Rosendin", ats: workday, board: "rosendin.wd1/Careers"}
   - {name: "RSM US LLP", ats: workday, board: "rsm.wd1/RSMCareers"}
+  - {name: "RTX", ats: workday, board: "globalhr.wd5/REC_RTX_Ext_Gateway"}
   - {name: "Ryan", ats: workday, board: "ryan.wd1/RyanCareers"}
   - {name: "Ryan", ats: workday, board: "ryan.wd1/Students-Graduates"}
   - {name: "Ryan Specialty", ats: workday, board: "ryansg.wd5/Ryan_Specialty_Career_Site"}
@@ -843,6 +854,7 @@ companies:
   - {name: "Schreiber Foods", ats: workday, board: "schreiberfoods.wd115/Schreiber_Careers"}
   - {name: "Schweitzer Engineering Laboratories (SEL)", ats: workday, board: "selinc.wd1/SEL"}
   - {name: "Sentara Health", ats: workday, board: "sentara.wd1/SCS"}
+  - {name: "Shell", ats: workday, board: "shell.wd3/ShellCareers"}
   - {name: "Signet Jewelers", ats: workday, board: "signetjewelers.wd1/SignetCorporateCareers"}
   - {name: "Signify", ats: workday, board: "lighting.wd3/jobs-and-careers"}
   - {name: "Smith+Nephew", ats: workday, board: "smithnephew.wd5/External"}
