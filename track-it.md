@@ -1,6 +1,6 @@
 # IT and networking
 
-[⬅ Back to the main page](./) · 252 open · updated 2026-11-14
+[⬅ Back to the main page](./) · 252 open · updated 2026-11-15
 
 IT support, networking, systems administration and cloud operations. New to this track? Read the [IT and networking section of the Career tracks guide](guides/tracks.md#it-and-networking).
 
@@ -235,11 +235,11 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Blue Cross and Blue Shield of Louisiana | [CW IT Service Management Intern \(Spring 2027\)](https://bcbsla.wd1.myworkdayjobs.com/Generation_Blue/job/Remote-LA/CW-IT-Service-Management-Intern--Spring-2027-_R12137) | Remote-LA | 🎓 2.5+ GPA<br>🌱 spring<br>🌐 remote | Sep 16 |
 | Blue Cross and Blue Shield of Louisiana | [CW Technical Support Services Intern \(Spring 2027\)](https://bcbsla.wd1.myworkdayjobs.com/Generation_Blue/job/Corporate---Baton-Rouge-LA/CW-IT-Service-Desk-Intern--Spring-2027-_R12139) | Corporate - Baton Rouge, LA | 🎓 2.8+ GPA<br>🌱 spring | Sep 16 |
 | GM Financial | [Intern - IT Support Technician](https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260834) | Arlington, TX, United States | 🎓 3.0+ GPA | Sep 16 |
-| Analog Devices | [Information Technology Intern](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Information-Technology-Intern_R266137) | US, MA, Wilmington |  | Sep 15 |
-| Hilcorp | [I-26135 - Information Technology Intern - Summer 2027](https://hec.wd5.myworkdayjobs.com/CollegeRecruiting/job/Houston-TX/I-26135---Information-Technology-Intern---Summer-2027_R006420-2) | Houston, TX |  | Sep 15 |
-| NJM Insurance Group | [IT QA Automation Intern](https://njm.wd1.myworkdayjobs.com/njm/job/NJM---Trenton/IT-QA-Automation-Intern_R2008283) | NJM - Trenton | 🎓 3.0+ GPA | Sep 15 |
-| NJM Insurance Group | [IT Workstation Support Intern](https://njm.wd1.myworkdayjobs.com/njm/job/NJM---Trenton/IT-Workstation-Support--Intern_R2008273) | NJM - Trenton | 🎓 3.0+ GPA | Sep 15 |
-| NYISO Internship Program | [Intern - IT Service Delivery](https://job-boards.greenhouse.io/nyisointernships/jobs/5236071007) | Rensselaer, New York, United States |  | Sep 15 |
+| Analog Devices | [Information Technology Intern](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Information-Technology-Intern_R266137) | US, MA, Wilmington | ⏳ 60+ days | Sep 15 |
+| Hilcorp | [I-26135 - Information Technology Intern - Summer 2027](https://hec.wd5.myworkdayjobs.com/CollegeRecruiting/job/Houston-TX/I-26135---Information-Technology-Intern---Summer-2027_R006420-2) | Houston, TX | ⏳ 60+ days | Sep 15 |
+| NJM Insurance Group | [IT QA Automation Intern](https://njm.wd1.myworkdayjobs.com/njm/job/NJM---Trenton/IT-QA-Automation-Intern_R2008283) | NJM - Trenton | 🎓 3.0+ GPA<br>⏳ 60+ days | Sep 15 |
+| NJM Insurance Group | [IT Workstation Support Intern](https://njm.wd1.myworkdayjobs.com/njm/job/NJM---Trenton/IT-Workstation-Support--Intern_R2008273) | NJM - Trenton | 🎓 3.0+ GPA<br>⏳ 60+ days | Sep 15 |
+| NYISO Internship Program | [Intern - IT Service Delivery](https://job-boards.greenhouse.io/nyisointernships/jobs/5236071007) | Rensselaer, New York, United States | ⏳ 60+ days | Sep 15 |
 | AtkinsRéalis | [Water Infrastructure Engineering Intern - Summer 2027](https://slihrms.wd3.myworkdayjobs.com/Careers/job/USNVHenderson/Water-Infrastructure-Engineering-Intern---Summer-2027_R-160500-2) | US.NV.Henderson | ⏳ 60+ days | Sep 14 |
 | Campbell's | [Information Technology Internship Program - Summer 2027](https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Information-Technology-Internship-Program---Summer-2027_Req-68193) | USA - NJ - Camden | 🎓 3.0+ GPA<br>⏳ 60+ days | Sep 14 |
 | Guardian Life Insurance | [2027 Guardian Summer Intern, Digital &amp; Technology, Cloud &amp; DevOps](https://guardianlife.wd5.myworkdayjobs.com/Guardian-Life-Careers/job/Bethlehem/XMLNAME-2027-Guardian-Summer-Intern--Digital---Technology--Cloud---DevOps_R000110210)<br><sub>“H1-B and green card sponsorship are not available for this position.”</sub> | Bethlehem | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 14 |

@@ -4,7 +4,7 @@
 
 A free starter kit for computer science and computer engineering students in the U.S.: **a job board refreshed every day** from companies' own career sites, plus **plain-English guides** on everything I wish someone had told me as a freshman.
 
-Last updated **2026-11-14**.
+Last updated **2026-11-15**.
 
 ## 💼 Find jobs
 
@@ -13,7 +13,7 @@ Last updated **2026-11-14**.
 | 💼 **[Internships](INTERNSHIPS.md)** | 1,584 open roles, newest first |
 | 🎓 **[New grad](NEW_GRAD.md)** | 106 full-time roles for graduating students |
 | 🌱 **[Early programs](EARLY.md)** | For freshmen and sophomores. 5 open right now |
-| 🆕 **[New this week](NEW_THIS_WEEK.md)** | 209 roles posted in the last 7 days |
+| 🆕 **[New this week](NEW_THIS_WEEK.md)** | 210 roles posted in the last 7 days |
 
 ### Find jobs by track
 

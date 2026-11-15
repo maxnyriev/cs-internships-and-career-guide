@@ -1,6 +1,6 @@
 # 🆕 New this week
 
-[⬅ Back to the main page](./) · 209 posted in the last 7 days · updated 2026-11-14
+[⬅ Back to the main page](./) · 210 posted in the last 7 days · updated 2026-11-15
 
 **Click a job title to open the company's application page.**
 
@@ -37,6 +37,7 @@
 | 3M | [Internship - 2027 Undergraduate Business Analytics Intern – Consumer Business Group \(CBG\)](https://3m.wd1.myworkdayjobs.com/Search/job/US-Minnesota-Maplewood/Internship---2027-Undergraduate-Business-Analytics-Intern---Consumer-Business-Group--CBG-_R01171049)<br><sub>“Must be legally authorized to work in country of employment without sponsorship for employment visa status \(e.g., H1B status\).”</sub> | US, Minnesota, Maplewood | 🛂❌ no sponsor<br>🎓 3.0+ GPA | Nov 13 |
 | Airbus | [Internship \(d/f/m\) Embedded Software Engineering for Weapon Systems](https://ag.wd3.myworkdayjobs.com/Airbus/job/Donauwrth/Internship--d-f-m--Embedded-Software-Engineering-for-Weapon-Systems_JR10442671-2) | Donauwörth |  | Nov 13 |
 | Airbus | [Internship \(d/f/m\) within the mission software department](https://ag.wd3.myworkdayjobs.com/Airbus/job/Donauwrth/Internship--d-f-m--within-the-mission-software-department_JR10434978) | Donauwörth |  | Nov 13 |
+| Amazon | [2027 Applied Science Internship - Robotics - United States](https://www.amazon.jobs/en/jobs/10604778/2027-applied-science-internship-robotics-united-states) | North Reading, Massachusetts, USA |  | Nov 13 |
 | Arch Insurance Group Inc | [Originations Portal IT Intern](https://archgroup.wd1.myworkdayjobs.com/Careers/job/Greensboro-NC-United-States-of-America/Originations-Portal-IT-Intern_R26_1135) | Greensboro, NC United States of America | 🎓 3.0+ GPA | Nov 13 |
 | Austal USA | [Cybersecurity Intern](https://austalusa.wd1.myworkdayjobs.com/austal/job/Mobile-AL/Cybersecurity-Intern_R0012221) | Mobile, AL | 🎓 2.0+ GPA | Nov 13 |
 | CACI International | [Configuration Control/Data Management Co-op - Spring &amp; Summer 2027](https://caci.wd1.myworkdayjobs.com/External/job/Danbury-CT-US/Configuration-Control-Data-Management-Co-op---Spring---Summer-2027_334005)<br><sub>“Must be legally authorized to work in the United States without the need for employer sponsorship, now or at any time in the future”</sub> | Danbury, CT, US | 🛂❌ no sponsor<br>🔄 co-op<br>🌱 spring<br>⚠ unverified | Nov 13 |
@@ -106,8 +107,7 @@
 | Arcesium LLC | [AI Transformation Intern](https://job-boards.greenhouse.io/arcesiumllc/jobs/5257251007) | New York |  | Nov 11 |
 | Bose Corporation | [Agentic AI Engineering Co-op – Active Noise Cancellation / Fall 2027](https://boseallaboutme.wd503.myworkdayjobs.com/Bose_Careers/job/US-MA---Framingham/Agentic-AI-Engineering-Co-op---Active-Noise-Cancellation---Fall-2027_R29391) | US, MA - Framingham | 🔄 co-op<br>🍂 fall | Nov 11 |
 | Bose Corporation | [Digital Signal Processing ML Software Development Co-op](https://boseallaboutme.wd503.myworkdayjobs.com/Bose_Careers/job/US-MA---Framingham/Digital-Signal-Processing-ML-Software-Development-Co-op_R29372) | US, MA - Framingham | 🔄 co-op | Nov 11 |
-| Bristol Myers Squibb | [Data &amp; Quantitative Sciences Intern-Summer 2027](https://bristolmyerssquibb.wd5.myworkdayjobs.com/BMS/job/Princeton---NJ---US/Data---Quantitative-Sciences-Intern-Summer-2027_R1608215)<br><sub>“Please note that immigration or visa sponsorship is not available for this position.”</sub> | Princeton - NJ - US | 🛂❌ no sponsor | Nov 11 |
 
-_209 postings were posted this week. This list shows up to 3 per company; the rest are in the [internships](INTERNSHIPS.md) and [new grad](NEW_GRAD.md) lists._
+_210 postings were posted this week. This list shows up to 3 per company; the rest are in the [internships](INTERNSHIPS.md) and [new grad](NEW_GRAD.md) lists._
 
 _Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._

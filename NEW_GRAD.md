@@ -1,6 +1,6 @@
 # New Grad
 
-[⬅ Back to the main page](./) · 106 open · updated 2026-11-14
+[⬅ Back to the main page](./) · 106 open · updated 2026-11-15
 
 **Click a job title to open the company's application page.**
 
@@ -82,8 +82,8 @@
 | KBR, Inc. | [Entry Level/ Junior Army Fires Modeling and Simulation Developer](https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Fort-Belvoir-Virginia/Entry-Level--Junior-Army-Fires-Modeling-and-Simulation-Developer_R2129634)<br><sub>“A SECRET security clearance/ ability to obtain a SECRET clearance is required.”</sub> | Fort Belvoir, Virginia | 🔒 secret | Sep 22 |
 | Shield AI | [Software Engineer I - Internal Tools \(New Grad\) - R6052](https://jobs.lever.co/shieldai/633a3038-574c-45ff-babb-7e1b8b7c6196) | Seattle, Washington | ⚠ unverified | Sep 17 |
 | Stripe | [Software Engineer, Early Career — Immediate Start](https://stripe.com/jobs/search?gh_jid=8212508) | San Francisco, Seattle, New York |  | Sep 17 |
-| SingleStore | [Software Engineer-Engine-New Grad 2027](https://job-boards.greenhouse.io/singlestore/jobs/8205427) | United States |  | Sep 15 |
-| SingleStore | [Software Engineer-Helios-New Grad 2027](https://job-boards.greenhouse.io/singlestore/jobs/8205389) | United States |  | Sep 15 |
+| SingleStore | [Software Engineer-Engine-New Grad 2027](https://job-boards.greenhouse.io/singlestore/jobs/8205427) | United States | ⏳ 60+ days | Sep 15 |
+| SingleStore | [Software Engineer-Helios-New Grad 2027](https://job-boards.greenhouse.io/singlestore/jobs/8205389) | United States | ⏳ 60+ days | Sep 15 |
 | SpaceX | [New Graduate Engineer, Security Software \(Starshield\)](https://boards.greenhouse.io/spacex/jobs/8802897002?gh_jid=8802897002)<br><sub>“ITAR REQUIREMENTS: To conform to U.S. Government export regulations, applicant must be a \(i\) U.S. citizen or national, \(ii\) U.S. lawful, per…”</sub> | Washington, DC | 📜 ITAR<br>🔒 top secret<br>⏳ 60+ days | Sep 11 |
 | SpaceX | [New Graduate Engineer, Security Software \(Starshield\)](https://boards.greenhouse.io/spacex/jobs/8802882002?gh_jid=8802882002)<br><sub>“ITAR REQUIREMENTS: To conform to U.S. Government export regulations, applicant must be a \(i\) U.S. citizen or national, \(ii\) U.S. lawful, per…”</sub> | Hawthorne, CA | 📜 ITAR<br>🔒 top secret<br>⏳ 60+ days | Sep 11 |
 | Mach Industries | [May 2027 New Graduate Engineer, Software](https://job-boards.greenhouse.io/machindustries/jobs/4401995009)<br><sub>“ITAR Requirements”</sub> | Huntington Beach, California, United States;… | 📜 ITAR<br>⏳ 60+ days | Sep 10 |
