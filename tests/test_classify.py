@@ -277,3 +277,61 @@ def test_home_school_is_the_only_campus_exception():
     import classify
     assert classify.HOME_SCHOOL.search("McNeese")
     assert not keep_title("Software Engineering Intern - Tulsa University")
+
+
+def test_early_rule_needs_lower_years_not_just_a_sophomore_mention():
+    from classify import early_evidence
+    # ordinary internships that also take sophomores
+    assert section("Software Engineering Co-Op", "Junior or senior standing is preferred; sophomore students will also be considered.") == "internship"
+    assert section("Technology Intern", "Rising sophomores, juniors, and seniors are encouraged to apply.") == "internship"
+    assert section("IT Internship", "This program is designed for current sophomores, juniors and seniors.") == "internship"
+    # real early programs
+    assert section("IT Internship", "Most appropriate for freshmen and sophomores.") == "early"
+    assert section("Software Intern", "Open to freshmen, sophomores, juniors and seniors.") == "early"
+    assert early_evidence("Explore Program Intern") == "Explore Program Intern"
+
+
+def test_non_cs_titles_that_look_technical_are_dropped():
+    for t in ("Radiology Tech Intern / Casual | Forbes", "Summer Surgical Tech Intern", "Surgical Technologist- 2026 Surgical Tech Interns",
+              "Design Engineering Intern - Networking Event with AECOM", "2027 Product Development, Science, and Technology Intern (Undergraduate)",
+              "Nurse Intern Robotic Med/Surg PRN"):
+        assert not keep_title(t), t
+    for t in ("Network Engineering Intern", "Networking Software Intern", "Surgical Robotics Software Engineering Intern",
+              "2027 Undergraduate Hardware & Product Development Engineering Internships"):
+        assert keep_title(t), t
+
+
+def test_campus_only_anywhere_in_title():
+    assert not keep_title("SOC Analyst Internship Program - LSU Students Only")
+    assert not keep_title("Software Engineering Intern - Texas Tech University Only")
+    assert keep_title("Software Engineering Intern - McNeese State University Students Only")
+    assert keep_title("Software Engineering Intern (Only Summer 2027)")
+
+
+def test_graduate_intern_is_grad_school_but_new_grad_is_not():
+    assert not keep_title("Graduate Engineering Intern - Software Development")
+    assert not keep_title("Summer 2027 IT Graduate Internship")
+    assert keep_title("New Graduate Software Engineer")
+    assert keep_title("University Graduate Software Engineer 2027")
+    assert keep_title("Software Engineer, Graduate Program")
+
+
+def test_month_year_and_bare_year_terms():
+    from datetime import date
+    from classify import expired_term
+    nov = date(2026, 11, 15)
+    assert not expired_term("December 2026 New Graduate Engineer, Software", nov)
+    assert expired_term("AI Security Research Intern - (September 2026 – May 2027)", nov)
+    assert not expired_term("Co-op, DevOps Engineer: January - June 2027", nov)
+    assert expired_term("Intern - Embedded Software, System, and Test Engineer - 2026", nov)
+    assert expired_term("Technical Support Engineer - University Graduate 2026", nov)
+    assert not expired_term("Intern - Embedded Software - 2026", date(2026, 4, 1))  # before summer: still current
+
+
+def test_soc_security_roles_are_security_not_hardware():
+    from classify import track
+    assert track("CyberSecurity SOC Intern") == "security"
+    assert track("Cybersecurity Internship Summer 2027 - Systems and Organizations Controls (SOC)") == "security"
+    assert track("SOC Analyst Intern") == "security"
+    assert track("SoC Design Verification Intern") == "hardware"
+    assert track("SoC Security Verification Intern") == "hardware"  # chip security verification is chip work

@@ -1,0 +1,30 @@
+name: Tests
+
+# Runs the test suite on every pull request and on pushes that change code, with read-only access.
+# The daily refresh also runs the tests, but only after it has write access; this catches a broken
+# change before it is merged.
+on:
+  pull_request:
+  push:
+    branches: [main]
+    paths: ["scripts/**", "tests/**", "requirements.txt", ".github/workflows/**"]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install --require-hashes -r requirements.txt
+      - run: python -m pytest -q
+      - name: Pages build runs without errors
+        run: python scripts/build_readme.py && git diff --stat

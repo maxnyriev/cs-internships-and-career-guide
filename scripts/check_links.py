@@ -34,11 +34,13 @@ def main():
     ap.add_argument("--stale-only", action="store_true", help="only rows not covered by a company feed")
     a = ap.parse_args()
     rows, removed, http = load_json(POSTINGS, []), load_json(REMOVED, []), Http(gap=1.0)
-    keep = []
+    keep, removed_ids = [], {x["id"] for x in removed}
     for r in rows:
         since = r.get("uncertain_since")
         if r.get("status") == "uncertain" and since and (today_date() - date.fromisoformat(since)).days >= 7:
-            removed.append({**r, "removed_on": today(), "reason": "unverifiable for 7 days"})  # any source, not just manual
+            if r["id"] not in removed_ids:  # a stale laptop row comes back from local.json every day: record it once
+                removed.append({**r, "removed_on": today(), "reason": "unverifiable for 7 days"})  # any source, not just manual
+                removed_ids.add(r["id"])
             continue
         if a.stale_only and r.get("source") != "manual":
             keep.append(r)

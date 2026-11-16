@@ -4,11 +4,13 @@
   "items": {
     "type": "object",
     "required": ["id", "company", "title", "url", "source", "section", "tags", "status", "first_seen", "last_seen"],
+    "additionalProperties": false,
     "properties": {
       "id": {"type": "string", "minLength": 8},
       "company": {"type": "string", "minLength": 1},
       "title": {"type": "string", "minLength": 1},
-      "url": {"type": "string", "pattern": "^https?://"},
+      "url": {"type": "string", "pattern": "^https://"},
+      "board": {"type": ["string", "null"]},
       "location": {"type": "string"},
       "source": {"enum": ["greenhouse", "lever", "ashby", "smartrecruiters", "amazon", "eightfold", "workday", "oracle", "manual"]},
       "section": {"enum": ["internship", "new_grad", "early"]},
@@ -23,14 +25,18 @@
           "clearance_level": {"type": ["string", "null"]},
           "oa": {"type": ["boolean", "null"]},
           "min_gpa": {"type": ["number", "null"]}
-        }
+        },
+        "additionalProperties": false
       },
       "tag_evidence": {"type": "object"},
       "status": {"enum": ["open", "uncertain"]},
       "misses": {"type": "integer", "minimum": 0},
-      "posted": {"type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+      "posted": {"type": ["string", "null"], "format": "date"},
       "first_seen": {"type": "string", "format": "date"},
-      "last_seen": {"type": "string", "format": "date"}
+      "last_seen": {"type": "string", "format": "date"},
+      "last_miss": {"type": ["string", "null"], "format": "date"},
+      "last_checked": {"type": ["string", "null"], "format": "date"},
+      "uncertain_since": {"type": ["string", "null"], "format": "date"}
     }
   }
 }

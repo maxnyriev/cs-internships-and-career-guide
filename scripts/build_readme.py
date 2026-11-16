@@ -13,7 +13,7 @@ from pathlib import Path
 from urllib.parse import quote, urlsplit
 
 sys.path.insert(0, str(Path(__file__).parent))
-from common import COMPANIES, DATA, POSTINGS, ROOT, load_json, load_yaml, today, today_date  # noqa: E402
+from common import COMPANIES, DATA, POSTINGS, ROOT, dedupe_rows, load_json, load_yaml, today, today_date  # noqa: E402
 from classify import TRACKS, clearance_level, is_gov, terms, track  # noqa: E402
 
 
@@ -38,7 +38,7 @@ LEGEND = """<details markdown="1">
 - 🧪 **OA**: the posting mentions an online coding test (HackerRank, CodeSignal, Codility or an "online assessment")
 - 🎓 **3.0+ GPA**: the posting asks for a minimum GPA (the number shown is the minimum it states)
 - 🔄 **co-op** · 🍂 **fall** · 🌱 **spring** · ⏱ **part-time**: the term or schedule named in the job title. No tag means summer or not stated
-- 🌐 **remote** · ⏳ **60+ days**: listed for 60+ days
+- 🌐 **remote** · ⏳ **60+ days**: the company posted it more than 60 days ago. Some big companies keep one posting open all year, so it may still be hiring
 - ⚠ **unverified**: the company's job feed left it out at least once, or its link couldn't be checked recently. It may have closed
 
 **Posted** is the date the company posted the job. A date with * is when this board first saw it, because that company's job site doesn't give one. Companies sometimes re-post a job, which resets its date.
@@ -49,11 +49,13 @@ LEGEND = """<details markdown="1">
 DISCLAIMER = "_Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._"
 
 def text(s: str) -> str:
-    """Escape untrusted text for a markdown table cell: no HTML, no links or emphasis, no new rows or columns."""
-    s = " ".join((s or "").split())  # \r, \n and tabs can't start a new line or heading
+    """Escape untrusted text for a markdown table cell: no HTML, no links or emphasis, no new rows or columns,
+    and no Liquid or kramdown syntax ({{ }}, {% %}, {: }), which the GitHub Pages build would otherwise run."""
+    s = html.unescape(html.unescape(s or ""))  # feeds sometimes double-encode ("&amp;nbsp;"); show the character, not the entity
+    s = " ".join(s.replace("\xa0", " ").split())  # \r, \n, tabs and non-breaking spaces can't start a new line or heading
     s = html.escape(s, quote=False)
     s = re.sub(r"([\\`*_\[\]()#!~])", r"\\\1", s)
-    return s.replace("|", "/")
+    return s.replace("|", "/").replace("{", "&#123;").replace("}", "&#125;")
 
 
 def safe_url(u: str) -> str | None:
@@ -66,6 +68,8 @@ def safe_url(u: str) -> str | None:
         return None
     return quote(u, safe=":/?#@!$&'*+,;=%~.-_")  # ( ) < > | " ` and spaces get encoded
 
+
+MAX_PAGE_BYTES = 480_000  # GitHub renders markdown files up to 512 KiB; leave headroom
 
 TERM_TAGS = {"co_op": "🔄 co-op", "fall": "🍂 fall", "spring": "🌱 spring", "part_time": "⏱ part-time"}
 
@@ -109,14 +113,22 @@ def evidence(r, early=False) -> str:
     return f"<br><sub>“{text(s[:140])}{'…' if len(s) > 140 else ''}”</sub>" if s else ""
 
 
-def dedupe(rows):
-    """Same company + title + location shown once (companies often post one job under several links)."""
-    best = {}
-    for r in rows:
-        k = (r["company"].lower().strip(), r["title"].lower().strip(), (r.get("location") or "").lower().strip())
-        if k not in best or r["first_seen"] < best[k]["first_seen"]:
-            best[k] = r
-    return list(best.values())
+dedupe = dedupe_rows  # postings.json is deduped at ingest (merge_local.py); this catches hand-added duplicates
+
+
+SUFFIXES = {"inc", "incorporated", "corp", "corporation", "co", "company", "llc", "ltd", "plc", "group", "holdings", "the", "and",
+            "technologies", "technology"}  # "Palantir Technologies" is Palantir, "Micron Technology" is Micron
+
+
+def company_key(name: str) -> str:
+    """ "Intel Corporation" and "Intel" match; "Apple Bank" isn't Apple and "Intuitive Surgical" isn't Intuit,
+    so names are compared whole (minus legal suffixes), never as substrings."""
+    words = re.sub(r"[^a-z0-9& ]", " ", (name or "").lower()).replace("&", " and ").split()
+    while words and words[-1] in SUFFIXES:
+        words.pop()
+    while words and words[0] == "the":
+        words.pop(0)
+    return " ".join(words)
 
 
 def when(r) -> str:
@@ -217,8 +229,8 @@ def main():
                       "Big tech programs for first- and second-years, like Microsoft Explore and NVIDIA Ignite, usually open in September "
                       "and close in October, so check their student pages in late summer. Programs are added here only while they're open.\n\n"}
     must = (load_yaml(DATA / "must_have.yaml", {}) or {}).get("companies") or []
-    names = " ".join(r["company"].lower() for r in rows)
-    missing = [m for m in must if m.lower() not in names]
+    have = {company_key(r["company"]) for r in rows}
+    missing = [m for m in must if company_key(m) not in have]
     def not_yet(roles):
         return (f"**Not on this board yet:** {', '.join(missing)}. These companies hire {roles}, but their job sites aren't read here yet. "
                 f"Check their careers pages directly.") if missing else ""
@@ -244,6 +256,7 @@ def main():
     term_counts = {k: sum(1 for r in rows if k in terms(r["title"])) for k in ("co_op", "fall", "spring", "part_time")}
     track_table = "\n".join(f"| [{name}](track-{slug}.md) | {track_counts[slug]:,} |" for slug, name in TRACKS)
     boards = len((load_yaml(COMPANIES, {}) or {}).get("companies") or [])
+    stale = sum(1 for r in rows if r.get("status") == "uncertain")
     early = counts.get("early", 0)
     early_note = f"{early} open right now" if early else "None listed right now, check back soon"
     readme = f"""# Things I Wish I Knew: CS Edition
@@ -289,9 +302,9 @@ Every row links straight to the company's application page. Postings are tagged 
 
 ## ℹ️ About
 
-- **{len(rows):,} open roles** from **{boards} company job boards**, checked every day with automated tests on every run. How it works and how accurate it is: [docs/WRITEUP.md](docs/WRITEUP.md).
+- **{len(rows):,} open roles** from **{boards} company job boards**, checked every day with automated tests on every run.{f" {stale:,} of them couldn't be re-checked recently and are marked ⚠." if stale else ""} How it works and how accurate it is: [docs/WRITEUP.md](docs/WRITEUP.md).
 - It doesn't catch everything. Also check Handshake, LinkedIn, and [Simplify's internship lists](https://github.com/SimplifyJobs).
-- Found a missing posting, a broken link, or a mistake? [Open an issue](https://github.com/rohitpeets/cs-internships-and-career-guide/issues).
+- Found a missing posting, a broken link, or a mistake? Tell a McNeese ACM officer, and they'll add or fix it.
 
 ## ⚖️ Disclaimer
 
@@ -309,6 +322,10 @@ This board is provided as is, without warranty of any kind. Listings and tags ar
     (ROOT / "_data" / "stats.json").write_text(json.dumps({"updated": today(), "internships": counts.get("internship", 0),
         "new_grad": counts.get("new_grad", 0), "early": counts.get("early", 0), "new_week": len(new), "total": len(rows),
         "boards": boards, "tracks": track_counts, "terms": term_counts}, indent=2) + "\n", encoding="utf-8")
+    for f in [ROOT / name for _, _, name in SECTIONS] + [ROOT / "NEW_THIS_WEEK.md", ROOT / "README.md"] + list(ROOT.glob("track-*.md")):
+        size = f.stat().st_size
+        if size > MAX_PAGE_BYTES:  # GitHub stops rendering markdown at 512 KB; fail before a page silently goes blank
+            sys.exit(f"{f.name} is {size:,} bytes, over the {MAX_PAGE_BYTES:,}-byte limit; split it before publishing")
     print(f"built: {dict(counts)}, new this week {len(new)}, rows left out for unsafe links {skipped}")
 
 

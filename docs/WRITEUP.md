@@ -4,7 +4,7 @@ Things I Wish I Knew: CS Edition is a job board and set of guides for computer s
 
 ## How it works
 
-Every company publishes its openings through a job system: Greenhouse, Lever, Ashby, SmartRecruiters, Workday, Oracle, or its own (Amazon, and Netflix on Eightfold). Most of these have a public JSON endpoint behind the career page. The board keeps a list of 977 company boards (`data/companies.yaml`) and asks each one what's open.
+Every company publishes its openings through a job system: Greenhouse, Lever, Ashby, SmartRecruiters, Workday, Oracle, or its own (Amazon, and Eightfold, which Netflix uses; Netflix's robots.txt currently disallows it, so it's skipped). Most of these have a public JSON endpoint behind the career page. The board keeps a list of 977 company boards (`data/companies.yaml`) and asks each one what's open.
 
 The work is split between two machines:
 
@@ -23,7 +23,7 @@ On the first full run the cloud half found 732 postings and the laptop half foun
 
 **Three-state tags with evidence.** Each posting gets sponsorship (yes / no / not mentioned), citizenship-required and clearance-required tags. "Not mentioned" is the default; a tag is set only on an explicit sentence, and that sentence is saved with the posting so anyone can check it. The sponsorship rule is negation-aware ("unable to sponsor" is a no), and a sentence about export licenses is ignored, because "without sponsorship for an export license" has nothing to do with visas. A wrong "sponsors" tag costs an international student the most, so the classifier errs toward saying nothing.
 
-**Closing jobs without guessing.** A posting is removed only after it is missing from its company's feed on two different days (two runs on one day count once). If a whole board returns "not found" (usually a renamed board), comes back suddenly empty, or hits a page cap, its postings are marked ⚠ instead of closed, and the run log lists the board to fix. ⚠ rows from any source leave after seven days. Postings added by hand are link-checked instead, and links that can't be verified are marked ⚠ for up to seven days before they're removed.
+**Closing jobs without guessing.** A posting is removed only after it is missing from its company's feed on two different days (two runs on one day count once). If a whole board fails, returns "not found" (usually a renamed board), comes back suddenly empty, or hits a page cap, its postings are marked ⚠ instead of closed, and the run log lists the board to fix. ⚠ rows from any source leave after seven days. Postings added by hand are link-checked instead, and links that can't be verified are marked ⚠ for up to seven days before they're removed.
 
 **Failing loudly.** Every adapter checks the shape of the response. If a job system changes its format, the run fails instead of quietly reporting zero jobs. A run where more than 30% of boards fail writes nothing. A second guard refuses to publish if open postings fall below half of the highest count in the last seven commits, so a slow slide can't get past it either. An intended drop, like a stricter filter, is committed with `[reset-baseline]` in the message.
 
@@ -31,10 +31,10 @@ On the first full run the cloud half found 732 postings and the laptop half foun
 
 **Auditing the tags.** I checked every 🛂✅ tag by hand. 4 of 17 were wrong: "No relocation assistance or visa sponsorship is available" read as a yes, and "F-1 students on CPT are eligible" counted as sponsorship. Now any "no" sentence wins, CPT/OPT never counts, and "for select candidates" isn't treated as an offer. Generic "comply with export control laws" lines no longer set the citizens-only tag (🗽). Every case from the audit is a test.
 
-**Read-only for students.** Only maintainers can change the board. Students suggest postings by opening an issue, and a maintainer adds them to `data/manual.yaml`. With 300 readers, an open write path would mean spam and broken tables.
+**Read-only for students.** Only maintainers can change the board. Issues are turned off and `main` has a ruleset that blocks force-pushes and deletion. Students tell an ACM officer about a missing posting, and the officer adds it to `data/manual.yaml`. With 300 readers, an open write path would mean spam and broken tables.
 
 
-**Treating feed text as untrusted.** Titles, locations and links come from other companies' systems and end up on a public page. Every cell is HTML- and markdown-escaped, and a link is used only if it's a plain http(s) URL, so a posting titled `Intern](https://phishing.example)` can't plant a link. The workflow's actions are pinned to commit SHAs and dependencies to exact versions.
+**Treating feed text as untrusted.** Titles, locations and links come from other companies' systems and end up on a public page. Every cell is HTML-, markdown- and Liquid-escaped, and a link is used only if it's a plain http(s) URL, so a posting titled `Intern](https://phishing.example)` can't plant a link and one containing `{% ... %}` can't break the Pages build. The workflow's actions are pinned to commit SHAs, every Python package (indirect ones included) is pinned by hash, and the write token is only handed to the final push step.
 
 **F-1 students.** 🛂❌ (no sponsorship later) is kept separate from 🚫 (the posting says it won't take CPT/OPT), because only the second one closes the role to an F-1 student right now. Government and national-lab titles get 🏛 as a "check this" flag even when the posting doesn't say it's U.S.-only.
 

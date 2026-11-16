@@ -242,18 +242,125 @@ def test_city_region_country_code_locations():
 
 
 class _Resp:
-    def __init__(self, code, text=""):
-        self.status_code, self.text, self.headers, self.ok = code, text, {}, code < 400
+    def __init__(self, code, text="", json_data=None):
+        self.status_code, self.text, self.headers, self.ok, self._json = code, text, {}, code < 400, json_data
+
+    def json(self):
+        return self._json
+
+    def raise_for_status(self):
+        if self.status_code >= 400:
+            raise RuntimeError(f"HTTP {self.status_code}")
 
 
 def test_http_stops_on_403_and_never_retries(monkeypatch):
     import common
     calls = []
-    h = common.Http(gap=0)
+    h = common.Http(gap=0, check_robots=True)
+    monkeypatch.setattr(h, "robots_allow", lambda u: True)
     monkeypatch.setattr(h.s, "request", lambda m, u, **k: calls.append(u) or _Resp(403))
-    with pytest.raises(common.Blocked):
+    with pytest.raises(common.Blocked):  # a robots-checked site saying no is a block
         h.get("https://blocked.example/jobs")
     assert len(calls) == 1
+
+
+def test_403_from_public_api_fails_today_but_is_not_a_permanent_block(monkeypatch):
+    import common
+    calls = []
+    h = common.Http(gap=0)
+    monkeypatch.setattr(h.s, "request", lambda m, u, **k: calls.append(u) or _Resp(403))
+    with pytest.raises(common.Unavailable):
+        h.get("https://boards-api.greenhouse.io/v1/boards/acme/jobs")
+    assert len(calls) == 1 and not issubclass(common.Unavailable, common.Blocked)
+
+
+def test_timeouts_and_502_are_retried(monkeypatch):
+    import common
+    import requests
+    seq = [requests.Timeout("slow"), _Resp(502), _Resp(200)]
+    h = common.Http(gap=0)
+    monkeypatch.setattr(common.time, "sleep", lambda s: None)
+
+    def req(m, u, **k):
+        x = seq.pop(0)
+        if isinstance(x, Exception):
+            raise x
+        return x
+    monkeypatch.setattr(h.s, "request", req)
+    assert h.get("https://x.example/jobs").status_code == 200 and not seq
+
+
+def test_unreachable_robots_txt_skips_today_without_blocking(monkeypatch):
+    import common
+    import requests
+    monkeypatch.setattr(common, "_ROBOTS", {})
+    h = common.Http(gap=0, check_robots=True)
+    monkeypatch.setattr(h.s, "get", lambda u, **k: _Resp(503))
+    with pytest.raises(common.Unavailable):
+        h.get("https://down.example/api/jobs")
+    monkeypatch.setattr(common, "_ROBOTS", {})
+    def boom(u, **k):
+        raise requests.ConnectionError("no route")
+    monkeypatch.setattr(h.s, "get", boom)
+    with pytest.raises(common.Unavailable):
+        h.get("https://down2.example/api/jobs")
+
+
+def test_url_key_keeps_job_id_params_that_look_like_tracking():
+    import common
+    assert common.url_key("https://x.com/job?refNo=123") != common.url_key("https://x.com/job?refNo=456")
+    assert common.url_key("https://x.com/job?sourceId=9") != common.url_key("https://x.com/job")
+    assert common.url_key("https://x.com/job?gh_jid=5&utm_source=li&source=x&ref=y") == common.url_key("https://x.com/job?gh_jid=5")
+
+
+def test_failing_board_ages_out_instead_of_staying_open(tmp_path, monkeypatch):
+    """One board out of four keeps failing (under the 30% abort): its rows go ⚠ and check_links removes them after 7 days."""
+    comp = tmp_path / "companies.yaml"
+    comp.write_text("companies:\n" + "".join(f"  - {{name: C{i}, ats: greenhouse, board: b{i}}}\n" for i in range(4)))
+    for name, path in (("COMPANIES", comp), ("POSTINGS", tmp_path / "postings.json"), ("REMOVED", tmp_path / "removed.json"),
+                       ("BLOCKED", tmp_path / "blocked.json")):
+        monkeypatch.setattr(fetch_ats, name, path)
+    broken = set()
+
+    def fake(b, http):
+        if b in broken:
+            raise adapters.ShapeError("greenhouse: no jobs list")
+        return adapters.Jobs([{"title": f"Software Engineering Intern {b}", "url": f"https://x.com/{b}", "location": "Austin, TX", "text": ""}])
+    monkeypatch.setitem(adapters.CLOUD, "greenhouse", fake)
+    monkeypatch.setattr(sys, "argv", ["fetch_ats.py", "--cloud"])
+    monkeypatch.setattr(fetch_ats, "today", lambda: "2026-11-01")
+    fetch_ats.main()
+    broken.add("b3")
+    for day in ("2026-11-02", "2026-11-05"):
+        monkeypatch.setattr(fetch_ats, "today", lambda d=day: d)
+        fetch_ats.main()
+    rows = {r["company"]: r for r in json.loads((tmp_path / "postings.json").read_text())}
+    assert rows["C3"]["status"] == "uncertain" and rows["C3"]["uncertain_since"] == "2026-11-02"
+    assert all(rows[c]["status"] == "open" for c in ("C0", "C1", "C2"))
+    monkeypatch.setattr(check_links, "POSTINGS", tmp_path / "postings.json")
+    monkeypatch.setattr(check_links, "REMOVED", tmp_path / "removed.json")
+    monkeypatch.setattr(check_links, "today_date", lambda: date(2026, 11, 10))
+    monkeypatch.setattr(sys, "argv", ["check_links.py", "--stale-only"])
+    check_links.main()
+    left = {r["company"] for r in json.loads((tmp_path / "postings.json").read_text())}
+    assert left == {"C0", "C1", "C2"}
+
+
+def test_one_malformed_posting_does_not_fail_the_board():
+    class H:
+        def get(self, url, **k):
+            return _Resp(200, json_data={"jobs": [{"title": "Software Engineering Intern", "absolute_url": "https://x.com/1"},
+                                                  {"title": "broken, no url"}]})
+    out = adapters.greenhouse("acme", H())
+    assert [j["url"] for j in out] == ["https://x.com/1"]
+
+
+def test_old_blocks_expire(board, tmp_path):
+    state, run = board
+    (tmp_path / "blocked.json").write_text(json.dumps({"greenhouse|acme": {"name": "Acme", "reason": "HTTP 403", "since": "2026-09-01"}}))
+    rows = run("2026-11-01")  # 61 days later: asked again
+    assert rows and all(r["status"] == "open" for r in rows.values())
+    assert json.loads((tmp_path / "blocked.json").read_text()) == {}
 
 
 def test_http_follows_robots_txt_when_asked(monkeypatch):
@@ -367,3 +474,26 @@ def test_check_links_open_resets_and_closed_twice_removes(tmp_path, monkeypatch)
     kept = json.loads(p.read_text())
     assert [r["id"] for r in kept] == ["a"] and kept[0]["misses"] == 0 and kept[0]["status"] == "open"
     assert [r["reason"] for r in json.loads(rm.read_text())] == ["link closed twice"]
+
+
+def test_cells_escape_liquid_and_double_encoded_entities():
+    out = build_readme.text("Intern {% include x %} {{ site.title }} {:.cls}")
+    assert "{" not in out and "}" not in out
+    assert build_readme.text("Data&amp;nbsp;Intern") == "Data Intern"
+    assert build_readme.text("<script>alert(1)</script>") == "&lt;script&gt;alert\\(1\\)&lt;/script&gt;"
+
+
+def test_must_have_matches_whole_company_names():
+    k = build_readme.company_key
+    assert k("Apple") != k("Apple Bank") and k("Intuit") != k("Intuitive Surgical") and k("Intel") != k("Inmar Intelligence")
+    assert k("Intel") == k("Intel Corporation") and k("JPMorgan Chase") == k("JPMorgan Chase & Co.")
+    assert k("AT&T") == "at and t" and k("Johnson & Johnson") == "johnson and johnson"
+    assert k("Dell Technologies") == k("Dell Technologies Inc.") and k("Palantir") == k("Palantir Technologies")
+
+
+def test_dedupe_prefers_open_copy_and_keeps_earliest_first_seen():
+    import common
+    a = {"id": "a", "company": "Acme", "title": "SWE Intern", "location": "Austin, TX", "status": "uncertain", "first_seen": "2026-11-01"}
+    b = {"id": "b", "company": "ACME", "title": "SWE  Intern", "location": "austin, tx", "status": "open", "first_seen": "2026-11-05"}
+    (r,) = common.dedupe_rows([a, b])
+    assert r["id"] == "b" and r["first_seen"] == "2026-11-01"
