@@ -28,7 +28,7 @@ if ($LASTEXITCODE -ne 0) { "git pull failed" >> $log; exit 3 }
 & $py -m pip install --quiet --require-hashes -r requirements.txt *>> $log
 if ($LASTEXITCODE -ne 0) { "pip install failed" >> $log; exit 4 }
 
-& $py scripts/fetch_ats.py --local --workers 4 *>> $log
+& $py scripts/fetch_ats.py --local --workers 7 *>> $log
 if ($LASTEXITCODE -ne 0) { "fetch failed" >> $log; exit 1 }
 
 git add data/local.json

@@ -62,4 +62,4 @@ To check a guess before adding it, put it in `GUESSES` in `scripts/probe_sources
 - If robots.txt itself can't be reached or returns a server error, the board isn't fetched that day (RFC 9309: assume disallowed). A `Crawl-delay` in robots.txt is honored.
 - To see what robots.txt allows for every board: `python scripts/check_robots.py`.
 - Only after a site has changed its rules to allow it, retry its blocked boards: `python scripts/fetch_ats.py --local --retry-blocked` for Workday and Oracle (laptop), or `python scripts/fetch_ats.py --cloud --retry-blocked` for Amazon and Eightfold (cloud).
-- The laptop job runs 4 boards in parallel and waits about a second between requests to the same host.
+- The laptop job runs 7 boards in parallel and waits about a second between requests to the same host. Each Workday/Oracle company is its own host, so more workers doesn't hit any one company harder, but they all sit on the same vendor's servers: raise it slowly and watch the log for new blocks.
