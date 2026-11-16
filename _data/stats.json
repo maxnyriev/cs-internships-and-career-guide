@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-15",
-  "internships": 1584,
-  "new_grad": 106,
-  "early": 5,
-  "new_week": 210,
-  "total": 1695,
+  "updated": "2026-11-16",
+  "internships": 1560,
+  "new_grad": 105,
+  "early": 1,
+  "new_week": 211,
+  "total": 1666,
   "boards": 977,
   "tracks": {
-    "software": 672,
-    "embedded": 56,
-    "hardware": 94,
-    "security": 140,
-    "it": 252,
-    "data": 481,
-    "gov": 153
+    "software": 663,
+    "embedded": 55,
+    "hardware": 90,
+    "security": 138,
+    "it": 249,
+    "data": 471,
+    "gov": 145
   },
   "terms": {
     "co_op": 109,

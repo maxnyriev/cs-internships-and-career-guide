@@ -4,28 +4,28 @@
 
 A free starter kit for computer science and computer engineering students in the U.S.: **a job board refreshed every day** from companies' own career sites, plus **plain-English guides** on everything I wish someone had told me as a freshman.
 
-Last updated **2026-11-15**.
+Last updated **2026-11-16**.
 
 ## 💼 Find jobs
 
 | List | What's inside |
 |---|---|
-| 💼 **[Internships](INTERNSHIPS.md)** | 1,584 open roles, newest first |
-| 🎓 **[New grad](NEW_GRAD.md)** | 106 full-time roles for graduating students |
-| 🌱 **[Early programs](EARLY.md)** | For freshmen and sophomores. 5 open right now |
-| 🆕 **[New this week](NEW_THIS_WEEK.md)** | 210 roles posted in the last 7 days |
+| 💼 **[Internships](INTERNSHIPS.md)** | 1,560 open roles, newest first |
+| 🎓 **[New grad](NEW_GRAD.md)** | 105 full-time roles for graduating students |
+| 🌱 **[Early programs](EARLY.md)** | For freshmen and sophomores. 1 open right now |
+| 🆕 **[New this week](NEW_THIS_WEEK.md)** | 211 roles posted in the last 7 days |
 
 ### Find jobs by track
 
 | Track | Open roles |
 |---|---|
-| [Software](track-software.md) | 672 |
-| [Embedded and firmware](track-embedded.md) | 56 |
-| [Hardware and chips](track-hardware.md) | 94 |
-| [Security](track-security.md) | 140 |
-| [IT and networking](track-it.md) | 252 |
-| [Data and ML](track-data.md) | 481 |
-| [Government and defense](track-gov.md) | 153 |
+| [Software](track-software.md) | 663 |
+| [Embedded and firmware](track-embedded.md) | 55 |
+| [Hardware and chips](track-hardware.md) | 90 |
+| [Security](track-security.md) | 138 |
+| [IT and networking](track-it.md) | 249 |
+| [Data and ML](track-data.md) | 471 |
+| [Government and defense](track-gov.md) | 145 |
 
 Every row links straight to the company's application page. Postings are tagged for citizenship, clearance and sponsorship rules, with the sentence each tag came from.
 
@@ -47,9 +47,9 @@ Every row links straight to the company's application page. Postings are tagged 
 
 ## ℹ️ About
 
-- **1,695 open roles** from **977 company job boards**, checked every day with automated tests on every run. How it works and how accurate it is: [docs/WRITEUP.md](docs/WRITEUP.md).
+- **1,666 open roles** from **977 company job boards**, checked every day with automated tests on every run. 1,083 of them couldn't be re-checked recently and are marked ⚠. How it works and how accurate it is: [docs/WRITEUP.md](docs/WRITEUP.md).
 - It doesn't catch everything. Also check Handshake, LinkedIn, and [Simplify's internship lists](https://github.com/SimplifyJobs).
-- Found a missing posting, a broken link, or a mistake? [Open an issue](https://github.com/rohitpeets/cs-internships-and-career-guide/issues).
+- Found a missing posting, a broken link, or a mistake? Tell a McNeese ACM officer, and they'll add or fix it.
 
 ## ⚖️ Disclaimer
 
