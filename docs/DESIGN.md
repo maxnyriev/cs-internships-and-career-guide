@@ -9,7 +9,9 @@
 > | `data/checks.json`, `check_links.py --local`, `find_boards.py`, an HN adapter, Workable/Recruitee/ADP | Not built |
 > | Shrink guard: under 50% of the last commit | Under 50% of the highest count in the last 7 commits (`validate.py`) |
 > | "New this week" at the top of the README | Its own page, `NEW_THIS_WEEK.md`, plus `track-*.md` pages and `_data/stats.json` for the site |
-> | Multi-city clones collapse into one row listing every location | One row per company, title and location (`build_readme.dedupe`) |
+> | Multi-city clones collapse into one row listing every location | One row per company, title and location, merged at ingest (`common.dedupe_rows`) |
+> | `tests.yml` for pull requests | Built: `.github/workflows/tests.yml`, read-only |
+> | Collaborators: Rohit and the ACM officers | Rohit only so far; officers still to be added (with two-factor authentication on) |
 > | Fixtures for every source | Saved fixtures for Greenhouse, Lever, Ashby; shape tests for Workday, Oracle, Eightfold, Amazon |
 
 A public GitHub repo that lists internships, new-grad roles and early-career programs for computer science and computer engineering students, refreshed daily. Built and owned by Rohitpreet Singh as a portfolio project. Only the maintainers (Rohit and the ACM officers) can change it; everyone else has read access.

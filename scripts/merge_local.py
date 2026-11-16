@@ -3,6 +3,8 @@
 Laptop rows replace the previous laptop rows. If the laptop hasn't run for 3+ days,
 its rows stay but show ⚠ (status "uncertain"), so the board degrades instead of breaking.
 Postings the laptop closed (local.json "removed") are copied into removed.json, the one record of closed postings.
+Duplicate postings (same company, title and location under different links) are merged here, at ingest,
+so postings.json, the counts and the pages all agree.
 """
 import sys
 from datetime import datetime, timezone
@@ -10,7 +12,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 import adapters  # noqa: E402
-from common import LOCAL, POSTINGS, REMOVED, load_json, save_json  # noqa: E402
+from common import LOCAL, POSTINGS, REMOVED, dedupe_rows, load_json, save_json  # noqa: E402
 
 STALE_DAYS = 3
 
@@ -32,8 +34,10 @@ def main():
     have = {(r["id"], r.get("removed_on")) for r in removed}
     added = [r for r in local.get("removed", []) if (r["id"], r.get("removed_on")) not in have and r["id"] not in open_ids]
     save_json(REMOVED, (removed + added)[-5000:])  # first, like fetch_ats: a crash never loses a closed row
+    before = len(rows)
+    rows = dedupe_rows(rows)
     save_json(POSTINGS, sorted(rows, key=lambda r: (r["company"].lower(), r["title"].lower())))
-    print(f"merged {len(local['rows'])} laptop rows (fetched {age} day(s) ago)")
+    print(f"merged {len(local['rows'])} laptop rows (fetched {age} day(s) ago); {before - len(rows)} duplicates merged")
 
 
 if __name__ == "__main__":

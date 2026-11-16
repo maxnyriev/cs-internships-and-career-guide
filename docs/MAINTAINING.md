@@ -7,13 +7,13 @@ For maintainers. You need write access to the repo and Python 3.12+.
 ```
 git clone https://github.com/rohitpeets/cs-internships-and-career-guide
 cd cs-internships-and-career-guide
-pip install -r requirements.txt
+pip install --require-hashes -r requirements.txt
 python -m pytest -q
 ```
 
 ## Everyday tasks
 
-**Add a posting by hand.** Add it to `data/manual.yaml` (the format is at the top of `scripts/load_manual.py`) and push. The `notes` field is private: it's never shown and never tagged. A quick run publishes it within a few minutes. Hand-added links are checked daily and drop off once they've been closed on two checks.
+**Add a posting by hand.** Students send missing postings to an ACM officer (Issues are turned off, so nothing comes in through GitHub). Add it to `data/manual.yaml` (the format is at the top of `scripts/load_manual.py`) and push. The `notes` field is never shown on the board or tagged, but this repo is public, so anything in it is readable on GitHub: don't put private details there. A quick run publishes it within a few minutes. Hand-added links are checked daily and drop off once they've been closed on two checks.
 
 **Add a company.** Find its job board link and add one line to `data/companies.yaml`:
 
@@ -32,20 +32,34 @@ To check a guess before adding it, put it in `GUESSES` in `scripts/probe_sources
 
 **The daily run failed with "refusing to publish".** Open postings fell below half of the recent high. Check the log first: a broken source should be fixed, not published. If the drop is intended (for example a stricter filter), commit with `[reset-baseline]` in the message.
 
+**Update a dependency.** Edit `requirements.in`, then regenerate the hashed lock file: `uv pip compile --python-version 3.12 --generate-hashes --universal requirements.in -o requirements.txt`. Dependabot alerts are on for the repo and will flag vulnerable versions.
+
 **Change what counts as a CS job or a tag.** The rules are in `scripts/classify.py`. Add a test for the case in `tests/test_classify.py` first, then change the rule, then run the tests.
 
 **Tracks and terms.** Each job's track (software, embedded, hardware, security, IT, data) and term (co-op, fall, spring, part-time) is read from its title at build time by `track()` and `terms()` in `classify.py`; government/defense is a second flag (`is_gov()`). `build_readme.py` writes `track-*.md` from them. The OA, minimum GPA and clearance-level tags come from the posting text at fetch time, so older rows only get them after the next fetch. To fix a wrong track, add the title to `test_track_from_title` first.
 
 ## How it runs
 
-- **GitHub Action, daily** (`.github/workflows/daily.yml`): Greenhouse, Lever, Ashby, SmartRecruiters, Amazon and Netflix, then merge, classify, test, validate, and build the pages. Failures email the repo owner. The log is in the Actions tab.
-- **Laptop, nightly** (`scripts/local/nightly.ps1`, Windows Task Scheduler): Workday and Oracle, written to `data/local.json`. Any machine with Python and push access can run it. If it stops, those rows show ⚠ after 3 days and leave after 7.
+- **GitHub Action, daily** (`.github/workflows/daily.yml`): tests first, then Greenhouse, Lever, Ashby, SmartRecruiters, Amazon and Eightfold (Netflix is currently blocked by its robots.txt, see `data/blocked.json`), then merge, classify, validate, and build the pages. Failures email the repo owner. The log is in the Actions tab. Its last step fails the run, and so emails you, when the laptop's data is more than 36 hours old.
+- **Tests on every pull request** (`.github/workflows/tests.yml`), read-only.
+- **Laptop, nightly** (`scripts/local/nightly.ps1`, Windows Task Scheduler): Workday and Oracle, written to `data/local.json`. About two-thirds of the board's rows come from here, so keep it running. If it stops, those rows show ⚠ after 3 days and leave after 7.
+- **A board that fails** (timeout, server error, changed format) has its rows marked ⚠ for that day. If it keeps failing, they leave after 7 days instead of staying on the board unverified.
+
+## Laptop job setup
+
+1. Make a separate, non-admin Windows account for the job. The script runs whatever is on `main`, so anyone with write access can change what it runs; keep it away from your own files and logins.
+2. In that account, clone the repo and sign git in with a **fine-grained personal access token** limited to this repository, with only *Contents: read and write*. Not your personal GitHub login.
+3. The script creates `.venv` and installs `requirements.txt` with hash checking on its first run.
+4. Task Scheduler → Create Task: run whether the user is logged on or not; trigger daily around 2 a.m.; action `powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\path\to\repo\scripts\local\nightly.ps1`; under Settings, "Run task as soon as possible after a scheduled start is missed".
+5. Check `logs\nightly-YYYY-MM-DD.log` after the first run. The script exits non-zero on any failure (pull, install, fetch or push), so Task Scheduler's "Last Run Result" shows it.
 
 ## Fetching politely
 
-- The board reads only public pages and APIs, without logging in, and identifies itself in its user-agent with a link to this repo's issues.
+- The board reads only public pages and APIs, without logging in, and identifies itself in its user-agent with a link to this repo.
 - Workday, Oracle, Amazon and Eightfold (Netflix) don't document their JSON endpoints for outside use, so for those the fetcher follows each site's robots.txt. Greenhouse, Lever, Ashby and SmartRecruiters publish their job-board APIs for this purpose.
-- A site that answers 401 or 403, or whose robots.txt disallows the path, is recorded in `data/blocked.json` (cloud) or under `blocked` in `data/local.json` (laptop) and skipped from then on. Its rows show ⚠ and leave after 7 days. Never work around a block: no proxies, no fake browser headers, no logins.
+- A robots.txt-checked site that answers 401 or 403, or whose robots.txt disallows the path, is recorded in `data/blocked.json` (cloud) or under `blocked` in `data/local.json` (laptop) and skipped for 30 days, then asked again (robots.txt is re-read first). Its rows show ⚠ and leave after 7 days. Never work around a block: no proxies, no fake browser headers, no logins.
+- A published API (Greenhouse, Lever, Ashby, SmartRecruiters) answering 401/403 is treated as a failed fetch for that day, not a block, since it's usually a firewall hiccup.
+- If robots.txt itself can't be reached or returns a server error, the board isn't fetched that day (RFC 9309: assume disallowed). A `Crawl-delay` in robots.txt is honored.
 - To see what robots.txt allows for every board: `python scripts/check_robots.py`.
 - Only after a site has changed its rules to allow it, retry its blocked boards: `python scripts/fetch_ats.py --local --retry-blocked` for Workday and Oracle (laptop), or `python scripts/fetch_ats.py --cloud --retry-blocked` for Amazon and Eightfold (cloud).
 - The laptop job runs 4 boards in parallel and waits about a second between requests to the same host.

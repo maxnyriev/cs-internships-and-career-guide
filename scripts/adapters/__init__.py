@@ -62,6 +62,18 @@ def paginate(call, step, cap=1000):
             return out, False
 
 
+def each(items, build, source):
+    """build(item) for every item; an item missing a field is skipped and logged, so one odd posting
+    can't fail the whole board (which would leave all its rows unverified)."""
+    out = []
+    for j in items:
+        try:
+            out.append(build(j))
+        except (KeyError, TypeError, AttributeError, ValueError) as e:
+            print(f"  {source}: skipped one malformed posting ({type(e).__name__}: {str(e)[:60]})")
+    return out
+
+
 def gone(r, board):
     if r.status_code in (404, 410):
         raise BoardGone(f"{board}: HTTP {r.status_code}")
@@ -78,9 +90,9 @@ def greenhouse(board, http):
     r.raise_for_status()
     d = r.json()
     need(isinstance(d, dict) and isinstance(d.get("jobs"), list), "greenhouse: no jobs list")
-    return [{"title": j["title"], "url": j["absolute_url"], "location": (j.get("location") or {}).get("name") or "",
-             "text": strip_html(j.get("content", "")), "posted": posted_date(j.get("first_published"))}  # updated_at is an edit date, not a posting date
-            for j in d["jobs"]]
+    return each(d["jobs"], lambda j: {"title": j["title"], "url": j["absolute_url"], "location": (j.get("location") or {}).get("name") or "",
+                                      "text": strip_html(j.get("content", "")), "posted": posted_date(j.get("first_published"))},  # updated_at is an edit date
+                "greenhouse")
 
 
 def lever(board, http):
@@ -89,13 +101,12 @@ def lever(board, http):
     r.raise_for_status()
     d = r.json()
     need(isinstance(d, list), "lever: not a list")
-    out = []
-    for j in d:
+    def build(j):
         lists = " ".join(f"{x.get('text', '')}: {x.get('content', '')}" for x in j.get("lists", []))
         text = (j.get("descriptionPlain") or "") + "\n" + strip_html(lists) + "\n" + (j.get("additionalPlain") or "")
-        out.append({"title": j["text"], "url": j["hostedUrl"], "location": (j.get("categories") or {}).get("location", "") or "", "text": text,
-                    "posted": posted_date(j.get("createdAt"))})
-    return out
+        return {"title": j["text"], "url": j["hostedUrl"], "location": (j.get("categories") or {}).get("location", "") or "", "text": text,
+                "posted": posted_date(j.get("createdAt"))}
+    return each(d, build, "lever")
 
 
 def ashby(board, http):
@@ -104,9 +115,9 @@ def ashby(board, http):
     r.raise_for_status()
     d = r.json()
     need(isinstance(d, dict) and isinstance(d.get("jobs"), list), "ashby: no jobs list")
-    return [{"title": j["title"], "url": j["jobUrl"], "location": j.get("location", "") or "", "text": j.get("descriptionPlain", "") or "",
-             "posted": posted_date(j.get("publishedAt"))}
-            for j in d["jobs"] if j.get("isListed", True)]
+    return each([j for j in d["jobs"] if j.get("isListed", True)],
+                lambda j: {"title": j["title"], "url": j["jobUrl"], "location": j.get("location", "") or "", "text": j.get("descriptionPlain", "") or "",
+                           "posted": posted_date(j.get("publishedAt"))}, "ashby")
 
 
 SEARCHES = ("intern", "co-op", "new grad", "graduate", "entry level")
@@ -132,15 +143,15 @@ def workday(board, http):
     for q in SEARCHES:
         items, ok = paginate(page(q), 20)
         complete &= ok
-        paths.update((j["externalPath"], j) for j in items if j.get("externalPath") and keep_title(j.get("title", "")))
-    out = []
-    for path, j in paths.items():
+        paths.update((j["externalPath"], j) for j in items if isinstance(j, dict) and j.get("externalPath") and keep_title(j.get("title", "")))
+    def build(item):
+        path, j = item
         r = http.get(f"{api}{path}")
         info = ((r.json() or {}).get("jobPostingInfo") or {}) if r.ok else {}  # a failed detail call keeps the row, without tags
-        out.append({"title": j["title"], "url": info.get("externalUrl") or f"{base}/{site}{path}",
-                    "location": info.get("location") or j.get("locationsText", ""), "text": strip_html(info.get("jobDescription", "")),
-                    "posted": posted_date(info.get("startDate"))})
-    return Jobs(out, complete)
+        return {"title": j["title"], "url": info.get("externalUrl") or f"{base}/{site}{path}",
+                "location": info.get("location") or j.get("locationsText", ""), "text": strip_html(info.get("jobDescription", "")),
+                "posted": posted_date(info.get("startDate"))}
+    return Jobs(each(paths.items(), build, "workday"), complete)
 
 
 def oracle(board, http):
@@ -161,21 +172,22 @@ def oracle(board, http):
             return batch, (total if len(batch) == 100 else 0)  # a short page is the last one
         return call
 
-    seen, out, complete = {}, [], True
+    seen, complete = {}, True
     for q in ("intern", "co-op", "graduate", "entry level"):
         items, ok = paginate(page(q), 100)
         complete &= ok
-        seen.update((j["Id"], j) for j in items if keep_title(j.get("Title", "")))
-    for rid, j in seen.items():
+        seen.update((j["Id"], j) for j in items if j.get("Id") and keep_title(j.get("Title", "")))
+    def build(item):
+        rid, j = item
         finder = quote(f'ById;Id="{rid}",siteNumber={site}', safe=";=,")
         r = http.get(f"{base}/hcmRestApi/resources/latest/recruitingCEJobRequisitionDetails?expand=all&onlyData=true&finder={finder}")
         text = ""
         if r.ok:
             items = (r.json() or {}).get("items") or [{}]
             text = strip_html((items[0].get("ExternalDescriptionStr") or "") + "\n" + (items[0].get("ExternalQualificationsStr") or ""))
-        out.append({"title": j["Title"], "url": f"{base}/hcmUI/CandidateExperience/en/sites/{site}/job/{rid}",
-                    "location": j.get("PrimaryLocation", "") or "", "text": text, "posted": posted_date(j.get("PostedDate"))})
-    return Jobs(out, complete)
+        return {"title": j["Title"], "url": f"{base}/hcmUI/CandidateExperience/en/sites/{site}/job/{rid}",
+                "location": j.get("PrimaryLocation", "") or "", "text": text, "posted": posted_date(j.get("PostedDate"))}
+    return Jobs(each(seen.items(), build, "oracle"), complete)
 
 
 def smartrecruiters(board, http):
@@ -195,9 +207,9 @@ def smartrecruiters(board, http):
     for q in ("intern", "co-op", "graduate", "entry level"):
         items, ok = paginate(page(q), 100)
         complete &= ok
-        seen.update((j["id"], j) for j in items if keep_title(j.get("name", "")))
-    out = []
-    for pid, j in seen.items():
+        seen.update((j["id"], j) for j in items if j.get("id") and keep_title(j.get("name", "")))
+    def build(item):
+        pid, j = item
         r = http.get(f"{api}/{pid}")
         det = r.json() if r.ok else {}
         secs = ((det.get("jobAd") or {}).get("sections") or {})
@@ -206,9 +218,9 @@ def smartrecruiters(board, http):
         where = ", ".join(x for x in (loc.get("city"), loc.get("region"), loc.get("country", "").upper()) if x)
         if loc.get("remote"):
             where = (where + " (Remote)").strip()
-        out.append({"title": j["name"], "url": det.get("postingUrl") or f"https://jobs.smartrecruiters.com/{board}/{pid}",
-                    "location": where, "text": text, "posted": posted_date(j.get("releasedDate"))})
-    return Jobs(out, complete)
+        return {"title": j["name"], "url": det.get("postingUrl") or f"https://jobs.smartrecruiters.com/{board}/{pid}",
+                "location": where, "text": text, "posted": posted_date(j.get("releasedDate"))}
+    return Jobs(each(seen.items(), build, "smartrecruiters"), complete)
 
 
 def amazon(board, http):
@@ -228,12 +240,11 @@ def amazon(board, http):
     for q in ("intern", "co-op", "new grad", "university graduate"):
         items, ok = paginate(page(q), 100)
         complete &= ok
-        seen.update((j["id"], j) for j in items if keep_title(j.get("title", "")) and j.get("country_code") in ("USA", None))
-    return Jobs([{"title": j["title"], "url": "https://www.amazon.jobs" + j["job_path"],
+        seen.update((j["id"], j) for j in items if j.get("id") and keep_title(j.get("title", "")) and j.get("country_code") in ("USA", None))
+    return Jobs(each(seen.values(), lambda j: {"title": j["title"], "url": "https://www.amazon.jobs" + j["job_path"],
                   "location": j.get("normalized_location") or j.get("location", ""),
                   "text": strip_html("\n".join(j.get(k) or "" for k in ("description", "basic_qualifications", "preferred_qualifications"))),
-                  "posted": posted_date(j.get("posted_date"))}
-                 for j in seen.values()], complete)
+                  "posted": posted_date(j.get("posted_date"))}, "amazon"), complete)
 
 
 def eightfold(board, http):
@@ -254,15 +265,15 @@ def eightfold(board, http):
     for q in ("intern", "co-op", "new grad", "university"):
         items, ok = paginate(page(q), 100)
         complete &= ok
-        seen.update((j["id"], j) for j in items if keep_title(j.get("name", "")))
-    out = []
-    for pid, j in seen.items():
+        seen.update((j["id"], j) for j in items if j.get("id") and keep_title(j.get("name", "")))
+    def build(item):
+        pid, j = item
         r = http.get(f"{api}/{pid}", params={"domain": domain})
         det = r.json() if r.ok else {}
-        out.append({"title": j["name"], "url": j.get("canonicalPositionUrl") or f"https://{host}/careers/job/{pid}",
-                    "location": j.get("location") or "; ".join(j.get("locations") or []),
-                    "text": strip_html(det.get("job_description", "") or ""), "posted": posted_date(j.get("t_create"))})
-    return Jobs(out, complete)
+        return {"title": j["name"], "url": j.get("canonicalPositionUrl") or f"https://{host}/careers/job/{pid}",
+                "location": j.get("location") or "; ".join(j.get("locations") or []),
+                "text": strip_html(det.get("job_description", "") or ""), "posted": posted_date(j.get("t_create"))}
+    return Jobs(each(seen.items(), build, "eightfold"), complete)
 
 
 CLOUD = {"greenhouse": greenhouse, "lever": lever, "ashby": ashby, "smartrecruiters": smartrecruiters, "amazon": amazon, "eightfold": eightfold}

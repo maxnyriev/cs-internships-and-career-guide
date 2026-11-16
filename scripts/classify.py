@@ -59,12 +59,15 @@ NON_TECH = re.compile(r"\b(operations research|financial analy\w*|risk|tax|compl
                       r"game design|game economy|tech art|fuel|trim|field manager|product manag\w*)\b", re.I)
 
 
-FIELD_DROP = re.compile(r"\b(facilit(y|ies)|electrical engineer\w*|packaging|photonics|mechanic|diesel|maintenance|technician|civil|geotechnical|structural|traffic|transportation|mechanical|environmental|chemical|process|manufacturing|industrial|ehs|safety|construction|mining|petroleum|materials|warhead|harness|propulsion|thermal|fluids|surveying|water resources|game presentation|game design|game economy|tech art|fuel|trim|field engineer)\b", re.I)
+FIELD_DROP = re.compile(r"\b(radiolog\w*|surg(ical|ery|eon)\w*|sonograph\w*|phlebotom\w*|nurs(e|es|ing)|pharmacy tech\w*|respiratory|dental|veterinar\w*|patient care|sterile processing|"
+                        r"networking (event|reception|night|session|mixer)|science,? and technology|facilit(y|ies)|electrical engineer\w*|packaging|photonics|mechanic|diesel|maintenance|technician|civil|geotechnical|structural|traffic|transportation|mechanical|environmental|chemical|process|manufacturing|industrial|ehs|safety|construction|mining|petroleum|materials|warhead|harness|propulsion|thermal|fluids|surveying|water resources|game presentation|game design|game economy|tech art|fuel|trim|field engineer)\b", re.I)
 STRONG_TECH = re.compile(r"\b(engineer(ing)?|developer|software|data scien\w*|data analy\w*|machine learning|information technology|it|erp|cyber\w*)\b", re.I)
 # business areas a technical word can't rescue: "Tax & Data Analytics Intern" is a tax job
 NO_RESCUE = re.compile(r"\b(sales|marketing|tax|audit|accounting|actuarial|operations research)\b", re.I)
 PAST_TERM = re.compile(r"\b(spring|summer|fall|autumn|winter)?\s*[-–]?\s*(20\d\d)\s*[-–]?\s*(spring|summer|fall|autumn|winter)?\b", re.I)
-GRAD_ONLY = re.compile(r"\b(ms|m\.s\.|masters?|master's|graduate (students?|level))\b", re.I)
+# "Graduate Intern", "Graduate Engineering Intern" are for grad students; "New Graduate" / "University Graduate" roles are new-grad jobs
+GRAD_ONLY = re.compile(r"\b(ms|m\.s\.|masters?|master's|graduate (students?|level))\b"
+                       r"|(?<!new )(?<!university )(?<!college )(?<!recent )\bgraduate\s+(\w+\s+){0,2}(intern(ship)?s?|co-?op)\b", re.I)
 UNDERGRAD = re.compile(r"\b(bs|b\.s\.|bachelor'?s?|undergrad\w*)\b", re.I)
 
 
@@ -118,7 +121,9 @@ def us_job(location: str) -> bool:
 # Change it (or set it to None) if you fork the board for another school.
 HOME_SCHOOL = re.compile(r"mcneese", re.I)
 OTHER_SCHOOL = re.compile(r"-\s*(colorado school of mines|montana( state| tech)?|lsu|texas a&m|a&m|ou|clemson|ut|tulsa|purdue|georgia tech|"
-                          r"[a-z .&]+ (university|college|state))\s*$", re.I)
+                          r"[a-z .&]+ (university|college|state))\s*$"
+                          # "SOC Analyst Internship Program - LSU Students Only", "... - Texas Tech University Only"
+                          r"|\b(lsu|a&m|tech|university|college|state|institute|school of [a-z]+)\b[^-–|,]{0,30}\b(students?\s+)?only\b", re.I)
 
 
 # Allow-list: the title has to name CS or computer-engineering work. "Engineer" or "analyst" alone isn't enough.
@@ -157,33 +162,58 @@ def keep_title(title: str) -> bool:
     return not NON_TECH.search(title) or (bool(STRONG_TECH.search(title)) and not NO_RESCUE.search(title))
 
 
+MONTHS = {m: i for i, m in enumerate(("jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"), 1)}
+MONTH_YEAR = re.compile(r"\b(jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|june?|july?|aug(?:ust)?|sep(?:t(?:ember)?)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)\.?\s+(20\d\d)\b", re.I)
+
+
 def expired_term(title: str, today: date | None = None) -> bool:
     """ "2026 Summer Intern" listed in November 2026 is over. A term counts as past once its season has started:
-    spring after February, summer after July, fall after October, winter after January of that year."""
+    spring after February, summer after July, fall after October, winter after January of that year.
+    A bare year with no season ("Intern - 2026", "University Graduate 2026") counts as past from August of that year,
+    when that year's summer internships and graduating class have already started."""
     today = today or today_date()
     starts = {"winter": 1, "spring": 3, "summer": 8, "fall": 11, "autumn": 11}
+    dated = list(MONTH_YEAR.finditer(title))
+    if dated:  # "December 2026 New Graduate", "(September 2026 – May 2027)": the first named month is the start
+        m = dated[0]
+        return (int(m.group(2)), MONTHS[m.group(1)[:3].lower()]) < (today.year, today.month)
     for m in PAST_TERM.finditer(title):
         year, season = int(m.group(2)), (m.group(1) or m.group(3) or "").lower()
         if year < today.year:
             return True
         if year == today.year and season and today.month >= starts[season]:
             return True
+        if year == today.year and not season and today.month >= starts["summer"]:
+            return True
     return False
+
+
+UPPER_YEARS = re.compile(r"\b(seniors?|fourth[- ]year|final[- ]year)\b|\bjunior (or senior )?standing\b", re.I)
+FIRST_YEAR = re.compile(r"\b(freshm[ae]n|first[- ]year)\b", re.I)
+
+
+def early_text(text: str) -> str | None:
+    """The sentence that opens a posting to first- and second-years. "Sophomores, juniors and seniors" or
+    "junior or senior standing preferred; sophomores considered" is a normal internship that also takes sophomores, so
+    a sentence that reaches up to seniors only counts if it names freshmen or first-years too.
+    "Open to sophomores and juniors" still counts: it's aimed at the lower years."""
+    for x in sentences((text or "")[:3000]):
+        if EARLY_TEXT.search(x) and (FIRST_YEAR.search(x) or not UPPER_YEARS.search(x)):
+            return x
+    return None
 
 
 def early_evidence(title: str, text: str = "") -> str | None:
     """The sentence (or title) that makes a posting an early program; shown on EARLY.md so students can check it."""
     if EARLY.search(title):
         return title
-    m = EARLY_TEXT.search((text or "")[:3000])
-    if not m:
-        return None
-    return next((x for x in sentences(text[:3000]) if EARLY_TEXT.search(x)), m.group(0))[:300]
+    hit = early_text(text)
+    return hit[:300] if hit else None
 
 
 def section(title: str, text: str = "") -> str | None:
     blob = f"{title}\n{text[:3000]}"
-    if EARLY.search(title) or EARLY_TEXT.search(text[:3000]):
+    if EARLY.search(title) or early_text(text):
         return "early"
     if NEW_GRAD.search(title) and not INTERN.search(title):
         return "new_grad"
@@ -251,7 +281,10 @@ TERMS = [("co_op", re.compile(r"\b(co-?op|co-?operative education)\b", re.I)), (
 def track(title: str) -> str:
     """The posting's main track, from its title. Used for the track-*.md pages."""
     t = title or ""
-    if SECURITY_T.search(t) and not re.search(r"\bsoc\b(?! analyst)", t, re.I):  # "SoC" is a chip, "SOC analyst" is security
+    # "SoC" is a chip, but "SOC analyst" and "Cybersecurity Intern (SOC)" are security: a SOC title is security
+    # whenever it says cyber/security and names no chip words
+    chip = re.search(r"\b(fpga|asic|rtl|vlsi|silicon|chips?|semiconductor|system[- ]on[- ]chip|mcu|verification)\b", t, re.I)
+    if SECURITY_T.search(t) and (not re.search(r"\bsoc\b(?! analyst)", t, re.I) or (re.search(r"\b(cyber\w*|security)\b", t, re.I) and not chip)):
         return "security"
     if EMBEDDED_T.search(t):
         return "embedded"
@@ -364,10 +397,23 @@ def strip_html(html: str) -> str:
 
 
 if __name__ == "__main__":
+    from common import REMOVED, today
     before = load_json(POSTINGS, [])
-    rows = [r for r in before if r.get("source") == "manual" or (keep_title(r["title"]) and us_job(r.get("location", "")))]
+    rows, dropped = [], []
+    for r in before:
+        (rows if r.get("source") == "manual" or (keep_title(r["title"]) and us_job(r.get("location", ""))) else dropped).append(r)
+    if dropped:  # a stricter filter: record what it took off the board, like any other closed row
+        removed = load_json(REMOVED, [])
+        done = {x["id"] for x in removed}  # laptop rows come back from local.json until the laptop runs the new rules: record once
+        save_json(REMOVED, (removed + [{**r, "removed_on": today(), "reason": "filtered out by classify.py rules"}
+                                       for r in dropped if r["id"] not in done])[-5000:])
     print(f"filter: {len(before)} -> {len(rows)}")
     for r in rows:  # sections are set at fetch time from the full description; only fill gaps here
         r["section"] = r.get("section") or section(r["title"]) or "internship"
+        ev = (r.get("tag_evidence") or {}).get("early")
+        if r["section"] == "early" and r.get("source") != "manual" and not early_evidence(r["title"], ev or ""):
+            # the stored sentence no longer meets the early-program rule: it's a normal internship
+            r["section"] = "internship" if INTERN.search(r["title"]) else (section(r["title"]) or "internship")
+            r["tag_evidence"] = {k: v for k, v in (r.get("tag_evidence") or {}).items() if k != "early"}
     save_json(POSTINGS, rows)
     print(f"classified {len(rows)} postings")

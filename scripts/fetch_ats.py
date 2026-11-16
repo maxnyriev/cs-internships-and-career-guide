@@ -5,7 +5,9 @@
     add --only workday --limit 5 for a quick test
 
 A posting missing from its company's feed on two consecutive successful fetches is closed
-and moved to removed.json. Companies whose fetch failed are left untouched.
+and moved to removed.json. A board whose fetch failed has its rows marked uncertain (⚠), so a feed
+that keeps failing ages out after 7 days instead of showing dead postings forever.
+A block (robots.txt or 401/403) is retried automatically after BLOCK_RETRY_DAYS.
 """
 import argparse
 import sys
@@ -15,10 +17,12 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 import adapters  # noqa: E402
 from classify import early_evidence, keep_title, section, tags, us_job  # noqa: E402
-from common import COMPANIES, DATA, LOCAL, POSTINGS, REMOVED, Blocked, Http, load_json, load_yaml, now_iso, save_json, today, url_key  # noqa: E402
+from datetime import date, timedelta  # noqa: E402
+from common import COMPANIES, DATA, LOCAL, POSTINGS, REMOVED, Blocked, Http, load_json, load_yaml, now_iso, save_json, today, today_date, url_key  # noqa: E402
 
 MAX_FAIL_SHARE = 0.3  # more failing boards than this means something is wrong on our side
-BLOCKED = DATA / "blocked.json"  # boards that said no (robots.txt, 401, 403); skipped until --retry-blocked
+BLOCKED = DATA / "blocked.json"  # boards that said no (robots.txt, 401, 403); skipped until --retry-blocked or BLOCK_RETRY_DAYS
+BLOCK_RETRY_DAYS = 30  # robots.txt rules change; ask again (robots.txt is re-read first) after a month
 # These sources' JSON endpoints aren't documented for third parties, so we follow each site's robots.txt.
 # Greenhouse, Lever, Ashby and SmartRecruiters publish their job-board APIs for exactly this use.
 ROBOTS_ATS = {"workday", "oracle", "amazon", "eightfold"}
@@ -71,6 +75,8 @@ def main():
     blocked = state.get("blocked", {}) if a.local else load_json(BLOCKED, {})
     if a.retry_blocked:
         blocked = {k: v for k, v in blocked.items() if not any(f'{c["ats"]}|{c["board"]}' == k for c in boards)}
+    cutoff = today_date() - timedelta(days=BLOCK_RETRY_DAYS)
+    blocked = {k: v for k, v in blocked.items() if date.fromisoformat(v.get("since", today())) > cutoff}
     rows = {r["id"]: r for r in (state["rows"] if a.local else state)}
     # the laptop keeps its own closed list inside local.json, so it never edits a file the Action also writes
     removed = state.get("removed", []) if a.local else load_json(REMOVED, [])
@@ -96,8 +102,9 @@ def main():
                 gone.append(f'{c["name"]} ({c["ats"]}/{c["board"]}): {e}')
                 unsure.add(key)
                 continue
-            except Exception as e:  # network error, HTTP error or ShapeError
+            except Exception as e:  # network error, HTTP error, ShapeError, or Unavailable (robots.txt down, firewall 403)
                 failed.append(f'{c["name"]} ({c["ats"]}/{c["board"]}): {str(e)[:150]}')
+                unsure.add(key)  # its rows show ⚠ and leave after 7 days if the board keeps failing
                 continue
             if not getattr(jobs, "complete", True) or (not jobs and any(board_of(r, by_name) == key for r in rows.values())):
                 unsure.add(key)  # capped or suddenly empty: don't count its missing rows as closed

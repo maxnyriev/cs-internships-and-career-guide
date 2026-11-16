@@ -37,7 +37,9 @@ def previous_count(n=7):
 
 def main():
     rows = load_json(POSTINGS, [])
-    jsonschema.validate(rows, json.loads((DATA / "schema.json").read_text(encoding="utf-8")))
+    schema = json.loads((DATA / "schema.json").read_text(encoding="utf-8"))
+    # FormatChecker makes "format": "date" a real check (a bad date fails), not just a label
+    jsonschema.validate(rows, schema, format_checker=jsonschema.FormatChecker())
     prev = previous_count()
     if prev and len(rows) < prev * 0.5:
         sys.exit(f"open postings fell from {prev} (7-commit high) to {len(rows)}; refusing to publish")
