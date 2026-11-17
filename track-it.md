@@ -1,6 +1,6 @@
 # IT and networking
 
-[⬅ Back to the main page](./) · 296 open · updated 2026-11-17
+[⬅ Back to the main page](./) · 294 open · updated 2026-11-17
 
 IT support, networking, systems administration and cloud operations. New to this track? Read the [IT and networking section of the Career tracks guide](guides/tracks.md#it-and-networking).
 
@@ -34,7 +34,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (288)
+## Internships (286)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
@@ -54,10 +54,6 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Huntington Ingalls Industries | [Summer 2027 Internship - DevOps Engineer \(Hybrid\) - 30230](https://jobs.hii-tsd.com/job/Columbia%2C-MD-Summer-2027-Internship-DevOps-Engineer-%28Hybrid%29-30230-Mary/1430966800/) | Columbia, Maryland |  | Nov 16* |
 | International | [Digital IT Intern](https://careers.international.com/jobs/60457) | Lisle, Illinois | ⚠ unverified | Nov 16* |
 | International | [General IT Intern](https://careers.international.com/jobs/60707) | Lisle, Illinois | ⚠ unverified | Nov 16* |
-| Microsoft | [Cloud Network Engineering Internship Oportunities](https://apply.careers.microsoft.com/careers/job/1970393557037856-cloud-network-engineering-internship-oportunities-united-states-washington-redmond) | Redmond, Washington | ⚠ unverified | Nov 16* |
-| Microsoft | [Data Center Technicians INTERN](https://apply.careers.microsoft.com/careers/job/1970393557040904-data-center-technicians-intern-united-states-virginia-dulles) | Boydton, Virginia | ⚠ unverified | Nov 16* |
-| Microsoft | [Data Center Technicians INTERN](https://apply.careers.microsoft.com/careers/job/1970393557040909-data-center-technicians-intern-united-states-texas-san-antonio) | Phoenix, Arizona | ⚠ unverified | Nov 16* |
-| Microsoft | [Data Center Technicians INTERN](https://apply.careers.microsoft.com/careers/job/1970393557043629-data-center-technicians-intern-united-states-georgia-atlanta) | Atlanta, Georgia | ⚠ unverified | Nov 16* |
 | NBCUniversal | [Universal Film Production IT Support Internships – Summer 2027](https://jobs.smartrecruiters.com/NBCUniversal3/744000161876175-universal-film-production-it-support-internships-summer-2027)<br><sub>“For further clarification, candidates currently on any student or exchange visa \(e.g. F-1 CPT, F-1 OPT, J-1, M-1\) are not eligible to apply…”</sub> | Universal City, CA, US | 🚫 no CPT/OPT<br>🎓 3.0+ GPA | Nov 16 |
 | PwC | [Technology Consulting - Geographic Information Systems Intern - Summer 2027](https://pwc.wd3.myworkdayjobs.com/NonPublic_Postings/job/IL-Rosemont/Technology-Consulting---Geographic-Information-Systems-Intern---Summer-2027_757257WD-1) | IL-Rosemont | ⚠ unverified | Nov 16 |
 | Red Hat | [Cloud Services Intern](https://redhat.wd5.myworkdayjobs.com/Jobs/job/Santiago/Cloud-Services-Intern_R-059108)<br><sub>“Red Hat will not be providing visa sponsorship for this position.”</sub> | Santiago | 🛂❌ no sponsor | Nov 16 |
@@ -90,7 +86,9 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | First Bank &amp; Trust | [IT Services Intern](https://bankeasy.wd5.myworkdayjobs.com/bank-easy-job-openings/job/Brookings-SD-East/IT-Services-Intern_R-100853) | Brookings, SD \(East\) |  | Nov 9 |
 | Leidos | [Helpdesk IT Support Intern](https://leidos.wd5.myworkdayjobs.com/External/job/Arlington-VA/Helpdesk-IT-Support-Intern_R-00196247-1)<br><sub>“U.S. Citizenship is required.”</sub> | Arlington, VA | 🗽 citizens<br>🔒 secret | Nov 9 |
 | Regal Rexnord | [Information Technology Summer Intern](https://regalrexnord.wd1.myworkdayjobs.com/Careers/job/Grafton-Wisconsin-United-States/Information-Technology-Summer-Intern_R26_04545-1) | Grafton, Wisconsin, United States | 🎓 3.0+ GPA<br>⚠ unverified | Nov 9 |
+| Ryder Supply Chain Solutions | [IT Internship - Summer 2027](https://ryder.wd5.myworkdayjobs.com/RyderCareers/job/USA---Coral-Gables-FL-HQ/IT-Internship---Summer-2027_R188357) | USA - Coral Gables FL HQ | ⚠ unverified | Nov 9* |
 | Scout Motors | [Intern, IT](https://job-boards.greenhouse.io/scoutmotors/jobs/5287122007) | Charlotte, North Carolina, United States |  | Nov 9 |
+| Wawa, Inc | [Information Technology Internship](https://wawa.wd1.myworkdayjobs.com/careers/job/WAWA---Wawa-Inc---Corporate-Office/Information-Technology-Internship_JR122428) | WAWA - Wawa, Inc. - Corporate Office | ⚠ unverified | Nov 9* |
 | Booz Allen | [Systems Administrator - Summer Intern](https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Annapolis-Junction-MD/Systems-Administrator---Summer-Intern_R0252406)<br><sub>“Ability to obtain a TS/SCI clearance with a polygraph”</sub> | Annapolis Junction, MD | 🔒 ts/sci + poly | Nov 6 |
 | Etched | [Infrastructure Engineering &amp; Projects Intern](https://jobs.ashbyhq.com/Etched/1a92048c-60e0-445b-a84e-8f008f1cf47b) | San Jose |  | Nov 6 |
 | Federal Reserve System | [2027 Information Technology Internship](https://rb.wd5.myworkdayjobs.com/FRS/job/St-Louis-MO/XMLNAME-2027-Information-Technology-Internship_R-0000034047) | St. Louis, MO |  | Nov 6 |

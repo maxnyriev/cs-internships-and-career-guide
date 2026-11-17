@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 2039 open · page 2 of 2 · updated 2026-11-17
+[⬅ Back to the main page](./) · 2006 open · page 2 of 2 · updated 2026-11-17
 
 [⬅ page 1](INTERNSHIPS.md) · page 2 of 2
 
@@ -34,22 +34,6 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| Rockwell Automation | [Intern, Hardware Development Engineer \(May - Aug 2027\)](https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mayfield-Heights-Ohio-United-States/Intern--Hardware-Development-Engineer--May---Aug-2027-_R26-6892-2)<br><sub>“We will not sponsor individuals for employment visas for this internship.”</sub> | Mayfield Heights, Ohio, United States | 🛂❌ no sponsor | Oct 20 |
-| Skydio | [Hardware Test and Reliability Intern - Summer 2027](https://jobs.ashbyhq.com/skydio/36d75e36-eeb2-4399-8887-37c4a5ff5800) | San Mateo, California, United States |  | Oct 20 |
-| Skydio | [Mobile Software Engineer Intern - Summer 2027](https://jobs.ashbyhq.com/skydio/8a237302-3fe8-4403-b32b-7690f333ba52) | San Mateo, California, United States |  | Oct 20 |
-| Skydio | [Wireless Hardware Engineer Intern - Summer 2027](https://jobs.ashbyhq.com/skydio/1ac972b1-8094-4765-8869-63e1c4d50dea) | San Mateo, California, United States |  | Oct 20 |
-| Stand Together | [KIP Spring 2027 - Policy Data Analyst Intern - Empire Center for Public Policy](https://jobs.lever.co/standtogether/35deb481-fc0b-4513-abf5-68880006189b) | New York | 🌱 spring | Oct 20 |
-| Texas Instruments | [Software Engineering Intern - Compiler](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25019103)<br><sub>“Texas Instruments will not sponsor job applicants for visas or work authorization for this position.”</sub> | United States | 🛂❌ no sponsor<br>🎓 3.0+ GPA | Oct 20 |
-| The Hartford | [2027 Summer Intern - Rotational \(IT, Operations, Risk, and Fund Treasury\)](https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Wayne-PA/XMLNAME-2027-Summer-Intern---Rotational--IT--Operations--Risk--and-Fund-Treasury-_R2627500) | Wayne, PA |  | Oct 20 |
-| Toyota North America | [2027 TFS Data Science Internship](https://toyota.wd503.myworkdayjobs.com/TMNA/job/Plano-Texas/XMLNAME-2027-TFS-Data-Science-Internship_10338545-1)<br><sub>“Toyota does not offer support or sponsorship of job applicants for employment-based visas or any other work authorization for this role now…”</sub> | Plano, Texas | 🛂❌ no sponsor<br>🎓 2.7+ GPA | Oct 20 |
-| Zekelman Industries | [Intern, Automation Engineer](https://zekelman.wd12.myworkdayjobs.com/Careers/job/Cambridge-OH/Intern--Automation-Engineer_JR002792) | Cambridge, OH |  | Oct 20 |
-| Adobe | [2027 Intern - AI &amp; Architecture](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---AI---Architecture_R172998) | San Jose |  | Oct 19 |
-| Adobe | [2027 Intern - Security Engineer](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Lehi/XMLNAME-2027-Intern---Security-Engineer_R173000) | Lehi |  | Oct 19 |
-| Allegion | [Summer Intern - Advanced Manufacturing Engineering, Computer Engineering](https://allegion.wd5.myworkdayjobs.com/careers/job/Carmel-IN/Summer-Intern---Advanced-Manufacturing-Engineering--Computer-Engineering_JR37433-1)<br><sub>“The company does not intend to provide sponsorship for employment visa status \(e.g., H-1B, TN, etc.\) for this employment position.”</sub> | Carmel, IN | 🛂❌ no sponsor | Oct 19 |
-| Allegion | [Summer Intern - Product Data](https://allegion.wd5.myworkdayjobs.com/careers/job/Indianapolis-IN---Hague-Rd/Summer-Intern---Product-Data_JR37448-1)<br><sub>“The company does not intend to provide sponsorship for employment visa status \(e.g., H-1B, TN, etc.\) for this employment position.”</sub> | Indianapolis, IN - Hague Rd | 🛂❌ no sponsor | Oct 19 |
-| Amplify | [Summer 2027: AI Scientist Intern](https://jobs.ashbyhq.com/amplify/bb45b7f6-dd7e-40e5-84e6-52e21650a7b8) | Remote - United States | 🌐 remote | Oct 19 |
-| Amplify | [Summer 2027: Data Analytics Intern](https://jobs.ashbyhq.com/amplify/7b859cc1-1354-43c5-bbd4-0571e85f7c51) | Remote - United States | 🌐 remote | Oct 19 |
-| Amplify | [Summer 2027: IT Services Intern](https://jobs.ashbyhq.com/amplify/ae648c1a-0973-440e-902d-cc41dc60f52f) | Remote - United States | 🌐 remote | Oct 19 |
 | Amplify | [Summer 2027: Software Engineering Intern](https://jobs.ashbyhq.com/amplify/855d22a3-f15e-49f6-854c-29e505653efa) | Remote - United States | 🌐 remote | Oct 19 |
 | Bass Pro Shops | [Product Testing and Validation Engineering Co-op](https://basspro.wd1.myworkdayjobs.com/careers/job/Springfield-MO-Tracker-Marine-Base-Camp/Product-Validation-Engineer-Co-Op_R267057) | Springfield, MO \(Tracker Marine Base Camp\) | 🔄 co-op<br>⚠ unverified | Oct 19 |
 | Bosch Group | [AI Research Intern: Wireless Foundation Models](https://jobs.smartrecruiters.com/BoschGroup/744000156323136-ai-research-intern-wireless-foundation-models) | Pittsburgh, PA, US | ⚠ unverified | Oct 19 |
@@ -1056,6 +1040,6 @@
 
 [⬅ page 1](INTERNSHIPS.md) · page 2 of 2
 
-**Not on this board yet:** [Google](https://www.google.com/about/careers/applications/), [Apple](https://jobs.apple.com/), [Netflix](https://jobs.netflix.com/), [AMD](https://careers.amd.com/), [Qualcomm](https://careers.qualcomm.com/), [IBM](https://www.ibm.com/careers), [Oracle](https://careers.oracle.com/), [ExxonMobil](https://jobs.exxonmobil.com/), [Phillips 66](https://www.phillips66.com/careers/), [Chevron](https://careers.chevron.com/), [Shell](https://www.shell.com/careers.html), [Lockheed Martin](https://www.lockheedmartinjobs.com/), [Capital One](https://www.capitalonecareers.com/), [JPMorgan Chase](https://careers.jpmorgan.com/), [Goldman Sachs](https://www.goldmansachs.com/careers/), [Bloomberg](https://careers.bloomberg.com/), [Uber](https://www.uber.com/us/en/careers/), [Tesla](https://www.tesla.com/careers), [Dell Technologies](https://jobs.dell.com/), [HP](https://jobs.hp.com/), [Intuit](https://jobs.intuit.com/), [Visa](https://corporate.visa.com/en/jobs/), [Mastercard](https://careers.mastercard.com/us/en), [Target](https://corporate.target.com/careers). These companies hire CS interns, but their job sites aren't read here yet. The links go to each company's own careers page.
+**Not on this board yet:** [Microsoft](https://careers.microsoft.com/), [Google](https://www.google.com/about/careers/applications/), [Apple](https://jobs.apple.com/), [Netflix](https://jobs.netflix.com/), [AMD](https://careers.amd.com/), [Qualcomm](https://careers.qualcomm.com/), [IBM](https://www.ibm.com/careers), [Oracle](https://careers.oracle.com/), [ExxonMobil](https://jobs.exxonmobil.com/), [Phillips 66](https://www.phillips66.com/careers/), [Chevron](https://careers.chevron.com/), [Shell](https://www.shell.com/careers.html), [Lockheed Martin](https://www.lockheedmartinjobs.com/), [Capital One](https://www.capitalonecareers.com/), [JPMorgan Chase](https://careers.jpmorgan.com/), [Goldman Sachs](https://www.goldmansachs.com/careers/), [Bloomberg](https://careers.bloomberg.com/), [Uber](https://www.uber.com/us/en/careers/), [Tesla](https://www.tesla.com/careers), [Dell Technologies](https://jobs.dell.com/), [HP](https://jobs.hp.com/), [Intuit](https://jobs.intuit.com/), [Visa](https://corporate.visa.com/en/jobs/), [Mastercard](https://careers.mastercard.com/us/en), [Target](https://corporate.target.com/careers). These companies hire CS interns, but their job sites aren't read here yet. The links go to each company's own careers page.
 
 _Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._

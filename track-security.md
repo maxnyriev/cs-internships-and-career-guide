@@ -1,6 +1,6 @@
 # Security
 
-[⬅ Back to the main page](./) · 206 open · updated 2026-11-17
+[⬅ Back to the main page](./) · 201 open · updated 2026-11-17
 
 Cybersecurity, security analyst and penetration testing roles. New to this track? Read the [Security section of the Career tracks guide](guides/tracks.md#security).
 
@@ -34,7 +34,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (197)
+## Internships (192)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
@@ -62,11 +62,6 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Meta | [Enterprise Security Engineer, Intern \(Summer 2027\)](https://www.metacareers.com/profile/job_details/1079627324896327/) | Menlo Park, California |  | Nov 16* |
 | Meta | [Product Security Engineer, Intern \(Summer 2027\)](https://www.metacareers.com/profile/job_details/2535222523640873/) | Menlo Park, California |  | Nov 16* |
 | Meta | [Security Engineer Posture Management, Intern \(Summer 2027\)](https://www.metacareers.com/profile/job_details/1359570553913180/) | New York, New York |  | Nov 16* |
-| Microsoft | [Research Intern - Security Research Group, Microsoft Research Redmond](https://apply.careers.microsoft.com/careers/job/1970393557022480-research-intern-security-research-group-microsoft-research-redmond-united-states-washington-redmond) | Redmond, Washington | ⚠ unverified | Nov 16* |
-| Microsoft | [Security Operations Engineering INTERN](https://apply.careers.microsoft.com/careers/job/1970393557019490-security-operations-engineering-intern-united-states-washington-redmond) | Redmond, Washington | ⚠ unverified | Nov 16* |
-| Microsoft | [Security Research Intern](https://apply.careers.microsoft.com/careers/job/1970393557044769-security-research-intern-united-states-washington-redmond) | Redmond, Washington | ⚠ unverified | Nov 16* |
-| Microsoft | [Software Engineer: Security &amp; Identity Intern Opportunities for University Students, Cambridge](https://apply.careers.microsoft.com/careers/job/1970393557044765-software-engineer-security-identity-intern-opportunities-for-university-students-cambridge-united-states-massachusetts-cambridge) | Cambridge, Massachusetts | ⚠ unverified | Nov 16* |
-| Microsoft | [Software Engineer: Security &amp; Identity Intern Opportunities for University Students, Redmond](https://apply.careers.microsoft.com/careers/job/1970393556922930-software-engineer-security-identity-intern-opportunities-for-university-students-redmond-united-states-washington-redmond) | Redmond, Washington | ⚠ unverified | Nov 16* |
 | SeatGeek | [Security Engineer - Internship](https://seatgeek.com/jobs/8248151?gh_jid=8248151) | New York, New York | ⚠ unverified | Nov 16* |
 | State of Wisconsin Investment Board | [Information Security Intern](https://swib.wd12.myworkdayjobs.com/EXT/job/Madison-Wisconsin/Information-Security-Intern_R-001332) | Madison Wisconsin |  | Nov 16 |
 | The Aerospace Corporation | [2027 Defensive Cyber Operations Grad Intern](https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/XMLNAME-2027-Defensive-Cyber-Operations-Grad-Intern_R017106)<br><sub>“U.S citizenship is required to obtain a security clearance.”</sub> | El Segundo, CA | 🗽 citizens<br>🔒 clearance<br>🎓 3.0+ GPA | Nov 16 |

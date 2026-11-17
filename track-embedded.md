@@ -1,6 +1,6 @@
 # Embedded and firmware
 
-[⬅ Back to the main page](./) · 80 open · updated 2026-11-17
+[⬅ Back to the main page](./) · 81 open · updated 2026-11-17
 
 Firmware, microcontroller and real-time software that runs on devices. New to this track? Read the [Embedded and firmware section of the Career tracks guide](guides/tracks.md#embedded-and-firmware).
 
@@ -34,14 +34,13 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (79)
+## Internships (80)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
 | General Dynamics Mission Systems | [Software Test Engineering Intern - Space and Embedded Crypto](https://careers-gdms.icims.com/jobs/75632/software-test-engineering-intern---space-and-embedded-crypto/job) | Scottsdale, AZ, US; Remote | 🌐 remote<br>⚠ unverified | Nov 17* |
 | Shure | [Embedded Software Intern](https://careersus-shure.icims.com/jobs/5018/embedded-software-intern/job) | Niles, IL, US |  | Nov 17* |
 | AGCO | [Embedded Software Engineering Intern - Summer 2027](https://careers.agcocorp.com/job/Hesston-Embedded-Software-Engineering-Intern-Summer-2027-KS-67062/1440993300/) | Hesston, Kansas |  | Nov 16* |
-| Boston Scientific | [R&amp;D Firmware Engineer Intern](https://bostonscientific.eightfold.ai/careers/job/563602813547667-r-d-firmware-engineer-intern-arden-hills-us-mn-united-states-n-a) | Arden Hills, Minnesota | ⚠ unverified | Nov 16* |
 | Cirrus Logic | [2027 Internship - Embedded Firmware Engineer](https://jobs.eu.lever.co/cirrus/0af920c1-6ecb-447f-9b22-3eda6b8d4ed8) | Phoenix, Arizona |  | Nov 16* |
 | Cirrus Logic | [2027 Internship - Embedded Software Engineer](https://jobs.eu.lever.co/cirrus/f8d30ab0-8c95-4c83-8188-fb45a2cfc9ec) | Austin, Texas |  | Nov 16* |
 | Cirrus Logic | [2027 Internship - Embedded Software Test Engineer](https://jobs.eu.lever.co/cirrus/db51b041-8f20-48e0-af08-be71201a8175) | Austin, Texas |  | Nov 16* |
@@ -49,7 +48,6 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Integration Innovation \(i3\) | [Embedded Systems Reverse Engineer Intern](https://talent.i3-corps.com/jobs/5588) | Washington, District of Columbia |  | Nov 16* |
 | Keysight Technologies | [Embedded Software Engineer Intern](https://jobs.keysight.com/external/jobs/55093) | Cambridge, Massachusetts |  | Nov 16* |
 | KLA | [Firmware Intern](https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Firmware-Intern_2642154-1) | Milpitas, CA |  | Nov 16 |
-| Microsoft | [Firmware Engineering Internship \(6-month Program\)](https://apply.careers.microsoft.com/careers/job/1970393557023161-firmware-engineering-internship-6-month-program--united-states-california-santa-clara) | Santa Clara, California | ⚠ unverified | Nov 16* |
 | North Atlantic Industries | [Intern - Embedded Software Engineer \(Spring 2027\)](https://recruiting.paylocity.com/Recruiting/Jobs/Details/4663112) | Bohemia, New York | 🌱 spring | Nov 16* |
 | The Aerospace Corporation | [2027 Embedded Software Engineering Grad Intern](https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/XMLNAME-2027-Embedded-Software-Engineering-Grad-Intern_R016950)<br><sub>“U.S citizenship is required to obtain a security clearance.”</sub> | El Segundo, CA | 🗽 citizens<br>🔒 clearance<br>🎓 3.0+ GPA | Nov 16 |
 | Marvell Technology | [Software/Firmware Engineering Intern](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Petah-Tikva/Software-Firmware-Engineering_2604496) | Petah-Tikva |  | Nov 15 |
@@ -63,6 +61,9 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Cisco | [Software Engineer Embedded Systems I \(Intern\) - United States](https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Embedded-Systems-I--Intern----United-States_2024641-1) | San Jose, California, US | ⚠ unverified | Nov 10 |
 | REGENT | [Embedded Software Engineering Intern \(Summer\)](https://jobs.ashbyhq.com/REGENT/9f25824f-486e-4d3a-b444-116b474619d7) | North Kingstown, Rhode Island, USA |  | Nov 10 |
 | CesiumAstro | [Summer 2027 - Embedded Software Engineering Internship](https://jobs.lever.co/CesiumAstro/e3abc815-107d-4206-8a83-dd02932e2361)<br><sub>“Please Note: To conform with the United States Government Space Technology Export Regulations, the applicant must be a U.S. citizen, lawful…”</sub> | Melbourne, FL | 🗽 citizens<br>🎓 3.5+ GPA | Nov 9 |
+| Resideo | [Embedded Firmware Engineering Intern - Summer 2027](https://ehtl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19812) | Melville, NY, United States | ⚠ unverified | Nov 9* |
+| Resideo | [Firmware Engineering Intern - Summer 2027](https://ehtl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19813) | Aurora, IL, United States | ⚠ unverified | Nov 9* |
+| Resideo | [Firmware Engineering Intern - Summer 2027](https://ehtl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19814) | Golden Valley, MN, United States | ⚠ unverified | Nov 9* |
 | Astranis | [Embedded Software Developer, Network/Payload Intern \(Winter 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4704571006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco | 🗽 citizens | Nov 6 |
 | Legrand Slovenija | [Firmware Engineering Intern](https://iadugs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1809) | Reno, NV, United States |  | Nov 5 |
 | Sierra Nevada Corporation | [Firmware Engineer Intern \(Summer 2027\)](https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Sparks-NV/Firmware-Engineer-Intern--Summer-2027-_R0031233)<br><sub>“IMPORTANT NOTICE: To conform to U.S. Government international trade regulations, applicant must be a U.S. Citizen, lawful permanent resident…”</sub> | Sparks, NV | 🗽 citizens<br>🔒 clearance | Nov 5 |

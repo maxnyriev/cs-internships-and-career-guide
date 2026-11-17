@@ -1,6 +1,6 @@
 # Hardware and chips
 
-[⬅ Back to the main page](./) · 117 open · updated 2026-11-17
+[⬅ Back to the main page](./) · 116 open · updated 2026-11-17
 
 Chip design, FPGA and ASIC work, and design verification. New to this track? Read the [Hardware and chips section of the Career tracks guide](guides/tracks.md#hardware-and-chips).
 
@@ -34,7 +34,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (111)
+## Internships (110)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
@@ -45,7 +45,6 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Cirrus Logic | [2027 Internship - Formal Verification Engineer](https://jobs.eu.lever.co/cirrus/533c9938-3d35-48a6-b08b-1dd1675d2bdf) | Austin, Texas |  | Nov 16* |
 | KLA | [FPGA Engineer Intern](https://kla.wd1.myworkdayjobs.com/UR/job/Ann-Arbor-MI/Electrical-Design-Engineering-Intern_2641709) | Ann Arbor, MI |  | Nov 16 |
 | Meta | [ASIC EDA Infrastructure Engineer Intern](https://www.metacareers.com/profile/job_details/1883872846321140/) | Sunnyvale, California |  | Nov 16* |
-| Microsoft | [Research Intern - MSR Software-Hardware Co-design](https://apply.careers.microsoft.com/careers/job/1970393557073455-research-intern-msr-software-hardware-co-design-united-states-washington-redmond) | Redmond, Washington | ⚠ unverified | Nov 16* |
 | Ralliant | [Hardware Verification Engineer Co-Op \(Spring 2027\)](https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/10490) | Solon, OH, United States | 🔄 co-op<br>🌱 spring | Nov 16 |
 | Ralliant | [Hardware Verification Engineer Co-op \(Summer 2027\)](https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/10491) | Solon, OH, United States | 🔄 co-op | Nov 16 |
 | RTX | [FPGA Engineering Intern \(Summer 2027\)\(Onsite\)](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/FPGA-Engineering-Intern--Summer-2027--Onsite-_01880037)<br><sub>“Onsite U.S. Citizen, U.S. Person, or Immigration Status Requirements: The ability to obtain and maintain a U.S. government issued…”</sub> | US-TX-MCKINNEY-513WD \~ 2501 W University Dr \~… | 🗽 citizens<br>🔒 secret<br>⚠ unverified | Nov 16 |
