@@ -497,3 +497,16 @@ def test_dedupe_prefers_open_copy_and_keeps_earliest_first_seen():
     b = {"id": "b", "company": "ACME", "title": "SWE  Intern", "location": "austin, tx", "status": "open", "first_seen": "2026-11-05"}
     (r,) = common.dedupe_rows([a, b])
     assert r["id"] == "b" and r["first_seen"] == "2026-11-01"
+
+
+def test_career_links_make_names_clickable():
+    f = build_readme.career_links
+    assert f(["Meta", "Acme"], {"Meta": "https://www.metacareers.com/"}) == "[Meta](https://www.metacareers.com/), Acme"
+    assert f([], {"Meta": "https://www.metacareers.com/"}) == ""
+
+
+def test_every_must_have_company_has_an_official_careers_page():
+    must = build_readme.load_yaml(build_readme.DATA / "must_have.yaml", {})["companies"]
+    pages = build_readme.load_yaml(build_readme.DATA / "career_pages.yaml", {})["pages"]
+    assert [m for m in must if m not in pages] == []
+    assert all(u.startswith("https://") and " " not in u for u in pages.values())

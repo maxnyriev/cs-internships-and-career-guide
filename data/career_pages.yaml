@@ -1,0 +1,52 @@
+# Each company's own careers page, for the ones this board can't read. Shown as links under "Not on this board yet".
+# Keep every company in must_have.yaml here (a test checks). Use the company's official site, never a job aggregator.
+pages:
+  Meta: https://www.metacareers.com/
+  Microsoft: https://careers.microsoft.com/
+  Amazon: https://www.amazon.jobs/
+  Google: https://www.google.com/about/careers/applications/
+  Apple: https://jobs.apple.com/
+  NVIDIA: https://www.nvidia.com/en-us/about-nvidia/careers/
+  Netflix: https://jobs.netflix.com/
+  Salesforce: https://careers.salesforce.com/
+  Adobe: https://careers.adobe.com/
+  Intel: https://jobs.intel.com/
+  AMD: https://careers.amd.com/
+  Qualcomm: https://careers.qualcomm.com/
+  Cisco: https://jobs.cisco.com/
+  IBM: https://www.ibm.com/careers
+  Oracle: https://careers.oracle.com/
+  Texas Instruments: https://careers.ti.com/
+  Micron: https://www.micron.com/careers
+  Applied Materials: https://www.appliedmaterials.com/us/en/careers.html
+  ExxonMobil: https://jobs.exxonmobil.com/
+  Phillips 66: https://www.phillips66.com/careers/
+  Chevron: https://careers.chevron.com/
+  Shell: https://www.shell.com/careers.html
+  Lockheed Martin: https://www.lockheedmartinjobs.com/
+  Boeing: https://jobs.boeing.com/
+  Capital One: https://www.capitalonecareers.com/
+  JPMorgan Chase: https://careers.jpmorgan.com/
+  Goldman Sachs: https://www.goldmansachs.com/careers/
+  Bloomberg: https://careers.bloomberg.com/
+  Stripe: https://stripe.com/jobs
+  Databricks: https://www.databricks.com/company/careers
+  Snowflake: https://careers.snowflake.com/
+  Palantir: https://www.palantir.com/careers/
+  Uber: https://www.uber.com/us/en/careers/
+  Airbnb: https://careers.airbnb.com/
+  LinkedIn: https://careers.linkedin.com/
+  Tesla: https://www.tesla.com/careers
+  SpaceX: https://www.spacex.com/careers/
+  Dell Technologies: https://jobs.dell.com/
+  HP: https://jobs.hp.com/
+  Hewlett Packard Enterprise: https://careers.hpe.com/
+  Workday: https://www.workday.com/en-us/company/careers.html
+  ServiceNow: https://careers.servicenow.com/
+  Intuit: https://jobs.intuit.com/
+  PayPal: https://careers.pypl.com/
+  Visa: https://corporate.visa.com/en/jobs/
+  Mastercard: https://careers.mastercard.com/us/en
+  Walmart: https://careers.walmart.com/
+  Target: https://corporate.target.com/careers
+  General Motors: https://search-careers.gm.com/

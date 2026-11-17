@@ -131,6 +131,11 @@ def company_key(name: str) -> str:
     return " ".join(words)
 
 
+def career_links(missing, pages) -> str:
+    """Names of companies the board can't read, each linked to its own careers page when we have one."""
+    return ", ".join(f"[{m}]({pages[m]})" if pages.get(m) else m for m in missing)
+
+
 def when(r) -> str:
     """The company's posting date when the feed gives one, else the day this board first saw the job."""
     return r.get("posted") or r["first_seen"]
@@ -231,9 +236,10 @@ def main():
     must = (load_yaml(DATA / "must_have.yaml", {}) or {}).get("companies") or []
     have = {company_key(r["company"]) for r in rows}
     missing = [m for m in must if company_key(m) not in have]
+    pages = (load_yaml(DATA / "career_pages.yaml", {}) or {}).get("pages") or {}
     def not_yet(roles):
-        return (f"**Not on this board yet:** {', '.join(missing)}. These companies hire {roles}, but their job sites aren't read here yet. "
-                f"Check their careers pages directly.") if missing else ""
+        return (f"**Not on this board yet:** {career_links(missing, pages)}. These companies hire {roles}, but their job sites aren't read here yet. "
+                f"The links go to each company's own careers page.") if missing else ""
 
     skipped = 0
     for key, name, fname in SECTIONS:
