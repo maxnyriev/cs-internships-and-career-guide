@@ -1,6 +1,6 @@
 # Early Programs (freshmen & sophomores)
 
-[⬅ Back to the main page](./) · 1 open · updated 2026-11-16
+[⬅ Back to the main page](./) · 3 open · updated 2026-11-16
 
 Postings that say freshmen or sophomores can apply, or programs built for them. The grey line under each title is the sentence from the posting, so you can check it.
 
@@ -36,6 +36,8 @@ Big tech programs for first- and second-years, like Microsoft Explore and NVIDIA
 
 | Company | Role | Location | Tags |
 |---|---|---|---|
-| TruStage | [Information Technology - Development and Infrastructure Internship \(hybrid\)](https://trustage.wd1.myworkdayjobs.com/TruStage/job/Wisconsin---Remote/Enterprise-Information---Technology-Internship--Hybrid-_R-012155)<br><sub>“Most appropriate for freshmen and sophomores.”</sub> | Wisconsin - Remote | 🌐 remote<br>⚠ unverified |
+| AstraZeneca | [Commercial IT Intern, Undergraduate](https://astrazeneca.wd3.myworkdayjobs.com/Careers/job/US---Wilmington---DE/Commercial-IT-Intern--Undergraduate_R-264455)<br><sub>“We are looking for Sophomore and Junior students majoring in Computer Science, Business Administration, IT, MIS, or a related field for a 12…”</sub> | US - Wilmington - DE | ⚠ unverified |
+| AstraZeneca | [Finance AI &amp; Data Analytics Intern, Undergraduate - LIFT Program](https://astrazeneca.wd3.myworkdayjobs.com/Careers/job/US---Wilmington---DE/Finance-AI---Data-Analytics-Intern--Undergraduate---LIFT-Program_R-264458)<br><sub>“We are seeking sophomore and junior undergraduate students interested in Finance, Artificial Intelligence, Data Analytics, and Digital Trans…”</sub> | US - Wilmington - DE | 🚫 no CPT/OPT<br>🎓 3.0+ GPA<br>⚠ unverified |
+| TruStage | [Information Technology - Development and Infrastructure Internship \(hybrid\)](https://trustage.wd1.myworkdayjobs.com/TruStage/job/Wisconsin---Remote/Enterprise-Information---Technology-Internship--Hybrid-_R-012155)<br><sub>“Most appropriate for freshmen and sophomores.”</sub> | Wisconsin - Remote | 🌐 remote |
 
 _Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._
