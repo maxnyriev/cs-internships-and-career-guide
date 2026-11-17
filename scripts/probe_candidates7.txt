@@ -1,0 +1,7 @@
+name: "Aurora", ats: ashby, board: "aurora-operations-inc"
+name: "Samsung Semiconductor", ats: greenhouse, board: "samsungsemiconductor"
+name: "Samsung Semiconductor", ats: workday, board: "sec.wd3/Samsung_Careers"
+name: "Harvey", ats: ashby, board: "harvey"
+name: "Glean", ats: greenhouse, board: "gleanwork"
+name: "Robinhood", ats: greenhouse, board: "robinhood"
+name: "Stoke Space", ats: greenhouse, board: "stokespacetechnologies"

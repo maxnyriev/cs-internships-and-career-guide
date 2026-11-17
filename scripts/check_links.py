@@ -17,6 +17,12 @@ from common import POSTINGS, REMOVED, Http, load_json, save_json, today, today_d
 CLOSED_TEXT = re.compile(r"no longer (accepting applications|available|open)|position has been filled|job (posting )?(is |has )?(closed|expired)|page (you are|you're) looking for (doesn't|does not) exist", re.I)
 
 
+def visible(text: str) -> str:
+    """Page text without scripts, styles and comments. Closed-job wording inside a page's own code
+    (angular templates, error-message strings) says nothing about this job."""
+    return re.sub(r"(?is)<(script|style|noscript|template)\b.*?</\1\s*>|<!--.*?-->", " ", text)
+
+
 def check(http, url):
     try:
         r = http.get(url, allow_redirects=True)
@@ -26,7 +32,8 @@ def check(http, url):
         return "closed"
     if r.status_code in (401, 403, 429) or r.status_code >= 500:
         return "uncertain"
-    return "closed" if CLOSED_TEXT.search(r.text[:200000]) else "open"
+    # Closed-job wording is only a hint: some career sites keep it in hidden markup on live jobs. Only a 404/410 closes a row.
+    return "uncertain" if CLOSED_TEXT.search(visible(r.text[:400000])) else "open"
 
 
 def main():
@@ -47,7 +54,7 @@ def main():
             continue
         state = check(http, r["url"])
         if state == "open":
-            r.update(status="open", misses=0, uncertain_since=None)
+            r.update(status="uncertain" if r.get("unverified") else "open", misses=0, uncertain_since=None)
         elif state == "closed":
             r["misses"] = r.get("misses", 0) + 1
             if r["misses"] >= 2:
@@ -55,7 +62,8 @@ def main():
                 continue
         else:
             r["status"] = "uncertain"
-            r["uncertain_since"] = r.get("uncertain_since") or today()  # the 7-day expiry at the top of the loop handles it
+            if not r.get("unverified"):  # unverified rows have an expiry date instead of a 7-day clock
+                r["uncertain_since"] = r.get("uncertain_since") or today()  # the 7-day expiry at the top of the loop handles it
         r["last_checked"] = today()
         keep.append(r)
     save_json(POSTINGS, keep)

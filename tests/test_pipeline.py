@@ -510,3 +510,103 @@ def test_every_must_have_company_has_an_official_careers_page():
     pages = build_readme.load_yaml(build_readme.DATA / "career_pages.yaml", {})["pages"]
     assert [m for m in must if m not in pages] == []
     assert all(u.startswith("https://") and " " not in u for u in pages.values())
+
+
+def test_manual_rows_expire_and_unverified_rows_show_the_warning(tmp_path, monkeypatch):
+    import load_manual
+    man, p = tmp_path / "m.yaml", tmp_path / "p.json"
+    man.write_text('postings:\n'
+                   '  - {company: A, title: "SWE Intern", url: "https://a.com/1", expires: "2026-11-10"}\n'
+                   '  - {company: B, title: "SWE Intern", url: "https://b.com/1", expires: "2026-11-30", unverified: true}\n'
+                   '  - {company: C, title: "SWE Intern", url: "https://c.com/1"}\n')
+    p.write_text("[]")
+    monkeypatch.setattr(load_manual, "MANUAL", man)
+    monkeypatch.setattr(load_manual, "POSTINGS", p)
+    monkeypatch.setattr(load_manual, "today_date", lambda: date(2026, 11, 16))
+    load_manual.main()
+    rows = {r["company"]: r for r in json.loads(p.read_text())}
+    assert set(rows) == {"B", "C"}                                   # A expired and is gone
+    assert rows["B"]["status"] == "uncertain" and rows["B"]["unverified"] and rows["B"]["uncertain_since"] is None
+    assert rows["C"]["status"] == "open" and "unverified" not in rows["C"]
+    man.write_text('postings:\n  - {company: B, title: "SWE Intern", url: "https://b.com/1", expires: "2026-11-30"}\n')
+    load_manual.main()                                               # confirmed later: the warning goes away
+    (r,) = json.loads(p.read_text())
+    assert r["status"] == "open" and "unverified" not in r
+
+
+def test_check_links_keeps_unverified_rows_marked_but_still_closes_dead_links(tmp_path, monkeypatch):
+    rows = [{"id": "a", "url": "https://a", "source": "manual", "status": "uncertain", "unverified": True, "misses": 0, "uncertain_since": None},
+            {"id": "b", "url": "https://b", "source": "manual", "status": "uncertain", "unverified": True, "misses": 0, "uncertain_since": None},
+            {"id": "c", "url": "https://c", "source": "manual", "status": "uncertain", "unverified": True, "misses": 1, "uncertain_since": None}]
+    p, rm = tmp_path / "p.json", tmp_path / "r.json"
+    p.write_text(json.dumps(rows))
+    monkeypatch.setattr(check_links, "POSTINGS", p)
+    monkeypatch.setattr(check_links, "REMOVED", rm)
+    states = {"https://a": "open", "https://b": "uncertain", "https://c": "closed"}
+    monkeypatch.setattr(check_links, "check", lambda http, url: states[url])
+    monkeypatch.setattr(sys, "argv", ["check_links.py"])
+    check_links.main()
+    kept = {r["id"]: r for r in json.loads(p.read_text())}
+    assert set(kept) == {"a", "b"}                                   # c closed twice
+    assert all(r["status"] == "uncertain" and r["uncertain_since"] is None for r in kept.values())  # no 7-day clock: expiry decides
+
+
+def test_import_leads_page_states():
+    import import_leads
+    f = import_leads.page_state
+    today = date(2026, 11, 16)
+    page = "<html><h1>Software Engineer Intern, Maps &amp; Routing</h1> apply now</html>"
+    assert f(200, page, "Software Engineer Intern, Maps & Routing", today) == "verified"
+    assert f(200, "<html><div id=app></div></html>", "Software Engineer Intern", today) == "unverified"   # JavaScript shell
+    assert f(404, "", "x", today) == "dead" and f(410, "", "x", today) == "dead"
+    assert f(200, "This position has been filled. Software Engineer Intern", "Software Engineer Intern", today) == "unverified"
+    assert f(200, '{"validThrough": "2026-11-01T00:00"} Software Engineer Intern', "Software Engineer Intern", today) == "dead"
+    assert f(403, "", "x", today) == "unverified" and f(503, "", "x", today) == "unverified"
+
+
+def test_import_leads_merge_extends_dedupes_and_drops_dead(tmp_path):
+    import import_leads
+    import yaml
+    existing = [{"company": "Old", "title": "SWE Intern", "url": "https://o.com/1", "expires": "2026-11-20"},
+                {"company": "Keep", "title": "SWE Intern", "url": "https://k.com/1", "expires": "2026-11-18"}]
+    leads = [{"company": "Old", "title": "SWE Intern", "location": "Austin, TX", "url": "https://o.com/1", "state": "verified"},
+             {"company": "New", "title": "Data Intern", "location": "Reston, VA", "url": "https://n.com/9", "state": "unverified"},
+             {"company": "Gone", "title": "SWE Intern", "location": "", "url": "https://g.com/2", "state": "dead"}]
+    out = import_leads.merge(existing, leads, date(2026, 11, 16), 14)
+    by = {m["company"]: m for m in out}
+    assert set(by) == {"Old", "Keep", "New"}
+    assert by["Old"]["expires"] == "2026-11-30" and "unverified" not in by["Old"]      # a lead seen again gets 14 more days
+    assert by["Keep"]["expires"] == "2026-11-18"                                       # not in this export: its own date stands
+    assert by["New"]["unverified"] is True and by["New"]["expires"] == "2026-11-30"
+    text = import_leads.render("# header\n", out)
+    assert text.startswith("# header\npostings:\n") and yaml.safe_load(text)["postings"] == out
+
+
+def test_import_leads_strips_invisible_characters_from_titles(tmp_path):
+    import import_leads
+    f = tmp_path / "l.csv"
+    f.write_text("company,title,location,url\nAltice USA,Intern - DevOps Toolchain\u200b,\"Bethpage, NY\",https://x.com/1\n", encoding="utf-8")
+    (lead,) = import_leads.read_leads(f)
+    assert lead["title"] == "Intern - DevOps Toolchain"
+
+
+def test_closed_wording_inside_page_code_does_not_close_a_job():
+    import import_leads
+    code = "<html><script>var msg = 'This job is no longer available';</script><!-- position has been filled --><body>Software Engineer Intern</body></html>"
+    assert import_leads.page_state(200, code, "Software Engineer Intern", date(2026, 11, 16)) == "verified"
+    shown = "<html><body><h1>Software Engineer Intern</h1><p>This job is no longer available</p></body></html>"
+    assert import_leads.page_state(200, shown, "Software Engineer Intern", date(2026, 11, 16)) == "unverified"
+    assert check_links.CLOSED_TEXT.search(check_links.visible(shown))
+    assert not check_links.CLOSED_TEXT.search(check_links.visible(code))
+
+
+def test_closed_wording_never_closes_a_link_on_its_own():
+    class R:
+        def __init__(self, code, text): self.status_code, self.text = code, text
+
+    class H:
+        def __init__(self, r): self.r = r
+        def get(self, url, **kw): return self.r
+    assert check_links.check(H(R(200, "<body>This job is no longer available</body>")), "u") == "uncertain"
+    assert check_links.check(H(R(404, "")), "u") == "closed"
+    assert check_links.check(H(R(200, "<body>Software Engineer Intern</body>")), "u") == "open"

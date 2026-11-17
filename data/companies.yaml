@@ -1081,3 +1081,7 @@ companies:
   - {name: "Blizzard Entertainment", ats: workday, board: "xboxgaming.wd1/Blizzard_External_Careers"}
   - {name: "Octaura", ats: greenhouse, board: "octaura"}
   - {name: "Quest Analytics", ats: lever, board: "questanalytics"}
+  - {name: "Samsung Semiconductor", ats: greenhouse, board: "samsungsemiconductor"}
+  - {name: "Glean", ats: greenhouse, board: "gleanwork"}
+  - {name: "Robinhood", ats: greenhouse, board: "robinhood"}
+  - {name: "Stoke Space", ats: greenhouse, board: "stokespacetechnologies"}

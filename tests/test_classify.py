@@ -335,3 +335,21 @@ def test_soc_security_roles_are_security_not_hardware():
     assert track("SOC Analyst Intern") == "security"
     assert track("SoC Design Verification Intern") == "hardware"
     assert track("SoC Security Verification Intern") == "hardware"  # chip security verification is chip work
+
+
+def test_us_towns_named_like_foreign_cities_are_us():
+    from classify import us_job
+    assert keep_title("University, 2027 Summer Games Software Developer Intern - Rome, NY")
+    assert keep_title("Software Developer Intern - Vienna, VA")
+    assert us_job("Rome, NY") and us_job("Rome, New York") and us_job("Vienna, Virginia") and us_job("Athens, Georgia")
+    assert not keep_title("Software Engineer Intern - Rome, Italy")
+    assert not keep_title("Software Engineer Intern - Berlin, Germany") and not us_job("Rome, Italy") and not us_job("Paris, France")
+    assert not us_job("Tbilisi, Georgia") and not keep_title("Software Engineer Intern - Munich, DE")
+
+
+def test_class_year_lists_are_not_a_senior_level_role():
+    assert keep_title("2027 - Cybersecurity Engineering Intern - Sophomore, Junior, Senior *")
+    assert keep_title("Software Engineer Intern (Junior/Senior)")
+    assert not keep_title("Senior Software Engineer")
+    assert not keep_title("Software Engineer Intern - Senior")        # ambiguous: still treated as senior-level
+    assert not keep_title("Senior Software Engineer Intern, Junior Team")

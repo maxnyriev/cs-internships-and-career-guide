@@ -98,11 +98,29 @@ US_STATE_END = re.compile(r",\s*(AL|AK|AZ|AR|CA|CO|CT|DE|DC|FL|GA|HI|ID|IL|IN|IA
                           r"\s*(,\s*(?i:us|usa|united states( of america)?))?\s*$")
 
 
+# US towns that share a name with a foreign city ("Rome, NY", "Vienna, Virginia", "Athens, GA"): a place name followed by a
+# US state is the US town. A foreign one ("Rome, Italy") has no state after it, and "Munich, DE" isn't on this short list.
+_STATE_NAMES = ("alabama|alaska|arizona|arkansas|california|colorado|connecticut|delaware|florida|georgia|hawaii|idaho|illinois|"
+                "indiana|iowa|kansas|kentucky|louisiana|maine|maryland|massachusetts|michigan|minnesota|mississippi|missouri|montana|"
+                "nebraska|nevada|new hampshire|new jersey|new mexico|new york|north carolina|north dakota|ohio|oklahoma|oregon|"
+                "pennsylvania|rhode island|south carolina|south dakota|tennessee|texas|utah|vermont|virginia|washington|west virginia|"
+                "wisconsin|wyoming")
+_TOWN_STATE = (r"\b(?i:rome|paris|athens|berlin|dublin|vienna|milan|geneva|lisbon|moscow),\s*"
+               r"(?:AL|AK|AZ|AR|CA|CO|CT|DC|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN|MS|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY"
+               r"|(?i:" + _STATE_NAMES + r"))\b")
+US_TOWN = re.compile(_TOWN_STATE)
+US_TOWN_END = re.compile(_TOWN_STATE + r"\s*(,\s*(?i:us|usa|united states( of america)?))?\s*$")
+# "Sophomore, Junior, Senior" names who can apply; it isn't a senior-level job
+CLASS_YEARS = re.compile(r"\b(?:(?:freshm[ae]n|sophomores?|juniors?)\s*[,/&]\s*(?:and\s+)?)+seniors?\b", re.I)
+
+
 def us_job(location: str) -> bool:
     """Drop non-US jobs. "Athens, GA" and "Dublin, CA" are US: a city followed by a state code at the end wins.
     "Blumenau, SC, Brazil" isn't South Carolina, because the code isn't at the end. Otherwise a location naming another
     country or city counts as US only if it also says "United States"/"US" (multi-location postings)."""
     loc = (location or "").strip()
+    if US_TOWN_END.search(loc):
+        return True
     parts = [p.strip() for p in loc.split(",") if p.strip()]
     if ";" not in loc and "|" not in loc and len(parts) >= 3 and re.fullmatch(r"[A-Z]{2}", parts[-1]):
         # "City, Region, CC": the last code is a country ("Toronto, ON, CA" is Canada, "Bengaluru, KA, IN" is India),
@@ -144,13 +162,13 @@ INTERNAL_ONLY = re.compile(r"\b(current|previous|recent|returning)\b[^)]{0,40}\b
 
 
 def keep_title(title: str) -> bool:
-    if not CS_TITLE.search(title) or INTERNAL_ONLY.search(title) or NON_US.search(title):
+    if not CS_TITLE.search(title) or INTERNAL_ONLY.search(title) or NON_US.search(US_TOWN.sub(" ", title)):
         return False
     if GRAD_ONLY.search(title) and not UNDERGRAD.search(title):
         return False
     if OTHER_SCHOOL.search(title) and not (HOME_SCHOOL and HOME_SCHOOL.search(title)):
         return False
-    if not TITLE_KEEP.search(title) or TITLE_DROP.search(title):  # CS_TITLE above already requires technical work
+    if not TITLE_KEEP.search(title) or TITLE_DROP.search(CLASS_YEARS.sub(" ", title)):  # CS_TITLE above already requires technical work
         return False
     # "Supply Chain Tooling Engineer Intern" is technical even though it names a business area
     if FIELD_DROP.search(title) and not re.search(r"\b(software|developer|programmer|firmware|embedded|computer|data scien\w*|it)\b", title, re.I):
