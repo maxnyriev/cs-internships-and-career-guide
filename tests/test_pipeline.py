@@ -639,3 +639,9 @@ def test_split_pages_keeps_every_page_under_the_byte_limit():
 def test_split_pages_stays_single_when_it_fits():
     import build_readme
     assert build_readme.split_pages([1, 2, 3], lambda chunk, idx, total: "small", limit=10_000) == ["small"]
+
+def test_longest_first_orders_boards_by_last_known_size():
+    import fetch_ats
+    boards = [{"board": "a"}, {"board": "b"}, {"board": "c-new"}]
+    rows = {1: {"board": "b"}, 2: {"board": "b"}, 3: {"board": "a"}}  # b=2, a=1, c-new=0 (no history)
+    assert [c["board"] for c in fetch_ats.longest_first(boards, rows)] == ["b", "a", "c-new"]

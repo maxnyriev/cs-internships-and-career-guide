@@ -50,6 +50,17 @@ def board_of(r, by_name):
     return (r["source"], r.get("board") or by_name.get((r["company"], r["source"])))
 
 
+def longest_first(boards, rows):
+    """Fetch the boards that had the most postings last time first. With several workers, that keeps a big
+    board from being picked up last and run alone while the others sit idle, so the whole batch finishes
+    sooner. Same requests and the same per-host pacing; only the order changes. New boards have no history
+    (count 0) and go last; next run they have a size and sort into place."""
+    size = {}
+    for r in rows.values():
+        size[r.get("board")] = size.get(r.get("board"), 0) + 1
+    return sorted(boards, key=lambda c: size.get(c["board"], 0), reverse=True)
+
+
 def main():
     ap = argparse.ArgumentParser()
     mode = ap.add_mutually_exclusive_group(required=True)
@@ -87,6 +98,7 @@ def main():
         unsure.add((c["ats"], c["board"]))  # its rows show ⚠ and leave after 7 days
         boards.remove(c)
 
+    boards = longest_first(boards, rows)  # biggest boards first, so no worker idles waiting on a late giant
     with ThreadPoolExecutor(max_workers=a.workers if a.local else 1) as pool:
         futures = {pool.submit(fetch_one, c, fns): c for c in boards}
         for i, f in enumerate(as_completed(futures), 1):
