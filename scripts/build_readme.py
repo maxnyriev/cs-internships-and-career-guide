@@ -4,6 +4,7 @@ Everything in the tables comes from company feeds, so it's treated as untrusted:
 and a link is used only if it's a plain http(s) URL (otherwise the row is left out and counted).
 """
 import html
+import math
 import json
 import re
 import sys
@@ -146,6 +147,19 @@ def added(d: str) -> str:
     return f"{x:%b} {x.day}"
 
 
+def split_pages(items, render, limit=None):
+    """Fewest contiguous pages whose rendered text each stays under `limit` bytes (GitHub stops rendering
+    markdown past 512 KB). render(chunk, idx, total) -> text. One page when the whole thing already fits."""
+    limit = MAX_PAGE_BYTES if limit is None else limit
+    pages = [items]
+    while True:
+        out = [render(chunk, i + 1, len(pages)) for i, chunk in enumerate(pages)]
+        if all(len(t.encode("utf-8")) <= limit for t in out) or len(pages) >= max(1, len(items)):
+            return out
+        size = math.ceil(len(items) / (len(pages) + 1))
+        pages = [items[i:i + size] for i in range(0, len(items), size)]
+
+
 def table(rows, early=False) -> tuple[str, int]:
     """Newest first by posting date. The date column is left out while every row has the same date."""
     show_added = len({when(r) for r in rows}) > 1
@@ -242,13 +256,37 @@ def main():
                 f"The links go to each company's own careers page.") if missing else ""
 
     skipped = 0
+    def section_nav(stem, idx, total):
+        name_of = (lambda i: f"{stem}.md" if i == 1 else f"{stem}-{i}.md")
+        bits = []
+        if idx > 1:
+            bits.append(f"[⬅ page {idx - 1}]({name_of(idx - 1)})")
+        bits.append(f"page {idx} of {total}")
+        if idx < total:
+            bits.append(f"[page {idx + 1} ➡]({name_of(idx + 1)})")
+        return " · ".join(bits)
+
     for key, name, fname in SECTIONS:
-        part = [r for r in rows if r["section"] == key]
-        body, n = table(part, early=(key == "early"))
-        skipped += n
-        (ROOT / fname).write_text(f"# {name}\n\n[⬅ Back to the main page](./) · {len(part)} open · updated {today()}\n\n"
-                                  f"{intro.get(key, '')}**Click a job title to open the company's application page.**\n\n{LEGEND}\n\n{FILTER_SLOT}\n\n{body}\n"
-                                  + (f"\n{not_yet('new grads' if key == 'new_grad' else 'CS interns')}\n" if key != "early" and missing else "") + f"\n{DISCLAIMER}\n", encoding="utf-8")
+        stem = fname[:-3]
+        for old in ROOT.glob(f"{stem}-*.md"):  # drop continuation pages from an earlier, larger run
+            old.unlink()
+        part = sorted((r for r in rows if r["section"] == key),
+                      key=lambda r: (-date.fromisoformat(when(r)).toordinal(), r["company"].lower(), r["title"].lower()))
+        skipped += sum(1 for r in part if not safe_url(r.get("url")))  # same rows table() leaves out
+        tail = (f"\n{not_yet('new grads' if key == 'new_grad' else 'CS interns')}\n" if key != "early" and missing else "")
+
+        def render(chunk, idx, total):
+            head = f"# {name}\n\n[⬅ Back to the main page](./) · {len(part)} open" + (f" · page {idx} of {total}" if total > 1 else "") + f" · updated {today()}\n\n"
+            nav = f"{section_nav(stem, idx, total)}\n\n" if total > 1 else ""
+            body, _ = table(chunk, early=(key == "early"))
+            return (head + nav
+                    + f"{intro.get(key, '')}**Click a job title to open the company's application page.**\n\n{LEGEND}\n\n{FILTER_SLOT}\n\n{body}\n"
+                    + (f"\n{section_nav(stem, idx, total)}\n" if total > 1 else "")
+                    + (tail if idx == total else "") + f"\n{DISCLAIMER}\n")
+
+        texts = split_pages(part, render)
+        for idx, t in enumerate(texts, 1):
+            (ROOT / (f"{stem}.md" if idx == 1 else f"{stem}-{idx}.md")).write_text(t, encoding="utf-8")
 
 
     skipped += write_track_pages(rows)
@@ -328,7 +366,7 @@ This board is provided as is, without warranty of any kind. Listings and tags ar
     (ROOT / "_data" / "stats.json").write_text(json.dumps({"updated": today(), "internships": counts.get("internship", 0),
         "new_grad": counts.get("new_grad", 0), "early": counts.get("early", 0), "new_week": len(new), "total": len(rows),
         "boards": boards, "tracks": track_counts, "terms": term_counts}, indent=2) + "\n", encoding="utf-8")
-    for f in [ROOT / name for _, _, name in SECTIONS] + [ROOT / "NEW_THIS_WEEK.md", ROOT / "README.md"] + list(ROOT.glob("track-*.md")):
+    for f in [ROOT / name for _, _, name in SECTIONS] + sum((list(ROOT.glob(f"{name[:-3]}-*.md")) for _, _, name in SECTIONS), []) + [ROOT / "NEW_THIS_WEEK.md", ROOT / "README.md"] + list(ROOT.glob("track-*.md")):
         size = f.stat().st_size
         if size > MAX_PAGE_BYTES:  # GitHub stops rendering markdown at 512 KB; fail before a page silently goes blank
             sys.exit(f"{f.name} is {size:,} bytes, over the {MAX_PAGE_BYTES:,}-byte limit; split it before publishing")
