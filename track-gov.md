@@ -1,6 +1,6 @@
 # Government and defense
 
-[⬅ Back to the main page](./) · 222 open · updated 2026-11-16
+[⬅ Back to the main page](./) · 222 open · updated 2026-11-17
 
 Government, national-lab and defense roles, plus any posting that asks for a clearance or U.S. citizenship. New to this track? Read the [Government and defense section of the Career tracks guide](guides/tracks.md#government-and-defense).
 

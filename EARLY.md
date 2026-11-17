@@ -1,10 +1,12 @@
 # Early Programs (freshmen & sophomores)
 
-[⬅ Back to the main page](./) · 3 open · updated 2026-11-16
+[⬅ Back to the main page](./) · 3 open · updated 2026-11-17
 
 Postings that say freshmen or sophomores can apply, or programs built for them. The grey line under each title is the sentence from the posting, so you can check it.
 
 Big tech programs for first- and second-years, like Microsoft Explore and NVIDIA Ignite, usually open in September and close in October, so check their student pages in late summer. Programs are added here only while they're open.
+
+Only a few programs are open at a time. Freshmen and sophomores should also check the full [internships list](INTERNSHIPS.md) — most roles there don't require a class year.
 
 **Click a job title to open the company's application page.**
 

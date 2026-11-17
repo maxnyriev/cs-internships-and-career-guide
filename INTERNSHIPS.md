@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 1930 open · page 1 of 2 · updated 2026-11-16
+[⬅ Back to the main page](./) · 1967 open · page 1 of 2 · updated 2026-11-17
 
 page 1 of 2 · [page 2 ➡](INTERNSHIPS-2.md)
 
@@ -34,6 +34,43 @@ page 1 of 2 · [page 2 ➡](INTERNSHIPS-2.md)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| Blackhawk Network Holdings | [Technology Intern](https://careers-blackhawknetwork.icims.com/jobs/26867/technology-intern/job) | Pleasanton, CA, US |  | Nov 17* |
+| Blackhawk Network Holdings | [Technology Intern](https://careers-blackhawknetwork.icims.com/jobs/26866/technology-intern/job) | Coppell, TX, US |  | Nov 17* |
+| General Dynamics Mission Systems | [FPGA Engineer Intern](https://careers-gdms.icims.com/jobs/78722/fpga-engineer-intern/job) | Scottsdale, AZ, US | ⚠ unverified | Nov 17* |
+| General Dynamics Mission Systems | [Full-Stack Application Development Intern, Summer 2027](https://careers-gdms.icims.com/jobs/75971/full-stack-application-development-intern%2c-summer-2027/job) | Scottsdale, AZ, US; Chantilly, VA, US; Pittsf… | ⚠ unverified | Nov 17* |
+| General Dynamics Mission Systems | [Full-Stack Software Engineering Intern, Summer 2027](https://careers-gdms.icims.com/jobs/75970/full-stack-software-engineering-intern%2c-summer-2027/job) | Scottsdale, AZ, US; Chantilly, VA, US; Pittsf… | 🌐 remote<br>⚠ unverified | Nov 17* |
+| General Dynamics Mission Systems | [Ontology Data Analysis and Validation Intern, Summer 2027](https://careers-gdms.icims.com/jobs/76095/ontology-data-analysis-and-validation-intern%2c-summer-2027/job) | Pittsfield, MA, US; Scottsdale, AZ, US; Chant… | ⚠ unverified | Nov 17* |
+| General Dynamics Mission Systems | [Software Asset Management Intern Administrative](https://careers-gdms.icims.com/jobs/76780/software-asset-management-intern-administrative/job) | Pittsfield, MA, US | ⚠ unverified | Nov 17* |
+| General Dynamics Mission Systems | [Software Engineer Intern](https://careers-gdms.icims.com/jobs/75637/software-engineer-intern/job) | Pittsburgh, PA, US | ⚠ unverified | Nov 17* |
+| General Dynamics Mission Systems | [Software Test Engineering Intern - Space and Embedded Crypto](https://careers-gdms.icims.com/jobs/75632/software-test-engineering-intern---space-and-embedded-crypto/job) | Scottsdale, AZ, US; Remote | 🌐 remote<br>⚠ unverified | Nov 17* |
+| General Dynamics Mission Systems | [Software/Systems Engineering Intern \(Summer 2027\)](https://careers-gdms.icims.com/jobs/75808/software-systems-engineering-intern-%28summer-2027%29/job) | Middletown, RI, US | ⚠ unverified | Nov 17* |
+| General Dynamics Mission Systems | [Systems and Software Development Intern](https://careers-gdms.icims.com/jobs/76099/systems-and-software-development-intern/job) | San Antonio, TX, US; Scottsdale, AZ, US; Remo… | 🌐 remote<br>⚠ unverified | Nov 17* |
+| General Dynamics Mission Systems | [Systems Intern \(Cybersecurity and Linux Administration\)](https://careers-gdms.icims.com/jobs/76103/systems-intern-%28cybersecurity-and-linux-administration%29/job) | San Antonio, TX, US | ⚠ unverified | Nov 17* |
+| Peraton | [IT Cybersecurity Intern - Fort Huachuca, AZ](https://careers-peraton.icims.com/jobs/171602/it-cybersecurity-intern---fort-huachuca%2c-az/job) | Home, AZ, US; Remote | 🌐 remote | Nov 17* |
+| Peraton | [Mission Systems Software &amp; Edge Computing Intern – Norman, OK](https://careers-peraton.icims.com/jobs/172378/mission-systems-software-%26-edge-computing-intern-%e2%80%93-norman%2c-ok/job) | Home, OK, US; Remote | 🌐 remote | Nov 17* |
+| Peraton | [Summer 2027 Cybersecurity Engineering Intern](https://careers-peraton.icims.com/jobs/171326/summer-2027-cybersecurity-engineering-intern/job) | Herndon, VA, US |  | Nov 17* |
+| Peraton | [Summer 2027 Software Development Intern- Topeka, KS](https://careers-peraton.icims.com/jobs/172061/summer-2027-software-development-intern--topeka%2c-ks/job) | Topeka, KS, US |  | Nov 17* |
+| Peraton | [Summer 2027 Software Engineer Intern](https://careers-peraton.icims.com/jobs/169665/summer-2027-software-engineer-intern/job) | Herndon, VA, US; Blacksburg, VA, US |  | Nov 17* |
+| SAS | [Summer 2027 - EVAAS Instructional Design e-Learning Developer Intern](https://careers-sas.icims.com/jobs/42765/summer-2027---evaas-instructional-design-e-learning-developer-intern/job) | Cary HQ, NC, US | ⚠ unverified | Nov 17* |
+| SAS | [Summer 2027 - Software Developer Intern \(Go/Golang Experience\)](https://careers-sas.icims.com/jobs/42797/summer-2027---software-developer-intern-%28go-golang-experience%29/job) | Cary HQ, NC, US | ⚠ unverified | Nov 17* |
+| SAS | [Summer 2027 - Technical Support Intern](https://careers-sas.icims.com/jobs/46696/summer-2027---technical-support-intern/job) | Cary HQ, NC, US | ⚠ unverified | Nov 17* |
+| Shure | [AI Specialist \(Operations\) Intern](https://careersus-shure.icims.com/jobs/5029/ai-specialist-%28operations%29-intern/job) | Niles, IL, US |  | Nov 17* |
+| Shure | [Application Software Development Intern](https://careersus-shure.icims.com/jobs/5020/application-software-development-intern/job) | Niles, IL, US |  | Nov 17* |
+| Shure | [Embedded Software Intern](https://careersus-shure.icims.com/jobs/5018/embedded-software-intern/job) | Niles, IL, US |  | Nov 17* |
+| Shure | [Mobile Applications \(Android\) Intern](https://careersus-shure.icims.com/jobs/5006/mobile-applications-%28android%29-intern/job) | Niles, IL, US |  | Nov 17* |
+| Shure | [System Verification Engineering Intern](https://careersus-shure.icims.com/jobs/5000/system-verification-engineering-intern/job) | Skokie, IL, US |  | Nov 17* |
+| Shure | [Unified Communication \(UC\) Technology Intern](https://careersus-shure.icims.com/jobs/5002/unified-communication-%28uc%29-technology-intern/job) | Skokie, IL, US |  | Nov 17* |
+| Shure | [Web Analytics Intern](https://careersus-shure.icims.com/jobs/5027/web-analytics-intern/job) | Niles, IL, US |  | Nov 17* |
+| Springs Window Fashions | [Consumer Business Unit - AI Analyst Internship - Summer 2027](https://careers-springswindowfashions.icims.com/jobs/12875/consumer-business-unit---ai-analyst-internship---summer-2027/job) | MIDDLETON, WI, US |  | Nov 17* |
+| Springs Window Fashions | [Consumer Business Unit - Data Analyst Internship - Summer 2027](https://careers-springswindowfashions.icims.com/jobs/12874/consumer-business-unit---data-analyst-internship---summer-2027/job) | MIDDLETON, WI, US |  | Nov 17* |
+| Springs Window Fashions | [Dealer Business Operations &amp; Analytics Internship - Summer 2027](https://careers-springswindowfashions.icims.com/jobs/12886/dealer-business-operations-%26-analytics-internship---summer-2027/job) | MIDDLETON, WI, US |  | Nov 17* |
+| Springs Window Fashions | [Information Technology - AI Internship - summer 2027](https://careers-springswindowfashions.icims.com/jobs/12945/information-technology---ai-internship---summer-2027/job) | MIDDLETON, WI, US |  | Nov 17* |
+| Springs Window Fashions | [Information Technology Internship - summer 2027](https://careers-springswindowfashions.icims.com/jobs/12908/information-technology-internship---summer-2027/job) | MIDDLETON, WI, US |  | Nov 17* |
+| Springs Window Fashions | [Software Engineering Internship - Summer 2027](https://careers-springswindowfashions.icims.com/jobs/12891/software-engineering-internship---summer-2027/job) | LONG ISLAND CITY, NY, US |  | Nov 17* |
+| Springs Window Fashions | [Textile Engineering Analytics &amp; Software Internship - summer 2027](https://careers-springswindowfashions.icims.com/jobs/12881/textile-engineering-analytics-%26-software-internship---summer-2027/job) | MIDDLETON, WI, US |  | Nov 17* |
+| Waymo | [2027 Summer Intern, BS, Software Engineering, Labeling](https://careers.withwaymo.com/jobs?gh_jid=8238525) | Mountain View, California | ⚠ unverified | Nov 17* |
+| Waymo | [2027 Summer Intern, BS, Waymo ML Ops &amp; Automation](https://careers.withwaymo.com/jobs?gh_jid=8257237) | Mountain View, California | ⚠ unverified | Nov 17* |
+| Waymo | [2027 Summer Intern, BS/MS, Software Engineering, Maneuvering Tech](https://careers.withwaymo.com/jobs?gh_jid=8203200) | San Francisco, California | ⚠ unverified | Nov 17* |
 | Acadian Asset Management | [Quantitative Investment Internship Program - Summer 2027](https://www.acadian-asset.com/careers/open-positions?gh_jid=4720681006) | Boston, Massachusetts | ⚠ unverified | Nov 16* |
 | Acuity | [Finance AI Engineering Intern - Onsite](https://careers.acuityinc.com/job/Atlanta-Finance-AI-Engineering-Intern-Onsite-GA-30309/1434878900/) | Atlanta, Georgia |  | Nov 16* |
 | Aflac | [2027 Global Investments \(NY\) Business &amp; Analytics Intern](https://careers.aflac.com/job/New-York-City-2027-Global-Investments-%28NY%29-Business-&-Analytics-Intern-NY-10005/1443293800/) | New York, New York |  | Nov 16* |
@@ -981,24 +1018,6 @@ page 1 of 2 · [page 2 ➡](INTERNSHIPS-2.md)
 | Rhoda AI | [Software Engineer Intern, Inference](https://jobs.ashbyhq.com/rhoda-ai/2de33083-782f-489e-9b91-f40761a36bf4) | Mountain View |  | Oct 21 |
 | Rhoda AI | [Software Engineer Intern, Rhoda Platform](https://jobs.ashbyhq.com/rhoda-ai/9a57c8ff-dd2b-4547-a46a-44658a699ba5) | Mountain View |  | Oct 21 |
 | Trace3 | [Data &amp; Analytics Intern](https://job-boards.greenhouse.io/trace3/jobs/8274818) | Irvine, CA, United States | 🎓 3.0+ GPA | Oct 21 |
-| We One | [Information Security Intern](https://ehpv.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/WeOneCareers/job/27404)<br><sub>“Please note : This position does not offer sponsorship for employment visas.”</sub> | Charlotte, NC, United States | 🛂❌ no sponsor | Oct 21 |
-| We One | [Network Engineering Intern](https://ehpv.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/WeOneCareers/job/27403)<br><sub>“Please note : This position does not offer sponsorship for employment visas.”</sub> | Charlotte, NC, United States | 🛂❌ no sponsor<br>🎓 3.0+ GPA | Oct 21 |
-| Whataburger | [Data Scientist Intern](https://whataburger.wd5.myworkdayjobs.com/WAB_CAREERS/job/300-Concord-Plaza-Dr-San-Antonio-TX-78216-6903/Data-Scientist-Intern_JR10014201) | 300 Concord Plaza Dr San Antonio TX 78216-690… | ⚠ unverified | Oct 21 |
-| Adobe | [2027 Intern - Security Engineer](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Security-Engineer_R173001) | San Jose |  | Oct 20 |
-| AeroVironment | [Machine Learning Engineering Intern](https://avav.wd1.myworkdayjobs.com/AVAV/job/Centreville-VA/Machine-Learning-Engineering-Intern_8941)<br><sub>“U.S. Citizenship required.”</sub> | Centreville, VA | 🗽 citizens<br>🔒 clearance<br>🎓 3.0+ GPA | Oct 20 |
-| AeroVironment | [Software Engineering Intern](https://avav.wd1.myworkdayjobs.com/AVAV/job/Minneapolis-MN/Software-Engineering-Intern_8940)<br><sub>“U.S. Citizenship required.”</sub> | Minneapolis, MN | 🗽 citizens<br>🔒 clearance<br>🎓 3.0+ GPA | Oct 20 |
-| AeroVironment | [Software Engineering Intern](https://avav.wd1.myworkdayjobs.com/AVAV/job/San-Diego-CA/Software-Engineering-Intern_8828)<br><sub>“U.S. Citizenship required.”</sub> | San Diego, CA | 🗽 citizens<br>🔒 clearance<br>🎓 3.0+ GPA | Oct 20 |
-| Amazon | [Hardware Development Engineer Intern , Winter 2027](https://www.amazon.jobs/en/jobs/10584121/hardware-development-engineer-intern-winter-2027) | Bellevue, Washington, USA |  | Oct 20 |
-| Anduril Industries | [2027 Finance Data Analyst Intern](https://boards.greenhouse.io/andurilindustries/jobs/5269977007?gh_jid=5269977007) | Costa Mesa, California, United States |  | Oct 20 |
-| Assurant | [Summer 2027 Intern: Software Engineering Intern](https://assurant.wd1.myworkdayjobs.com/Assurant_Careers/job/Atlanta-GA/Summer-2027-Intern--Software-Engineering-Intern_R-115727-1) | Atlanta, GA |  | Oct 20 |
-| Buildertrend | [Enterprise Technology Intern](https://buildertrend.wd108.myworkdayjobs.com/External_Careers/job/Omaha-NE/Enterprise-Technology-Intern_JR-000491) | Omaha, NE |  | Oct 20 |
-| Ciena | [Software Engineer \(Security\) - Intern \(Winter 2027\)](https://ciena.wd5.myworkdayjobs.com/Careers/job/Atlanta/Software-Engineer--Security----Intern--Winter-2027-_R031926) | Atlanta |  | Oct 20 |
-| Cigna Healthcare | [Business Analytics Intern](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/Business-Analytics-Intern_26012472)<br><sub>“Therefore, this temporary internship is open only to individuals who are eligible for employment in the United States and who would not requ…”</sub> | Bloomfield, CT | 🚫 no CPT/OPT<br>⚠ unverified | Oct 20 |
-| DriveWealth | [AI Consulting Associate Program \(AI CAP\) Brokerage Intern - Summer 2027](https://boards.greenhouse.io/drivewealth/jobs/8039368003?gh_jid=8039368003)<br><sub>“Applicants must be authorized to work for any employer in the U.S. DriveWealth is unable to sponsor an employment Visa at this time.”</sub> | Office - Chicago | 🛂❌ no sponsor | Oct 20 |
-| DriveWealth | [AI Consulting Associate Program \(AI CAP\) Engineering Intern - Summer 2027](https://boards.greenhouse.io/drivewealth/jobs/8039350003?gh_jid=8039350003)<br><sub>“Applicants must be authorized to work for any employer in the U.S. DriveWealth is unable to sponsor an employment Visa at this time.”</sub> | Office - Chicago; Office - NYC | 🛂❌ no sponsor | Oct 20 |
-| Greystone | [Salesforce Developer Intern - Summer 2027](https://greyco.wd108.myworkdayjobs.com/GTI/job/New-York-NY/Summer-2027---Salesforce-Developer-Intern_JR0000144) | New York, NY |  | Oct 20 |
-| Humble Robotics | [Embedded Software Engineer, 2027 Internship](https://jobs.lever.co/humble-robotics/8d1fb5d7-9b07-4fac-8c39-e395dca7f2b3) | San Francisco |  | Oct 20 |
-| Hunkemöller | [Internship IT - Analytics Engineering](https://hkm.wd3.myworkdayjobs.com/Hunkemoller_External_Career_Site/job/Headquarters-International/Internship-IT---Analytics-Engineering_JR78659) | Headquarters International |  | Oct 20 |
 
 page 1 of 2 · [page 2 ➡](INTERNSHIPS-2.md)
 

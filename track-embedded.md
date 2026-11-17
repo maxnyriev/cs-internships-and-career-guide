@@ -1,6 +1,6 @@
 # Embedded and firmware
 
-[⬅ Back to the main page](./) · 74 open · updated 2026-11-16
+[⬅ Back to the main page](./) · 76 open · updated 2026-11-17
 
 Firmware, microcontroller and real-time software that runs on devices. New to this track? Read the [Embedded and firmware section of the Career tracks guide](guides/tracks.md#embedded-and-firmware).
 
@@ -34,10 +34,12 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (73)
+## Internships (75)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| General Dynamics Mission Systems | [Software Test Engineering Intern - Space and Embedded Crypto](https://careers-gdms.icims.com/jobs/75632/software-test-engineering-intern---space-and-embedded-crypto/job) | Scottsdale, AZ, US; Remote | 🌐 remote<br>⚠ unverified | Nov 17* |
+| Shure | [Embedded Software Intern](https://careersus-shure.icims.com/jobs/5018/embedded-software-intern/job) | Niles, IL, US |  | Nov 17* |
 | AGCO | [Embedded Software Engineering Intern - Summer 2027](https://careers.agcocorp.com/job/Hesston-Embedded-Software-Engineering-Intern-Summer-2027-KS-67062/1440993300/) | Hesston, Kansas |  | Nov 16* |
 | Boston Scientific | [R&amp;D Firmware Engineer Intern](https://bostonscientific.eightfold.ai/careers/job/563602813547667-r-d-firmware-engineer-intern-arden-hills-us-mn-united-states-n-a) | Arden Hills, Minnesota | ⚠ unverified | Nov 16* |
 | Cirrus Logic | [2027 Internship - Embedded Firmware Engineer](https://jobs.eu.lever.co/cirrus/0af920c1-6ecb-447f-9b22-3eda6b8d4ed8) | Phoenix, Arizona |  | Nov 16* |

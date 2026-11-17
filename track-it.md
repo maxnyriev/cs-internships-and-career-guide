@@ -1,6 +1,6 @@
 # IT and networking
 
-[⬅ Back to the main page](./) · 282 open · updated 2026-11-16
+[⬅ Back to the main page](./) · 285 open · updated 2026-11-17
 
 IT support, networking, systems administration and cloud operations. New to this track? Read the [IT and networking section of the Career tracks guide](guides/tracks.md#it-and-networking).
 
@@ -34,10 +34,13 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (275)
+## Internships (278)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| SAS | [Summer 2027 - Technical Support Intern](https://careers-sas.icims.com/jobs/46696/summer-2027---technical-support-intern/job) | Cary HQ, NC, US | ⚠ unverified | Nov 17* |
+| Springs Window Fashions | [Information Technology - AI Internship - summer 2027](https://careers-springswindowfashions.icims.com/jobs/12945/information-technology---ai-internship---summer-2027/job) | MIDDLETON, WI, US |  | Nov 17* |
+| Springs Window Fashions | [Information Technology Internship - summer 2027](https://careers-springswindowfashions.icims.com/jobs/12908/information-technology-internship---summer-2027/job) | MIDDLETON, WI, US |  | Nov 17* |
 | Aflac | [2027 Global Investments \(NY\) Information Technology Intern](https://careers.aflac.com/job/New-York-City-2027-Global-Investments-%28NY%29-Information-Technology-Intern-NY-10005/1443293300/) | New York, New York |  | Nov 16* |
 | Altice USA | [Intern - Cloud Platform Engineering](https://www.optimumcareers.com/job/Bethpage-Intern-Cloud-Platform-Engineering-NY-11714/1449512000/) | Town of Oyster Bay, New York | ⚠ unverified | Nov 16* |
 | Altice USA | [Intern - DevOps Toolchain](https://www.optimumcareers.com/job/Bethpage-Intern-DevOps-Toolchain%E2%80%8B-NY-11714/1449507200/) | Town of Oyster Bay, New York | ⚠ unverified | Nov 16* |
@@ -254,7 +257,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Westfield | [2027 Summer Intern Program- IT Intern, Chicago](https://fa-exdv-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/12006) | Chicago, IL, United States | 🎓 3.2+ GPA | Sep 21 |
 | LLNL | [Computing Undergraduate Student Intern: DevOps Internship Program - Summer 2027](https://jobs.smartrecruiters.com/LLNL/3743990015408206-computing-undergraduate-student-intern-devops-internship-program-summer-2027)<br><sub>“Security Clearance”</sub> | Livermore, CA, US | 🔒 clearance<br>🎓 3.0+ GPA | Sep 18 |
 | Netsmart | [IT System Administrator Intern \(Summer 2027 Internship\)](https://ntst.wd1.myworkdayjobs.com/Careers/job/Overland-Park-KS/IT-System-Administrator-Intern---Summer-2027-Internship-_R015666)<br><sub>“Netsmart does not provide work visa sponsorship for this position.”</sub> | Overland Park, KS | 🛂❌ no sponsor<br>⚠ unverified | Sep 18 |
-| Gordon Food Service | [Human Resource Information Systems Internship](https://gfs.wd5.myworkdayjobs.com/usjobs-gen-gfs/job/Wyoming-Michigan/Human-Resource-Information-Systems-Internship_R-57339) | Wyoming, Michigan | 🎓 3.0+ GPA | Sep 17 |
+| Gordon Food Service | [Human Resource Information Systems Internship](https://gfs.wd5.myworkdayjobs.com/usjobs-gen-gfs/job/Wyoming-Michigan/Human-Resource-Information-Systems-Internship_R-57339) | Wyoming, Michigan | 🎓 3.0+ GPA<br>⏳ 60+ days | Sep 17 |
 | Bass Pro Shops | [IT Developer Intern Summer 2027](https://basspro.wd1.myworkdayjobs.com/careers/job/Springfield-MO-Bass-Pro-Shops-Base-Camp/IT-Developer-Intern-Summer-2027_R267441-1) | Springfield, MO \(Bass Pro Shops Base Camp\) | 🎓 3.0+ GPA<br>⚠ unverified<br>⏳ 60+ days | Sep 16 |
 | Blue Cross and Blue Shield of Louisiana | [CW IT Service Management Intern \(Spring 2027\)](https://bcbsla.wd1.myworkdayjobs.com/Generation_Blue/job/Remote-LA/CW-IT-Service-Management-Intern--Spring-2027-_R12137) | Remote-LA | 🎓 2.5+ GPA<br>🌱 spring<br>🌐 remote<br>⏳ 60+ days | Sep 16 |
 | Blue Cross and Blue Shield of Louisiana | [CW Technical Support Services Intern \(Spring 2027\)](https://bcbsla.wd1.myworkdayjobs.com/Generation_Blue/job/Corporate---Baton-Rouge-LA/CW-IT-Service-Desk-Intern--Spring-2027-_R12139) | Corporate - Baton Rouge, LA | 🎓 2.8+ GPA<br>🌱 spring<br>⏳ 60+ days | Sep 16 |

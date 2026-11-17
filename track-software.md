@@ -1,6 +1,6 @@
 # Software
 
-[⬅ Back to the main page](./) · 828 open · updated 2026-11-16
+[⬅ Back to the main page](./) · 847 open · updated 2026-11-17
 
 Web, mobile, backend, full-stack and general software roles. New to this track? Read the [Software section of the Career tracks guide](guides/tracks.md#software).
 
@@ -34,10 +34,29 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (746)
+## Internships (765)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| Blackhawk Network Holdings | [Technology Intern](https://careers-blackhawknetwork.icims.com/jobs/26867/technology-intern/job) | Pleasanton, CA, US |  | Nov 17* |
+| Blackhawk Network Holdings | [Technology Intern](https://careers-blackhawknetwork.icims.com/jobs/26866/technology-intern/job) | Coppell, TX, US |  | Nov 17* |
+| General Dynamics Mission Systems | [Full-Stack Application Development Intern, Summer 2027](https://careers-gdms.icims.com/jobs/75971/full-stack-application-development-intern%2c-summer-2027/job) | Scottsdale, AZ, US; Chantilly, VA, US; Pittsf… | ⚠ unverified | Nov 17* |
+| General Dynamics Mission Systems | [Full-Stack Software Engineering Intern, Summer 2027](https://careers-gdms.icims.com/jobs/75970/full-stack-software-engineering-intern%2c-summer-2027/job) | Scottsdale, AZ, US; Chantilly, VA, US; Pittsf… | 🌐 remote<br>⚠ unverified | Nov 17* |
+| General Dynamics Mission Systems | [Software Asset Management Intern Administrative](https://careers-gdms.icims.com/jobs/76780/software-asset-management-intern-administrative/job) | Pittsfield, MA, US | ⚠ unverified | Nov 17* |
+| General Dynamics Mission Systems | [Software Engineer Intern](https://careers-gdms.icims.com/jobs/75637/software-engineer-intern/job) | Pittsburgh, PA, US | ⚠ unverified | Nov 17* |
+| General Dynamics Mission Systems | [Software/Systems Engineering Intern \(Summer 2027\)](https://careers-gdms.icims.com/jobs/75808/software-systems-engineering-intern-%28summer-2027%29/job) | Middletown, RI, US | ⚠ unverified | Nov 17* |
+| General Dynamics Mission Systems | [Systems and Software Development Intern](https://careers-gdms.icims.com/jobs/76099/systems-and-software-development-intern/job) | San Antonio, TX, US; Scottsdale, AZ, US; Remo… | 🌐 remote<br>⚠ unverified | Nov 17* |
+| Peraton | [Mission Systems Software &amp; Edge Computing Intern – Norman, OK](https://careers-peraton.icims.com/jobs/172378/mission-systems-software-%26-edge-computing-intern-%e2%80%93-norman%2c-ok/job) | Home, OK, US; Remote | 🌐 remote | Nov 17* |
+| Peraton | [Summer 2027 Software Development Intern- Topeka, KS](https://careers-peraton.icims.com/jobs/172061/summer-2027-software-development-intern--topeka%2c-ks/job) | Topeka, KS, US |  | Nov 17* |
+| Peraton | [Summer 2027 Software Engineer Intern](https://careers-peraton.icims.com/jobs/169665/summer-2027-software-engineer-intern/job) | Herndon, VA, US; Blacksburg, VA, US |  | Nov 17* |
+| SAS | [Summer 2027 - EVAAS Instructional Design e-Learning Developer Intern](https://careers-sas.icims.com/jobs/42765/summer-2027---evaas-instructional-design-e-learning-developer-intern/job) | Cary HQ, NC, US | ⚠ unverified | Nov 17* |
+| SAS | [Summer 2027 - Software Developer Intern \(Go/Golang Experience\)](https://careers-sas.icims.com/jobs/42797/summer-2027---software-developer-intern-%28go-golang-experience%29/job) | Cary HQ, NC, US | ⚠ unverified | Nov 17* |
+| Shure | [Application Software Development Intern](https://careersus-shure.icims.com/jobs/5020/application-software-development-intern/job) | Niles, IL, US |  | Nov 17* |
+| Shure | [Mobile Applications \(Android\) Intern](https://careersus-shure.icims.com/jobs/5006/mobile-applications-%28android%29-intern/job) | Niles, IL, US |  | Nov 17* |
+| Shure | [Unified Communication \(UC\) Technology Intern](https://careersus-shure.icims.com/jobs/5002/unified-communication-%28uc%29-technology-intern/job) | Skokie, IL, US |  | Nov 17* |
+| Springs Window Fashions | [Software Engineering Internship - Summer 2027](https://careers-springswindowfashions.icims.com/jobs/12891/software-engineering-internship---summer-2027/job) | LONG ISLAND CITY, NY, US |  | Nov 17* |
+| Waymo | [2027 Summer Intern, BS, Software Engineering, Labeling](https://careers.withwaymo.com/jobs?gh_jid=8238525) | Mountain View, California | ⚠ unverified | Nov 17* |
+| Waymo | [2027 Summer Intern, BS/MS, Software Engineering, Maneuvering Tech](https://careers.withwaymo.com/jobs?gh_jid=8203200) | San Francisco, California | ⚠ unverified | Nov 17* |
 | Acadian Asset Management | [Quantitative Investment Internship Program - Summer 2027](https://www.acadian-asset.com/careers/open-positions?gh_jid=4720681006) | Boston, Massachusetts | ⚠ unverified | Nov 16* |
 | Altice USA | [Intern - Software Developer](https://www.optimumcareers.com/job/Bethpage-Intern-Software-Developer-NY-11714/1450884000/) | Town of Oyster Bay, New York | ⚠ unverified | Nov 16* |
 | APEX Analytix | [QA Automation Intern](https://ats.rippling.com/apexanalytix-careers/jobs/ebafabc3-be09-477d-94a9-0ba244f52319) | Greensboro, North Carolina |  | Nov 16* |
@@ -578,11 +597,11 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | ITW | [Software Engineering Intern](https://itw.wd5.myworkdayjobs.com/External/job/Appleton-1635-W-Spencer/Software-Engineering-Intern_JR10122) | Appleton-1635 W Spencer | 🎓 3.0+ GPA | Sep 18 |
 | Stantec | [Technology Intern/Co-op - Buildings \(Summer 2027\)](https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1007834) | New York, NY, United States | 🔄 co-op | Sep 18 |
 | Together AI | [Systems Research Engineer Intern - GPU Programming \(Summer 2027\)](https://job-boards.greenhouse.io/togetherai/jobs/5238460007) | San Francisco |  | Sep 18 |
-| ACI Worldwide | [Technology Internships](https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19943) | Norcross, GA, United States |  | Sep 17 |
-| Amazon | [Software Development Engineer Intern - Summer 2027 \(USA\)](https://www.amazon.jobs/en/jobs/10552937/software-development-engineer-intern-summer-2027-usa) | Seattle, Washington, USA |  | Sep 17 |
-| Amperesand | [Software Intern, Factory &amp; Ops](https://job-boards.greenhouse.io/amperesand/jobs/4409254009) | Reno, Nevada, United States |  | Sep 17 |
-| Ricoh | [Software Development Intern](https://cbha.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8477) | Boulder, CO, United States | 🎓 3.0+ GPA | Sep 17 |
-| SharkNinja | [Engineering &amp; Technology Intern Summer Opportunities \(May-Aug 2027\)](https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4713857006) | Needham, MA, United States |  | Sep 17 |
+| ACI Worldwide | [Technology Internships](https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19943) | Norcross, GA, United States | ⏳ 60+ days | Sep 17 |
+| Amazon | [Software Development Engineer Intern - Summer 2027 \(USA\)](https://www.amazon.jobs/en/jobs/10552937/software-development-engineer-intern-summer-2027-usa) | Seattle, Washington, USA | ⏳ 60+ days | Sep 17 |
+| Amperesand | [Software Intern, Factory &amp; Ops](https://job-boards.greenhouse.io/amperesand/jobs/4409254009) | Reno, Nevada, United States | ⏳ 60+ days | Sep 17 |
+| Ricoh | [Software Development Intern](https://cbha.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8477) | Boulder, CO, United States | 🎓 3.0+ GPA<br>⏳ 60+ days | Sep 17 |
+| SharkNinja | [Engineering &amp; Technology Intern Summer Opportunities \(May-Aug 2027\)](https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4713857006) | Needham, MA, United States | ⏳ 60+ days | Sep 17 |
 | Aspen Technology | [Software Development Intern - Digital Grid Management - Summer 2027](https://aspentech.wd5.myworkdayjobs.com/AspenTech/job/Medina-Minnesota/Software-Development-Intern---Digital-Grid-Management---Summer-2027_R9456)<br><sub>“Individuals with temporary visas such as E, F-1\(including those with OPT or CPT\) , H-1, H-2, L-1, B, J or TN, or who need sponsorship for wo…”</sub> | Medina, Minnesota | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 16 |
 | Bedrock Robotics Inc | [2027 Internship Software Engineer, Fleet Platform](https://jobs.ashbyhq.com/bedrock-robotics/8927dd7e-a48d-49a2-92eb-09ec059432f4) | New York, NY | ⏳ 60+ days | Sep 16 |
 | Clockwork.io | [Software Engineer Intern](https://job-boards.greenhouse.io/clockworksystems/jobs/6174230004) | Palo Alto, CA | ⏳ 60+ days | Sep 16 |
@@ -822,8 +841,8 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | ZipRecruiter | [Software Engineer - New Grad](https://job-boards.greenhouse.io/ziprecruiter/jobs/8127108) | Santa Monica, CA |  | Sep 24 |
 | Scale AI | [Software Engineer, Public Sector - New Grad](https://job-boards.greenhouse.io/scaleai/jobs/4736426005) | San Francisco, CA |  | Sep 23 |
 | KBR, Inc. | [Entry Level/ Junior Army Fires Modeling and Simulation Developer](https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Fort-Belvoir-Virginia/Entry-Level--Junior-Army-Fires-Modeling-and-Simulation-Developer_R2129634)<br><sub>“A SECRET security clearance/ ability to obtain a SECRET clearance is required.”</sub> | Fort Belvoir, Virginia | 🔒 secret | Sep 22 |
-| Shield AI | [Software Engineer I - Internal Tools \(New Grad\) - R6052](https://jobs.lever.co/shieldai/633a3038-574c-45ff-babb-7e1b8b7c6196) | Seattle, Washington | ⚠ unverified | Sep 17 |
-| Stripe | [Software Engineer, Early Career — Immediate Start](https://stripe.com/jobs/search?gh_jid=8212508) | San Francisco, Seattle, New York |  | Sep 17 |
+| Shield AI | [Software Engineer I - Internal Tools \(New Grad\) - R6052](https://jobs.lever.co/shieldai/633a3038-574c-45ff-babb-7e1b8b7c6196) | Seattle, Washington | ⚠ unverified<br>⏳ 60+ days | Sep 17 |
+| Stripe | [Software Engineer, Early Career — Immediate Start](https://stripe.com/jobs/search?gh_jid=8212508) | San Francisco, Seattle, New York | ⏳ 60+ days | Sep 17 |
 | SingleStore | [Software Engineer-Engine-New Grad 2027](https://job-boards.greenhouse.io/singlestore/jobs/8205427) | United States | ⏳ 60+ days | Sep 15 |
 | SingleStore | [Software Engineer-Helios-New Grad 2027](https://job-boards.greenhouse.io/singlestore/jobs/8205389) | United States | ⏳ 60+ days | Sep 15 |
 | Mach Industries | [May 2027 New Graduate Engineer, Software](https://job-boards.greenhouse.io/machindustries/jobs/4401995009)<br><sub>“ITAR Requirements”</sub> | Huntington Beach, California, United States;… | 📜 ITAR<br>⏳ 60+ days | Sep 10 |

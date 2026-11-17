@@ -1,6 +1,6 @@
 # Data and ML
 
-[⬅ Back to the main page](./) · 554 open · updated 2026-11-16
+[⬅ Back to the main page](./) · 562 open · updated 2026-11-17
 
 Data analysis, data engineering, machine learning and AI roles. New to this track? Read the [Data and ML section of the Career tracks guide](guides/tracks.md#data-and-ml).
 
@@ -34,10 +34,18 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (544)
+## Internships (552)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| General Dynamics Mission Systems | [Ontology Data Analysis and Validation Intern, Summer 2027](https://careers-gdms.icims.com/jobs/76095/ontology-data-analysis-and-validation-intern%2c-summer-2027/job) | Pittsfield, MA, US; Scottsdale, AZ, US; Chant… | ⚠ unverified | Nov 17* |
+| Shure | [AI Specialist \(Operations\) Intern](https://careersus-shure.icims.com/jobs/5029/ai-specialist-%28operations%29-intern/job) | Niles, IL, US |  | Nov 17* |
+| Shure | [Web Analytics Intern](https://careersus-shure.icims.com/jobs/5027/web-analytics-intern/job) | Niles, IL, US |  | Nov 17* |
+| Springs Window Fashions | [Consumer Business Unit - AI Analyst Internship - Summer 2027](https://careers-springswindowfashions.icims.com/jobs/12875/consumer-business-unit---ai-analyst-internship---summer-2027/job) | MIDDLETON, WI, US |  | Nov 17* |
+| Springs Window Fashions | [Consumer Business Unit - Data Analyst Internship - Summer 2027](https://careers-springswindowfashions.icims.com/jobs/12874/consumer-business-unit---data-analyst-internship---summer-2027/job) | MIDDLETON, WI, US |  | Nov 17* |
+| Springs Window Fashions | [Dealer Business Operations &amp; Analytics Internship - Summer 2027](https://careers-springswindowfashions.icims.com/jobs/12886/dealer-business-operations-%26-analytics-internship---summer-2027/job) | MIDDLETON, WI, US |  | Nov 17* |
+| Springs Window Fashions | [Textile Engineering Analytics &amp; Software Internship - summer 2027](https://careers-springswindowfashions.icims.com/jobs/12881/textile-engineering-analytics-%26-software-internship---summer-2027/job) | MIDDLETON, WI, US |  | Nov 17* |
+| Waymo | [2027 Summer Intern, BS, Waymo ML Ops &amp; Automation](https://careers.withwaymo.com/jobs?gh_jid=8257237) | Mountain View, California | ⚠ unverified | Nov 17* |
 | Acuity | [Finance AI Engineering Intern - Onsite](https://careers.acuityinc.com/job/Atlanta-Finance-AI-Engineering-Intern-Onsite-GA-30309/1434878900/) | Atlanta, Georgia |  | Nov 16* |
 | Aflac | [2027 Global Investments \(NY\) Business &amp; Analytics Intern](https://careers.aflac.com/job/New-York-City-2027-Global-Investments-%28NY%29-Business-&-Analytics-Intern-NY-10005/1443293800/) | New York, New York |  | Nov 16* |
 | AGCO | [AI &amp; Data Science Intern - Spring 2027](https://careers.agcocorp.com/job/Champaign-AI-&-Data-Science-Intern-Spring-2027-IL/1440146300/) | Champaign, Illinois | 🌱 spring<br>⚠ unverified | Nov 16* |
@@ -480,8 +488,8 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Amazon | [Data Engineer Internship - 2027 \(US\)](https://www.amazon.jobs/en/jobs/10553907/data-engineer-internship-2027-us) | Seattle, Washington, USA |  | Sep 18 |
 | Encompass Health | [Data Management Student Intern - Summer 2027](https://ibwsjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2528036) | Birmingham, AL, United States |  | Sep 18 |
 | Farmers Mutual Hail Insurance Company | [AI Intern](https://job-boards.greenhouse.io/farmersmutualhailinsurancecompany/jobs/4404387009)<br><sub>“This position is not eligible for sponsorship for work authorization by Farmers Mutual Hail Insurance Company, SI.”</sub> | West Des Moines, IA | 🛂❌ no sponsor | Sep 18 |
-| SharkNinja | [Applied AI, Analytics &amp; Data Science Intern Summer Opportunities \(May-Aug 2027\)](https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4713808006) | Miami, Florida, United States; Needham, MA, U… |  | Sep 17 |
-| Zekelman Industries | [AI Intern](https://zekelman.wd12.myworkdayjobs.com/Careers/job/Wheatland-PA---Council-Ave/AI-Intern_JR002752) | Wheatland, PA - Council Ave |  | Sep 17 |
+| SharkNinja | [Applied AI, Analytics &amp; Data Science Intern Summer Opportunities \(May-Aug 2027\)](https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4713808006) | Miami, Florida, United States; Needham, MA, U… | ⏳ 60+ days | Sep 17 |
+| Zekelman Industries | [AI Intern](https://zekelman.wd12.myworkdayjobs.com/Careers/job/Wheatland-PA---Council-Ave/AI-Intern_JR002752) | Wheatland, PA - Council Ave | ⏳ 60+ days | Sep 17 |
 | Analog Devices | [AI/ML Engineer Intern](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/AI-ML-Engineer-Intern_R265579) | US, MA, Wilmington | ⏳ 60+ days | Sep 16 |
 | Blue Cross and Blue Shield of Louisiana | [CW Healthcare Data Science Intern \(Spring 2027\)](https://bcbsla.wd1.myworkdayjobs.com/Generation_Blue/job/Corporate---Baton-Rouge-LA/CW-Healthcare-Data-Science-Intern--Spring-2027-_R12151) | Corporate - Baton Rouge, LA | 🎓 3.0+ GPA<br>🌱 spring<br>⏳ 60+ days | Sep 16 |
 | CoVar | [Machine Learning Internship Summer 2027](https://job-boards.greenhouse.io/covar/jobs/5240360007) | Durham, NC | ⏳ 60+ days | Sep 16 |

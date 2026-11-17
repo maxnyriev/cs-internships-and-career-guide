@@ -1,6 +1,6 @@
 # Security
 
-[⬅ Back to the main page](./) · 188 open · updated 2026-11-16
+[⬅ Back to the main page](./) · 191 open · updated 2026-11-17
 
 Cybersecurity, security analyst and penetration testing roles. New to this track? Read the [Security section of the Career tracks guide](guides/tracks.md#security).
 
@@ -34,10 +34,13 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (180)
+## Internships (183)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| General Dynamics Mission Systems | [Systems Intern \(Cybersecurity and Linux Administration\)](https://careers-gdms.icims.com/jobs/76103/systems-intern-%28cybersecurity-and-linux-administration%29/job) | San Antonio, TX, US | ⚠ unverified | Nov 17* |
+| Peraton | [IT Cybersecurity Intern - Fort Huachuca, AZ](https://careers-peraton.icims.com/jobs/171602/it-cybersecurity-intern---fort-huachuca%2c-az/job) | Home, AZ, US; Remote | 🌐 remote | Nov 17* |
+| Peraton | [Summer 2027 Cybersecurity Engineering Intern](https://careers-peraton.icims.com/jobs/171326/summer-2027-cybersecurity-engineering-intern/job) | Herndon, VA, US |  | Nov 17* |
 | Atlassian | [Security Engineer Intern, 2027 Summer U.S.](https://join.atlassian.com/atlassian-talent-community/jobs/26267) | Seattle, Washington |  | Nov 16* |
 | Booz Allen | [University - 2027 Summer Games Cyber Security Intern - Annapolis Junction, MD](https://careers.boozallen.com/careers/JobDetail/129762) | Annapolis Junction, Maryland | ⚠ unverified | Nov 16* |
 | Booz Allen | [University - 2027 Summer Games Cyber Security Intern - Atlanta, GA](https://careers.boozallen.com/careers/JobDetail/129576) | Atlanta, Georgia | ⚠ unverified | Nov 16* |
