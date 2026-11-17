@@ -57,7 +57,14 @@ def save_json(path: Path, obj) -> None:
         text = json.dumps(obj, indent=1, ensure_ascii=False, sort_keys=True) + "\n"
     tmp = path.with_suffix(path.suffix + ".tmp")
     tmp.write_text(text, encoding="utf-8")
-    os.replace(tmp, path)
+    for attempt in range(5):  # Windows: antivirus or the search indexer can briefly lock the file, so the rename retries
+        try:
+            os.replace(tmp, path)
+            return
+        except PermissionError:
+            if attempt == 4:
+                raise
+            time.sleep(0.3 * (attempt + 1))
 
 
 def load_yaml(path: Path, default):

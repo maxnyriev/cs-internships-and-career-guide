@@ -645,3 +645,19 @@ def test_longest_first_orders_boards_by_last_known_size():
     boards = [{"board": "a"}, {"board": "b"}, {"board": "c-new"}]
     rows = {1: {"board": "b"}, 2: {"board": "b"}, 3: {"board": "a"}}  # b=2, a=1, c-new=0 (no history)
     assert [c["board"] for c in fetch_ats.longest_first(boards, rows)] == ["b", "a", "c-new"]
+
+def test_save_json_retries_when_the_file_is_briefly_locked(tmp_path, monkeypatch):
+    import common
+    p = tmp_path / "x.json"
+    calls = {"n": 0}
+    real = common.os.replace
+    def flaky(src, dst):
+        calls["n"] += 1
+        if calls["n"] == 1:
+            raise PermissionError("locked")
+        return real(src, dst)
+    monkeypatch.setattr(common.os, "replace", flaky)
+    monkeypatch.setattr(common.time, "sleep", lambda s: None)
+    common.save_json(p, {"a": 1})
+    assert json.loads(p.read_text()) == {"a": 1}
+    assert calls["n"] == 2  # failed once, then succeeded
