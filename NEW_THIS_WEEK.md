@@ -1,6 +1,6 @@
 # 🆕 New this week
 
-[⬅ Back to the main page](./) · 279 posted in the last 7 days · updated 2026-11-16
+[⬅ Back to the main page](./) · 293 posted in the last 7 days · updated 2026-11-16
 
 **Click a job title to open the company's application page.**
 
@@ -108,6 +108,6 @@
 | Carrier | [Data Analytics Intern - Summer](https://carrier.wd5.myworkdayjobs.com/jobs/job/CAI23-Carrier-Indianapolis-7310-West-Morris-Street-Indianapolis-IN-46231-USA/Data-Analytics-Intern---Summer_30220000)<br><sub>“Must be eligible to work in the US without sponsorship”</sub> | CAI23: Carrier-Indianapolis, 7310 West Morris… | 🛂❌ no sponsor<br>🎓 3.0+ GPA | Nov 13 |
 | Cigna Healthcare | [Graduate AI/Machine Learning Engineer Intern \(TX, NJ, MO\)](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Austin-TX/AI-ML-Engineer-Intern_26010877) | Austin, TX | 🎓 3.0+ GPA<br>⚠ unverified | Nov 13 |
 
-_279 postings were posted this week. This list shows up to 3 per company; the rest are in the [internships](INTERNSHIPS.md) and [new grad](NEW_GRAD.md) lists._
+_293 postings were posted this week. This list shows up to 3 per company; the rest are in the [internships](INTERNSHIPS.md) and [new grad](NEW_GRAD.md) lists._
 
 _Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._

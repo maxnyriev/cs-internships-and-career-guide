@@ -1,6 +1,6 @@
 # IT and networking
 
-[⬅ Back to the main page](./) · 255 open · updated 2026-11-16
+[⬅ Back to the main page](./) · 265 open · updated 2026-11-16
 
 IT support, networking, systems administration and cloud operations. New to this track? Read the [IT and networking section of the Career tracks guide](guides/tracks.md#it-and-networking).
 
@@ -34,7 +34,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (248)
+## Internships (258)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
@@ -73,6 +73,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | NBCUniversal | [Universal Film Production IT Support Internships – Summer 2027](https://jobs.smartrecruiters.com/NBCUniversal3/744000160648119-universal-film-production-it-support-internships-summer-2027)<br><sub>“For further clarification, candidates currently on any student or exchange visa \(e.g. F-1 CPT, F-1 OPT, J-1, M-1\) are not eligible to apply…”</sub> | North Hollywood, CA, US | 🚫 no CPT/OPT<br>🎓 3.0+ GPA<br>⚠ unverified | Nov 9 |
 | Regal Rexnord | [Information Technology Summer Intern](https://regalrexnord.wd1.myworkdayjobs.com/Careers/job/Grafton-Wisconsin-United-States/Information-Technology-Summer-Intern_R26_04545-1) | Grafton, Wisconsin, United States | 🎓 3.0+ GPA<br>⚠ unverified | Nov 9 |
 | Ryder Supply Chain Solutions | [IT Internship - Summer 2027](https://ryder.wd5.myworkdayjobs.com/RyderCareers/job/USA---Coral-Gables-FL-HQ/IT-Internship---Summer-2027_R188357) | USA - Coral Gables FL HQ | ⚠ unverified | Nov 9* |
+| Scout Motors | [Intern, IT](https://job-boards.greenhouse.io/scoutmotors/jobs/5287122007) | Charlotte, North Carolina, United States |  | Nov 9 |
 | Wawa, Inc | [Information Technology Internship](https://wawa.wd1.myworkdayjobs.com/careers/job/WAWA---Wawa-Inc---Corporate-Office/Information-Technology-Internship_JR122428) | WAWA - Wawa, Inc. - Corporate Office | ⚠ unverified | Nov 9* |
 | Booz Allen | [Systems Administrator - Summer Intern](https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Annapolis-Junction-MD/Systems-Administrator---Summer-Intern_R0252406)<br><sub>“Ability to obtain a TS/SCI clearance with a polygraph”</sub> | Annapolis Junction, MD | 🔒 ts/sci + poly | Nov 6 |
 | Etched | [Infrastructure Engineering &amp; Projects Intern](https://jobs.ashbyhq.com/Etched/1a92048c-60e0-445b-a84e-8f008f1cf47b) | San Jose |  | Nov 6 |
@@ -89,6 +90,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Avis Budget Group | [Accelerate - IT Solutions and Operations Intern - Summer 2027](https://avisbudget.wd1.myworkdayjobs.com/ABG_Careers/job/379-Interpace-Pkwy-Parsippany-07054/Accelerate---IT-Solutions-and-Operations-Intern---Summer-2027_R0190462-1) | 379 Interpace Pkwy, Parsippany, 07054 |  | Nov 3 |
 | Copart | [Network Engineering Intern](https://copart.wd12.myworkdayjobs.com/Copart/job/US-Tech-InfraOps-729/Network-Engineering-Intern_JR110653) | US Tech Infra/Ops 729 |  | Nov 3 |
 | SpartanNash | [IS Internship - IT Planning &amp; Strategy](https://spartannash.wd1.myworkdayjobs.com/SpartanNash_Careers/job/Byron-Center-Michigan/IS-Internship---Planning---Strategy-Office_R90066-1)<br><sub>“We are not able to sponsor work visas for this position.”</sub> | Byron Center, Michigan | 🛂❌ no sponsor<br>🎓 3.0+ GPA | Nov 3 |
+| Stratolaunch | [IT Intern- Summer 2027](https://job-boards.greenhouse.io/stratolaunch/jobs/5471933008)<br><sub>“Our management team does not tolerate discrimination or harassment at any point during our employees’ and applicants’ time with us, especial…”</sub> | Mojave, California, United States | 🗽 citizens<br>🔒 clearance | Nov 3 |
 | TruStage | [IT - Innovation &amp; AI Technology Internship \(Hybrid\)](https://trustage.wd1.myworkdayjobs.com/TruStage/job/Madison-WI/IT---Innovation---AI-Technology-Internship--Hybrid-_R-012293) | Madison, WI |  | Nov 3 |
 | Yanfeng | [IT Operations Intern - Summer 2027](https://fa-epuh-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/20263654) | Harrison Township, MI, United States | 🎓 3.0+ GPA | Nov 3 |
 | Cadence Design Systems | [CST Intern - Data Center GTM Intern](https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/SAN-JOSE/CST-Intern---Data-Center-GTM-Intern_R57099-1) | SAN JOSE |  | Nov 2 |
@@ -101,9 +103,11 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Marriott Vacations Worldwide | [Corporate Intern-Information Technology](https://mymvw.wd5.myworkdayjobs.com/MVW/job/MVW-Headquarters/Corporate-Intern-Information-Technology_JR95566) | MVW Headquarters |  | Nov 2 |
 | ParetoHealth | [Information Technology Summer Intern](https://job-boards.greenhouse.io/paretocaptiveservicesllc/jobs/4725319006)<br><sub>“Please note that ParetoHealth does not provide employment visa sponsorship for this position.”</sub> | Philadelphia, Pennsylvania, United States | 🛂❌ no sponsor | Nov 2 |
 | Veterinary Emergency Group \(VEG\) | [Intern IT Support Specialist I - White Plains, NY](https://boards.greenhouse.io/veterinaryemergencygroupst/jobs/6233349004?gh_jid=6233349004) | VEG Headquarters, White Plains, NY |  | Nov 2 |
+| Zoox | [Information Technology &amp; Applications Intern \[Summer 2027\]](https://jobs.lever.co/zoox/f35b2447-360f-4945-8ae8-16870e8d7558) | Foster City, CA |  | Nov 2 |
 | Splish Splash Water Park | [Adventureland Park - IT Support Intern](https://hfecorp.wd503.myworkdayjobs.com/palace_jobs/job/Adventureland-3200-Adventureland-drive-Altoona--IA-50009-United-States-of-America/Adventureland-Park---IT-Support-Intern_JR107889) | Adventureland, 3200 Adventureland drive, Alto… |  | Nov 1 |
 | Axiom Space | [IT Infrastructure Intern \(Summer 2027\)](https://axiomspace.wd5.myworkdayjobs.com/External_Career_Site/job/Houston/IT-Infrastructure-Intern--Summer-2027-_JR100826)<br><sub>“Must qualify as a “U.S. person” under U.S. export control laws \(U.S. citizen, lawful permanent resident, or protected individual\)”</sub> | Houston | 🗽 citizens<br>🎓 3.0+ GPA | Oct 30 |
 | Garda Capital Partners | [Infrastructure Engineer Intern](https://job-boards.greenhouse.io/gardacp/jobs/6239821004) | Wayzata, Minnesota, United States |  | Oct 30 |
+| GCM Grosvenor | [2027 IT Operations Summer Intern](https://job-boards.greenhouse.io/gcmgrosvenor/jobs/8035967003)<br><sub>“Applicants requiring future sponsorship for continued work authorization \(for example, following F-1 OPT/CPT, or J-1 status\) are not eligibl…”</sub> | Chicago, Illinois, United States | 🛂❌ no sponsor<br>🚫 no CPT/OPT | Oct 30 |
 | Great American Insurance Group | [IT Intern - Summer 2027](https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/IT-Intern---Summer-2027_R9816-1) | Cincinnati, OH \(USA\) | 🎓 3.2+ GPA | Oct 30 |
 | Hunt | [IT Business Analyst Intern - Summer 2027](https://fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1100) | Dallas, TX, United States | 🎓 3.0+ GPA | Oct 30 |
 | Life Fitness | [IT Intern](https://lifefitness.wd1.myworkdayjobs.com/searchLFN/job/Rosemont-IL/IT-Intern_JR-025323) | Rosemont, IL | 🎓 3.2+ GPA | Oct 30 |
@@ -250,14 +254,19 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | National Life Group - Interns | [IT Application Development Intern \(Inforce\) – Summer 2027](https://job-boards.greenhouse.io/nlginterns/jobs/4402185009)<br><sub>“Please note that we do not offer visa sponsorship for this position.”</sub> | Addison, TX; Montpelier, VT | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 14 |
 | National Life Insurance Company | [IT Application Development Intern \(Inforce\) – Summer 2027](https://job-boards.greenhouse.io/nationallifeinsurancecompany/jobs/4402184009)<br><sub>“Please note that we do not offer visa sponsorship for this position.”</sub> | Addison, TX; Montpelier, VT | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 14 |
 | Allegion | [Summer Intern - IT Manufacturing Systems](https://allegion.wd5.myworkdayjobs.com/careers/job/Carmel-IN/Summer-Intern---IT-Manufacturing-Systems_JR37409-1)<br><sub>“The company does not intend to provide sponsorship for employment visa status \(e.g., H-1B, TN, etc.\) for this employment position.”</sub> | Carmel, IN | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 11 |
+| Compeer Financial | [Intern Infrastructure Engineering](https://job-boards.greenhouse.io/compeerfinancial/jobs/5422577008)<br><sub>“Compeer is unable to sponsor or take over sponsorship of an employment visa at this time.”</sub> | MN-Lakeville | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 11 |
 | Faith Technologies | [IT Internships -Summer 2027](https://faithtechnologies.wd1.myworkdayjobs.com/FTI/job/WI---Menasha/IT-Internship-Summer-2027_R12062-1) | WI - Menasha | ⏳ 60+ days | Sep 11 |
 | Faith Technologies Incorporated \(FTI\) | [IT Internships -Summer 2027](https://faithtechnologies.wd1.myworkdayjobs.com/FTI_Intern/job/WI---Menasha/IT-Internship-Summer-2027_R12062) | WI - Menasha | ⏳ 60+ days | Sep 11 |
 | Bedrock Robotics Inc | [2027 Internship Onboard Infrastructure Engineer, ML Inference](https://jobs.ashbyhq.com/bedrock-robotics/0331551e-c18e-428a-8e91-e6cb25c9c2e8) | San Francisco, CA | ⏳ 60+ days | Sep 10 |
+| National Information Solutions Cooperative | [Intern - Technical \(IT\) Services](https://job-boards.greenhouse.io/testnisc/jobs/8192033) | Lake Saint Louis, MO | ⏳ 60+ days | Sep 10 |
+| National Information Solutions Cooperative | [Intern - Technical \(IT\) Services](https://job-boards.greenhouse.io/testnisc/jobs/8192034) | Mandan, ND | ⏳ 60+ days | Sep 10 |
+| National Information Solutions Cooperative | [Intern - Technical \(IT\) Services](https://job-boards.greenhouse.io/testnisc/jobs/8192097) | Cedar Rapids, IA | ⏳ 60+ days | Sep 10 |
 | National Information Solutions Cooperative \(NISC\) | [Intern - Technical \(IT\) Services](https://job-boards.greenhouse.io/nisc/jobs/8191366) | Any NISC Location | ⏳ 60+ days | Sep 10 |
 | Vertiv | [IT Oracle CPQ Intern \(Summer 2027\)](https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20279229) | Westerville, OH, United States | ⚠ unverified<br>⏳ 60+ days | Sep 10 |
 | DV Trading | [DevOps Engineer Intern - Summer 2027](https://job-boards.greenhouse.io/dvtrading/jobs/4730886005) | Chicago | ⏳ 60+ days | Sep 9 |
 | Pilot Company | [Program Intern, Network Operations](https://jobs.smartrecruiters.com/PilotCompany/744000148572860-program-intern-network-operations) | Knoxville, TN, US | ⏳ 60+ days | Sep 9 |
 | Saronic Technologies | [Information Technology Intern \(Summer 2027\)](https://jobs.ashbyhq.com/saronic/0fa1ca8f-0dca-43cc-a5fa-59c40840986f)<br><sub>“If this role is based in the United States, it requires access to export-controlled information or items that require “U.S. Person” status.”</sub> | Austin, TX | 🗽 citizens<br>⏳ 60+ days | Sep 9 |
+| Tanium | [Technical Support Engineer \(TSE\) Intern](https://job-boards.greenhouse.io/tanium/jobs/8176322) | Addison, TX \(Hybrid\) | 🎓 3.5+ GPA<br>⏳ 60+ days | Sep 9 |
 | AtkinsRéalis | [Water Infrastructure Engineering Intern - Summer 2027](https://slihrms.wd3.myworkdayjobs.com/Careers/job/USGAAtlanta2018-Powers-Ferry-Rd/Water-Infrastructure-Engineering-Intern---Summer-2027_R-163480-1) | US.GA.Atlanta.2018 Powers Ferry Rd | ⏳ 60+ days | Sep 8 |
 | SWBC | [DevOps Intern](https://swbc.wd1.myworkdayjobs.com/CollegeInternships/job/San-Antonio-TX/DevOps-Intern_R0015484-1) | San Antonio, TX | ⏳ 60+ days | Sep 8 |
 | Swivel | [DevOps Intern](https://swbc.wd1.myworkdayjobs.com/Swivel/job/San-Antonio-TX/DevOps-Intern_R0015484) | San Antonio, TX | ⏳ 60+ days | Sep 8 |
@@ -285,6 +294,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Vertiv | [IT Systems Product Management Intern \(Summer 2027\)](https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20279239) | Westerville, OH, United States | ⚠ unverified<br>⏳ 60+ days | Aug 12 |
 | Varda Space Industries | [Site Reliability Internship - Spring 2027](https://job-boards.greenhouse.io/vardaspace/jobs/7824814003)<br><sub>“ITAR Requirements”</sub> | El Segundo, California, United States | 📜 ITAR<br>🌱 spring<br>⏳ 60+ days | Aug 7 |
 | Solar Turbines | [2027 IT Intern](https://cat.wd5.myworkdayjobs.com/SolarTurbines/job/San-Diego-California/XMLNAME-2027-IT-Intern_R0000381898)<br><sub>“Visa Sponsorship is not available for this position.”</sub> | San Diego, California | 🛂❌ no sponsor<br>🎓 2.8+ GPA<br>⏳ 60+ days | Jul 23 |
+| TransMarket Group | [DevOps/SRE Intern](https://job-boards.greenhouse.io/transmarketgroup/jobs/5151577007?gh_jid=5151577007) | Chicago, Illinois, United States | ⏳ 60+ days | Jun 2 |
 | University of Arkansas for Medical Sciences \(UAMS\) | [CW IT Intern](https://uasys.wd5.myworkdayjobs.com/UAMS_CW_Career_Site/job/UAMS/CW-IT-Intern_R0056484) | UAMS | ⏳ 60+ days | May 17 |
 
 ## New grad (7)

@@ -1,6 +1,6 @@
 # Embedded and firmware
 
-[⬅ Back to the main page](./) · 56 open · updated 2026-11-16
+[⬅ Back to the main page](./) · 63 open · updated 2026-11-16
 
 Firmware, microcontroller and real-time software that runs on devices. New to this track? Read the [Embedded and firmware section of the Career tracks guide](guides/tracks.md#embedded-and-firmware).
 
@@ -34,7 +34,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (55)
+## Internships (62)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
@@ -42,12 +42,16 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Marvell Technology | [Software/Firmware Engineering Intern](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Petah-Tikva/Software-Firmware-Engineering_2604496) | Petah-Tikva |  | Nov 15 |
 | Airbus | [Internship \(d/f/m\) Embedded Software Engineering for Weapon Systems](https://ag.wd3.myworkdayjobs.com/Airbus/job/Donauwrth/Internship--d-f-m--Embedded-Software-Engineering-for-Weapon-Systems_JR10442671-2) | Donauwörth |  | Nov 13 |
 | CACI International | [Embedded Software Development Intern - Summer 2027](https://caci.wd1.myworkdayjobs.com/External/job/Denver-CO-US/Embedded-Software-Development-Intern---Summer-2027_333147)<br><sub>“Must be legally authorized to work in the United States without the need for employer sponsorship, now or at any me in the future”</sub> | Denver, CO, US | 🛂❌ no sponsor<br>🔒 clearance<br>🎓 3.0+ GPA<br>⚠ unverified | Nov 12 |
+| Lightmatter | [Laser Firmware Intern - Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5479596008?gh_jid=5479596008) | Boston, MA |  | Nov 11 |
 | SK hynix memory solutions America Inc | [Embedded Software Engineer Intern](https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4504499009) | San Jose |  | Nov 11 |
+| Astranis | [Embedded Software Developer, Network/Payload Intern \(Summer 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4704569006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco | 🗽 citizens | Nov 10 |
 | Cisco | [Software Engineer Embedded Systems I \(Intern\) - United States](https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Embedded-Systems-I--Intern----United-States_2024641-1) | San Jose, California, US | ⚠ unverified | Nov 10 |
 | REGENT | [Embedded Software Engineering Intern \(Summer\)](https://jobs.ashbyhq.com/REGENT/9f25824f-486e-4d3a-b444-116b474619d7) | North Kingstown, Rhode Island, USA |  | Nov 10 |
+| CesiumAstro | [Summer 2027 - Embedded Software Engineering Internship](https://jobs.lever.co/CesiumAstro/e3abc815-107d-4206-8a83-dd02932e2361)<br><sub>“Please Note: To conform with the United States Government Space Technology Export Regulations, the applicant must be a U.S. citizen, lawful…”</sub> | Melbourne, FL | 🗽 citizens<br>🎓 3.5+ GPA | Nov 9 |
 | Resideo | [Embedded Firmware Engineering Intern - Summer 2027](https://ehtl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19812) | Melville, NY, United States | ⚠ unverified | Nov 9* |
 | Resideo | [Firmware Engineering Intern - Summer 2027](https://ehtl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19813) | Aurora, IL, United States | ⚠ unverified | Nov 9* |
 | Resideo | [Firmware Engineering Intern - Summer 2027](https://ehtl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19814) | Golden Valley, MN, United States | ⚠ unverified | Nov 9* |
+| Astranis | [Embedded Software Developer, Network/Payload Intern \(Winter 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4704571006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco | 🗽 citizens | Nov 6 |
 | Legrand Slovenija | [Firmware Engineering Intern](https://iadugs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1809) | Reno, NV, United States |  | Nov 5 |
 | Badger Meter | [Firmware Test Engineer Intern](https://badgermeter.wd5.myworkdayjobs.com/US_CareerSite/job/US---WI---Milwaukee-HQ/Firmware-Test-Engineer-Intern_4675) | US - WI - Milwaukee HQ |  | Nov 4 |
 | Smith+Nephew | [Co-Op Embedded Software Engineering](https://smithnephew.wd5.myworkdayjobs.com/External/job/Andover-MA/Intern-Embedded-Software-Engineering_R92952) | Andover, MA | 🔄 co-op<br>⚠ unverified | Nov 4 |
@@ -61,6 +65,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Rockwell Automation | [Intern, Firmware Engineering](https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Milwaukee-Wisconsin-United-States/Intern--Firmware-Engineering_R26-7922)<br><sub>“Legal authorization to work in the U.S. We will not sponsor individuals for employment visas, now or in the future, for this job opening.”</sub> | Milwaukee, Wisconsin, United States | 🛂❌ no sponsor | Oct 22 |
 | Draper | [Operating Systems and Embedded Software Development Co-Op \(Spring 2027\)](https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Lowell-MA/Co-Op-Student-Engineering_JR002974) | Lowell, MA | 🔄 co-op<br>🌱 spring | Oct 21 |
 | Humble Robotics | [Embedded Software Engineer, 2027 Internship](https://jobs.lever.co/humble-robotics/8d1fb5d7-9b07-4fac-8c39-e395dca7f2b3) | San Francisco |  | Oct 20 |
+| Inversion Space | [Avionics Embedded Software Engineer - Summer Internship 2027](https://job-boards.greenhouse.io/inversionspace/jobs/4744391005)<br><sub>“ITAR Compliance: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations…”</sub> | Playa Vista, California, United States | 🗽 citizens<br>🎓 3.0+ GPA | Oct 15 |
 | Figure | [Embedded Software Engineering Intern \[Winter 2027\]](https://job-boards.greenhouse.io/figureai/jobs/4722086006) | San Jose, CA |  | Oct 14 |
 | AeroVironment | [Summer 2027 Embedded Software Engineering Intern](https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/Summer-2027-Embedded-Software-Engineering-Intern_8388)<br><sub>“ITAR Requirement: This position requires access to information that is subject to compliance with the International Traffic Arms Regulations…”</sub> | Simi Valley, CA | 📜 ITAR<br>🎓 3.0+ GPA | Oct 13 |
 | Anduril Industries | [2027 Firmware Engineer Intern](https://boards.greenhouse.io/andurilindustries/jobs/5265158007?gh_jid=5265158007)<br><sub>“Must be a U.S. Person due to required access to U.S. export-controlled information or facilities; U.S. clearance eligibility may be required…”</sub> | Costa Mesa, California, United States | 🗽 citizens | Oct 13 |
@@ -77,6 +82,8 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Stanley Black &amp; Decker, Inc | [Embedded Engineering Summer Intern 2027](https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Towson-MD-United-States/Embedded-Engineering-Summer-Intern-2027_REQ-1000052019)<br><sub>“This role is not eligible for visa sponsorship \(H1B, OPT/CPT, TN etc\).”</sub> | Towson, MD, United States | 🛂❌ no sponsor<br>🚫 no CPT/OPT | Sep 24 |
 | Keenfinity | [Embedded Firmware Engineer Co-Op](https://jobs.smartrecruiters.com/Keenfinity/744000151397189-embedded-firmware-engineer-co-op)<br><sub>“Future sponsorship for work authorization is not available.”</sub> | Fairport, NY, US | 🛂❌ no sponsor<br>🔄 co-op | Sep 23 |
 | Formlabs Internships | [Embedded Software Intern \(Summer 2027\)](https://job-boards.greenhouse.io/formlabsinternships/jobs/8222268) | Somerville, MA |  | Sep 21 |
+| CesiumAstro | [Summer 2027 - Embedded Software Engineering Internship](https://jobs.lever.co/CesiumAstro/96e97f22-a5b2-4e95-af84-b4f765343663)<br><sub>“Please Note: To conform with the United States Government Space Technology Export Regulations, the applicant must be a U.S. citizen, lawful…”</sub> | Westminster, CO | 🗽 citizens<br>🎓 3.5+ GPA<br>⏳ 60+ days | Sep 16 |
+| CesiumAstro | [Summer 2027 - Embedded Software Engineering Internship](https://jobs.lever.co/CesiumAstro/d25bf640-2b2b-48d6-ab79-8a06b246caaa)<br><sub>“Please Note: To conform with the United States Government Space Technology Export Regulations, the applicant must be a U.S. citizen, lawful…”</sub> | Austin, TX | 🗽 citizens<br>🎓 3.5+ GPA<br>⏳ 60+ days | Sep 16 |
 | Insulet Corporation | [Co-op, Embedded Software Test Engineering: January - June 2027 \(Onsite\)](https://insulet.wd5.myworkdayjobs.com/insuletcareers/job/Acton-Massachusetts/Co-op--Embedded-Software-Test-Engineering--January---June-2027--Onsite-_REQ-2026-18012)<br><sub>“Candidates must have authorization to work in the U.S. without current or future sponsorship needs.”</sub> | Acton, Massachusetts | 🛂❌ no sponsor<br>🔄 co-op<br>⏳ 60+ days | Sep 16 |
 | Analog Devices | [Embedded Software Engineer Intern](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Embedded-Software-Engineer-Intern_R266132) | US, MA, Wilmington | ⏳ 60+ days | Sep 15 |
 | Bracco Medical Technologies | [Firmware Engineering Co-op](https://bracco.wd103.myworkdayjobs.com/BraccoCareers/job/USA-Eden-Prairie-Minnesota-55344/Firmware-Engineering-Co-op_JR100324) | USA, Eden Prairie, Minnesota, 55344 | 🔄 co-op<br>⏳ 60+ days | Sep 15 |

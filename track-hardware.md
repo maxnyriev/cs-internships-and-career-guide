@@ -1,6 +1,6 @@
 # Hardware and chips
 
-[⬅ Back to the main page](./) · 103 open · updated 2026-11-16
+[⬅ Back to the main page](./) · 114 open · updated 2026-11-16
 
 Chip design, FPGA and ASIC work, and design verification. New to this track? Read the [Hardware and chips section of the Career tracks guide](guides/tracks.md#hardware-and-chips).
 
@@ -34,7 +34,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (99)
+## Internships (108)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
@@ -44,6 +44,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | RTX | [FPGA Engineering Intern \(Summer 2027\)\(Onsite\)](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/FPGA-Engineering-Intern--Summer-2027--Onsite-_01880037)<br><sub>“Onsite U.S. Citizen, U.S. Person, or Immigration Status Requirements: The ability to obtain and maintain a U.S. government issued…”</sub> | US-TX-MCKINNEY-513WD \~ 2501 W University Dr \~… | 🗽 citizens<br>🔒 secret<br>⚠ unverified | Nov 16 |
 | RTX | [Hardware in the Loop Engineering Intern - \(Summer 2027\)](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-AZ-TUCSON-805--1151-E-Hermans-Rd--BLDG-805/Hardware-in-the-Loop-Engineering-Intern----Summer-2027-_01882927)<br><sub>“Onsite U.S. Citizen, U.S. Person, or Immigration Status Requirements: Active and transferable U.S. government issued security clea…”</sub> | US-AZ-TUCSON-805 \~ 1151 E Hermans Rd \~ BLDG 8… | 🗽 citizens<br>🔒 secret<br>⚠ unverified | Nov 16 |
 | RTX | [Semiconductor Foundry Intern \(Summer 2027\)](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-MA-ANDOVER-AR2--362-Lowell-St--AR2-PLYMOUTH-BLDG/Semiconductor-Foundry-Intern--Summer-2027-_01875840)<br><sub>“Onsite U.S. Citizen, U.S. Person, or Immigration Status Requirements: U.S. citizenship is required, as only U.S. citizens are auth…”</sub> | US-MA-ANDOVER-AR2 \~ 362 Lowell St \~ AR2 PLYMO… | 🗽 citizens<br>🔒 clearance<br>⚠ unverified | Nov 16 |
+| Lightmatter | [Hardware Test Engineering, Intern \(Summer 2027\)](https://boards.greenhouse.io/lightmatter/jobs/5473869008?gh_jid=5473869008) | Mountain View, CA |  | Nov 13 |
 | Marvell Technology | [Silicon Photonic Design Intern](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/CH---Adliswil/Silicon-Photonic-Design-Intern_2605294) | CH - Adliswil |  | Nov 13 |
 | RTX | [Digital Hardware Design Engineer Co-op \(Summer/Fall 2027\)\(Onsite\)](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Digital-Hardware-Design-Engineer-Co-op--Summer-Fall-2027--Onsite-_01871519)<br><sub>“Onsite U.S. Citizen, U.S. Person, or Immigration Status Requirements: U.S. citizenship is required, as only U.S. citizens are auth…”</sub> | US-IA-CEDAR RAPIDS-130 \~ 5350 C Ave NE \~ BLDG… | 🗽 citizens<br>🔒 clearance<br>🔄 co-op<br>🍂 fall<br>⚠ unverified | Nov 12 |
 | RTX | [Digital Hardware Design Engineer Co-op \(Winter/Spring\)\(Onsite\)](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Digital-Hardware-Design-Engineer-Co-op--Spring-Summer-_01871518-1)<br><sub>“Onsite U.S. Citizen, U.S. Person, or Immigration Status Requirements: U.S. citizenship is required, as only U.S. citizens are auth…”</sub> | US-IA-CEDAR RAPIDS-130 \~ 5350 C Ave NE \~ BLDG… | 🗽 citizens<br>🔒 clearance<br>🔄 co-op<br>🌱 spring<br>⚠ unverified | Nov 12 |
@@ -58,6 +59,8 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Trimble Inc | [Hardware/Software Testing Intern](https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---CO-Westminster/Hardware-Software-Testing-Intern_R57677-1)<br><sub>“Visa sponsorship is not available for this position.”</sub> | US - CO, Westminster | 🛂❌ no sponsor | Nov 3 |
 | Cisco | [Hardware Engineer II Intern - United States](https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Hardware-Engineer-II-Intern---United-States_2024757) | San Jose, California, US | ⚠ unverified | Nov 2 |
 | Draper | [Analog ASIC Design Intern \(Summer 2027\)](https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Analog-ASIC-Design-Intern--Summer-2027-_JR003085)<br><sub>“Applicants selected for this position may be required to obtain and maintain a government security clearance”</sub> | Cambridge, MA | 🔒 clearance | Nov 2 |
+| Zoox | [Hardware Engineer Intern, Vehicle Development \[Summer 2027\]](https://jobs.lever.co/zoox/0accbf9e-9b09-4733-b495-fb6dce13ba62) | Foster City, CA |  | Nov 2 |
+| Zoox | [Hardware Engineer Intern, Vehicle Systems \[Summer 2027\]](https://jobs.lever.co/zoox/0c32245b-f51d-40d2-8e57-a0be1b744c5b) | Foster City, CA |  | Nov 2 |
 | NVIDIA | [NVIDIA 2027 Internships: Hardware ASIC Design](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-ASIC-Design_JR2023486) | US, CA, Santa Clara |  | Oct 30 |
 | NVIDIA | [NVIDIA 2027 Internships: Hardware Design for Test \(DFT\)](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Design-for-Test--DFT-_JR2023487-1) | US, CA, Santa Clara |  | Oct 30 |
 | NVIDIA | [NVIDIA 2027 Internships: Hardware Engineering](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Engineering_JR2023508-1) | US, CA, Santa Clara |  | Oct 30 |
@@ -99,9 +102,15 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Hewlett Packard Enterprise | [ASIC Engineering Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Durham-North-Carolina-United-States-of-America/ASIC-Engineering-Intern_1214213) | Durham, North Carolina, United States of Amer… |  | Oct 2 |
 | Cisco | [Hardware Engineer I \(Co-op\) - United States](https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Hardware-Engineer-I--Co-op----United-States_2025369) | San Jose, California, US | 🔄 co-op<br>⚠ unverified | Oct 1 |
 | Micron Technology | [Intern - Semiconductor Research &amp; Technology Development](https://micron.wd1.myworkdayjobs.com/External/job/Albany-NY/Intern---Semiconductor-Research---Technology-Development_JR110876) | Albany, NY | ⚠ unverified | Oct 1 |
+| Astranis | [RF Hardware Intern \(Winter 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4708417006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco | 🗽 citizens | Sep 30 |
 | Base Power Company | [Hardware Reliability &amp; Test Engineering Intern](https://jobs.ashbyhq.com/base-power/fbb553e1-5fb8-49a1-b5a5-9c7dde6b4406) | Austin, TX |  | Sep 30 |
+| Hermeus | [Flight Software Engineering Intern \(Simulation/Hardware-In-The-Loop\) - Spring &amp; Summer 2027](https://jobs.lever.co/hermeus/78008094-ca81-4a0c-9a18-93b30f932acd)<br><sub>“The person hired will have access to information and items subject to U.S. export controls, and therefore, must either be a “U.S. person” as…”</sub> | Los Angeles, CA | 🗽 citizens<br>🎓 3.0+ GPA<br>🌱 spring | Sep 29 |
 | Muon Space | [GNC Hardware Engineering Intern \(Summer 2027\)](https://job-boards.greenhouse.io/muonspace/jobs/5252677007)<br><sub>“To conform to U.S. Government export regulations applicable to that information, applicant must either be \(A\) a U.S. person, defined as a \(i…”</sub> | Mountain View, CA | 🗽 citizens | Sep 29 |
 | Marvell Technology | [System Chip Validation Intern](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Petah-Tikva/System-Chip-Validation-Intern_2604495) | Petah-Tikva |  | Sep 24 |
+| Astranis | [FPGA Intern \(Summer 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4704805006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco | 🗽 citizens | Sep 23 |
+| Astranis | [FPGA Intern \(Winter 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4704803006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco | 🗽 citizens | Sep 23 |
+| Astranis | [Software Defined Radio Hardware Intern \(Winter 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4716087006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco | 🗽 citizens | Sep 23 |
+| Astranis | [Hardware Test Intern \(Winter 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4707012006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco | 🗽 citizens | Sep 22 |
 | Exol | [Co-op- Hardware Engineer](https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington-MA---ITC/Hardware-Engineer_R7976) | USA Wilmington, MA - ITC | 🔄 co-op | Sep 22 |
 | Base Power Company | [Hardware Sourcing Intern](https://jobs.ashbyhq.com/base-power/7ba325d9-4256-4567-83a4-8dd9c72a0d10) | Austin, TX |  | Sep 18 |
 | Insulet Corporation | [Co-op, Systems Engineering - Design Verification: January - June 2027 \(Onsite\)](https://insulet.wd5.myworkdayjobs.com/insuletcareers/job/Acton-Massachusetts/Co-op--Systems-Engineering---Design-Verification--January---June-2027--Onsite-_REQ-2026-18144-1)<br><sub>“Candidates must have authorization to work in the U.S. without current or future sponsorship needs.”</sub> | Acton, Massachusetts | 🛂❌ no sponsor<br>🔄 co-op | Sep 17 |
@@ -138,7 +147,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Etched | [DFT Intern](https://jobs.ashbyhq.com/Etched/5f1f5739-3b58-467c-b351-ff183c94d96d) | San Jose | ⏳ 60+ days | Apr 13 |
 | Figure | [Hardware Reliability Intern \[Winter 2027\]](https://job-boards.greenhouse.io/figureai/jobs/4613067006) | San Jose, CA | ⏳ 60+ days | Oct 24 |
 
-## New grad (4)
+## New grad (6)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
@@ -146,5 +155,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | GE Aerospace | [Entry Level - FPGA Design/Verification Engineer](https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Grand-Rapids/Entry-Level---FPGA-Design-Verification-Engineer_R5041307-1) | Grand Rapids |  | Nov 10 |
 | Leidos | [Entry-Level Electrical Hardware Design Engineer](https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Entry-Level-Electrical-Hardware-Design-Engineer_R-00194096)<br><sub>“Security Requirements: Candidate must be a US Citizen and possess \(and be able to maintain\) a Final Secret Clearance or meet the eligibility…”</sub> | Huntsville, AL | 🗽 citizens<br>🔒 secret<br>🎓 3.0+ GPA | Nov 9 |
 | Motorola Solutions | [Entry Level Control Hardware Development Engineer](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Schaumburg-IL/Entry-Level-Control-Hardware-Development-Engineer_R67706)<br><sub>“Employer work permit sponsorship is not available for this position”</sub> | Schaumburg, IL | 🛂❌ no sponsor | Oct 22 |
+| Freeform | [FPGA Engineer \(New Grad Summer 2027\)](https://job-boards.greenhouse.io/freeformfuturecorp/jobs/8016243003) | Los Angeles, CA \(On-site\) |  | Oct 7 |
+| Quantiq | [Hardware Developer- New Graduate](https://job-boards.greenhouse.io/quantiq/jobs/4280673009) | Chicago, IL | ⏳ 60+ days | Jun 11 |
 
 _Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._
