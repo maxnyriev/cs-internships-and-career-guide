@@ -26,7 +26,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 - 🌐 **remote** · ⏳ **60+ days**: the company posted it more than 60 days ago. Some big companies keep one posting open all year, so it may still be hiring
 - ⚠ **unverified**: the company's job feed left it out at least once, or its link couldn't be checked recently. It may have closed
 
-**Posted** is the date the company posted the job. A date with * is when this board first saw it, because that company's job site doesn't give one. Companies sometimes re-post a job, which resets its date.
+**Posted** is the date the company posted the job. A dash (—) means the company's job site doesn't publish one. Companies sometimes re-post a job, which resets its date.
 
 > 🛂❌ usually means no visa sponsorship later (for example H-1B). Unless the row also shows 🚫, CPT or OPT may still work. Check with the recruiter. None of this is legal or immigration advice.
 
@@ -38,36 +38,36 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| General Dynamics Mission Systems | [Systems Intern \(Cybersecurity and Linux Administration\)](https://careers-gdms.icims.com/jobs/76103/systems-intern-%28cybersecurity-and-linux-administration%29/job) | San Antonio, TX, US | ⚠ unverified | Nov 17* |
-| Peraton | [IT Cybersecurity Intern - Fort Huachuca, AZ](https://careers-peraton.icims.com/jobs/171602/it-cybersecurity-intern---fort-huachuca%2c-az/job) | Home, AZ, US; Remote | 🌐 remote | Nov 17* |
-| Peraton | [Summer 2027 Cybersecurity Engineering Intern](https://careers-peraton.icims.com/jobs/171326/summer-2027-cybersecurity-engineering-intern/job) | Herndon, VA, US |  | Nov 17* |
-| Atlassian | [Security Engineer Intern, 2027 Summer U.S.](https://join.atlassian.com/atlassian-talent-community/jobs/26267) | Seattle, Washington |  | Nov 16* |
-| Booz Allen | [University - 2027 Summer Games Cyber Security Intern - Annapolis Junction, MD](https://careers.boozallen.com/careers/JobDetail/129762) | Annapolis Junction, Maryland | ⚠ unverified | Nov 16* |
-| Booz Allen | [University - 2027 Summer Games Cyber Security Intern - Atlanta, GA](https://careers.boozallen.com/careers/JobDetail/129576) | Atlanta, Georgia | ⚠ unverified | Nov 16* |
-| Booz Allen | [University - 2027 Summer Games Cyber Security Intern - Charleston, SC](https://careers.boozallen.com/careers/JobDetail/129570) | Charleston, South Carolina | ⚠ unverified | Nov 16* |
-| Booz Allen | [University - 2027 Summer Games Cyber Security Intern - Ft. Walton Beach, FL](https://careers.boozallen.com/careers/JobDetail/129763) | Fort Walton Beach, Florida | ⚠ unverified | Nov 16* |
-| Booz Allen | [University - 2027 Summer Games Cyber Security Intern - Honolulu, HI](https://careers.boozallen.com/careers/JobDetail/129752) | Honolulu, Hawaii | ⚠ unverified | Nov 16* |
-| Booz Allen | [University - 2027 Summer Games Cyber Security Intern - Huntsville, AL](https://careers.boozallen.com/careers/JobDetail/129761) | Huntsville, Alabama | ⚠ unverified | Nov 16* |
-| Booz Allen | [University - 2027 Summer Games Cyber Security Intern - Lexington, MA](https://careers.boozallen.com/careers/JobDetail/132298) | Lexington, Massachusetts |  | Nov 16* |
-| Booz Allen | [University - 2027 Summer Games Cyber Security Intern - McLean, VA](https://careers.boozallen.com/careers/JobDetail/129524) | McLean, Virginia | ⚠ unverified | Nov 16* |
-| Booz Allen | [University – Summer 27, Enterprise Cybersecurity Data Loss Prevention Intern](https://careers.boozallen.com/careers/JobDetail/130179) | McLean, Virginia |  | Nov 16* |
-| Booz Allen | [University, 2027 Summer Games Cyber Security Intern](https://careers.boozallen.com/careers/JobDetail/129563) | Colorado Springs, Colorado |  | Nov 16* |
+| General Dynamics Mission Systems | [Systems Intern \(Cybersecurity and Linux Administration\)](https://careers-gdms.icims.com/jobs/76103/systems-intern-%28cybersecurity-and-linux-administration%29/job) | San Antonio, TX, US | ⚠ unverified | — |
+| Peraton | [IT Cybersecurity Intern - Fort Huachuca, AZ](https://careers-peraton.icims.com/jobs/171602/it-cybersecurity-intern---fort-huachuca%2c-az/job) | Home, AZ, US; Remote | 🌐 remote | — |
+| Peraton | [Summer 2027 Cybersecurity Engineering Intern](https://careers-peraton.icims.com/jobs/171326/summer-2027-cybersecurity-engineering-intern/job) | Herndon, VA, US |  | — |
+| Atlassian | [Security Engineer Intern, 2027 Summer U.S.](https://join.atlassian.com/atlassian-talent-community/jobs/26267) | Seattle, Washington |  | — |
+| Booz Allen | [University - 2027 Summer Games Cyber Security Intern - Annapolis Junction, MD](https://careers.boozallen.com/careers/JobDetail/129762) | Annapolis Junction, Maryland | ⚠ unverified | — |
+| Booz Allen | [University - 2027 Summer Games Cyber Security Intern - Atlanta, GA](https://careers.boozallen.com/careers/JobDetail/129576) | Atlanta, Georgia | ⚠ unverified | — |
+| Booz Allen | [University - 2027 Summer Games Cyber Security Intern - Charleston, SC](https://careers.boozallen.com/careers/JobDetail/129570) | Charleston, South Carolina | ⚠ unverified | — |
+| Booz Allen | [University - 2027 Summer Games Cyber Security Intern - Ft. Walton Beach, FL](https://careers.boozallen.com/careers/JobDetail/129763) | Fort Walton Beach, Florida | ⚠ unverified | — |
+| Booz Allen | [University - 2027 Summer Games Cyber Security Intern - Honolulu, HI](https://careers.boozallen.com/careers/JobDetail/129752) | Honolulu, Hawaii | ⚠ unverified | — |
+| Booz Allen | [University - 2027 Summer Games Cyber Security Intern - Huntsville, AL](https://careers.boozallen.com/careers/JobDetail/129761) | Huntsville, Alabama | ⚠ unverified | — |
+| Booz Allen | [University - 2027 Summer Games Cyber Security Intern - Lexington, MA](https://careers.boozallen.com/careers/JobDetail/132298) | Lexington, Massachusetts |  | — |
+| Booz Allen | [University - 2027 Summer Games Cyber Security Intern - McLean, VA](https://careers.boozallen.com/careers/JobDetail/129524) | McLean, Virginia | ⚠ unverified | — |
+| Booz Allen | [University – Summer 27, Enterprise Cybersecurity Data Loss Prevention Intern](https://careers.boozallen.com/careers/JobDetail/130179) | McLean, Virginia |  | — |
+| Booz Allen | [University, 2027 Summer Games Cyber Security Intern](https://careers.boozallen.com/careers/JobDetail/129563) | Colorado Springs, Colorado |  | — |
 | Idaho National Laboratory | [Cybersecurity Operations Internship - Summer 2027](https://elhe.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/pro/job/2329) | Idaho Falls, ID, United States | 🎓 3.0+ GPA | Nov 16 |
-| Integration Innovation \(i3\) | [Cybersecurity Internship](https://talent.i3-corps.com/jobs/5489) | Huntsville, Alabama |  | Nov 16* |
-| International | [IT Security Intern](https://careers.international.com/jobs/60661) | Lisle, Illinois | ⚠ unverified | Nov 16* |
+| Integration Innovation \(i3\) | [Cybersecurity Internship](https://talent.i3-corps.com/jobs/5489) | Huntsville, Alabama |  | — |
+| International | [IT Security Intern](https://careers.international.com/jobs/60661) | Lisle, Illinois | ⚠ unverified | — |
 | Leidos | [Cybersecurity Intern](https://leidos.wd5.myworkdayjobs.com/External/job/Fort-Belvoir-VA/Cybersecurity-Intern_R-00197087)<br><sub>“U.S. citizenship required.”</sub> | Fort Belvoir, VA | 🗽 citizens<br>🔒 secret | Nov 16 |
-| McDonald's | [Cybersecurity Intern](https://jobs.mcdonalds.com/job/Chicago-Cybersecurity-Intern-IL-60607/1449564700/) | Chicago, Illinois |  | Nov 16* |
-| McDonald's | [Global Cyber Security Intern](https://jobs.mcdonalds.com/job/Chicago-Global-Cyber-Security-Intern-IL-60607/1449058700/) | Chicago, Illinois | ⚠ unverified | Nov 16* |
-| Meta | [Detection &amp; Response Security Engineer, Intern \(Summer 2027\)](https://www.metacareers.com/profile/job_details/1677981003713152/) | New York, New York |  | Nov 16* |
-| Meta | [Enterprise Security Engineer, Intern \(Summer 2027\)](https://www.metacareers.com/profile/job_details/1079627324896327/) | Menlo Park, California |  | Nov 16* |
-| Meta | [Product Security Engineer, Intern \(Summer 2027\)](https://www.metacareers.com/profile/job_details/2535222523640873/) | Menlo Park, California |  | Nov 16* |
-| Meta | [Security Engineer Posture Management, Intern \(Summer 2027\)](https://www.metacareers.com/profile/job_details/1359570553913180/) | New York, New York |  | Nov 16* |
-| SeatGeek | [Security Engineer - Internship](https://seatgeek.com/jobs/8248151?gh_jid=8248151) | New York, New York | ⚠ unverified | Nov 16* |
+| McDonald's | [Cybersecurity Intern](https://jobs.mcdonalds.com/job/Chicago-Cybersecurity-Intern-IL-60607/1449564700/) | Chicago, Illinois |  | — |
+| McDonald's | [Global Cyber Security Intern](https://jobs.mcdonalds.com/job/Chicago-Global-Cyber-Security-Intern-IL-60607/1449058700/) | Chicago, Illinois | ⚠ unverified | — |
+| Meta | [Detection &amp; Response Security Engineer, Intern \(Summer 2027\)](https://www.metacareers.com/profile/job_details/1677981003713152/) | New York, New York |  | — |
+| Meta | [Enterprise Security Engineer, Intern \(Summer 2027\)](https://www.metacareers.com/profile/job_details/1079627324896327/) | Menlo Park, California |  | — |
+| Meta | [Product Security Engineer, Intern \(Summer 2027\)](https://www.metacareers.com/profile/job_details/2535222523640873/) | Menlo Park, California |  | — |
+| Meta | [Security Engineer Posture Management, Intern \(Summer 2027\)](https://www.metacareers.com/profile/job_details/1359570553913180/) | New York, New York |  | — |
+| SeatGeek | [Security Engineer - Internship](https://seatgeek.com/jobs/8248151?gh_jid=8248151) | New York, New York | ⚠ unverified | — |
 | State of Wisconsin Investment Board | [Information Security Intern](https://swib.wd12.myworkdayjobs.com/EXT/job/Madison-Wisconsin/Information-Security-Intern_R-001332) | Madison Wisconsin |  | Nov 16 |
 | The Aerospace Corporation | [2027 Defensive Cyber Operations Grad Intern](https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/XMLNAME-2027-Defensive-Cyber-Operations-Grad-Intern_R017106)<br><sub>“U.S citizenship is required to obtain a security clearance.”</sub> | El Segundo, CA | 🗽 citizens<br>🔒 clearance<br>🎓 3.0+ GPA | Nov 16 |
 | The Aerospace Corporation | [2027 Hardware Security Engineering Grad Intern](https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/XMLNAME-2027-Hardware-Security-Engineering-Grad-Intern_R016953)<br><sub>“U.S citizenship is required to obtain a security clearance.”</sub> | El Segundo, CA | 🗽 citizens<br>🔒 clearance<br>🎓 3.0+ GPA | Nov 16 |
 | The Aerospace Corporation | [2027 Hardware Security Engineering Undergrad Intern](https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/XMLNAME-2027-Hardware-Security-Engineering-Undergrad--Intern_R016954)<br><sub>“U.S citizenship is required to obtain a security clearance.”</sub> | El Segundo, CA | 🗽 citizens<br>🔒 clearance<br>🎓 3.0+ GPA | Nov 16 |
-| Westinghouse Electric Company | [Summer Intern - ICS Cyber Security](https://careers.westinghousenuclear.com/job/Warrendale-Summer-Intern-ICS-Cyber-Security-OR/1448123600/) | Warrendale, Oregon |  | Nov 16* |
+| Westinghouse Electric Company | [Summer Intern - ICS Cyber Security](https://careers.westinghousenuclear.com/job/Warrendale-Summer-Intern-ICS-Cyber-Security-OR/1448123600/) | Warrendale, Oregon |  | — |
 | White Cap | [Corporate Intern - Information Security](https://whitecap.wd1.myworkdayjobs.com/Careers/job/Atlanta_30360/Corporate-Intern---Information-Security_WCJR-036638) | Atlanta\_30360 |  | Nov 16 |
 | Zoetis | [Information Security Intern](https://zoetis.wd5.myworkdayjobs.com/broadbean_external/job/Parsippany/Information-Security-Intern_JR00021994) | Parsippany |  | Nov 16 |
 | Zoetis | [IT/OT Security Intern](https://zoetis.wd5.myworkdayjobs.com/broadbean_external/job/Kalamazoo---Kilgore-Road/IT-OT-Security-Intern_JR00021980) | Kalamazoo - Kilgore Road |  | Nov 16 |

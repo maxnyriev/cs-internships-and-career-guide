@@ -26,7 +26,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 - 🌐 **remote** · ⏳ **60+ days**: the company posted it more than 60 days ago. Some big companies keep one posting open all year, so it may still be hiring
 - ⚠ **unverified**: the company's job feed left it out at least once, or its link couldn't be checked recently. It may have closed
 
-**Posted** is the date the company posted the job. A date with * is when this board first saw it, because that company's job site doesn't give one. Companies sometimes re-post a job, which resets its date.
+**Posted** is the date the company posted the job. A dash (—) means the company's job site doesn't publish one. Companies sometimes re-post a job, which resets its date.
 
 > 🛂❌ usually means no visa sponsorship later (for example H-1B). Unless the row also shows 🚫, CPT or OPT may still work. Check with the recruiter. None of this is legal or immigration advice.
 
@@ -38,19 +38,19 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| General Dynamics Mission Systems | [FPGA Engineer Intern](https://careers-gdms.icims.com/jobs/78722/fpga-engineer-intern/job) | Scottsdale, AZ, US | ⚠ unverified | Nov 17* |
-| Shure | [System Verification Engineering Intern](https://careersus-shure.icims.com/jobs/5000/system-verification-engineering-intern/job) | Skokie, IL, US |  | Nov 17* |
-| Cirrus Logic | [2027 Internship - Design Verification Engineer](https://jobs.eu.lever.co/cirrus/c71a6365-31c7-4ba1-bdc4-9f2df1fc483e) | Chandler, Arizona |  | Nov 16* |
-| Cirrus Logic | [2027 Internship - Digital Design Engineer](https://jobs.eu.lever.co/cirrus/0310fbd1-a2a8-4c0f-a842-86e05ae7d98e) | Chandler, Arizona |  | Nov 16* |
-| Cirrus Logic | [2027 Internship - Formal Verification Engineer](https://jobs.eu.lever.co/cirrus/533c9938-3d35-48a6-b08b-1dd1675d2bdf) | Austin, Texas |  | Nov 16* |
+| General Dynamics Mission Systems | [FPGA Engineer Intern](https://careers-gdms.icims.com/jobs/78722/fpga-engineer-intern/job) | Scottsdale, AZ, US | ⚠ unverified | — |
+| Shure | [System Verification Engineering Intern](https://careersus-shure.icims.com/jobs/5000/system-verification-engineering-intern/job) | Skokie, IL, US |  | — |
+| Cirrus Logic | [2027 Internship - Design Verification Engineer](https://jobs.eu.lever.co/cirrus/c71a6365-31c7-4ba1-bdc4-9f2df1fc483e) | Chandler, Arizona |  | — |
+| Cirrus Logic | [2027 Internship - Digital Design Engineer](https://jobs.eu.lever.co/cirrus/0310fbd1-a2a8-4c0f-a842-86e05ae7d98e) | Chandler, Arizona |  | — |
+| Cirrus Logic | [2027 Internship - Formal Verification Engineer](https://jobs.eu.lever.co/cirrus/533c9938-3d35-48a6-b08b-1dd1675d2bdf) | Austin, Texas |  | — |
 | KLA | [FPGA Engineer Intern](https://kla.wd1.myworkdayjobs.com/UR/job/Ann-Arbor-MI/Electrical-Design-Engineering-Intern_2641709) | Ann Arbor, MI |  | Nov 16 |
-| Meta | [ASIC EDA Infrastructure Engineer Intern](https://www.metacareers.com/profile/job_details/1883872846321140/) | Sunnyvale, California |  | Nov 16* |
+| Meta | [ASIC EDA Infrastructure Engineer Intern](https://www.metacareers.com/profile/job_details/1883872846321140/) | Sunnyvale, California |  | — |
 | Ralliant | [Hardware Verification Engineer Co-Op \(Spring 2027\)](https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/10490) | Solon, OH, United States | 🔄 co-op<br>🌱 spring | Nov 16 |
 | Ralliant | [Hardware Verification Engineer Co-op \(Summer 2027\)](https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/10491) | Solon, OH, United States | 🔄 co-op | Nov 16 |
 | RTX | [FPGA Engineering Intern \(Summer 2027\)\(Onsite\)](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/FPGA-Engineering-Intern--Summer-2027--Onsite-_01880037)<br><sub>“Onsite U.S. Citizen, U.S. Person, or Immigration Status Requirements: The ability to obtain and maintain a U.S. government issued…”</sub> | US-TX-MCKINNEY-513WD \~ 2501 W University Dr \~… | 🗽 citizens<br>🔒 secret<br>⚠ unverified | Nov 16 |
 | RTX | [Hardware in the Loop Engineering Intern - \(Summer 2027\)](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-AZ-TUCSON-805--1151-E-Hermans-Rd--BLDG-805/Hardware-in-the-Loop-Engineering-Intern----Summer-2027-_01882927)<br><sub>“Onsite U.S. Citizen, U.S. Person, or Immigration Status Requirements: Active and transferable U.S. government issued security clea…”</sub> | US-AZ-TUCSON-805 \~ 1151 E Hermans Rd \~ BLDG 8… | 🗽 citizens<br>🔒 secret<br>⚠ unverified | Nov 16 |
 | RTX | [Semiconductor Foundry Intern \(Summer 2027\)](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-MA-ANDOVER-AR2--362-Lowell-St--AR2-PLYMOUTH-BLDG/Semiconductor-Foundry-Intern--Summer-2027-_01875840)<br><sub>“Onsite U.S. Citizen, U.S. Person, or Immigration Status Requirements: U.S. citizenship is required, as only U.S. citizens are auth…”</sub> | US-MA-ANDOVER-AR2 \~ 362 Lowell St \~ AR2 PLYMO… | 🗽 citizens<br>🔒 clearance<br>⚠ unverified | Nov 16 |
-| Schneider Electric | [Electronics Hardware Engineer Co-Op](https://careers.se.com/jobs/136319) | Cedar Rapids, Iowa | 🔄 co-op<br>⚠ unverified | Nov 16* |
+| Schneider Electric | [Electronics Hardware Engineer Co-Op](https://careers.se.com/jobs/136319) | Cedar Rapids, Iowa | 🔄 co-op<br>⚠ unverified | — |
 | Lightmatter | [Hardware Test Engineering, Intern \(Summer 2027\)](https://boards.greenhouse.io/lightmatter/jobs/5473869008?gh_jid=5473869008) | Mountain View, CA |  | Nov 13 |
 | Marvell Technology | [Silicon Photonic Design Intern](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/CH---Adliswil/Silicon-Photonic-Design-Intern_2605294) | CH - Adliswil |  | Nov 13 |
 | RTX | [Digital Hardware Design Engineer Co-op \(Summer/Fall 2027\)\(Onsite\)](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Digital-Hardware-Design-Engineer-Co-op--Summer-Fall-2027--Onsite-_01871519)<br><sub>“Onsite U.S. Citizen, U.S. Person, or Immigration Status Requirements: U.S. citizenship is required, as only U.S. citizens are auth…”</sub> | US-IA-CEDAR RAPIDS-130 \~ 5350 C Ave NE \~ BLDG… | 🗽 citizens<br>🔒 clearance<br>🔄 co-op<br>🍂 fall<br>⚠ unverified | Nov 12 |

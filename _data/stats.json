@@ -1,18 +1,18 @@
 {
   "updated": "2026-11-17",
-  "internships": 2006,
+  "internships": 1987,
   "new_grad": 121,
   "early": 3,
-  "new_week": 444,
-  "total": 2130,
+  "new_week": 439,
+  "total": 2111,
   "boards": 1083,
   "tracks": {
-    "software": 859,
-    "embedded": 81,
+    "software": 854,
+    "embedded": 78,
     "hardware": 116,
     "security": 201,
-    "it": 294,
-    "data": 579,
+    "it": 292,
+    "data": 570,
     "gov": 251
   },
   "terms": {
