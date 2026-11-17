@@ -21,6 +21,11 @@ if (-not (Test-Path $py)) {
     if ($LASTEXITCODE -ne 0) { "could not create .venv" >> $log; exit 2 }
 }
 
+# Only run on main: this job pushes with a plain `git push`, so it would otherwise commit to whatever
+# branch is checked out, and the daily Action (which reads main) would never see the data.
+$branch = (git branch --show-current)
+if ($branch -ne "main") { "not on main (on '$branch'), skipping tonight" >> $log; exit 6 }
+
 git pull --rebase --autostash *>> $log
 if ($LASTEXITCODE -ne 0) { "git pull failed" >> $log; exit 3 }
 "running commit $(git rev-parse --short HEAD)" >> $log
