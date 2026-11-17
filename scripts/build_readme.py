@@ -310,6 +310,10 @@ def main():
 
 A free starter kit for computer science and computer engineering students in the U.S.: **a job board refreshed every day** from companies' own career sites, plus **plain-English guides** on everything I wish someone had told me as a freshman.
 
+## 🌐 [Open the live site →](https://rohitpeets.github.io/cs-internships-and-career-guide)
+
+Search, filter, and browse everything in one place — easier than scrolling these files. **Start there.**
+
 Last updated **{today()}**.
 
 ## 💼 Find jobs
