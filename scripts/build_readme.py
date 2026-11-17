@@ -246,7 +246,8 @@ def main():
     intro = {"early": "Postings that say freshmen or sophomores can apply, or programs built for them. "
                       "The grey line under each title is the sentence from the posting, so you can check it.\n\n"
                       "Big tech programs for first- and second-years, like Microsoft Explore and NVIDIA Ignite, usually open in September "
-                      "and close in October, so check their student pages in late summer. Programs are added here only while they're open.\n\n"}
+                      "and close in October, so check their student pages in late summer. Programs are added here only while they're open.\n\n"
+                      "Only a few programs are open at a time. Freshmen and sophomores should also check the full [internships list](INTERNSHIPS.md) — most roles there don't require a class year.\n\n"}
     must = (load_yaml(DATA / "must_have.yaml", {}) or {}).get("companies") or []
     have = {company_key(r["company"]) for r in rows}
     missing = [m for m in must if company_key(m) not in have]

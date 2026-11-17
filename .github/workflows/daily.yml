@@ -52,7 +52,7 @@ jobs:
       - name: Run tests
         run: python -m pytest -q
 
-      # Greenhouse, Lever, Ashby (more sources added in later steps).
+      # Cloud feeds: Greenhouse, Lever, Ashby, SmartRecruiters, Amazon, Eightfold.
       # Workday and Oracle come from the laptop's nightly run (data/local.json).
       - name: Fetch company job boards
         if: env.FULL_RUN == 'true'
