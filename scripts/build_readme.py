@@ -4,7 +4,6 @@ Everything in the tables comes from company feeds, so it's treated as untrusted:
 and a link is used only if it's a plain http(s) URL (otherwise the row is left out and counted).
 """
 import html
-import math
 import json
 import re
 import sys
@@ -42,7 +41,7 @@ LEGEND = """<details markdown="1">
 - 🌐 **remote** · ⏳ **60+ days**: the company posted it more than 60 days ago. Some big companies keep one posting open all year, so it may still be hiring
 - ⚠ **unverified**: the company's job feed left it out at least once, or its link couldn't be checked recently. It may have closed
 
-**Posted** is the date the company posted the job. A date with * is when this board first saw it, because that company's job site doesn't give one. Companies sometimes re-post a job, which resets its date.
+**Posted** is the date the company posted the job. A dash (—) means the company's job site doesn't publish one. Companies sometimes re-post a job, which resets its date.
 
 > 🛂❌ usually means no visa sponsorship later (for example H-1B). Unless the row also shows 🚫, CPT or OPT may still work. Check with the recruiter. None of this is legal or immigration advice.
 
@@ -71,6 +70,8 @@ def safe_url(u: str) -> str | None:
 
 
 MAX_PAGE_BYTES = 480_000  # GitHub renders markdown files up to 512 KiB; leave headroom
+MAX_ROWS_PER_PAGE = 120  # a list page shows at most this many postings, then continues on the next page
+EMDASH = "\u2014"  # shown in the Posted column when the company site gives no date
 
 TERM_TAGS = {"co_op": "🔄 co-op", "fall": "🍂 fall", "spring": "🌱 spring", "part_time": "⏱ part-time"}
 
@@ -147,17 +148,10 @@ def added(d: str) -> str:
     return f"{x:%b} {x.day}"
 
 
-def split_pages(items, render, limit=None):
-    """Fewest contiguous pages whose rendered text each stays under `limit` bytes (GitHub stops rendering
-    markdown past 512 KB). render(chunk, idx, total) -> text. One page when the whole thing already fits."""
-    limit = MAX_PAGE_BYTES if limit is None else limit
-    pages = [items]
-    while True:
-        out = [render(chunk, i + 1, len(pages)) for i, chunk in enumerate(pages)]
-        if all(len(t.encode("utf-8")) <= limit for t in out) or len(pages) >= max(1, len(items)):
-            return out
-        size = math.ceil(len(items) / (len(pages) + 1))
-        pages = [items[i:i + size] for i in range(0, len(items), size)]
+def paginate(items, size=MAX_ROWS_PER_PAGE):
+    """Split a list into pages of at most `size` items. The internships list is long, so it is shown as
+    numbered pages; an empty list still yields one (empty) page so the section file always exists."""
+    return [items[i:i + size] for i in range(0, len(items), size)] or [items]
 
 
 def table(rows, early=False) -> tuple[str, int]:
@@ -174,7 +168,7 @@ def table(rows, early=False) -> tuple[str, int]:
         loc = r.get("location") or ""
         line = (f"| {text(r['company'])} | [{text(r['title'])}]({url}){evidence(r, early)} | "
                 f"{text(loc[:45])}{'…' if len(loc) > 45 else ''} | {tag_str(r)} |")
-        lines.append(line + (f" {added(when(r))}{'' if r.get('posted') else '*'} |" if show_added else ""))
+        lines.append(line + (f" {added(r['posted']) if r.get('posted') else EMDASH} |" if show_added else ""))
     return "\n".join(lines), skipped
 
 
@@ -285,7 +279,8 @@ def main():
                     + (f"\n{section_nav(stem, idx, total)}\n" if total > 1 else "")
                     + (tail if idx == total else "") + f"\n{DISCLAIMER}\n")
 
-        texts = split_pages(part, render)
+        chunks = paginate(part)
+        texts = [render(chunk, i + 1, len(chunks)) for i, chunk in enumerate(chunks)]
         for idx, t in enumerate(texts, 1):
             (ROOT / (f"{stem}.md" if idx == 1 else f"{stem}-{idx}.md")).write_text(t, encoding="utf-8")
 
@@ -331,6 +326,8 @@ Last updated **{today()}**.
 |---|---|
 {track_table}
 
+_A role can fit more than one track, so the track counts add up to more than the total._
+
 Every row links straight to the company's application page. Postings are tagged for citizenship, clearance and sponsorship rules, with the sentence each tag came from.
 
 ## 📘 Guides
@@ -343,7 +340,7 @@ Every row links straight to the company's application page. Postings are tagged 
 | 📨 **[Applying](guides/applying.md)** | You're about to apply: timing, referrals, coding tests, offers |
 | 🤝 **[Networking](guides/networking.md)** | You know nobody yet: clubs, alumni, hackathons, career fairs |
 | 🎤 **[Interviews](guides/interviews.md)** | You have a recruiter call, coding round or behavioral interview coming up |
-| 🧩 **[Career tracks](guides/tracks.md)** | You're curious about embedded, hardware, security, IT, data or software, and what each takes |
+| 🧩 **[Career tracks](guides/tracks.md)** | You're curious about software, embedded, hardware, security, IT, data or government and defense, and what each takes |
 | 🗓️ **[4-year timeline](guides/timeline.md)** | You want to know what to do each semester |
 | 🐙 **[GitHub](guides/github.md)** | You need to set up GitHub or make your repos look good |
 | 💼 **[LinkedIn](guides/linkedin.md)** | You need a LinkedIn profile or want to reach alumni |
@@ -351,9 +348,9 @@ Every row links straight to the company's application page. Postings are tagged 
 
 ## ℹ️ About
 
-- **{len(rows):,} open roles** from **{boards} company job boards**, checked every day with automated tests on every run.{f" {stale:,} of them couldn't be re-checked recently and are marked ⚠." if stale else ""} How it works and how accurate it is: [docs/WRITEUP.md](docs/WRITEUP.md).
+- **{len(rows):,} open roles** from **{boards:,} company job boards**, checked every day with automated tests on every run.{f" {stale:,} of them couldn't be re-checked recently and are marked ⚠." if stale else ""} How it works and how accurate it is: [docs/WRITEUP.md](docs/WRITEUP.md).
 - It doesn't catch everything. Also check Handshake, LinkedIn, and [Simplify's internship lists](https://github.com/SimplifyJobs).
-- Found a missing posting, a broken link, or a mistake? Tell a McNeese ACM officer, and they'll add or fix it.
+- Found a missing posting, a broken link, or a mistake? [Open a GitHub issue](https://github.com/rohitpeets/cs-internships-and-career-guide/issues/new) — anyone can — or tell a McNeese ACM officer, and we'll fix it.
 
 ## ⚖️ Disclaimer
 

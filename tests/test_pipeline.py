@@ -627,18 +627,11 @@ def test_import_leads_upgrades_http_urls_to_https():
     assert import_leads.https_url(" http://x.com/j ") == "https://x.com/j"
 
 
-def test_split_pages_keeps_every_page_under_the_byte_limit():
+def test_paginate_caps_pages_at_the_row_limit():
     import build_readme
-    items = list(range(1000))
-    pages = build_readme.split_pages(items, lambda chunk, idx, total: "x" * (len(chunk) * 100), limit=10_000)
-    assert len(pages) > 1
-    assert all(len(p.encode("utf-8")) <= 10_000 for p in pages)
-    assert sum(len(p) for p in pages) == 1000 * 100  # every item rendered exactly once across the pages
-
-
-def test_split_pages_stays_single_when_it_fits():
-    import build_readme
-    assert build_readme.split_pages([1, 2, 3], lambda chunk, idx, total: "small", limit=10_000) == ["small"]
+    pages = build_readme.paginate(list(range(300)), size=120)
+    assert [len(p) for p in pages] == [120, 120, 60]
+    assert build_readme.paginate([], size=120) == [[]]  # empty list still yields one page
 
 def test_longest_first_orders_boards_by_last_known_size():
     import fetch_ats
