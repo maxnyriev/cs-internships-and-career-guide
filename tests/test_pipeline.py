@@ -610,3 +610,11 @@ def test_closed_wording_never_closes_a_link_on_its_own():
     assert check_links.check(H(R(200, "<body>This job is no longer available</body>")), "u") == "uncertain"
     assert check_links.check(H(R(404, "")), "u") == "closed"
     assert check_links.check(H(R(200, "<body>Software Engineer Intern</body>")), "u") == "open"
+
+
+def test_schema_accepts_the_unverified_flag_on_a_posting():
+    import jsonschema
+    schema = json.loads((validate.DATA / "schema.json").read_text(encoding="utf-8"))
+    row = json.loads((validate.DATA / "postings.json").read_text(encoding="utf-8"))[0]
+    row["unverified"] = True
+    jsonschema.validate([row], schema, format_checker=jsonschema.FormatChecker())

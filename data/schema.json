@@ -36,7 +36,8 @@
       "last_seen": {"type": "string", "format": "date"},
       "last_miss": {"type": ["string", "null"], "format": "date"},
       "last_checked": {"type": ["string", "null"], "format": "date"},
-      "uncertain_since": {"type": ["string", "null"], "format": "date"}
+      "uncertain_since": {"type": ["string", "null"], "format": "date"},
+      "unverified": {"type": "boolean"}
     }
   }
 }
