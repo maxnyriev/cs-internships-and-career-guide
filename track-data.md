@@ -1,6 +1,6 @@
 # Data and ML
 
-[⬅ Back to the main page](./) · 499 open · updated 2026-11-16
+[⬅ Back to the main page](./) · 555 open · updated 2026-11-16
 
 Data analysis, data engineering, machine learning and AI roles. New to this track? Read the [Data and ML section of the Career tracks guide](guides/tracks.md#data-and-ml).
 
@@ -34,29 +34,81 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (489)
+## Internships (545)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| Acuity | [Finance AI Engineering Intern - Onsite](https://careers.acuityinc.com/job/Atlanta-Finance-AI-Engineering-Intern-Onsite-GA-30309/1434878900/) | Atlanta, Georgia |  | Nov 16* |
+| Aflac | [2027 Global Investments \(NY\) Business &amp; Analytics Intern](https://careers.aflac.com/job/New-York-City-2027-Global-Investments-%28NY%29-Business-&-Analytics-Intern-NY-10005/1443293800/) | New York, New York |  | Nov 16* |
+| AGCO | [AI &amp; Data Science Intern - Spring 2027](https://careers.agcocorp.com/job/Champaign-AI-&-Data-Science-Intern-Spring-2027-IL/1440146300/) | Champaign, Illinois | 🌱 spring<br>⚠ unverified | Nov 16* |
 | Airbus | [\#Discover I 2027 Aircrafts In-Service &amp; Components Data Management Internship](https://ag.wd3.myworkdayjobs.com/Airbus/job/Sevilla-Area/XMLNAME--Discover-I-2027-Aircrafts-In-Service---Components-Data-Management-Internship_JR10457878) | Sevilla Area |  | Nov 16 |
 | ASML | [Internship - Integrate GUI and LLM](https://asml.wd3.myworkdayjobs.com/ASMLEXT1/job/San-Jose-CA-USA/Internship---Integrate-GUI-and-LLM_J-00357014) | San Jose, CA, USA |  | Nov 16 |
 | ASML | [Internship- AI Research and Development](https://asml.wd3.myworkdayjobs.com/ASMLEXT1/job/San-Jose-CA-USA/Internship--AI-Research-and-Development_J-00357860) | San Jose, CA, USA |  | Nov 16 |
 | AstraZeneca | [Finance AI &amp; Data Analytics Intern, Undergraduate - LIFT Program](https://astrazeneca.wd3.myworkdayjobs.com/Careers/job/US---Wilmington---DE/Finance-AI---Data-Analytics-Intern--Undergraduate---LIFT-Program_R-264458)<br><sub>“This role will not provide CPT/OPT support.”</sub> | US - Wilmington - DE | 🚫 no CPT/OPT<br>🎓 3.0+ GPA<br>⚠ unverified | Nov 16 |
+| Biodesix | [AI Research &amp; Development Internship \(Undergraduate\)](https://www.biodesix.com/careers/current-openings?gh_jid=4485306009) | Louisville, Colorado | ⚠ unverified | Nov 16* |
+| Biodesix | [Data Analytics &amp; Business Intelligence Internship \(Undergrad/Graduate\)](https://www.biodesix.com/careers/current-openings?gh_jid=4485182009) | Louisville, Colorado | ⚠ unverified | Nov 16* |
 | Bloomberg Industry Group | [Data Analyst Intern](https://bloomberg.wd1.myworkdayjobs.com/Bloombergindustrygroup_External_Career_Site/job/Arlington-VA---1801-S-Bell-INDG/Data-Analyst-Intern_145487) | Arlington, VA - 1801 S Bell \(INDG\) |  | Nov 16 |
+| Booz Allen | [University - 2027 Summer Games Data Scientist Intern - Annapolis Junction, MD](https://careers.boozallen.com/careers/JobDetail/129753) | Annapolis Junction, Maryland |  | Nov 16* |
+| Booz Allen | [University - 2027 Summer Games Data Scientist Intern - Ft. Walton Beach, FL](https://careers.boozallen.com/careers/JobDetail/129748) | Fort Walton Beach, Florida |  | Nov 16* |
+| Booz Allen | [University - 2027 Summer Games Data Scientist Intern - Huntsville, AL](https://careers.boozallen.com/careers/JobDetail/129755) | Huntsville, Alabama |  | Nov 16* |
+| Booz Allen | [University - 2027 Summer Games Data Scientist Intern - McLean, VA](https://careers.boozallen.com/careers/JobDetail/129483) | McLean, Virginia | ⚠ unverified | Nov 16* |
+| Booz Allen | [University - 2027 Summer Games, Data Scientist Intern - Honolulu, HI](https://careers.boozallen.com/careers/JobDetail/129749) | Honolulu, Hawaii |  | Nov 16* |
+| Booz Allen | [University, 2027 Summer Games Data Scientist Intern](https://careers.boozallen.com/careers/JobDetail/129577) | Colorado Springs, Colorado |  | Nov 16* |
+| Boston Scientific | [AI/Data Science Intern](https://bostonscientific.eightfold.ai/careers/job/563602813519129-ai-data-science-intern-maple-grove-us-mn-united-states-n-a) | Maple Grove, Minnesota | ⚠ unverified | Nov 16* |
+| Boston Scientific | [Data Science Co-op - Spring or Summer 2027](https://bostonscientific.eightfold.ai/careers/job/563602813600487-data-science-co-op-spring-or-summer-2027-maple-grove-us-mn-united-states-n-a) | Maple Grove, Minnesota | 🔄 co-op<br>🌱 spring<br>⚠ unverified | Nov 16* |
+| Boston Scientific | [R&amp;D Research Data Science Intern](https://bostonscientific.eightfold.ai/careers/job/563602813667382-r-d-research-data-science-intern-united-states-n-a) | United States | ⚠ unverified | Nov 16* |
 | Carnegie Mellon University | [AI Engineer Intern - Mission Innovation Lab \(Summer 2027\)](https://cmu.wd115.myworkdayjobs.com/CMU/job/Pittsburgh-PA/AI-Engineer-Intern---Mission-Innovation-Lab--Summer-2027-_2025364)<br><sub>“· You will be subject to a background check and must be eligible to work in the United States without Visa sponsorship.”</sub> | Pittsburgh, PA | 🛂❌ no sponsor | Nov 16 |
+| Cirrus Logic | [2027 Internship - Applied AI Engineering](https://jobs.eu.lever.co/cirrus/beaa562f-5ec2-447f-8175-8a2833a401d8) | Austin, Texas |  | Nov 16* |
 | Constellation Brands | [Intern, Data and AI Enablement](https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Rochester-New-York/Intern--Data-and-AI-Enablement_R-41721) | Rochester, New York |  | Nov 16 |
 | Constellation Brands | [Intern, Data Science](https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Rochester-New-York/Intern--Data-Science_R-41527) | Rochester, New York |  | Nov 16 |
+| Corning | [Engineering Data Analyst Intern - Summer 2027](https://corningjobs.corning.com/job/Keller-Engineering-Data-Analyst-Intern-Summer-2027-TX-76248/1437049900/) | Keller, Texas |  | Nov 16* |
+| Elire | [Summer 2027 AI Data Science Consulting Internship](https://jobs.jobvite.com/elire/job/oppLAfwT) | Minneapolis, Minnesota |  | Nov 16* |
+| Erie Insurance Group | [Intern II \(Claims Systems &amp; AI\)](https://jobs.erieinsurance.com/job/Erie-Intern-II-%28Claims-Systems-&-AI%29-PA-16506/1447480500/) | Millcreek Township, Pennsylvania |  | Nov 16* |
 | Great American Insurance Group | [Predictive Analytics Intern - Summer 2027](https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Predictive-Analytics-Intern---Summer-2027_R9904)<br><sub>“Applicants must be authorized to work in the United States without the need for current or future sponsorship.”</sub> | Cincinnati, OH \(USA\) | 🛂❌ no sponsor | Nov 16 |
 | ICF | [2027 Summer Intern, AI Engineer](https://icf.wd5.myworkdayjobs.com/ICFExternal_Career_Site/job/Reston-VA/XMLNAME-2027-Summer-Intern--AI-Engineer--Reston--VA-_R2603518)<br><sub>“Due to contract requirements, U.S. Citizenship is required”</sub> | Reston, VA | 🗽 citizens | Nov 16 |
+| Integration Innovation \(i3\) | [Data Management Internship](https://talent.i3-corps.com/jobs/5490) | Huntsville, Alabama |  | Nov 16* |
+| International | [AI/ML Intern](https://careers.international.com/jobs/60456) | Lisle, Illinois | ⚠ unverified | Nov 16* |
+| International | [Digital &amp; AI Intern for Service Solutions](https://careers.international.com/jobs/60706) | Lisle, Illinois | ⚠ unverified | Nov 16* |
+| Keysight Technologies | [Data Scientist, Intern](https://jobs.keysight.com/external/jobs/54570) | Santa Rosa, California |  | Nov 16* |
+| Keysight Technologies | [EDA AI/ML Layout Engineering Intern](https://jobs.keysight.com/external/jobs/54606) | Calabasas, California |  | Nov 16* |
+| Keysight Technologies | [EDA AI/ML Software Intern](https://jobs.keysight.com/external/jobs/54582) | Calabasas, California |  | Nov 16* |
 | KLA | [Computer Vision/Machine Learning Intern](https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Computer-Vision-Machine-Learning-Intern_2641921) | Milpitas, CA |  | Nov 16 |
 | Labcorp | [Intern - People Analytics](https://labcorp.wd1.myworkdayjobs.com/External/job/Durham-NC/Intern---People-Analytics_2640527)<br><sub>“This position is not eligible for visa sponsorship now or in the future.”</sub> | Durham NC | 🛂❌ no sponsor<br>⚠ unverified | Nov 16 |
+| Meta | [Computer Vision Engineer Intern, Advanced Manufacturing \(Reality Labs\)](https://www.metacareers.com/profile/job_details/1758435721926913/) | Sunnyvale, California | ⚠ unverified | Nov 16* |
+| Meta | [Data Engineer Intern, Product Analytics \(Summer 2027\)](https://www.metacareers.com/profile/job_details/1373603594867455/) | Menlo Park, California |  | Nov 16* |
+| Meta | [Data Scientist Intern, Product Analytics \(Summer 2027\)](https://www.metacareers.com/profile/job_details/1633096478817942/) | Menlo Park, California |  | Nov 16* |
+| Meta | [Research Scientist Intern, Robotics](https://www.metacareers.com/profile/job_details/1471718241508516/) | Burlingame, California |  | Nov 16* |
 | Micron Technology | [Intern - Data Science, SMAI](https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Intern---Data-Science--SMAI_JR117444) | Boise, ID - Main Site | ⚠ unverified | Nov 16 |
+| Microsoft | [Applied Scientist: Internship Opportunities, Turing](https://apply.careers.microsoft.com/careers/job/1970393557050150-applied-scientist-internship-opportunities-turing-united-states-washington-redmond) | Redmond, Washington | ⚠ unverified | Nov 16* |
+| Microsoft | [Research Intern - Agentic Data Memory](https://apply.careers.microsoft.com/careers/job/1970393557040344-research-intern-agentic-data-memory-united-states-washington-redmond) | Redmond, Washington | ⚠ unverified | Nov 16* |
+| Microsoft | [Research Intern - AI &amp; Human Systems](https://apply.careers.microsoft.com/careers/job/1970393557056017-research-intern-ai-human-systems-united-states-new-york-new-york) | Cambridge, Massachusetts | ⚠ unverified | Nov 16* |
+| Microsoft | [Research Intern - AI Coding Agents](https://apply.careers.microsoft.com/careers/job/1970393557073416-research-intern-ai-coding-agents-united-states-washington-redmond) | Redmond, Washington | ⚠ unverified | Nov 16* |
+| Microsoft | [Research Intern - Machine Learning and Optimization - Redmond](https://apply.careers.microsoft.com/careers/job/1970393557049981-research-intern-machine-learning-and-optimization-redmond-united-states-washington-redmond) | Redmond, Washington | ⚠ unverified | Nov 16* |
+| Microsoft | [Research Intern - Machine Learning and Statistics](https://apply.careers.microsoft.com/careers/job/1970393557040502-research-intern-machine-learning-and-statistics-united-states-massachusetts-cambridge) | Cambridge, Massachusetts | ⚠ unverified | Nov 16* |
+| Microsoft | [Research Intern - Machine Learning at MSR NYC](https://apply.careers.microsoft.com/careers/job/1970393557042145-research-intern-machine-learning-at-msr-nyc-united-states-new-york-new-york) | Cambridge, Massachusetts | ⚠ unverified | Nov 16* |
+| Microsoft | [Research Intern - Machine Learning for Biology and Healthcare](https://apply.careers.microsoft.com/careers/job/1970393557040333-research-intern-machine-learning-for-biology-and-healthcare-united-states-massachusetts-cambridge) | Cambridge, Massachusetts | ⚠ unverified | Nov 16* |
+| Microsoft | [Research Intern - MSR AI Interaction and Learning](https://apply.careers.microsoft.com/careers/job/1970393557042156-research-intern-msr-ai-interaction-and-learning-united-states-washington-redmond) | New York, New York | ⚠ unverified | Nov 16* |
+| Microsoft | [Research Intern - Next-Generation AI Agents](https://apply.careers.microsoft.com/careers/job/1970393557070079-research-intern-next-generation-ai-agents-united-states-washington-redmond) | Redmond, Washington | ⚠ unverified | Nov 16* |
+| Microsoft | [Software Engineer: AI/ML &amp; LLM Intern Opportunities for University Students, Redmond](https://apply.careers.microsoft.com/careers/job/1970393556922929-software-engineer-ai-ml-llm-intern-opportunities-for-university-students-redmond-united-states-washington-redmond) | Redmond, Washington | ⚠ unverified | Nov 16* |
+| Microsoft | [Software Engineer: Data Platform/Analytics Intern Opportunities for University Students, Redmond](https://apply.careers.microsoft.com/careers/job/1970393556922931-software-engineer-data-platform-analytics-intern-opportunities-for-university-students-redmond-united-states-washington-redmond) | Redmond, Washington | ⚠ unverified | Nov 16* |
+| MSA Safety | [AI Engineer Co-Op Spring 2027](https://careers.msasafety.com/jobs/10243) | Cranberry Township, Pennsylvania | 🔄 co-op<br>🌱 spring | Nov 16* |
+| Noblis | [Summer 2027 - Data Science and Innovation Intern](https://careers.noblis.org/jobs/28097) | Springfield, Missouri |  | Nov 16* |
+| PrizePicks | [Data &amp; Machine Learning Platform Engineering Internship - Spring 2027](https://prizepicks.com/position?gh_jid=8009261003) | Atlanta, Georgia | 🌱 spring<br>⚠ unverified | Nov 16* |
+| PrizePicks | [Data Engineering Internship - Spring 2027](https://prizepicks.com/position?gh_jid=8009358003) | Atlanta, Georgia | 🌱 spring<br>⚠ unverified | Nov 16* |
+| PrizePicks | [Machine Learning Internship - Spring 2027](https://prizepicks.com/position?gh_jid=8038883003) | Atlanta, Georgia | 🌱 spring<br>⚠ unverified | Nov 16* |
 | Regeneron | [2027 Summer Intern Workplace Strategy &amp; Planning Analytics](https://regeneron.wd1.myworkdayjobs.com/US_Only_University_Relations_Career/job/TARRYTOWN/XMLNAME-2027-Summer-Intern-Workplace-Strategy---Planning-Analytics_R53154) | TARRYTOWN |  | Nov 16 |
 | Regeneron Pharmaceuticals | [2027 Summer Intern Workplace Strategy &amp; Planning Analytics](https://regeneron.wd1.myworkdayjobs.com/Careers/job/TARRYTOWN/XMLNAME-2027-Summer-Intern-Workplace-Strategy---Planning-Analytics_R53154-1) | TARRYTOWN |  | Nov 16 |
+| Riot Games | [Data Engineering Intern - Summer 2027](https://www.riotgames.com/en/work-with-us/job/8356716?gh_jid=8356716) | Los Angeles, California |  | Nov 16* |
 | Software Engineering Institute / Carnegie Mellon University | [AI Engineer Intern - Mission Innovation Lab \(Summer 2027\)](https://cmu.wd115.myworkdayjobs.com/SEI/job/Pittsburgh-PA/AI-Engineer-Intern---Mission-Innovation-Lab--Summer-2027-_2025364-1)<br><sub>“· You will be subject to a background check and must be eligible to work in the United States without Visa sponsorship.”</sub> | Pittsburgh, PA | 🛂❌ no sponsor | Nov 16 |
+| SRC, Inc | [Machine Learning Engineer \(Intern - Summer 2027\)](https://jobs.jobvite.com/src-inc/job/o8lHAfwu) | Syracuse, New York |  | Nov 16* |
+| Synopsys | [Physics AI Internship \(Summer 2027\)](https://synopsys.avature.net/careers/JobDetail/Intern-Technical-Engineering-19536/19536) | Sunnyvale, California | ⚠ unverified | Nov 16* |
 | T-Mobile | [Summer 2027 AI Engineering Internship](https://tmobile.wd1.myworkdayjobs.com/External/job/Bellevue-Washington/Summer-2027-AI-Engineering-Internship_REQ382110) | Bellevue, Washington |  | Nov 16 |
 | T-Mobile | [Summer 2027 Business Development, Physical &amp; Edge AI Internship](https://tmobile.wd1.myworkdayjobs.com/External/job/Bellevue-Washington/Summer-2027-Business-Development--Physical---Edge-AI-Internship_REQ380654) | Bellevue, Washington |  | Nov 16 |
 | Toyota Research Institute | [Automated Driving Advanced Development Intern, Machine Learning Research \(Cambridge\)](https://jobs.lever.co/tri/3a7510ff-7cef-4d6e-8c32-0b6e6b8a2476) | Cambridge, MA |  | Nov 16 |
+| V2X | [AI Intern - Junior](https://careers.gov2x.com/why-gov2x/jobs/63949) | Indianapolis, Indiana | ⚠ unverified | Nov 16* |
+| V2X | [Artificial Intelligence Intern 2027](https://careers.gov2x.com/why-gov2x/jobs/62843) | Indianapolis, Indiana | ⚠ unverified | Nov 16* |
+| Waymo | [2027 Summer Intern, BS, Waymo ML Ops &amp; Automation](https://careers.withwaymo.com/jobs?gh_jid=8257237) | Mountain View, California | ⚠ unverified | Nov 16* |
+| Waymo | [2027 Summer Intern, Perception - Perception Data Foundations](https://careers.withwaymo.com/jobs?gh_jid=8248327) | Mountain View, California | ⚠ unverified | Nov 16* |
 | White Cap | [Corporate Intern - Product Data Management](https://whitecap.wd1.myworkdayjobs.com/Careers/job/Corporate-Intern---Product-Data-Management_WCJR-036650) |  |  | Nov 16 |
 | FlexStaff | [Emerging Technology &amp; AI Internship](https://eppr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/203746) | New Hyde Park, Nassau, United States |  | Nov 15 |
 | 3M | [Internship - 2027 Undergraduate Business Analytics Intern – Consumer Business Group \(CBG\)](https://3m.wd1.myworkdayjobs.com/Search/job/US-Minnesota-Maplewood/Internship---2027-Undergraduate-Business-Analytics-Intern---Consumer-Business-Group--CBG-_R01171049)<br><sub>“Must be legally authorized to work in country of employment without sponsorship for employment visa status \(e.g., H1B status\).”</sub> | US, Minnesota, Maplewood | 🛂❌ no sponsor<br>🎓 3.0+ GPA | Nov 13 |
@@ -70,6 +122,8 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Micron Technology | [Intern - AI Engineer Platform](https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Intern----AI-Engineer-Platform_JR115934) | Boise, ID - Main Site | ⚠ unverified | Nov 13 |
 | Molina Healthcare | [Data Analytics Internship \(Remote\) – Summer 2027 \(Undergraduate\)](https://hckd.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2040160) | United States | 🎓 3.0+ GPA | Nov 13 |
 | Rocket Companies | [Data Analyst Intern - Summer 2027](https://quickenloans.wd5.myworkdayjobs.com/rocket_careers/job/Detroit-MI/Data-Analyst-Intern---Summer-2027_R-083832) | Detroit, MI | ⚠ unverified | Nov 13 |
+| Samsung Semiconductor | [Intern, AI Systems Performance Engineer](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8202927003) | San Jose, California, United States |  | Nov 13 |
+| Samsung Semiconductor | [Intern, ML Compiler \(Kernel Auto-Tuning\)](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8203052003) | San Jose, California, United States |  | Nov 13 |
 | ServiceNow | [AI Identity Intern](https://jobs.smartrecruiters.com/ServiceNow/744000161594249-ai-identity-intern) | Kirkland, Washington, US |  | Nov 13 |
 | The Allen Institute for Artificial Intelligence | [Research Internship, AI for Neuroscience](https://job-boards.greenhouse.io/thealleninstitute/jobs/8293636) | Seattle, WA |  | Nov 13 |
 | Walmart | [Summer 2027 Corporate Intern: Last Mile Delivery Data Science Intern](https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/USA-Together-Building-AR-Bentonville-Home-Office/Summer-2027-Corporate-Intern--Last-Mile-Delivery-Data-Science-Intern_R-2686435) | \(USA\) Together Building AR Bentonville Home O… |  | Nov 13 |
@@ -102,6 +156,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Bristol Myers Squibb | [Data &amp; Quantitative Sciences Intern-Summer 2027](https://bristolmyerssquibb.wd5.myworkdayjobs.com/BMS/job/Princeton---NJ---US/Data---Quantitative-Sciences-Intern-Summer-2027_R1608215)<br><sub>“Please note that immigration or visa sponsorship is not available for this position.”</sub> | Princeton - NJ - US | 🛂❌ no sponsor<br>⚠ unverified | Nov 11 |
 | Cigna Healthcare | [Product Analytics Summer Intern - Start Date: May 24, 2027](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Morris-Plains-NJ/Product-Analytics-Summer-Intern---Start-Date--May-24--2027_26010180)<br><sub>“Therefore, this temporary internship is open only to individuals who are eligible for employment in the United States and who would not requ…”</sub> | Morris Plains, NJ | 🚫 no CPT/OPT<br>⚠ unverified | Nov 11 |
 | ICF | [2027 Summer Intern, Data Analytics \(Reston, VA or Remote\)](https://icf.wd5.myworkdayjobs.com/ICFExternal_Career_Site/job/Reston-VA/XMLNAME-2027-Summer-Intern--Data-Analytics--Reston--VA-or-Remote-_R2603382-1)<br><sub>“Due to contract requirements, U.S. Citizenship or Permanent Work Authorization is required”</sub> | Reston, VA | 🗽 citizens<br>⚠ unverified | Nov 11 |
+| Samsung Semiconductor | [Intern, AI System Architecture Research Scientist](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8197305003) | San Jose, California, United States |  | Nov 11 |
 | Sanofi | [2027 Spring Co-op Data Science &amp; Digital Transformation, Framingham, MA](https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Framingham-MA/XMLNAME-2027-Spring-Co-op-Data-Science---Digital-Transformation--Framingham--MA_R2854091)<br><sub>“Students currently on CPT, OPT, or STEM OPT usually require future sponsorship for long term employment and do not meet the Internal require…”</sub> | Framingham, MA | 🛂❌ no sponsor<br>🔄 co-op<br>🌱 spring | Nov 11 |
 | Saputo Inc | [Intern, Trade Promotion Management Business and Data Analyst](https://saputo.wd5.myworkdayjobs.com/Saputo_External_Careers/job/Georgetown-ON/Intern--Trade-Promotion-Management-Business-and-Data-Analyst_JR68377-1) | Georgetown, ON |  | Nov 11 |
 | State of Wisconsin Investment Board | [Data Analytics Engineering Intern](https://swib.wd12.myworkdayjobs.com/EXT/job/Madison-Wisconsin/Data-Analytics-Engineering-Intern_R-001330) | Madison Wisconsin |  | Nov 11 |
@@ -209,6 +264,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | MSD | [2027 Future Talent Program - Translational Genome Analytics - Co-op](https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---California---San-Diego-Science-Park-Road/XMLNAME-2027-Future-Talent-Program---Translational-Genome-Analytics---Co-op_R424008) | USA - California - San Diego \(Science Park Ro… | 🔄 co-op | Nov 2 |
 | ParetoHealth | [Analytics Summer Intern](https://job-boards.greenhouse.io/paretocaptiveservicesllc/jobs/4725326006)<br><sub>“Please note that ParetoHealth does not provide employment visa sponsorship for this position.”</sub> | Philadelphia, Pennsylvania, United States | 🛂❌ no sponsor | Nov 2 |
 | Rockland Trust | [Digital Ops &amp; Analytics Intern](https://eehb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2005/job/3037) | Rockland, MA, United States |  | Nov 2 |
+| Samsung Semiconductor | [Intern, AI Application Engineer](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8163994003) | Folsom, California, United States |  | Nov 2 |
 | SAP IT Business Systeme | [SAP Concur iXp Intern - Data Strategy](https://jobs.smartrecruiters.com/SAPITBusinessSysteme/744000159154348-sap-concur-ixp-intern-data-strategy) | Bellevue, Washington, US |  | Nov 2 |
 | SAP IT Business Systeme | [SAP iXp Intern - Data Analytics](https://jobs.smartrecruiters.com/SAPITBusinessSysteme/744000159206645-sap-ixp-intern-data-analytics) | Newtown Square, PA, US |  | Nov 2 |
 | The Riverside Company | [2027 Summer Internship, Portfolio Reporting &amp; Analytics](https://job-boards.greenhouse.io/theriversidecompany/jobs/8927411002) | New York, NY |  | Nov 2 |

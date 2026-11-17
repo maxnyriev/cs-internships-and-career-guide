@@ -1,6 +1,6 @@
 # IT and networking
 
-[⬅ Back to the main page](./) · 265 open · updated 2026-11-16
+[⬅ Back to the main page](./) · 282 open · updated 2026-11-16
 
 IT support, networking, systems administration and cloud operations. New to this track? Read the [IT and networking section of the Career tracks guide](guides/tracks.md#it-and-networking).
 
@@ -34,15 +34,32 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (258)
+## Internships (275)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| Aflac | [2027 Global Investments \(NY\) Information Technology Intern](https://careers.aflac.com/job/New-York-City-2027-Global-Investments-%28NY%29-Information-Technology-Intern-NY-10005/1443293300/) | New York, New York |  | Nov 16* |
+| Altice USA | [Intern - Cloud Platform Engineering](https://www.optimumcareers.com/job/Bethpage-Intern-Cloud-Platform-Engineering-NY-11714/1449512000/) | Town of Oyster Bay, New York | ⚠ unverified | Nov 16* |
+| Altice USA | [Intern - DevOps Toolchain](https://www.optimumcareers.com/job/Bethpage-Intern-DevOps-Toolchain%E2%80%8B-NY-11714/1449507200/) | Town of Oyster Bay, New York | ⚠ unverified | Nov 16* |
+| Altice USA | [Intern - Site Reliability Engineer](https://www.optimumcareers.com/job/Bethpage-Intern-Site-Reliability-Engineer-NY-11714/1449514800/) | Town of Oyster Bay, New York | ⚠ unverified | Nov 16* |
 | AstraZeneca | [Commercial IT Intern, Undergraduate](https://astrazeneca.wd3.myworkdayjobs.com/Careers/job/US---Wilmington---DE/Commercial-IT-Intern--Undergraduate_R-264455) | US - Wilmington - DE | ⚠ unverified | Nov 16 |
+| Biodesix | [IT Service Desk Internship \(Undergrad/Graduate\)](https://www.biodesix.com/careers/current-openings?gh_jid=4485323009) | Louisville, Colorado | ⚠ unverified | Nov 16* |
+| Corning | [Science &amp; Technology - HPC DevOps Engineer Intern - Summer 2027](https://corningjobs.corning.com/job/Corning-Science-&-Technology-HPC-DevOps-Engineer-Intern-Summer-2027-NY-14831/1448743700/) | City of Corning, New York |  | Nov 16* |
+| Eaton | [Early Career Internship Program: Information Technology](https://eaton.eightfold.ai/careers/job/687239381332-early-career-internship-program-information-technology-raleigh-north-carolina-usa-27615) | Raleigh, North Carolina | ⚠ unverified | Nov 16* |
 | Federal Reserve System | [2027 Summer Internship Program - IT Portfolio Analyst Intern](https://rb.wd5.myworkdayjobs.com/FRS/job/Atlanta-GA/XMLNAME-2027-Summer-Internship-Program---IT-Portfolio-Analyst-Intern_R-0000034092)<br><sub>“Applicants must be currently authorized to work in the United States without the need for visa sponsorship now or in the future.”</sub> | Atlanta, GA | 🛂❌ no sponsor | Nov 16 |
+| Huntington Ingalls Industries | [SPRING 2027 IT CO-OP](https://careers.huntingtoningalls.com/job/Newport-News-SPRING-2027-IT-CO-OP-Virg/1434270100/) | Newport News, Virginia | 🔄 co-op<br>🌱 spring | Nov 16* |
+| Huntington Ingalls Industries | [Summer 2027 Internship - DevOps Engineer \(Hybrid\) - 30230](https://jobs.hii-tsd.com/job/Columbia%2C-MD-Summer-2027-Internship-DevOps-Engineer-%28Hybrid%29-30230-Mary/1430966800/) | Columbia, Maryland |  | Nov 16* |
+| International | [Digital IT Intern](https://careers.international.com/jobs/60457) | Lisle, Illinois | ⚠ unverified | Nov 16* |
+| International | [General IT Intern](https://careers.international.com/jobs/60707) | Lisle, Illinois | ⚠ unverified | Nov 16* |
+| Microsoft | [Cloud Network Engineering Internship Oportunities](https://apply.careers.microsoft.com/careers/job/1970393557037856-cloud-network-engineering-internship-oportunities-united-states-washington-redmond) | Redmond, Washington | ⚠ unverified | Nov 16* |
+| Microsoft | [Data Center Technicians INTERN](https://apply.careers.microsoft.com/careers/job/1970393557040904-data-center-technicians-intern-united-states-virginia-dulles) | Boydton, Virginia | ⚠ unverified | Nov 16* |
+| Microsoft | [Data Center Technicians INTERN](https://apply.careers.microsoft.com/careers/job/1970393557040909-data-center-technicians-intern-united-states-texas-san-antonio) | Phoenix, Arizona | ⚠ unverified | Nov 16* |
+| Microsoft | [Data Center Technicians INTERN](https://apply.careers.microsoft.com/careers/job/1970393557043629-data-center-technicians-intern-united-states-georgia-atlanta) | Atlanta, Georgia | ⚠ unverified | Nov 16* |
 | NBCUniversal | [Universal Film Production IT Support Internships – Summer 2027](https://jobs.smartrecruiters.com/NBCUniversal3/744000161876175-universal-film-production-it-support-internships-summer-2027)<br><sub>“For further clarification, candidates currently on any student or exchange visa \(e.g. F-1 CPT, F-1 OPT, J-1, M-1\) are not eligible to apply…”</sub> | Universal City, CA, US | 🚫 no CPT/OPT<br>🎓 3.0+ GPA | Nov 16 |
 | PwC | [Technology Consulting - Geographic Information Systems Intern - Summer 2027](https://pwc.wd3.myworkdayjobs.com/NonPublic_Postings/job/IL-Rosemont/Technology-Consulting---Geographic-Information-Systems-Intern---Summer-2027_757257WD-1) | IL-Rosemont | ⚠ unverified | Nov 16 |
 | Red Hat | [Cloud Services Intern](https://redhat.wd5.myworkdayjobs.com/Jobs/job/Santiago/Cloud-Services-Intern_R-059108)<br><sub>“Red Hat will not be providing visa sponsorship for this position.”</sub> | Santiago | 🛂❌ no sponsor | Nov 16 |
+| Schneider Electric | [Technical Support Engineering Intern](https://careers.se.com/jobs/134954) | Irvine, California | ⚠ unverified | Nov 16* |
+| Trilogy Health Services | [Information Systems Developer of AI Intern](https://jobs.trilogyhs.com/jobs/214624) | Louisville, Kentucky |  | Nov 16* |
 | TruStage | [Information Technology - Development and Infrastructure Internship \(hybrid\)](https://trustage.wd1.myworkdayjobs.com/TruStage/job/Wisconsin---Remote/Enterprise-Information---Technology-Internship--Hybrid-_R-012155) | Wisconsin - Remote | 🌐 remote | Nov 16 |
 | Tucson Electric Power | [Student Intern, IT Energy Systems](https://tep.wd1.myworkdayjobs.com/TEP/job/Tucson-AZ---Irvington/Student-Intern--IT-Energy-Systems_JR450) | Tucson, AZ - Irvington |  | Nov 16 |
 | Amazon | [Data Center Infrastructure Engineer Intern, Summer 2027 - East](https://www.amazon.jobs/en/jobs/10605141/data-center-infrastructure-engineer-intern-summer-2027-east) | Herndon, Virginia, USA |  | Nov 14 |

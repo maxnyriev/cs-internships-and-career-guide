@@ -1,6 +1,6 @@
 # Security
 
-[⬅ Back to the main page](./) · 161 open · updated 2026-11-16
+[⬅ Back to the main page](./) · 188 open · updated 2026-11-16
 
 Cybersecurity, security analyst and penetration testing roles. New to this track? Read the [Security section of the Career tracks guide](guides/tracks.md#security).
 
@@ -34,13 +34,39 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (153)
+## Internships (180)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| Atlassian | [Security Engineer Intern, 2027 Summer U.S.](https://join.atlassian.com/atlassian-talent-community/jobs/26267) | Seattle, Washington |  | Nov 16* |
+| Booz Allen | [University - 2027 Summer Games Cyber Security Intern - Annapolis Junction, MD](https://careers.boozallen.com/careers/JobDetail/129762) | Annapolis Junction, Maryland | ⚠ unverified | Nov 16* |
+| Booz Allen | [University - 2027 Summer Games Cyber Security Intern - Atlanta, GA](https://careers.boozallen.com/careers/JobDetail/129576) | Atlanta, Georgia | ⚠ unverified | Nov 16* |
+| Booz Allen | [University - 2027 Summer Games Cyber Security Intern - Charleston, SC](https://careers.boozallen.com/careers/JobDetail/129570) | Charleston, South Carolina | ⚠ unverified | Nov 16* |
+| Booz Allen | [University - 2027 Summer Games Cyber Security Intern - Ft. Walton Beach, FL](https://careers.boozallen.com/careers/JobDetail/129763) | Fort Walton Beach, Florida | ⚠ unverified | Nov 16* |
+| Booz Allen | [University - 2027 Summer Games Cyber Security Intern - Honolulu, HI](https://careers.boozallen.com/careers/JobDetail/129752) | Honolulu, Hawaii | ⚠ unverified | Nov 16* |
+| Booz Allen | [University - 2027 Summer Games Cyber Security Intern - Huntsville, AL](https://careers.boozallen.com/careers/JobDetail/129761) | Huntsville, Alabama | ⚠ unverified | Nov 16* |
+| Booz Allen | [University - 2027 Summer Games Cyber Security Intern - Lexington, MA](https://careers.boozallen.com/careers/JobDetail/132298) | Lexington, Massachusetts |  | Nov 16* |
+| Booz Allen | [University - 2027 Summer Games Cyber Security Intern - McLean, VA](https://careers.boozallen.com/careers/JobDetail/129524) | McLean, Virginia | ⚠ unverified | Nov 16* |
+| Booz Allen | [University – Summer 27, Enterprise Cybersecurity Data Loss Prevention Intern](https://careers.boozallen.com/careers/JobDetail/130179) | McLean, Virginia |  | Nov 16* |
+| Booz Allen | [University, 2027 Summer Games Cyber Security Intern](https://careers.boozallen.com/careers/JobDetail/129563) | Colorado Springs, Colorado |  | Nov 16* |
 | Idaho National Laboratory | [Cybersecurity Operations Internship - Summer 2027](https://elhe.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/pro/job/2329) | Idaho Falls, ID, United States | 🎓 3.0+ GPA | Nov 16 |
+| Integration Innovation \(i3\) | [Cybersecurity Internship](https://talent.i3-corps.com/jobs/5489) | Huntsville, Alabama |  | Nov 16* |
+| International | [IT Security Intern](https://careers.international.com/jobs/60661) | Lisle, Illinois | ⚠ unverified | Nov 16* |
 | Leidos | [Cybersecurity Intern](https://leidos.wd5.myworkdayjobs.com/External/job/Fort-Belvoir-VA/Cybersecurity-Intern_R-00197087)<br><sub>“U.S. citizenship required.”</sub> | Fort Belvoir, VA | 🗽 citizens<br>🔒 secret | Nov 16 |
+| McDonald's | [Cybersecurity Intern](https://jobs.mcdonalds.com/job/Chicago-Cybersecurity-Intern-IL-60607/1449564700/) | Chicago, Illinois |  | Nov 16* |
+| McDonald's | [Global Cyber Security Intern](https://jobs.mcdonalds.com/job/Chicago-Global-Cyber-Security-Intern-IL-60607/1449058700/) | Chicago, Illinois | ⚠ unverified | Nov 16* |
+| Meta | [Detection &amp; Response Security Engineer, Intern \(Summer 2027\)](https://www.metacareers.com/profile/job_details/1677981003713152/) | New York, New York |  | Nov 16* |
+| Meta | [Enterprise Security Engineer, Intern \(Summer 2027\)](https://www.metacareers.com/profile/job_details/1079627324896327/) | Menlo Park, California |  | Nov 16* |
+| Meta | [Product Security Engineer, Intern \(Summer 2027\)](https://www.metacareers.com/profile/job_details/2535222523640873/) | Menlo Park, California |  | Nov 16* |
+| Meta | [Security Engineer Posture Management, Intern \(Summer 2027\)](https://www.metacareers.com/profile/job_details/1359570553913180/) | New York, New York |  | Nov 16* |
+| Microsoft | [Research Intern - Security Research Group, Microsoft Research Redmond](https://apply.careers.microsoft.com/careers/job/1970393557022480-research-intern-security-research-group-microsoft-research-redmond-united-states-washington-redmond) | Redmond, Washington | ⚠ unverified | Nov 16* |
+| Microsoft | [Security Operations Engineering INTERN](https://apply.careers.microsoft.com/careers/job/1970393557019490-security-operations-engineering-intern-united-states-washington-redmond) | Redmond, Washington | ⚠ unverified | Nov 16* |
+| Microsoft | [Security Research Intern](https://apply.careers.microsoft.com/careers/job/1970393557044769-security-research-intern-united-states-washington-redmond) | Redmond, Washington | ⚠ unverified | Nov 16* |
+| Microsoft | [Software Engineer: Security &amp; Identity Intern Opportunities for University Students, Cambridge](https://apply.careers.microsoft.com/careers/job/1970393557044765-software-engineer-security-identity-intern-opportunities-for-university-students-cambridge-united-states-massachusetts-cambridge) | Cambridge, Massachusetts | ⚠ unverified | Nov 16* |
+| Microsoft | [Software Engineer: Security &amp; Identity Intern Opportunities for University Students, Redmond](https://apply.careers.microsoft.com/careers/job/1970393556922930-software-engineer-security-identity-intern-opportunities-for-university-students-redmond-united-states-washington-redmond) | Redmond, Washington | ⚠ unverified | Nov 16* |
+| SeatGeek | [Security Engineer - Internship](https://seatgeek.com/jobs/8248151?gh_jid=8248151) | New York, New York | ⚠ unverified | Nov 16* |
 | State of Wisconsin Investment Board | [Information Security Intern](https://swib.wd12.myworkdayjobs.com/EXT/job/Madison-Wisconsin/Information-Security-Intern_R-001332) | Madison Wisconsin |  | Nov 16 |
+| Westinghouse Electric Company | [Summer Intern - ICS Cyber Security](https://careers.westinghousenuclear.com/job/Warrendale-Summer-Intern-ICS-Cyber-Security-OR/1448123600/) | Warrendale, Oregon |  | Nov 16* |
 | White Cap | [Corporate Intern - Information Security](https://whitecap.wd1.myworkdayjobs.com/Careers/job/Atlanta_30360/Corporate-Intern---Information-Security_WCJR-036638) | Atlanta\_30360 |  | Nov 16 |
 | Zoetis | [Information Security Intern](https://zoetis.wd5.myworkdayjobs.com/broadbean_external/job/Parsippany/Information-Security-Intern_JR00021994) | Parsippany |  | Nov 16 |
 | Zoetis | [IT/OT Security Intern](https://zoetis.wd5.myworkdayjobs.com/broadbean_external/job/Kalamazoo---Kilgore-Road/IT-OT-Security-Intern_JR00021980) | Kalamazoo - Kilgore Road |  | Nov 16 |
@@ -183,6 +209,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Navy Federal Credit Union | [Summer Associate Internship \(Information Security Analyst\)](https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/32378) | Vienna, VA, United States | ⏳ 60+ days | Sep 9 |
 | Navy Federal Credit Union | [Summer Associate Internship \(Penetration Testing\)](https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/32375) | Pensacola, FL, United States | ⏳ 60+ days | Sep 9 |
 | Navy Federal Credit Union | [Summer Associate Internship \(Zero Trust Information Security Analyst\)](https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/32304) | Vienna, VA, United States | ⏳ 60+ days | Sep 9 |
+| Qube Research &amp; Technologies | [2027 Internship – Security Engineer](https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8777760002) | London, Paris, New York | ⏳ 60+ days | Sep 8 |
 | Schonfeld | [2027 Cybersecurity Operations Intern](https://job-boards.greenhouse.io/schonfeld/jobs/8171696) | New York, New York, United States | ⏳ 60+ days | Sep 4 |
 | HP IQ | [Software Engineering Intern, Security Intern \(Summer 2027\)](https://job-boards.greenhouse.io/hpiq/jobs/6116398004) | San Francisco, CA | ⏳ 60+ days | Aug 31 |
 | Vanguard | [College to Corporate IT Internship - Risk &amp; Security - Engineer](https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/DallasFt-Worth-TX/College-to-Corporate-IT-Internship---Risk---Security---Engineer_181851) | Dallas/Ft. Worth, TX | ⏳ 60+ days | Aug 31 |

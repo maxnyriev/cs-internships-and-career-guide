@@ -1,6 +1,6 @@
 # Embedded and firmware
 
-[⬅ Back to the main page](./) · 63 open · updated 2026-11-16
+[⬅ Back to the main page](./) · 74 open · updated 2026-11-16
 
 Firmware, microcontroller and real-time software that runs on devices. New to this track? Read the [Embedded and firmware section of the Career tracks guide](guides/tracks.md#embedded-and-firmware).
 
@@ -34,13 +34,24 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (62)
+## Internships (73)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| AGCO | [Embedded Software Engineering Intern - Summer 2027](https://careers.agcocorp.com/job/Hesston-Embedded-Software-Engineering-Intern-Summer-2027-KS-67062/1440993300/) | Hesston, Kansas |  | Nov 16* |
+| Boston Scientific | [R&amp;D Firmware Engineer Intern](https://bostonscientific.eightfold.ai/careers/job/563602813547667-r-d-firmware-engineer-intern-arden-hills-us-mn-united-states-n-a) | Arden Hills, Minnesota | ⚠ unverified | Nov 16* |
+| Cirrus Logic | [2027 Internship - Embedded Firmware Engineer](https://jobs.eu.lever.co/cirrus/0af920c1-6ecb-447f-9b22-3eda6b8d4ed8) | Phoenix, Arizona |  | Nov 16* |
+| Cirrus Logic | [2027 Internship - Embedded Software Engineer](https://jobs.eu.lever.co/cirrus/f8d30ab0-8c95-4c83-8188-fb45a2cfc9ec) | Austin, Texas |  | Nov 16* |
+| Cirrus Logic | [2027 Internship - Embedded Software Test Engineer](https://jobs.eu.lever.co/cirrus/db51b041-8f20-48e0-af08-be71201a8175) | Austin, Texas |  | Nov 16* |
+| Eaton | [Early Career Internship Program: Engineering Technology - Embedded Systems](https://eaton.eightfold.ai/careers/job/687238043804-early-career-internship-program-engineering-technology-embedded-systems-moon-township-pennsylvania-usa-15108) | Raleigh, North Carolina | ⚠ unverified | Nov 16* |
+| Integration Innovation \(i3\) | [Embedded Systems Reverse Engineer Intern](https://talent.i3-corps.com/jobs/5588) | Washington, District of Columbia |  | Nov 16* |
+| Keysight Technologies | [Embedded Software Engineer Intern](https://jobs.keysight.com/external/jobs/55093) | Cambridge, Massachusetts |  | Nov 16* |
 | KLA | [Firmware Intern](https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Firmware-Intern_2642154-1) | Milpitas, CA |  | Nov 16 |
+| Microsoft | [Firmware Engineering Internship \(6-month Program\)](https://apply.careers.microsoft.com/careers/job/1970393557023161-firmware-engineering-internship-6-month-program--united-states-california-santa-clara) | Santa Clara, California | ⚠ unverified | Nov 16* |
+| North Atlantic Industries | [Intern - Embedded Software Engineer \(Spring 2027\)](https://recruiting.paylocity.com/Recruiting/Jobs/Details/4663112) | Bohemia, New York | 🌱 spring | Nov 16* |
 | Marvell Technology | [Software/Firmware Engineering Intern](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Petah-Tikva/Software-Firmware-Engineering_2604496) | Petah-Tikva |  | Nov 15 |
 | Airbus | [Internship \(d/f/m\) Embedded Software Engineering for Weapon Systems](https://ag.wd3.myworkdayjobs.com/Airbus/job/Donauwrth/Internship--d-f-m--Embedded-Software-Engineering-for-Weapon-Systems_JR10442671-2) | Donauwörth |  | Nov 13 |
+| Samsung Semiconductor | [Intern, SSD Firmware Development](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8203058003) | San Jose, California, United States |  | Nov 13 |
 | CACI International | [Embedded Software Development Intern - Summer 2027](https://caci.wd1.myworkdayjobs.com/External/job/Denver-CO-US/Embedded-Software-Development-Intern---Summer-2027_333147)<br><sub>“Must be legally authorized to work in the United States without the need for employer sponsorship, now or at any me in the future”</sub> | Denver, CO, US | 🛂❌ no sponsor<br>🔒 clearance<br>🎓 3.0+ GPA<br>⚠ unverified | Nov 12 |
 | Lightmatter | [Laser Firmware Intern - Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5479596008?gh_jid=5479596008) | Boston, MA |  | Nov 11 |
 | SK hynix memory solutions America Inc | [Embedded Software Engineer Intern](https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4504499009) | San Jose |  | Nov 11 |

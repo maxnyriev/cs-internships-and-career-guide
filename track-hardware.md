@@ -1,6 +1,6 @@
 # Hardware and chips
 
-[⬅ Back to the main page](./) · 114 open · updated 2026-11-16
+[⬅ Back to the main page](./) · 121 open · updated 2026-11-16
 
 Chip design, FPGA and ASIC work, and design verification. New to this track? Read the [Hardware and chips section of the Career tracks guide](guides/tracks.md#hardware-and-chips).
 
@@ -34,16 +34,22 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (108)
+## Internships (115)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| Cirrus Logic | [2027 Internship - Design Verification Engineer](https://jobs.eu.lever.co/cirrus/c71a6365-31c7-4ba1-bdc4-9f2df1fc483e) | Chandler, Arizona |  | Nov 16* |
+| Cirrus Logic | [2027 Internship - Digital Design Engineer](https://jobs.eu.lever.co/cirrus/0310fbd1-a2a8-4c0f-a842-86e05ae7d98e) | Chandler, Arizona |  | Nov 16* |
+| Cirrus Logic | [2027 Internship - Formal Verification Engineer](https://jobs.eu.lever.co/cirrus/533c9938-3d35-48a6-b08b-1dd1675d2bdf) | Austin, Texas |  | Nov 16* |
 | KLA | [FPGA Engineer Intern](https://kla.wd1.myworkdayjobs.com/UR/job/Ann-Arbor-MI/Electrical-Design-Engineering-Intern_2641709) | Ann Arbor, MI |  | Nov 16 |
+| Meta | [ASIC EDA Infrastructure Engineer Intern](https://www.metacareers.com/profile/job_details/1883872846321140/) | Sunnyvale, California |  | Nov 16* |
+| Microsoft | [Research Intern - MSR Software-Hardware Co-design](https://apply.careers.microsoft.com/careers/job/1970393557073455-research-intern-msr-software-hardware-co-design-united-states-washington-redmond) | Redmond, Washington | ⚠ unverified | Nov 16* |
 | Ralliant | [Hardware Verification Engineer Co-Op \(Spring 2027\)](https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/10490) | Solon, OH, United States | 🔄 co-op<br>🌱 spring | Nov 16 |
 | Ralliant | [Hardware Verification Engineer Co-op \(Summer 2027\)](https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/10491) | Solon, OH, United States | 🔄 co-op | Nov 16 |
 | RTX | [FPGA Engineering Intern \(Summer 2027\)\(Onsite\)](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/FPGA-Engineering-Intern--Summer-2027--Onsite-_01880037)<br><sub>“Onsite U.S. Citizen, U.S. Person, or Immigration Status Requirements: The ability to obtain and maintain a U.S. government issued…”</sub> | US-TX-MCKINNEY-513WD \~ 2501 W University Dr \~… | 🗽 citizens<br>🔒 secret<br>⚠ unverified | Nov 16 |
 | RTX | [Hardware in the Loop Engineering Intern - \(Summer 2027\)](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-AZ-TUCSON-805--1151-E-Hermans-Rd--BLDG-805/Hardware-in-the-Loop-Engineering-Intern----Summer-2027-_01882927)<br><sub>“Onsite U.S. Citizen, U.S. Person, or Immigration Status Requirements: Active and transferable U.S. government issued security clea…”</sub> | US-AZ-TUCSON-805 \~ 1151 E Hermans Rd \~ BLDG 8… | 🗽 citizens<br>🔒 secret<br>⚠ unverified | Nov 16 |
 | RTX | [Semiconductor Foundry Intern \(Summer 2027\)](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-MA-ANDOVER-AR2--362-Lowell-St--AR2-PLYMOUTH-BLDG/Semiconductor-Foundry-Intern--Summer-2027-_01875840)<br><sub>“Onsite U.S. Citizen, U.S. Person, or Immigration Status Requirements: U.S. citizenship is required, as only U.S. citizens are auth…”</sub> | US-MA-ANDOVER-AR2 \~ 362 Lowell St \~ AR2 PLYMO… | 🗽 citizens<br>🔒 clearance<br>⚠ unverified | Nov 16 |
+| Schneider Electric | [Electronics Hardware Engineer Co-Op](https://careers.se.com/jobs/136319) | Cedar Rapids, Iowa | 🔄 co-op<br>⚠ unverified | Nov 16* |
 | Lightmatter | [Hardware Test Engineering, Intern \(Summer 2027\)](https://boards.greenhouse.io/lightmatter/jobs/5473869008?gh_jid=5473869008) | Mountain View, CA |  | Nov 13 |
 | Marvell Technology | [Silicon Photonic Design Intern](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/CH---Adliswil/Silicon-Photonic-Design-Intern_2605294) | CH - Adliswil |  | Nov 13 |
 | RTX | [Digital Hardware Design Engineer Co-op \(Summer/Fall 2027\)\(Onsite\)](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Digital-Hardware-Design-Engineer-Co-op--Summer-Fall-2027--Onsite-_01871519)<br><sub>“Onsite U.S. Citizen, U.S. Person, or Immigration Status Requirements: U.S. citizenship is required, as only U.S. citizens are auth…”</sub> | US-IA-CEDAR RAPIDS-130 \~ 5350 C Ave NE \~ BLDG… | 🗽 citizens<br>🔒 clearance<br>🔄 co-op<br>🍂 fall<br>⚠ unverified | Nov 12 |
@@ -123,6 +129,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | The Toro Company | [Hardware and Software Engineering Intern - Ditch Witch](https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers/job/Perry-OK/Hardware-and-Software-Engineering-Intern---Ditch-Witch_JR17183)<br><sub>“We are unable to sponsor or take over sponsorship of a school/employment or any other visa, regardless of expiration date, now or in the fut…”</sub> | Perry, OK | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 10 |
 | Amazon | [Hardware Development Engineer Intern/Co-Op, ROBOTICS - 2027](https://www.amazon.jobs/en/jobs/10535282/hardware-development-engineer-intern-co-op-robotics-2027) | North Reading, Massachusetts, USA | 🔄 co-op<br>⏳ 60+ days | Sep 9 |
 | Motorola Solutions | [FPGA Design Engineering Intern - Summer 2027](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Schaumburg-IL/FPGA-Design-Engineering-Intern---Summer-2027_R68401)<br><sub>“Must be a US Citizen, permanent resident, or an MS student with work authorization \(F1 Visa on CPT accepted only for master 's-level student…”</sub> | Schaumburg, IL | 🗽 citizens<br>⚠ unverified<br>⏳ 60+ days | Sep 9 |
+| Qube Research &amp; Technologies | [2027 – Internship or Graduate, FPGA Engineering](https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8777855002) | London, Paris, New York | ⏳ 60+ days | Sep 8 |
 | RF-SMART | [Hardware Support Internship - Summer 2027](https://job-boards.greenhouse.io/rfsmart/jobs/5407220008)<br><sub>“Employer does not sponsor applicants for employment visa status \(e.g. H-1B visa status\).”</sub> | Jacksonville, Florida, United States | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 8 |
 | Solidigm | [2027 Graduate Hardware, Validation, and Product Engineering Internships - US](https://jobs.smartrecruiters.com/Solidigm/744000147613779-2027-graduate-hardware-validation-and-product-engineering-internships-us) | Rancho Cordova, CA, US | ⏳ 60+ days | Sep 5 |
 | Solidigm | [2027 Undergraduate Hardware &amp; Product Development Engineering Internships – US](https://jobs.smartrecruiters.com/Solidigm/744000147613839-2027-undergraduate-hardware-product-development-engineering-internships-us) | Rancho Cordova, CA, US | ⏳ 60+ days | Sep 5 |

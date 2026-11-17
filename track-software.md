@@ -1,6 +1,6 @@
 # Software
 
-[⬅ Back to the main page](./) · 753 open · updated 2026-11-16
+[⬅ Back to the main page](./) · 830 open · updated 2026-11-16
 
 Web, mobile, backend, full-stack and general software roles. New to this track? Read the [Software section of the Career tracks guide](guides/tracks.md#software).
 
@@ -34,21 +34,90 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (671)
+## Internships (748)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| Acadian Asset Management | [Quantitative Investment Internship Program - Summer 2027](https://www.acadian-asset.com/careers/open-positions?gh_jid=4720681006) | Boston, Massachusetts | ⚠ unverified | Nov 16* |
+| Altice USA | [Intern - Software Developer](https://www.optimumcareers.com/job/Bethpage-Intern-Software-Developer-NY-11714/1450884000/) | Town of Oyster Bay, New York | ⚠ unverified | Nov 16* |
+| APEX Analytix | [QA Automation Intern](https://ats.rippling.com/apexanalytix-careers/jobs/ebafabc3-be09-477d-94a9-0ba244f52319) | Greensboro, North Carolina |  | Nov 16* |
 | ASML | [Internship-Generative AI developer](https://asml.wd3.myworkdayjobs.com/ASMLEXT1/job/San-Jose-CA-USA/Internship-Generative-AI-developer_J-00355346) | San Jose, CA, USA |  | Nov 16 |
+| Biodesix | [Bioinformatics Internship \(Undergraduate\)](https://www.biodesix.com/careers/current-openings?gh_jid=4475013009) | Louisville, Colorado | ⚠ unverified | Nov 16* |
+| Biodesix | [Software Development &amp; AI Internship \(Undergrad/Graduate\)](https://www.biodesix.com/careers/current-openings?gh_jid=4485410009) | Louisville, Colorado | ⚠ unverified | Nov 16* |
+| Booz Allen | [University - 2027 Summer Games Software Developer Intern - Annapolis Junction, MD](https://careers.boozallen.com/careers/JobDetail/129745) | Annapolis Junction, Maryland |  | Nov 16* |
+| Booz Allen | [University - 2027 Summer Games Software Developer Intern - Ft. Walton Beach, FL](https://careers.boozallen.com/careers/JobDetail/129754) | Fort Walton Beach, Florida | ⚠ unverified | Nov 16* |
+| Booz Allen | [University - 2027 Summer Games Software Developer Intern - Honolulu, HI](https://careers.boozallen.com/careers/JobDetail/129733) | Honolulu, Hawaii |  | Nov 16* |
+| Booz Allen | [University - 2027 Summer Games Software Developer Intern - Huntsville, AL](https://careers.boozallen.com/careers/JobDetail/129739) | Huntsville, Alabama |  | Nov 16* |
+| Booz Allen | [University - Summer 2027 - Quantum Research Intern](https://careers.boozallen.com/careers/JobDetail/130907) | Washington, District of Columbia | ⚠ unverified | Nov 16* |
+| Booz Allen | [University - Summer 2027, Software Engineer Intern](https://careers.boozallen.com/careers/JobDetail/130289) | Fayetteville, North Carolina | ⚠ unverified | Nov 16* |
+| Booz Allen | [University, 2027 Summer Games Software Developer Intern](https://careers.boozallen.com/careers/JobDetail/129562) | Colorado Springs, Colorado |  | Nov 16* |
+| Booz Allen | [University, 2027 Summer Games Software Developer Intern - McLean, VA](https://careers.boozallen.com/careers/JobDetail/129513) | McLean, Virginia | ⚠ unverified | Nov 16* |
+| Booz Allen | [University, Applied AI Software Development Intern](https://careers.boozallen.com/careers/JobDetail/131621) | McLean, Virginia | ⚠ unverified | Nov 16* |
+| Booz Allen | [University, Software Engineer Intern](https://careers.boozallen.com/careers/JobDetail/131951) | Fayetteville, North Carolina | ⚠ unverified | Nov 16* |
 | BorgWarner | [Software Test Intern](https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers/job/Auburn-Hills---Michigan---USA/Software-Test-Intern_R2026-4385-1) | Auburn Hills - Michigan - USA |  | Nov 16 |
+| Boston Scientific | [Equipment Engineering Software Engineer Intern](https://bostonscientific.eightfold.ai/careers/job/563602813584306-equipment-engineering-software-engineer-intern-maple-grove-us-mn-united-states-n-a) | Maple Grove, Minnesota | ⚠ unverified | Nov 16* |
+| Boston Scientific | [R&amp;D Software Engineer Intern](https://bostonscientific.eightfold.ai/careers/job/563602813542900-r-d-software-engineer-intern-arden-hills-us-mn-united-states-n-a) | Arden Hills, Minnesota | ⚠ unverified | Nov 16* |
+| Boston Scientific | [R&amp;D Software Engineering Intern](https://bostonscientific.eightfold.ai/careers/job/563602813563514-r-d-software-engineering-intern-arden-hills-us-mn-united-states-n-a) | Arden Hills, Minnesota | ⚠ unverified | Nov 16* |
+| Boston Scientific | [R&amp;D Software Engineering Intern](https://bostonscientific.eightfold.ai/careers/job/563602813584985-r-d-software-engineering-intern-maple-grove-us-mn-united-states-n-a) | Maple Grove, Minnesota | ⚠ unverified | Nov 16* |
+| Boston Scientific | [Software Engineering Intern](https://bostonscientific.eightfold.ai/careers/job/563602813600558-software-engineering-intern-arden-hills-us-mn-united-states-n-a) | Arden Hills, Minnesota | ⚠ unverified | Nov 16* |
+| Boston Scientific | [Urology R&amp;D Software Engineering Co-op](https://bostonscientific.eightfold.ai/careers/job/563602813900562-urology-r-d-software-engineering-co-op-united-states-us-mn-maple-grove) | Maple Grove, Minnesota | 🔄 co-op<br>⚠ unverified | Nov 16* |
+| Brex | [Software Engineer, Intern \(Summer 2027\)](https://www.brex.com/careers/8936403002?gh_jid=8936403002) | San Francisco, California |  | Nov 16* |
+| Burns Engineering | [Software Engineering Intern - Summer 2027](https://www.burns-group.com/careers/current-openings/?gh_jid=4467848009) | Pittsburgh, Pennsylvania | ⚠ unverified | Nov 16* |
+| CACI | [Software Engineering Co-op/Intern - Summer 2027](https://searchcareers.caci.com/careers/job/1443154261084-software-engineering-co-op-intern-summer-2027-rochester-ny-us) | Rochester, New York | 🔄 co-op<br>⚠ unverified | Nov 16* |
+| Cirrus Logic | [2027 Internship - Validation Engineer](https://jobs.eu.lever.co/cirrus/89813bb2-94fb-42f6-aec2-03154cfde027) | Austin, Texas |  | Nov 16* |
+| Cvent | [Software Engineer Intern \(Summer 2027\)](https://careers.cvent.com/jobs/10806) | McLean, Virginia |  | Nov 16* |
 | Direct Supply | [Software Engineer Intern](https://directsupply.wd501.myworkdayjobs.com/direct-supply-careers/job/Milwaukee-WI/Software-Engineer-Intern_REQ-2026-2559) | Milwaukee, WI |  | Nov 16 |
+| DwyerOmega | [Software Engineering Intern](https://recruiting.paylocity.com/Recruiting/Jobs/Details/4640548) | Westerville, Ohio |  | Nov 16* |
+| Eaton | [Internship Program: Digital Integrated Solutions Engineer](https://eaton.eightfold.ai/careers/job/687238085352-internship-program-digital-integrated-solutions-engineer-moon-township-pennsylvania-usa-15108) | Littleton, Colorado | ⚠ unverified | Nov 16* |
+| Elire | [Summer 2027 AI Full Stack Developer Consulting Intern](https://jobs.jobvite.com/elire/job/oM5LAfwW) | Minneapolis, Minnesota |  | Nov 16* |
 | Exol | [Intern- Software Engineer](https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington--MA---HQ/Software-Engineer_R7963) | USA Wilmington, MA - HQ |  | Nov 16 |
+| Formlabs | [2027 \(Summer\) - Manufacturing - Manufacturing Test Software Intern](https://careers.formlabs.com/job/8374598/apply/?gh_jid=8374598) | Somerville, Massachusetts |  | Nov 16* |
 | Genuine Parts Company | [Technology Intern 2027](https://genpt.wd1.myworkdayjobs.com/Careers/job/Atlanta-GA-USA/Technology-Intern-2027_R26_0000037382) | Atlanta, GA, USA | 🧪 OA<br>🎓 3.6+ GPA | Nov 16 |
 | GM Financial | [Intern - Software Development Engineer](https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/261292) | Irving, TX, United States | 🎓 3.0+ GPA | Nov 16 |
+| Huntington Ingalls Industries | [Software Engineer Intern \(Multiple Levels\) - 30069](https://jobs.hii-tsd.com/job/Columbia%2C-MD-Software-Engineer-Intern-%28Multiple-Levels%29-30069-Mary/1425423000/) | Columbia, Maryland |  | Nov 16* |
+| Huntington Ingalls Industries | [Summer 2027 Internship - Software Engineer \(Hybrid\) - 30189](https://jobs.hii-tsd.com/job/Greenville%2C-SC-Summer-2027-Internship-Software-Engineer-%28Hybrid%29-30189-Sout/1430373400/) | Greenville, South Carolina | ⚠ unverified | Nov 16* |
+| IDEMIA | [Cloud Software Engineering Internship](https://uscareers-idemia.icims.com/jobs/8707/cloud-software-engineering-internship/job) | Reston, Virginia |  | Nov 16* |
+| IDEMIA | [Full Stack Software Engineering Internship](https://uscareers-idemia.icims.com/jobs/8708/full-stack-software-engineering-internship/job) | Eden Prairie, Minnesota |  | Nov 16* |
+| IDEMIA | [Software Engineer Internship - Summer 2027](https://uscareers-idemia.icims.com/jobs/8650/software-engineer-internship---summer-2027/job) | Reston, Virginia |  | Nov 16* |
+| IDEMIA | [Software Engineering Internship - Enrollment and Credentialing Services](https://uscareers-idemia.icims.com/jobs/8642/software-engineering-internship---enrollment-and-credentialing-services/job) | Brentwood, Tennessee |  | Nov 16* |
+| Infleqtion | [Summer 2027 Internship - Quantum Software \(QSW\)](https://jobs.workable.com/view/dYzgxY7wmFJihiibcmCfAB/summer-2027-internship---quantum-software-%28qsw%29-in-chicago-at-infleqtion) | Chicago, Illinois |  | Nov 16* |
+| Keysight Technologies | [Quantum Application Engineering &amp; Business Development Intern](https://jobs.keysight.com/external/jobs/54643) | Santa Rosa, California |  | Nov 16* |
+| Keysight Technologies | [R&amp;D Software Engineer Intern](https://jobs.keysight.com/external/jobs/54805) | Santa Clara, California |  | Nov 16* |
+| Keysight Technologies | [R&amp;D Software Engineer Intern](https://jobs.keysight.com/external/jobs/54640) | Calabasas, California |  | Nov 16* |
+| Keysight Technologies | [R&amp;D Software Engineer Intern](https://jobs.keysight.com/external/jobs/54414) | Santa Rosa, California |  | Nov 16* |
+| Keysight Technologies | [R&amp;D Software Engineer, Intern](https://jobs.keysight.com/external/jobs/56415) | Colorado Springs, Colorado |  | Nov 16* |
+| Keysight Technologies | [R&amp;D Software Engineer, Intern](https://jobs.keysight.com/external/jobs/54848) | Austin, Texas |  | Nov 16* |
+| Keysight Technologies | [R&amp;D Software Engineer, Intern](https://jobs.keysight.com/external/jobs/54673) | Santa Rosa, California |  | Nov 16* |
+| Keysight Technologies | [R&amp;D Software Engineering Internship](https://jobs.keysight.com/external/jobs/54724) | Colorado Springs, Colorado |  | Nov 16* |
+| Keysight Technologies | [R&amp;D Software Engineering, Intern](https://jobs.keysight.com/external/jobs/55110) | Santa Rosa, California |  | Nov 16* |
+| Keysight Technologies | [R&amp;D Software Engineering, Intern](https://jobs.keysight.com/external/jobs/54388) | Atlanta, Georgia |  | Nov 16* |
+| McDonald's | [Software Development Engineer Intern](https://jobs.mcdonalds.com/job/Chicago-Software-Development-Engineer-Intern-IL-60607/1449052900/) | Chicago, Illinois | ⚠ unverified | Nov 16* |
+| Meta | [Software Engineering Intern](https://www.metacareers.com/profile/job_details/1952991802037374/) | Menlo Park, California |  | Nov 16* |
+| MetLife | [2027 METx Global Technology Internship Program](https://www.metlifecareers.com/en_US/ml/JobDetail/2027-METx-Global-Technology-Internship-Program/20701) | Tampa, Florida |  | Nov 16* |
+| Microsoft | [AI Software Engineering Intern](https://apply.careers.microsoft.com/careers/job/1970393556962891-ai-software-engineering-intern-united-states-washington-redmond) | Mountain View, California | ⚠ unverified | Nov 16* |
+| Microsoft | [Research Intern - Brain-Computer Interfaces](https://apply.careers.microsoft.com/careers/job/1970393557027378-research-intern-brain-computer-interfaces-united-states-washington-redmond) | Redmond, Washington | ⚠ unverified | Nov 16* |
+| Microsoft | [Research Intern - Coding Agents &amp; Post-Training Optimization](https://apply.careers.microsoft.com/careers/job/1970393557053024-research-intern-coding-agents-post-training-optimization-united-states-washington-redmond) | Redmond, Washington | ⚠ unverified | Nov 16* |
+| Microsoft | [Research Intern - Efficient AI Software Systems](https://apply.careers.microsoft.com/careers/job/1970393557041731-research-intern-efficient-ai-software-systems-united-states-washington-redmond) | Redmond, Washington | ⚠ unverified | Nov 16* |
+| Microsoft | [Research Intern - Extended Perception Interaction Cognition \(EPIC\)](https://apply.careers.microsoft.com/careers/job/1970393557043754-research-intern-extended-perception-interaction-cognition-epic--united-states-washington-redmond) | Redmond, Washington | ⚠ unverified | Nov 16* |
+| Microsoft | [Research Intern - Quantum Algorithms](https://apply.careers.microsoft.com/careers/job/1970393557021663-research-intern-quantum-algorithms-united-states-washington-redmond) | Redmond, Washington | ⚠ unverified | Nov 16* |
+| Microsoft | [Research Intern - Research in Software Engineering, ML Systems, Agents](https://apply.careers.microsoft.com/careers/job/1970393557054069-research-intern-research-in-software-engineering-ml-systems-agents-united-states-washington-redmond) | Redmond, Washington | ⚠ unverified | Nov 16* |
+| Microsoft | [Software Engineer, Teamwork Experiences Internship Opportunities](https://apply.careers.microsoft.com/careers/job/1970393557037859-software-engineer-teamwork-experiences-internship-opportunities-united-states-washington-redmond) | Redmond, Washington | ⚠ unverified | Nov 16* |
+| Microsoft | [Software Engineer: Cloud &amp; Distributed Backend Intern Opportunities for University Students, Redmond](https://apply.careers.microsoft.com/careers/job/1970393556922923-software-engineer-cloud-distributed-backend-intern-opportunities-for-university-students-redmond-united-states-washington-redmond) | Redmond, Washington | ⚠ unverified | Nov 16* |
+| Microsoft | [Software Engineer: Fullstack Product \(Web + Services\) Intern Opportunities for University Students,](https://apply.careers.microsoft.com/careers/job/1970393556922922-software-engineer-fullstack-product-web-services-intern-opportunities-for-university-students--united-states-washington-redmond) | Redmond, Washington | ⚠ unverified | Nov 16* |
+| Microsoft | [Software Engineer: Intern Opportunities for University Students - CoreAI - Redmond, WA](https://apply.careers.microsoft.com/careers/job/1970393556951950-software-engineer-intern-opportunities-for-university-students-coreai-redmond-wa-united-states-washington-redmond) | Redmond, Washington | ⚠ unverified | Nov 16* |
+| Microsoft | [Software Engineer: Internship Opportunities](https://apply.careers.microsoft.com/careers/job/1970393557044764-software-engineer-internship-opportunities-united-states-california-aliso-viejo) | Aliso Viejo, California | ⚠ unverified | Nov 16* |
+| Microsoft | [Software Engineer: Internship Opportunities, Azure Databases](https://apply.careers.microsoft.com/careers/job/1970393557002476-software-engineer-internship-opportunities-azure-databases-united-states-washington-redmond) | Redmond, Washington | ⚠ unverified | Nov 16* |
+| Microsoft | [Software Engineering Intern](https://apply.careers.microsoft.com/careers/job/1970393557044771-software-engineering-intern-united-states-oklahoma-tulsa) | Tulsa, Oklahoma | ⚠ unverified | Nov 16* |
 | Minitab | [Software Engineering Intern](https://job-boards.greenhouse.io/minitab/jobs/8200708003) | State College, Pennsylvania, United States |  | Nov 16 |
+| MongoDB | [2027 - Software Engineering Intern, AMER](https://www.mongodb.com/careers/job/?gh_jid=8209134) | Palo Alto, California |  | Nov 16* |
 | Netsmart | [Software Engineer Intern \(Summer 2027 Internship\)](https://ntst.wd1.myworkdayjobs.com/Careers/job/Overland-Park-KS/Software-Engineer-Intern--Summer-2027-Internship-_R015667)<br><sub>“Netsmart does not provide work visa sponsorship for this position.”</sub> | Overland Park, KS | 🛂❌ no sponsor | Nov 16 |
 | Nordson Corporation | [Intern \(Software Engineering\)](https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers/job/USA---Rhode-Island---East-Providence/Intern--Software-Engineering-_REQ53006) | USA - Rhode Island - East Providence |  | Nov 16 |
 | Oshkosh Corporation | [Autonomy Intern](https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Oshkosh-Wisconsin-United-States/Autonomy-Intern_R52031)<br><sub>“Applicants for these positions may need to be "U.S. Persons," as defined in these regulations.”</sub> | Oshkosh, Wisconsin, United States | 🗽 citizens | Nov 16 |
+| Overland AI | [Internship - Software Engineering](https://ats.rippling.com/overland-ai/jobs/37dd9f44-cdb1-4e2e-98c5-800b9b8cb40e) | Seattle, Washington |  | Nov 16* |
+| Riot Games | [Software Engineering Intern - Summer 2027 \(Remote\)](https://www.riotgames.com/en/work-with-us/job/8222014?gh_jid=8222014) | Los Angeles, California \(remote\) | 🌐 remote<br>⚠ unverified | Nov 16* |
 | RTX | [Software Engineering Intern \(Summer 2027\)](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-UT-WEST-VALLEY-CITY-338--1127--1128-w-2400-S--BLDG-338/Software-Engineering-Intern--Summer-2027-_01886446)<br><sub>“Onsite U.S. Citizen, U.S. Person, or Immigration Status Requirements: U.S. citizenship is required, as only U.S. citizens are auth…”</sub> | US-UT-WEST VALLEY CITY-338 \~ 1127 &amp; 1128 w 24… | 🗽 citizens<br>🔒 clearance<br>⚠ unverified | Nov 16 |
+| Rubrik | [Software Engineering Winter Internship](https://www.rubrik.com/company/careers/departments/job.8171088?gh_jid=8171088) | Palo Alto, California | ⚠ unverified | Nov 16* |
+| Samsara | [Software Engineering Internship - San Francisco](https://www.samsara.com/company/careers/roles/8358786?gh_jid=8358786) | San Francisco, California |  | Nov 16* |
 | Schweitzer Engineering Laboratories \(SEL\) | [Software Engineer Intern](https://selinc.wd1.myworkdayjobs.com/SEL/job/Washington---Pullman/Software-Engineer-Intern_2026-24060) | Washington - Pullman |  | Nov 16 |
 | T-Mobile | [Summer 2027 Software Engineer Internship](https://tmobile.wd1.myworkdayjobs.com/External/job/Overland-Park-Kansas/Summer-2027-Software-Engineer-Internship_REQ381357) | Overland Park, Kansas |  | Nov 16 |
 | T-Mobile | [Summer 2027 Software Engineering AI Intern](https://tmobile.wd1.myworkdayjobs.com/External/job/Atlanta-Georgia/Summer-2027-Software-Engineering-AI-Intern_REQ381273) | Atlanta, Georgia |  | Nov 16 |
@@ -56,6 +125,11 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Toyota Research Institute | [Research Intern, Spatial Intelligence for Robotics](https://jobs.lever.co/tri/2d65fd58-00bb-49bc-b4db-e381df1ebd1e) | Cambridge, MA |  | Nov 16 |
 | Toyota Research Institute | [Robotics Intern, World Models, Multimodal Sensing](https://jobs.lever.co/tri/c6569529-4b6b-4229-b2c9-f97467c26cd3) | Cambridge, MA |  | Nov 16 |
 | Walmart | [Summer 2027 Corporate Intern: APD Automation Engineer](https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/USA-Together-Building-AR-Bentonville-Home-Office/Summer-2027-Corporate-Intern--APD-Automation-Engineer_R-2630170)<br><sub>“IMMIGRATION SPONSORSHIP IS NOT AVAILABLE FOR THIS ROLE”</sub> | \(USA\) Together Building AR Bentonville Home O… | 🛂❌ no sponsor | Nov 16 |
+| Waymo | [2027 Summer Intern, BS, Software Engineering, Labeling](https://careers.withwaymo.com/jobs?gh_jid=8238525) | Mountain View, California | ⚠ unverified | Nov 16* |
+| Waymo | [2027 Summer Intern, BS/MS, Software Engineering, Maneuvering Tech](https://careers.withwaymo.com/jobs?gh_jid=8203200) | San Francisco, California | ⚠ unverified | Nov 16* |
+| Westinghouse Electric Company | [Summer Intern - Computer Aided Engineering](https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Computer-Aided-Engineering-NC/1447267500/) | Cranberry Township, Pennsylvania |  | Nov 16* |
+| Westinghouse Electric Company | [Summer Intern - Software Development](https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Software-Development-NC/1441279500/) | Cranberry Township, Pennsylvania | ⚠ unverified | Nov 16* |
+| Westinghouse Electric Company | [Summer Intern - Software Engineering](https://careers.westinghousenuclear.com/job/Warrendale-Summer-Intern-Software-Engineering-OR/1442826200/) | Warrendale, Oregon |  | Nov 16* |
 | RTX | [2027 Summer Intern - Software Engineering - Onsite](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CA-EL-SEGUNDO-E04--2006-E-El-Segundo-Blvd--BLDG-E04/XMLNAME-2027-Summer-Intern---Software-Engineering---Onsite_01885225)<br><sub>“Onsite U.S. Citizen, U.S. Person, or Immigration Status Requirements: U.S. citizenship is required, as only U.S. citizens are auth…”</sub> | US-CA-EL SEGUNDO-E04 \~ 2006 E El Segundo Blvd… | 🗽 citizens<br>🔒 clearance<br>⚠ unverified | Nov 15 |
 | PTC | [Onshape Software Engineer Intern \(Summer 2027\)](https://ptc.wd1.myworkdayjobs.com/PTC/job/Boston-MA-USA/Software-Engineer-Intern--Summer-2027-_JR112943)<br><sub>“Applicants must be authorized to work in the United States without requiring current or future sponsorship from PTC .”</sub> | Boston, MA, USA | 🛂❌ no sponsor | Nov 14 |
 | Airbus | [Internship \(d/f/m\) within the mission software department](https://ag.wd3.myworkdayjobs.com/Airbus/job/Donauwrth/Internship--d-f-m--within-the-mission-software-department_JR10434978) | Donauwörth |  | Nov 13 |
@@ -213,6 +287,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Interco | [Paid Internship -- Software Development -- React](https://jobs.smartrecruiters.com/Interco/744000158581114-paid-internship-software-development-react-)<br><sub>“As a matter of company policy, Interco does not sponsor employment visas or hire from outside of the USA, nor does the company sponsor candi…”</sub> | St. Louis, MO, US | 🛂❌ no sponsor | Oct 29 |
 | KLA | [Software Engineer Intern](https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Software-Engineer-Intern_2642721-1) | Milpitas, CA |  | Oct 29 |
 | KLA | [Software Intern](https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Software-Intern_2642700-1) | Milpitas, CA |  | Oct 29 |
+| Samsung Semiconductor | [Intern, Systems Software Engineering](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8046887003) | San Jose, California, United States |  | Oct 29 |
 | Toyota Research Institute | [Human Interactive Driving Research Intern, Perception for Driving at the Limits](https://jobs.lever.co/tri/33c33641-756d-4cd1-8238-0100af2224b8) | Los Altos, CA |  | Oct 29 |
 | Toyota Research Institute | [Robotics Intern, Human-Machine Interaction Research](https://jobs.lever.co/tri/16336213-1880-482f-87d0-b15fa4141047) | Los Altos, CA |  | Oct 29 |
 | Two Six Technologies | [Systems Software Engineering Intern](https://job-boards.greenhouse.io/twosixtechnologies/jobs/6236518004)<br><sub>“US Citizenship is required due to the nature of our work.”</sub> | Arlington, Virginia | 🗽 citizens | Oct 29 |
@@ -242,6 +317,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Greystone | [Full Stack Engineer Intern - Summer 2027](https://greyco.wd108.myworkdayjobs.com/GTI/job/Warrenton-VA/Summer-2027---Full-Stack-Engineer-Internship_JR0000145) | Warrenton, VA |  | Oct 27 |
 | Micron Technology | [Intern - Product Yield Software Engineer](https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Intern---Product-Yield-Software-Engineer_JR115864) | Boise, ID - Main Site | ⚠ unverified | Oct 27 |
 | Protagonist | [Software Engineering Intern](https://job-boards.greenhouse.io/protagonist/jobs/6236620004)<br><sub>“Must meet applicable U.S. Government contract eligibility requirements, including any citizenship or security clearance requirements associa…”</sub> | Washington DC | 🔒 clearance | Oct 27 |
+| Samsung Semiconductor | [Intern, Power-Thermal Simulation Software Engineer](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8046795003) | San Jose, California, United States |  | Oct 27 |
 | Sherwin-Williams | [R&amp;D GSC Product Technology Internship- Brecksville, OH](https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/2627596) | Brecksville, OH, United States | 🎓 2.8+ GPA<br>⚠ unverified | Oct 27 |
 | Axos Bank | [Software Development Intern](https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Software-Development-Intern_JR5647) | HQ - San Diego, CA |  | Oct 26 |
 | Cohesity | [Software Engineering Intern \(Summer 2027\)](https://cohesity.wd5.myworkdayjobs.com/Cohesity_Careers/job/Santa-Clara-CA---USA-Office/Software-Engineering-Intern--Summer-2027-_R04791-2) | Santa Clara, CA - USA \(Office\) |  | Oct 26 |
@@ -600,6 +676,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | HNTB | [Strategic Technology Intern - Summer 2027](https://hntb.wd5.myworkdayjobs.com/HNTB_University_Careers/job/Tampa-FL/Strategic-Technology-Intern---Summer-2027_R-31411)<br><sub>“Visa sponsorship is not available for this position.”</sub> | Tampa, FL | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 1 |
 | Johnson &amp; Johnson Innovative Medicine | [Software Engineering Co-Op. Summer 2027](https://jj.wd5.myworkdayjobs.com/JJ/job/Cincinnati-Ohio-United-States-of-America/Software-Engineering-Co-Op-Summer-2027_R-096743)<br><sub>“Students currently on CPT, OPT, or STEM OPT usually requires future sponsorship for long term employment and do not meet the requirements fo…”</sub> | Cincinnati, Ohio, United States of America | 🛂❌ no sponsor<br>🎓 3.0+ GPA<br>🔄 co-op<br>⚠ unverified<br>⏳ 60+ days | Sep 1 |
 | Pella Windows &amp; Doors | [Software Intern - Summer 2027](https://ebgj.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Pella-Careers/job/253299) | Pella, IA, United States | ⏳ 60+ days | Sep 1 |
+| Stoke Space | [Summer 2027 Internship - Software](https://job-boards.greenhouse.io/stokespacetechnologies/jobs/6176786004)<br><sub>“To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations \(ITAR\), you must…”</sub> | Kent, Washington | 🗽 citizens<br>⏳ 60+ days | Sep 1 |
 | Bosch Group | [Software Engineering Intern \(8 months/40hrs per week\)](https://jobs.smartrecruiters.com/BoschGroup/744000146546849-software-engineering-intern-8-months-40hrs-per-week-) | Farmington Hills, MI, US | 🎓 3.0+ GPA<br>⚠ unverified<br>⏳ 60+ days | Aug 31 |
 | C3.ai | [Software Engineer - Intern \(Summer 2027\)](https://job-boards.greenhouse.io/c3ascend/jobs/8739036002) | Redwood City, CA | ⏳ 60+ days | Aug 31 |
 | DraftKings Inc | [Software Engineer Intern \(Summer 2027\)](https://draftkings.wd1.myworkdayjobs.com/Campus_Career_Portal/job/Boston-MA/Software-Engineer-Intern--Summer-2027-_JR14928) | Boston, MA | ⏳ 60+ days | Aug 31 |

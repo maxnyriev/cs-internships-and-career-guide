@@ -1,6 +1,6 @@
 # Government and defense
 
-[⬅ Back to the main page](./) · 221 open · updated 2026-11-16
+[⬅ Back to the main page](./) · 222 open · updated 2026-11-16
 
 Government, national-lab and defense roles, plus any posting that asks for a clearance or U.S. citizenship. New to this track? Read the [Government and defense section of the Career tracks guide](guides/tracks.md#government-and-defense).
 
@@ -34,7 +34,7 @@ A posting is on this page if its title names government, a national lab or defen
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (182)
+## Internships (183)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
@@ -186,6 +186,7 @@ A posting is on this page if its title names government, a national lab or defen
 | Hermeus | [Software Engineering Intern \(Command &amp; Control\) - Spring/Summer 2027](https://jobs.lever.co/hermeus/5b08e2df-c9db-4831-aece-67d89e744796)<br><sub>“The person hired will have access to information and items subject to U.S. export controls, and therefore, must either be a “U.S. person” as…”</sub> | Atlanta, GA | 🗽 citizens<br>🎓 3.0+ GPA<br>🌱 spring<br>⏳ 60+ days | Sep 3 |
 | Hermeus | [Software Engineering Intern \(HIL\) - Spring/Summer 2027](https://jobs.lever.co/hermeus/d87ed913-affc-475e-b721-c5b5f11c3c7b)<br><sub>“The person hired will have access to information and items subject to U.S. export controls, and therefore, must either be a “U.S. person” as…”</sub> | Atlanta, GA | 🗽 citizens<br>🎓 3.0+ GPA<br>🌱 spring<br>⏳ 60+ days | Sep 1 |
 | Hermeus | [Software Engineering Intern \(Modeling &amp; Simulation\) - Spring/Summer 2027](https://jobs.lever.co/hermeus/445db430-6f81-41cf-847a-56a947afb936)<br><sub>“The person hired will have access to information and items subject to U.S. export controls, and therefore, must either be a “U.S. person” as…”</sub> | Los Angeles, CA | 🗽 citizens<br>🎓 3.0+ GPA<br>🌱 spring<br>⏳ 60+ days | Sep 1 |
+| Stoke Space | [Summer 2027 Internship - Software](https://job-boards.greenhouse.io/stokespacetechnologies/jobs/6176786004)<br><sub>“To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations \(ITAR\), you must…”</sub> | Kent, Washington | 🗽 citizens<br>⏳ 60+ days | Sep 1 |
 | 3M | [Internship - 2027 Undergraduate IT Intern](https://3m.wd1.myworkdayjobs.com/Search/job/US-Minnesota-Maplewood/Internship---2027-Undergraduate-IT-Intern_R01170403-1)<br><sub>“Must be legally authorized to work in country of employment without sponsorship for employment visa status \(e.g., H1B status\).”</sub> | US, Minnesota, Maplewood | 🛂❌ no sponsor<br>🗽 citizens<br>🎓 3.0+ GPA<br>⚠ unverified<br>⏳ 60+ days | Aug 31 |
 | CesiumAstro | [Summer 2027 - Software Engineering Internship](https://jobs.lever.co/CesiumAstro/d406d2ed-cc05-4346-90ea-b13dfa07e411)<br><sub>“Please Note: To conform with the United States Government Space Technology Export Regulations, the applicant must be a U.S. citizen, lawful…”</sub> | Austin, TX | 🗽 citizens<br>🎓 3.5+ GPA<br>⏳ 60+ days | Aug 27 |
 | Motorola Solutions | [Android Applications Developer Intern - Summer 2027](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Android-Applications-Developer-Intern---Summer-2027_R67740)<br><sub>“Must be a US Citizen, permanent resident or be an MS student with work authorization \(F1 Visa on CPT accepted only for masters-level student…”</sub> | Chicago, IL | 🗽 citizens<br>⚠ unverified<br>⏳ 60+ days | Aug 24 |
