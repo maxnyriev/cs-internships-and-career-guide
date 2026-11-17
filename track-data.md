@@ -1,6 +1,6 @@
 # Data and ML
 
-[⬅ Back to the main page](./) · 555 open · updated 2026-11-16
+[⬅ Back to the main page](./) · 554 open · updated 2026-11-16
 
 Data analysis, data engineering, machine learning and AI roles. New to this track? Read the [Data and ML section of the Career tracks guide](guides/tracks.md#data-and-ml).
 
@@ -34,7 +34,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (545)
+## Internships (544)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
@@ -107,7 +107,6 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Toyota Research Institute | [Automated Driving Advanced Development Intern, Machine Learning Research \(Cambridge\)](https://jobs.lever.co/tri/3a7510ff-7cef-4d6e-8c32-0b6e6b8a2476) | Cambridge, MA |  | Nov 16 |
 | V2X | [AI Intern - Junior](https://careers.gov2x.com/why-gov2x/jobs/63949) | Indianapolis, Indiana | ⚠ unverified | Nov 16* |
 | V2X | [Artificial Intelligence Intern 2027](https://careers.gov2x.com/why-gov2x/jobs/62843) | Indianapolis, Indiana | ⚠ unverified | Nov 16* |
-| Waymo | [2027 Summer Intern, BS, Waymo ML Ops &amp; Automation](https://careers.withwaymo.com/jobs?gh_jid=8257237) | Mountain View, California | ⚠ unverified | Nov 16* |
 | Waymo | [2027 Summer Intern, Perception - Perception Data Foundations](https://careers.withwaymo.com/jobs?gh_jid=8248327) | Mountain View, California | ⚠ unverified | Nov 16* |
 | White Cap | [Corporate Intern - Product Data Management](https://whitecap.wd1.myworkdayjobs.com/Careers/job/Corporate-Intern---Product-Data-Management_WCJR-036650) |  |  | Nov 16 |
 | FlexStaff | [Emerging Technology &amp; AI Internship](https://eppr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/203746) | New Hyde Park, Nassau, United States |  | Nov 15 |

@@ -1,6 +1,6 @@
 # 🆕 New this week
 
-[⬅ Back to the main page](./) · 482 posted in the last 7 days · updated 2026-11-16
+[⬅ Back to the main page](./) · 479 posted in the last 7 days · updated 2026-11-16
 
 **Click a job title to open the company's application page.**
 
@@ -108,6 +108,6 @@
 | Keysight Technologies | [EDA AI/ML Software Intern](https://jobs.keysight.com/external/jobs/54582) | Calabasas, California |  |
 | KLA | [Computer Vision/Machine Learning Intern](https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Computer-Vision-Machine-Learning-Intern_2641921) | Milpitas, CA |  |
 
-_482 postings were posted this week. This list shows up to 3 per company; the rest are in the [internships](INTERNSHIPS.md) and [new grad](NEW_GRAD.md) lists._
+_479 postings were posted this week. This list shows up to 3 per company; the rest are in the [internships](INTERNSHIPS.md) and [new grad](NEW_GRAD.md) lists._
 
 _Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._

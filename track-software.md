@@ -1,6 +1,6 @@
 # Software
 
-[⬅ Back to the main page](./) · 830 open · updated 2026-11-16
+[⬅ Back to the main page](./) · 828 open · updated 2026-11-16
 
 Web, mobile, backend, full-stack and general software roles. New to this track? Read the [Software section of the Career tracks guide](guides/tracks.md#software).
 
@@ -34,7 +34,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (748)
+## Internships (746)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
@@ -125,8 +125,6 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Toyota Research Institute | [Research Intern, Spatial Intelligence for Robotics](https://jobs.lever.co/tri/2d65fd58-00bb-49bc-b4db-e381df1ebd1e) | Cambridge, MA |  | Nov 16 |
 | Toyota Research Institute | [Robotics Intern, World Models, Multimodal Sensing](https://jobs.lever.co/tri/c6569529-4b6b-4229-b2c9-f97467c26cd3) | Cambridge, MA |  | Nov 16 |
 | Walmart | [Summer 2027 Corporate Intern: APD Automation Engineer](https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/USA-Together-Building-AR-Bentonville-Home-Office/Summer-2027-Corporate-Intern--APD-Automation-Engineer_R-2630170)<br><sub>“IMMIGRATION SPONSORSHIP IS NOT AVAILABLE FOR THIS ROLE”</sub> | \(USA\) Together Building AR Bentonville Home O… | 🛂❌ no sponsor | Nov 16 |
-| Waymo | [2027 Summer Intern, BS, Software Engineering, Labeling](https://careers.withwaymo.com/jobs?gh_jid=8238525) | Mountain View, California | ⚠ unverified | Nov 16* |
-| Waymo | [2027 Summer Intern, BS/MS, Software Engineering, Maneuvering Tech](https://careers.withwaymo.com/jobs?gh_jid=8203200) | San Francisco, California | ⚠ unverified | Nov 16* |
 | Westinghouse Electric Company | [Summer Intern - Computer Aided Engineering](https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Computer-Aided-Engineering-NC/1447267500/) | Cranberry Township, Pennsylvania |  | Nov 16* |
 | Westinghouse Electric Company | [Summer Intern - Software Development](https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Software-Development-NC/1441279500/) | Cranberry Township, Pennsylvania | ⚠ unverified | Nov 16* |
 | Westinghouse Electric Company | [Summer Intern - Software Engineering](https://careers.westinghousenuclear.com/job/Warrendale-Summer-Intern-Software-Engineering-OR/1442826200/) | Warrendale, Oregon |  | Nov 16* |

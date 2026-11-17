@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 1933 open · page 1 of 2 · updated 2026-11-16
+[⬅ Back to the main page](./) · 1930 open · page 1 of 2 · updated 2026-11-16
 
 page 1 of 2 · [page 2 ➡](INTERNSHIPS-2.md)
 
@@ -262,9 +262,6 @@ page 1 of 2 · [page 2 ➡](INTERNSHIPS-2.md)
 | V2X | [AI Intern - Junior](https://careers.gov2x.com/why-gov2x/jobs/63949) | Indianapolis, Indiana | ⚠ unverified | Nov 16* |
 | V2X | [Artificial Intelligence Intern 2027](https://careers.gov2x.com/why-gov2x/jobs/62843) | Indianapolis, Indiana | ⚠ unverified | Nov 16* |
 | Walmart | [Summer 2027 Corporate Intern: APD Automation Engineer](https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/USA-Together-Building-AR-Bentonville-Home-Office/Summer-2027-Corporate-Intern--APD-Automation-Engineer_R-2630170)<br><sub>“IMMIGRATION SPONSORSHIP IS NOT AVAILABLE FOR THIS ROLE”</sub> | \(USA\) Together Building AR Bentonville Home O… | 🛂❌ no sponsor | Nov 16 |
-| Waymo | [2027 Summer Intern, BS, Software Engineering, Labeling](https://careers.withwaymo.com/jobs?gh_jid=8238525) | Mountain View, California | ⚠ unverified | Nov 16* |
-| Waymo | [2027 Summer Intern, BS, Waymo ML Ops &amp; Automation](https://careers.withwaymo.com/jobs?gh_jid=8257237) | Mountain View, California | ⚠ unverified | Nov 16* |
-| Waymo | [2027 Summer Intern, BS/MS, Software Engineering, Maneuvering Tech](https://careers.withwaymo.com/jobs?gh_jid=8203200) | San Francisco, California | ⚠ unverified | Nov 16* |
 | Waymo | [2027 Summer Intern, Perception - Perception Data Foundations](https://careers.withwaymo.com/jobs?gh_jid=8248327) | Mountain View, California | ⚠ unverified | Nov 16* |
 | Westinghouse Electric Company | [Summer Intern - Computer Aided Engineering](https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Computer-Aided-Engineering-NC/1447267500/) | Cranberry Township, Pennsylvania |  | Nov 16* |
 | Westinghouse Electric Company | [Summer Intern - ICS Cyber Security](https://careers.westinghousenuclear.com/job/Warrendale-Summer-Intern-ICS-Cyber-Security-OR/1448123600/) | Warrendale, Oregon |  | Nov 16* |
@@ -1001,6 +998,7 @@ page 1 of 2 · [page 2 ➡](INTERNSHIPS-2.md)
 | DriveWealth | [AI Consulting Associate Program \(AI CAP\) Engineering Intern - Summer 2027](https://boards.greenhouse.io/drivewealth/jobs/8039350003?gh_jid=8039350003)<br><sub>“Applicants must be authorized to work for any employer in the U.S. DriveWealth is unable to sponsor an employment Visa at this time.”</sub> | Office - Chicago; Office - NYC | 🛂❌ no sponsor | Oct 20 |
 | Greystone | [Salesforce Developer Intern - Summer 2027](https://greyco.wd108.myworkdayjobs.com/GTI/job/New-York-NY/Summer-2027---Salesforce-Developer-Intern_JR0000144) | New York, NY |  | Oct 20 |
 | Humble Robotics | [Embedded Software Engineer, 2027 Internship](https://jobs.lever.co/humble-robotics/8d1fb5d7-9b07-4fac-8c39-e395dca7f2b3) | San Francisco |  | Oct 20 |
+| Hunkemöller | [Internship IT - Analytics Engineering](https://hkm.wd3.myworkdayjobs.com/Hunkemoller_External_Career_Site/job/Headquarters-International/Internship-IT---Analytics-Engineering_JR78659) | Headquarters International |  | Oct 20 |
 
 page 1 of 2 · [page 2 ➡](INTERNSHIPS-2.md)
 
