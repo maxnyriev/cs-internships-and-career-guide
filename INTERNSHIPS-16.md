@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 1987 open · page 16 of 17 · updated 2026-11-17
+[⬅ Back to the main page](./) · 1995 open · page 16 of 17 · updated 2026-11-17
 
 [⬅ page 15](INTERNSHIPS-15.md) · page 16 of 17 · [page 17 ➡](INTERNSHIPS-17.md)
 
@@ -34,6 +34,14 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| Honeywell | [Future IT Leaders - Summer 2027 Intern \(US Person Required\)](https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/156751)<br><sub>“Candidates must be authorized to legally work in the United States without current or future sponsorship requirements.”</sub> | United States | 🛂❌ no sponsor<br>🗽 citizens<br>⏳ 60+ days | Aug 27 |
+| IMC | [Quant Performance Engineer Intern - Summer 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4842595101) | Chicago, United States | ⏳ 60+ days | Aug 27 |
+| Vanguard | [College to Corporate IT Internship - Technology Operations \(PA\)](https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Malvern-PA/College-to-Corporate-IT-Internship---Technology-Operations--PA-_181788) | Malvern, PA | ⏳ 60+ days | Aug 27 |
+| Vertiv | [Predictive Analytics Services Intern \(Summer 2027\)](https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20278594) | Delaware, OH, United States | ⚠ unverified<br>⏳ 60+ days | Aug 27 |
+| Ambarella | [ASIC Design Engineer Intern](https://ambarella.wd108.myworkdayjobs.com/Ambarella/job/US-Headquarters/ASIC-Design-Engineer-Intern_JR100357) | US Headquarters | ⏳ 60+ days | Aug 26 |
+| Auto-Owners Insurance | [Data Engineering Internship - Summer 2027](https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Data-Engineering-Internship---Summer-2026_R_12318)<br><sub>“\*Please note that the ability to work in the U.S. without current or future sponsorship is a requirement.”</sub> | Lansing, MI | 🛂❌ no sponsor<br>⏳ 60+ days | Aug 26 |
+| GrayMatter Robotics | [AI Research Intern: Foundation Models - IMMEDIATE START](https://jobs.ashbyhq.com/graymatter-robotics/dea0f08d-ebf5-4e55-b9cb-e6302014f429) | Los Angeles - HQ | ⏳ 60+ days | Aug 26 |
+| Johnson &amp; Johnson Innovative Medicine | [Software Engineering Co-Op, Spring 2027](https://jj.wd5.myworkdayjobs.com/JJ/job/Cincinnati-Ohio-United-States-of-America/Software-Engineering-Co-Op--Spring-2027_R-095741)<br><sub>“Students currently on CPT, OPT, or STEM OPT usually requires future sponsorship for long term employment and do not meet the requirements fo…”</sub> | Cincinnati, Ohio, United States of America | 🛂❌ no sponsor<br>🎓 3.0+ GPA<br>🔄 co-op<br>🌱 spring<br>⚠ unverified<br>⏳ 60+ days | Aug 26 |
 | WhiteWater Midstream | [Data Science Intern - Summer 2027](https://job-boards.greenhouse.io/whitewatermidstream/jobs/5217853007) | Austin, TX | ⏳ 60+ days | Aug 26 |
 | Base Power Company | [Hardware Technical Program Management Intern](https://jobs.ashbyhq.com/base-power/c6228333-5f84-4363-9a3a-fd1dfb8ad1a2) | Austin, TX | ⏳ 60+ days | Aug 25 |
 | Brunswick | [Mercury Marine - Systems/Software Engineering Co-op](https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Mercury-Marine---Systems-Software-Engineering-Co-op_JR-051212) | Fond du Lac, WI | 🔄 co-op<br>⏳ 60+ days | Aug 25 |
@@ -81,7 +89,7 @@
 | LLNL | [National Security Engineering Division \(NSED\) Undergraduate Intern - Summer 2027](https://jobs.smartrecruiters.com/LLNL/3743990014731656-national-security-engineering-division-nsed-undergraduate-intern-summer-2027)<br><sub>“Security Clearance”</sub> | Livermore, CA, US | 🔒 clearance<br>🎓 3.5+ GPA<br>⏳ 60+ days | Aug 21 |
 | Mosaic | [Artificial Intelligence Co-Op/Intern - Spring 2027](https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Tampa-FL-Lithia-area/Artificial-Intelligence-Co-Op-Intern---Spring-2027_64729) | US - Tampa, FL \(Lithia area\) | 🎓 2.8+ GPA<br>🔄 co-op<br>🌱 spring<br>⏳ 60+ days | Aug 20 |
 | Copart | [Site Reliability Engineer Intern](https://copart.wd12.myworkdayjobs.com/Copart/job/Dallas-TX---Headquarters/Site-Reliability-Engineer-Intern_JR110631) | Dallas, TX - Headquarters | ⏳ 60+ days | Aug 19 |
-| General Matter | [Summer 2027 Internship - Software Engineering](https://job-boards.greenhouse.io/generalmatter/jobs/5377118008) | Los Angeles, CA | ⏳ 60+ days | Aug 19 |
+| General Matter | [Summer 2027 Internship - Software Engineering](https://job-boards.greenhouse.io/generalmatter/jobs/5377118008) | Los Angeles, CA | ⚠ unverified<br>⏳ 60+ days | Aug 19 |
 | Mercor | [Data Science Intern](https://jobs.ashbyhq.com/mercor/11516609-e54b-4087-87c2-e84a8bafbb5a) | San Francisco | ⏳ 60+ days | Aug 19 |
 | Tencent | [IT Operations Intern](https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-Washington-Bellevue/IT-Operations-Intern_R107720) | US-Washington-Bellevue | ⏳ 60+ days | Aug 19 |
 | Dimensional Fund Advisors | [Internship in Global Client Group - Data and Tools \(Undergraduate &amp; Master's\)](https://dimensional.wd5.myworkdayjobs.com/DFA_Careers/job/Austin/Internship-in-Global-Client-Group---Data-and-Tools--Undergraduate---Master-s-_2026-9003)<br><sub>“This role is not eligible for immigration sponsorship.”</sub> | Austin | 🛂❌ no sponsor<br>🎓 3.2+ GPA<br>⏳ 60+ days | Aug 18 |
@@ -92,8 +100,8 @@
 | PIMCO | [2027 Summer Intern - Technology Analyst, Software Engineering](https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Austin-TX-USA/XMLNAME-2027-Summer-Intern---Technology-Analyst--Software-Engineering_R106745) | Austin, TX USA | 🧪 OA<br>🎓 3.5+ GPA<br>⏳ 60+ days | Aug 18 |
 | ITW | [Software Engineering Intern - PWS](https://itw.wd5.myworkdayjobs.com/External/job/Appleton-822-Comm/Software-Engineering-Intern---PWS_JR9516) | Appleton-822 Comm | ⏳ 60+ days | Aug 17 |
 | Freeform | [Software Engineering Intern \(Summer 2027\)](https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7872198003) | Los Angeles, CA \(On-site\) | ⏳ 60+ days | Aug 14 |
-| The Nuclear Company | [Spring 2027 AI Applied Research Internship](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5391888008)<br><sub>“U.S. Person status \(U.S. citizen or lawful permanent resident\) is required, and TNC does not provide visa sponsorship for these roles.…”</sub> | Washington, DC | 🛂❌ no sponsor<br>🗽 citizens<br>🌱 spring<br>⏳ 60+ days | Aug 14 |
-| The Nuclear Company | [Summer 2027 AI Applied Research Internship](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5391923008)<br><sub>“U.S. Person status \(U.S. citizen or lawful permanent resident\) is required, and TNC does not provide visa sponsorship for these roles.…”</sub> | Washington, DC | 🛂❌ no sponsor<br>🗽 citizens<br>⏳ 60+ days | Aug 14 |
+| The Nuclear Company | [Spring 2027 AI Applied Research Internship](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5391888008)<br><sub>“U.S. Person status \(U.S. citizen or lawful permanent resident\) is required, and TNC does not provide visa sponsorship for these roles”</sub> | Washington, DC | 🛂❌ no sponsor<br>🗽 citizens<br>🌱 spring<br>⏳ 60+ days | Aug 14 |
+| The Nuclear Company | [Summer 2027 AI Applied Research Internship](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5391923008)<br><sub>“U.S. Person status \(U.S. citizen or lawful permanent resident\) is required, and TNC does not provide visa sponsorship for these roles.”</sub> | Washington, DC | 🛂❌ no sponsor<br>🗽 citizens<br>⏳ 60+ days | Aug 14 |
 | Vertiv | [Planning Analytics Intern \(Summer 2027\)](https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20279236) | Westerville, OH, United States | ⚠ unverified<br>⏳ 60+ days | Aug 14 |
 | Amazon | [Automation Engineer Intern, \(Nationwide\) - Summer 2027](https://www.amazon.jobs/en/jobs/10501526/automation-engineer-intern-nationwide-summer-2027)<br><sub>“Please note we are not able to provide sponsorship now or in the future for these positions.”</sub> | Mt Juliet, Tennessee, USA | 🛂❌ no sponsor<br>⏳ 60+ days | Aug 13 |
 | Vertiv | [IT Systems Product Management Intern \(Summer 2027\)](https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20279239) | Westerville, OH, United States | ⚠ unverified<br>⏳ 60+ days | Aug 12 |
@@ -144,16 +152,8 @@
 | DRW | [Software Developer Intern](https://job-boards.greenhouse.io/drweng/jobs/7992936) | Chicago | ⏳ 60+ days | Jul 13 |
 | Copart | [QA Engineering Intern](https://copart.wd12.myworkdayjobs.com/Copart/job/Dallas-TX---Headquarters/QA-Engineering-Intern_JR109671) | Dallas, TX - Headquarters | ⏳ 60+ days | Jul 10 |
 | Flow Traders | [Quantitative Trading Intern Summer 2027](https://job-boards.greenhouse.io/flowtraders/jobs/8047166) | New York | ⏳ 60+ days | Jul 8 |
-| Marshall Wace | [Technology Intern - New York - 2027](https://job-boards.greenhouse.io/mwinternshipprogram/jobs/8606238002) | New York | ⚠ unverified<br>⏳ 60+ days | Jul 6 |
+| Marshall Wace | [Technology Intern - New York - 2027](https://job-boards.greenhouse.io/mwinternshipprogram/jobs/8606238002) | New York | ⏳ 60+ days | Jul 6 |
 | IMC | [Deep Learning Research Intern - Summer 2027 - New York](https://job-boards.eu.greenhouse.io/imc/jobs/4907430101) | New York, United States | ⏳ 60+ days | Jul 1 |
-| IMC | [Quantitative Research Intern \(BS/MS\) - Summer 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4907399101) | Chicago, United States | ⏳ 60+ days | Jul 1 |
-| IMC | [Quantitative Trader Intern - Summer 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4823923101) | Chicago, United States | ⏳ 60+ days | Jul 1 |
-| IMC | [Software Engineer Intern - Summer 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4823924101)<br><sub>“Please note that immigration sponsorship is not offered for this specific opening.”</sub> | Chicago, United States | 🛂❌ no sponsor<br>⏳ 60+ days | Jul 1 |
-| Palantir Technologies | [Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2) | Chicago, IL | ⏳ 60+ days | Jun 30 |
-| Mayo Clinic | [AI/ML Intern - Radiation Oncology](https://fa-euwp-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/385703)<br><sub>“This vacancy is not eligible for sponsorship/we will not sponsor or transfer visas for this position.”</sub> | Rochester, MN, United States | 🛂❌ no sponsor<br>⏳ 60+ days | Jun 25 |
-| Palantir Technologies | [Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3)<br><sub>“For USG: An active U.S. security clearance, or eligibility and willingness to obtain one, is required”</sub> | Chicago, IL | 🔒 clearance<br>⏳ 60+ days | Jun 24 |
-| Quantiq | [Software Developer Internship \(Summer 2027\)](https://job-boards.greenhouse.io/quantiq/jobs/4287936009) | Austin, TX | ⏳ 60+ days | Jun 17 |
-| Campbell's | [Agentic AI Engineer Co-Op](https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---Remote/Agentic-AI-Engineer-Co-Op_Req-66015) | USA - Remote | 🔄 co-op<br>🌐 remote<br>⏳ 60+ days | Jun 16 |
 
 [⬅ page 15](INTERNSHIPS-15.md) · page 16 of 17 · [page 17 ➡](INTERNSHIPS-17.md)
 

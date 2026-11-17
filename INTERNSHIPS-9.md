@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 1987 open · page 9 of 17 · updated 2026-11-17
+[⬅ Back to the main page](./) · 1995 open · page 9 of 17 · updated 2026-11-17
 
 [⬅ page 8](INTERNSHIPS-8.md) · page 9 of 17 · [page 10 ➡](INTERNSHIPS-10.md)
 
@@ -34,6 +34,14 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| AeroVironment | [Software Engineering Intern](https://avav.wd1.myworkdayjobs.com/AVAV/job/Minneapolis-MN/Software-Engineering-Intern_8940)<br><sub>“U.S. Citizenship required.”</sub> | Minneapolis, MN | 🗽 citizens<br>🔒 clearance<br>🎓 3.0+ GPA | Oct 20 |
+| AeroVironment | [Software Engineering Intern](https://avav.wd1.myworkdayjobs.com/AVAV/job/San-Diego-CA/Software-Engineering-Intern_8828)<br><sub>“U.S. Citizenship required.”</sub> | San Diego, CA | 🗽 citizens<br>🔒 clearance<br>🎓 3.0+ GPA | Oct 20 |
+| Amazon | [Hardware Development Engineer Intern , Winter 2027](https://www.amazon.jobs/en/jobs/10584121/hardware-development-engineer-intern-winter-2027) | Bellevue, Washington, USA |  | Oct 20 |
+| Anduril Industries | [2027 Finance Data Analyst Intern](https://boards.greenhouse.io/andurilindustries/jobs/5269977007?gh_jid=5269977007) | Costa Mesa, California, United States |  | Oct 20 |
+| Assurant | [Summer 2027 Intern: Software Engineering Intern](https://assurant.wd1.myworkdayjobs.com/Assurant_Careers/job/Atlanta-GA/Summer-2027-Intern--Software-Engineering-Intern_R-115727-1) | Atlanta, GA |  | Oct 20 |
+| Buildertrend | [Enterprise Technology Intern](https://buildertrend.wd108.myworkdayjobs.com/External_Careers/job/Omaha-NE/Enterprise-Technology-Intern_JR-000491) | Omaha, NE |  | Oct 20 |
+| Ciena | [Software Engineer \(Security\) - Intern \(Winter 2027\)](https://ciena.wd5.myworkdayjobs.com/Careers/job/Atlanta/Software-Engineer--Security----Intern--Winter-2027-_R031926) | Atlanta |  | Oct 20 |
+| Cigna Healthcare | [Business Analytics Intern](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/Business-Analytics-Intern_26012472)<br><sub>“Therefore, this temporary internship is open only to individuals who are eligible for employment in the United States and who would not requ…”</sub> | Bloomfield, CT | 🚫 no CPT/OPT<br>⚠ unverified | Oct 20 |
 | DriveWealth | [AI Consulting Associate Program \(AI CAP\) Brokerage Intern - Summer 2027](https://boards.greenhouse.io/drivewealth/jobs/8039368003?gh_jid=8039368003)<br><sub>“Applicants must be authorized to work for any employer in the U.S. DriveWealth is unable to sponsor an employment Visa at this time.”</sub> | Office - Chicago | 🛂❌ no sponsor | Oct 20 |
 | DriveWealth | [AI Consulting Associate Program \(AI CAP\) Engineering Intern - Summer 2027](https://boards.greenhouse.io/drivewealth/jobs/8039350003?gh_jid=8039350003)<br><sub>“Applicants must be authorized to work for any employer in the U.S. DriveWealth is unable to sponsor an employment Visa at this time.”</sub> | Office - Chicago; Office - NYC | 🛂❌ no sponsor | Oct 20 |
 | Greystone | [Salesforce Developer Intern - Summer 2027](https://greyco.wd108.myworkdayjobs.com/GTI/job/New-York-NY/Summer-2027---Salesforce-Developer-Intern_JR0000144) | New York, NY |  | Oct 20 |
@@ -146,14 +154,6 @@
 | AeroVironment | [Summer 2027 Autonomy &amp; Robotics Engineering Intern](https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/Summer-2027-Autonomy---Robotics-Engineering-Intern_8556)<br><sub>“ITAR Requirement: This position requires access to information that is subject to compliance with the International Traffic Arms Regulations…”</sub> | Simi Valley, CA | 📜 ITAR<br>🎓 3.0+ GPA | Oct 13 |
 | AeroVironment | [Summer 2027 Embedded Software Engineering Intern](https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/Summer-2027-Embedded-Software-Engineering-Intern_8388)<br><sub>“ITAR Requirement: This position requires access to information that is subject to compliance with the International Traffic Arms Regulations…”</sub> | Simi Valley, CA | 📜 ITAR<br>🎓 3.0+ GPA | Oct 13 |
 | AeroVironment | [Summer 2027 GNC / Autonomy Intern](https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/Summer-2027-GNC---Autonomy-Intern_8610)<br><sub>“ITAR Requirement: This position requires access to information that is subject to compliance with the International Traffic Arms Regulations…”</sub> | Simi Valley, CA | 📜 ITAR<br>🎓 3.0+ GPA | Oct 13 |
-| AeroVironment | [Summer 2027 Software Engineering Intern](https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/Summer-2027-Software-Engineering-Intern_8611)<br><sub>“ITAR Requirement: This position requires access to information that is subject to compliance with the International Traffic Arms Regulations…”</sub> | Simi Valley, CA | 📜 ITAR<br>🎓 3.0+ GPA | Oct 13 |
-| Amazon | [ASIC Engineer Intern, Summer 2027](https://www.amazon.jobs/en/jobs/10576619/asic-engineer-intern-summer-2027) | Sunnyvale, California, USA |  | Oct 13 |
-| Amazon | [Hardware Development Engineer Intern, Summer 2027](https://www.amazon.jobs/en/jobs/10578090/hardware-development-engineer-intern-summer-2027) | Sunnyvale, California, USA |  | Oct 13 |
-| American Family Insurance | [Summer 2027 Intern - Application Billing Center Developer](https://amfam.wd1.myworkdayjobs.com/AmFamGroupInternCareers/job/WI-Madison/Intern---Application-Billing-Center-Developer_R39407)<br><sub>“Sponsorship will not be considered for this position unless specified in the posting”</sub> | WI Madison | 🛂❌ no sponsor | Oct 13 |
-| Anduril Industries | [2027 Firmware Engineer Intern](https://boards.greenhouse.io/andurilindustries/jobs/5265158007?gh_jid=5265158007)<br><sub>“Must be a U.S. Person due to required access to U.S. export-controlled information or facilities; U.S. clearance eligibility may be required…”</sub> | Costa Mesa, California, United States | 🗽 citizens | Oct 13 |
-| Blue Origin | [Summer 2027 Avionics Software Internship - Graduate](https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Greater-Seattle-Area/Summer-2027-Avionics-Software-Internship---Graduate_R71423)<br><sub>“Basic Qualifications: Must be a U.S. citizen or national, U.S. permanent resident \(current Green Card holder\), or lawfully admitted into the…”</sub> | Greater Seattle Area | 🗽 citizens | Oct 13 |
-| Blue Origin | [Summer 2027 Avionics Software Internship - Undergraduate](https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Greater-Seattle-Area/Summer-2027-Avionics-Software-Internship---Undergraduate_R71424)<br><sub>“Basic Qualifications: Must be a U.S. citizen or national, U.S. permanent resident \(current Green Card holder\), or lawfully admitted into the…”</sub> | Greater Seattle Area | 🗽 citizens | Oct 13 |
-| Blue Origin | [Summer 2027 Software Developer Internship - Graduate](https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Greater-Seattle-Area/Summer-2027-Software-Developer-Internship---Graduate_R71434)<br><sub>“Basic Qualifications: Must be a U.S. citizen or national, U.S. permanent resident \(current Green Card holder\), or lawfully admitted into the…”</sub> | Greater Seattle Area | 🗽 citizens | Oct 13 |
 
 [⬅ page 8](INTERNSHIPS-8.md) · page 9 of 17 · [page 10 ➡](INTERNSHIPS-10.md)
 

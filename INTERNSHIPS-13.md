@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 1987 open · page 13 of 17 · updated 2026-11-17
+[⬅ Back to the main page](./) · 1995 open · page 13 of 17 · updated 2026-11-17
 
 [⬅ page 12](INTERNSHIPS-12.md) · page 13 of 17 · [page 14 ➡](INTERNSHIPS-14.md)
 
@@ -34,6 +34,14 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| Astranis | [Flight Software Intern \(Winter 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4704595006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco | 🗽 citizens | Sep 22 |
+| Astranis | [Hardware Test Intern \(Winter 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4707012006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco | 🗽 citizens | Sep 22 |
+| Astranis | [Software Engineer - Enterprise Systems Intern \(Summer 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4705610006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco, CA | 🗽 citizens | Sep 22 |
+| Astranis | [Software Engineer Backend Intern \(Summer 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4705214006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco, CA | 🗽 citizens | Sep 22 |
+| Bracco Medical Technologies | [Product Security Engineering Intern](https://bracco.wd103.myworkdayjobs.com/BraccoCareers/job/USA-Eden-Prairie-Minnesota-55344/Product-Security-Engineering-Intern_JR100318) | USA, Eden Prairie, Minnesota, 55344 |  | Sep 22 |
+| Exol | [Co-op- Hardware Engineer](https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington-MA---ITC/Hardware-Engineer_R7976) | USA Wilmington, MA - ITC | 🔄 co-op | Sep 22 |
+| Formlabs Internships | [Desktop Software Intern \(Winter/Spring 2027\)](https://job-boards.greenhouse.io/formlabsinternships/jobs/8188725) | Somerville, MA | 🌱 spring | Sep 22 |
+| Geneva Trading | [Python Developer Intern](https://job-boards.greenhouse.io/genevatrading/jobs/5242196007) | Chicago Office |  | Sep 22 |
 | Gordon Food Service | [Identity Analyst IT Internship](https://gfs.wd5.myworkdayjobs.com/usjobs-gen-gfs/job/Wyoming-Michigan/Identity-Analyst-IT-Internship_R-57499-1) | Wyoming, Michigan | 🎓 3.0+ GPA | Sep 22 |
 | GuideStone Financial Resources | [Summer Intern - Software Developer](https://guidestone.wd1.myworkdayjobs.com/GuideStone/job/Dallas-TX/Summer-Intern---Software-Developer_R2129)<br><sub>“Candidates must have permanent U.S. work authorization; we do not sponsor employment visas or accept students on a student visa.”</sub> | Dallas, TX | 🛂❌ no sponsor<br>🎓 3.0+ GPA | Sep 22 |
 | Idaho National Laboratory | [Computer Security Research Intern - Summer 2027](https://elhe.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/pro/job/2092) | Idaho Falls, ID, United States | 🎓 3.0+ GPA | Sep 22 |
@@ -146,14 +154,6 @@
 | Inmar Intelligence | [Software Engineering Internships, Summer 2027](https://inmar.wd1.myworkdayjobs.com/inmarcareers/job/Headquarters-Winston-Salem-NC/Software-Engineering-Internships--Summer-2027_JY2627638)<br><sub>“Candidates must have authorization to work in the U.S. without the need for employer sponsorship now or in the future.”</sub> | Headquarters, Winston Salem, NC | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 15 |
 | Insulet Corporation | [Co-op, Embedded Software Engineering: January-June 2027 \(Onsite\)](https://insulet.wd5.myworkdayjobs.com/insuletcareers/job/Acton-Massachusetts/Co-op--Embedded-Software-Engineering--January-June-2027--Onsite-_REQ-2026-17966)<br><sub>“Candidates must have authorization to work in the U.S. without current or future sponsorship needs.”</sub> | Acton, Massachusetts | 🛂❌ no sponsor<br>🔄 co-op<br>⏳ 60+ days | Sep 15 |
 | Insulet Corporation | [Co-op, Embedded Software Test Engineering: January-June 2027 \(Onsite\)](https://insulet.wd5.myworkdayjobs.com/insuletcareers/job/Acton-Massachusetts/Co-op--Embedded-Software-Test-Engineering--January-June-2027--Onsite-_REQ-2026-17986)<br><sub>“Candidates must have authorization to work in the U.S. without current or future sponsorship needs.”</sub> | Acton, Massachusetts | 🛂❌ no sponsor<br>🔄 co-op<br>⏳ 60+ days | Sep 15 |
-| Navy Federal | [Summer Associate Internship \(Product Security Engineer\)](https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32619) | Vienna, VA, United States | ⏳ 60+ days | Sep 15 |
-| Navy Federal Credit Union | [Summer Associate Internship \(Product Security Engineer\)](https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/32619) | Vienna, VA, United States | ⏳ 60+ days | Sep 15 |
-| NJM Insurance Group | [IT QA Automation Intern](https://njm.wd1.myworkdayjobs.com/njm/job/NJM---Trenton/IT-QA-Automation-Intern_R2008283) | NJM - Trenton | 🎓 3.0+ GPA<br>⏳ 60+ days | Sep 15 |
-| NJM Insurance Group | [IT Workstation Support Intern](https://njm.wd1.myworkdayjobs.com/njm/job/NJM---Trenton/IT-Workstation-Support--Intern_R2008273) | NJM - Trenton | 🎓 3.0+ GPA<br>⏳ 60+ days | Sep 15 |
-| NOV | [Software Engineering Intern](https://egay.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_xx/job/44449) | Houston, TX, United States | ⏳ 60+ days | Sep 15 |
-| NYISO Internship Program | [Intern - IT Service Delivery](https://job-boards.greenhouse.io/nyisointernships/jobs/5236071007) | Rensselaer, New York, United States | ⏳ 60+ days | Sep 15 |
-| Penn State University | [Embedded Systems and Hardware Co-Op](https://psu.wd1.myworkdayjobs.com/PSU_Staff/job/Warminster-PA/Embedded-Systems-and-Hardware-Co-Op_REQ_0000066566-2)<br><sub>“You will be subject to a government security investigation, and you must be a U.S. citizen to apply.”</sub> | Warminster, PA | 🗽 citizens<br>🔒 clearance<br>🔄 co-op<br>⏳ 60+ days | Sep 15 |
-| Ramp | [Applied Scientist Intern](https://jobs.ashbyhq.com/ramp/b39ceb08-a0a7-4f8b-a760-2fb88e209956) | New York, NY \(HQ\) | ⏳ 60+ days | Sep 15 |
 
 [⬅ page 12](INTERNSHIPS-12.md) · page 13 of 17 · [page 14 ➡](INTERNSHIPS-14.md)
 

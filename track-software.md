@@ -1,6 +1,6 @@
 # Software
 
-[⬅ Back to the main page](./) · 854 open · updated 2026-11-17
+[⬅ Back to the main page](./) · 856 open · updated 2026-11-17
 
 Web, mobile, backend, full-stack and general software roles. New to this track? Read the [Software section of the Career tracks guide](guides/tracks.md#software).
 
@@ -34,7 +34,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (770)
+## Internships (772)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
@@ -56,6 +56,8 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Shure | [Unified Communication \(UC\) Technology Intern](https://careersus-shure.icims.com/jobs/5002/unified-communication-%28uc%29-technology-intern/job) | Skokie, IL, US |  | — |
 | Springs Window Fashions | [Software Engineering Internship - Summer 2027](https://careers-springswindowfashions.icims.com/jobs/12891/software-engineering-internship---summer-2027/job) | LONG ISLAND CITY, NY, US |  | — |
 | Walmart | [Summer 2027 Corporate Intern: APD Automation Engineer](https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/USA-Together-Building-AR-Bentonville-Home-Office/Summer-2027-Corporate-Intern--APD-Automation-Engineer_R-2630170)<br><sub>“IMMIGRATION SPONSORSHIP IS NOT AVAILABLE FOR THIS ROLE”</sub> | \(USA\) Together Building AR Bentonville Home O… | 🛂❌ no sponsor | Nov 17 |
+| Waymo | [2027 Summer Intern, BS, Software Engineering, Labeling](https://careers.withwaymo.com/jobs?gh_jid=8238525) | Mountain View, California | ⚠ unverified | — |
+| Waymo | [2027 Summer Intern, BS/MS, Software Engineering, Maneuvering Tech](https://careers.withwaymo.com/jobs?gh_jid=8203200) | San Francisco, California | ⚠ unverified | — |
 | Acadian Asset Management | [Quantitative Investment Internship Program - Summer 2027](https://www.acadian-asset.com/careers/open-positions?gh_jid=4720681006) | Boston, Massachusetts | ⚠ unverified | — |
 | Altice USA | [Intern - Software Developer](https://www.optimumcareers.com/job/Bethpage-Intern-Software-Developer-NY-11714/1450884000/) | Town of Oyster Bay, New York | ⚠ unverified | — |
 | APEX Analytix | [QA Automation Intern](https://ats.rippling.com/apexanalytix-careers/jobs/ebafabc3-be09-477d-94a9-0ba244f52319) | Greensboro, North Carolina |  | — |
@@ -717,7 +719,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | BNY Mellon | [2027 BNY Summer Internship Program - Engineering \(Developer\) - New York, NY](https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/81253)<br><sub>“Does not require sponsorship for employment visa status \(now or in the future\) in the country where applying.”</sub> | New York, NY, United States | 🛂❌ no sponsor<br>🎓 3.0+ GPA<br>⏳ 60+ days | Aug 24 |
 | BNY Mellon | [2027 BNY Summer Internship Program - Engineering \(Developer\) - Pittsburgh, PA](https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/81254)<br><sub>“Does not require sponsorship for employment visa status \(now or in the future\) in the country where applying.”</sub> | Pittsburgh, PA, United States | 🛂❌ no sponsor<br>🎓 3.0+ GPA<br>⏳ 60+ days | Aug 24 |
 | ATOMS Careers page | [Robotics Software Engineer Intern](https://job-boards.greenhouse.io/cssmerge/jobs/8695475002) | Pittsburgh, PA | ⏳ 60+ days | Aug 21 |
-| General Matter | [Summer 2027 Internship - Software Engineering](https://job-boards.greenhouse.io/generalmatter/jobs/5377118008) | Los Angeles, CA | ⏳ 60+ days | Aug 19 |
+| General Matter | [Summer 2027 Internship - Software Engineering](https://job-boards.greenhouse.io/generalmatter/jobs/5377118008) | Los Angeles, CA | ⚠ unverified<br>⏳ 60+ days | Aug 19 |
 | LPL Financial Holdings | [Intern 2027- Platform Engineer](https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Platform-Engineer_R-052920-1) | Fort Mill/Charlotte | ⏳ 60+ days | Aug 18 |
 | LPL Financial Holdings | [Intern 2027- Software Engineer](https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Software-Engineer_R-052921) | Fort Mill/Charlotte | ⏳ 60+ days | Aug 18 |
 | PIMCO | [2027 Summer Intern - Technology Analyst, Software Engineering](https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Austin-TX-USA/XMLNAME-2027-Summer-Intern---Technology-Analyst--Software-Engineering_R106745) | Austin, TX USA | 🧪 OA<br>🎓 3.5+ GPA<br>⏳ 60+ days | Aug 18 |
@@ -757,7 +759,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | DRW | [Software Developer Intern](https://job-boards.greenhouse.io/drweng/jobs/7992936) | Chicago | ⏳ 60+ days | Jul 13 |
 | Copart | [QA Engineering Intern](https://copart.wd12.myworkdayjobs.com/Copart/job/Dallas-TX---Headquarters/QA-Engineering-Intern_JR109671) | Dallas, TX - Headquarters | ⏳ 60+ days | Jul 10 |
 | Flow Traders | [Quantitative Trading Intern Summer 2027](https://job-boards.greenhouse.io/flowtraders/jobs/8047166) | New York | ⏳ 60+ days | Jul 8 |
-| Marshall Wace | [Technology Intern - New York - 2027](https://job-boards.greenhouse.io/mwinternshipprogram/jobs/8606238002) | New York | ⚠ unverified<br>⏳ 60+ days | Jul 6 |
+| Marshall Wace | [Technology Intern - New York - 2027](https://job-boards.greenhouse.io/mwinternshipprogram/jobs/8606238002) | New York | ⏳ 60+ days | Jul 6 |
 | IMC | [Quantitative Research Intern \(BS/MS\) - Summer 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4907399101) | Chicago, United States | ⏳ 60+ days | Jul 1 |
 | IMC | [Quantitative Trader Intern - Summer 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4823923101) | Chicago, United States | ⏳ 60+ days | Jul 1 |
 | IMC | [Software Engineer Intern - Summer 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4823924101)<br><sub>“Please note that immigration sponsorship is not offered for this specific opening.”</sub> | Chicago, United States | 🛂❌ no sponsor<br>⏳ 60+ days | Jul 1 |
@@ -871,7 +873,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | SpaceX | [New Graduate Engineer, Software - '26/'27 \(Starlink\)](https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002)<br><sub>“ITAR REQUIREMENTS: To conform to U.S. Government export regulations, applicant must be a \(i\) U.S. citizen or national, \(ii\) U.S. lawful, per…”</sub> | Palo Alto, CA | 📜 ITAR<br>⏳ 60+ days | Aug 14 |
 | General Matter | [Software Engineer, New Grad](https://job-boards.greenhouse.io/generalmatter/jobs/5375987008) | Los Angeles, CA | ⏳ 60+ days | Aug 12 |
 | Freeform | [Software Engineer \(New Grad December 2026\)](https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7826634003) | Los Angeles, CA \(On-site\) | ⏳ 60+ days | Aug 7 |
-| ATOMS Careers page | [Software Engineer - New Grad](https://job-boards.greenhouse.io/cssmerge/jobs/8687930002) | Multiple Locations Available | 🎓 3.7+ GPA<br>⏳ 60+ days | Aug 6 |
+| ATOMS Careers page | [Software Engineer - New Grad](https://job-boards.greenhouse.io/cssmerge/jobs/8687930002) | Multiple Locations Available | 🎓 3.7+ GPA<br>⚠ unverified<br>⏳ 60+ days | Aug 6 |
 | Muon Space | [Software Engineer, Entry-Level](https://job-boards.greenhouse.io/muonspace/jobs/5204498007)<br><sub>“To conform to U.S. Government export regulations applicable to that information, applicant must either be \(A\) a U.S. person, defined as a \(i…”</sub> | San Jose, CA | 🗽 citizens<br>⏳ 60+ days | Aug 5 |
 | Belvedere Trading | [Quantitative Trader - Entry Level 2027](https://jobs.lever.co/belvederetrading/34369a5c-55c0-4e9f-9d2e-4f21b9418bee) | Chicago, Illinois | ⏳ 60+ days | Aug 4 |
 | Palantir Technologies | [Forward Deployed Software Engineer, New Grad - Commercial](https://jobs.lever.co/palantir/e500bcf3-19d8-4d3c-b340-4d76e4a55b40) | Chicago, IL | ⏳ 60+ days | Jun 29 |

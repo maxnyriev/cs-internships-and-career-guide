@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 1987 open · page 14 of 17 · updated 2026-11-17
+[⬅ Back to the main page](./) · 1995 open · page 14 of 17 · updated 2026-11-17
 
 [⬅ page 13](INTERNSHIPS-13.md) · page 14 of 17 · [page 15 ➡](INTERNSHIPS-15.md)
 
@@ -34,6 +34,14 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| Navy Federal | [Summer Associate Internship \(Product Security Engineer\)](https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32619) | Vienna, VA, United States | ⏳ 60+ days | Sep 15 |
+| Navy Federal Credit Union | [Summer Associate Internship \(Product Security Engineer\)](https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/32619) | Vienna, VA, United States | ⏳ 60+ days | Sep 15 |
+| NJM Insurance Group | [IT QA Automation Intern](https://njm.wd1.myworkdayjobs.com/njm/job/NJM---Trenton/IT-QA-Automation-Intern_R2008283) | NJM - Trenton | 🎓 3.0+ GPA<br>⏳ 60+ days | Sep 15 |
+| NJM Insurance Group | [IT Workstation Support Intern](https://njm.wd1.myworkdayjobs.com/njm/job/NJM---Trenton/IT-Workstation-Support--Intern_R2008273) | NJM - Trenton | 🎓 3.0+ GPA<br>⏳ 60+ days | Sep 15 |
+| NOV | [Software Engineering Intern](https://egay.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_xx/job/44449) | Houston, TX, United States | ⏳ 60+ days | Sep 15 |
+| NYISO Internship Program | [Intern - IT Service Delivery](https://job-boards.greenhouse.io/nyisointernships/jobs/5236071007) | Rensselaer, New York, United States | ⏳ 60+ days | Sep 15 |
+| Penn State University | [Embedded Systems and Hardware Co-Op](https://psu.wd1.myworkdayjobs.com/PSU_Staff/job/Warminster-PA/Embedded-Systems-and-Hardware-Co-Op_REQ_0000066566-2)<br><sub>“You will be subject to a government security investigation, and you must be a U.S. citizen to apply.”</sub> | Warminster, PA | 🗽 citizens<br>🔒 clearance<br>🔄 co-op<br>⏳ 60+ days | Sep 15 |
+| Ramp | [Applied Scientist Intern](https://jobs.ashbyhq.com/ramp/b39ceb08-a0a7-4f8b-a760-2fb88e209956) | New York, NY \(HQ\) | ⏳ 60+ days | Sep 15 |
 | SingleStore | [Software Engineer Intern- Helios- 2027](https://job-boards.greenhouse.io/singlestore/jobs/8205514)<br><sub>“Sponsorship is available for this position and other select roles.”</sub> | United States | 🛂✅ sponsors<br>⏳ 60+ days | Sep 15 |
 | Texas Instruments | [Information Technology Intern – Data Engineering](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017978)<br><sub>“Texas Instruments will not sponsor job applicants for visas or work authorization for this position.”</sub> | Dallas, TX, United States | 🛂❌ no sponsor<br>🎓 3.0+ GPA<br>⏳ 60+ days | Sep 15 |
 | Texas Instruments | [Information Technology Intern – Security](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017626)<br><sub>“Texas Instruments will not sponsor job applicants for visas or work authorization for this position.”</sub> | Dallas, TX, United States | 🛂❌ no sponsor<br>🎓 3.0+ GPA<br>⏳ 60+ days | Sep 15 |
@@ -146,14 +154,6 @@
 | Saronic Technologies | [Information Technology Intern \(Summer 2027\)](https://jobs.ashbyhq.com/saronic/0fa1ca8f-0dca-43cc-a5fa-59c40840986f)<br><sub>“If this role is based in the United States, it requires access to export-controlled information or items that require “U.S. Person” status.”</sub> | Austin, TX | 🗽 citizens<br>⏳ 60+ days | Sep 9 |
 | Saronic Technologies | [Software Engineer Intern \(Summer 2027\)](https://jobs.ashbyhq.com/saronic/60afb634-5515-4347-824a-3816735541c2)<br><sub>“If this role is based in the United States, it requires access to export-controlled information or items that require “U.S. Person” status.”</sub> | Austin, TX | 🗽 citizens<br>⏳ 60+ days | Sep 9 |
 | Tanium | [Technical Support Engineer \(TSE\) Intern](https://job-boards.greenhouse.io/tanium/jobs/8176322) | Addison, TX \(Hybrid\) | 🎓 3.5+ GPA<br>⏳ 60+ days | Sep 9 |
-| Allen Control Systems | [Computer Vision/Machine Learning Intern, 2027](https://jobs.ashbyhq.com/allen-control-systems/a7831fef-7125-4c03-b828-5f0472989037) | Austin, TX | ⏳ 60+ days | Sep 8 |
-| Allen Control Systems | [Software Engineering Intern, 2027](https://jobs.ashbyhq.com/allen-control-systems/ed5c58a7-6a3c-474b-aa07-43ff2051cb5c) | Austin, TX | ⏳ 60+ days | Sep 8 |
-| AnaVation | [Computer Science Internship Summer 2027](https://jobs.lever.co/anavationllc/a5c70b6a-2d16-4774-9043-677456614b1b)<br><sub>“Qualifications: : Must be a US citizen with ability to obtain a US Government security clearance.”</sub> | San Antonio, TX | 🗽 citizens<br>🔒 clearance<br>🎓 3.0+ GPA<br>⏳ 60+ days | Sep 8 |
-| AtkinsRéalis | [Water Infrastructure Engineering Intern - Summer 2027](https://slihrms.wd3.myworkdayjobs.com/Careers/job/USGAAtlanta2018-Powers-Ferry-Rd/Water-Infrastructure-Engineering-Intern---Summer-2027_R-163480-1) | US.GA.Atlanta.2018 Powers Ferry Rd | ⏳ 60+ days | Sep 8 |
-| C.H. Robinson | [Software Engineering Internship 2027](https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Eden-Prairie-MN-United-States-of-America/Software-Engineering-Internship-2027_R49323) | Eden Prairie, MN United States of America | ⏳ 60+ days | Sep 8 |
-| DraftKings Inc | [Data Science Intern \(Summer 2027\)](https://draftkings.wd1.myworkdayjobs.com/Campus_Career_Portal/job/Boston-MA/Data-Science-Intern--Summer-2027-_JR14958) | Boston, MA | ⏳ 60+ days | Sep 8 |
-| FUTO | [Software Engineer - Internship 2027](https://jobs.lever.co/futo-org/7dd9877a-9009-408d-aa50-623cd5153f70) | Austin, TX | ⏳ 60+ days | Sep 8 |
-| HNTB | [Toll Technology Intern - Summer 2027](https://hntb.wd5.myworkdayjobs.com/HNTB_University_Careers/job/Raleigh-NC/Toll-Technology-Intern---Summer-2027_R-31514)<br><sub>“Visa sponsorship is not available for this position.”</sub> | Raleigh, NC | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 8 |
 
 [⬅ page 13](INTERNSHIPS-13.md) · page 14 of 17 · [page 15 ➡](INTERNSHIPS-15.md)
 

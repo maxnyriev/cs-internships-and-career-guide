@@ -1,6 +1,6 @@
 # Government and defense
 
-[⬅ Back to the main page](./) · 251 open · updated 2026-11-17
+[⬅ Back to the main page](./) · 253 open · updated 2026-11-17
 
 Government, national-lab and defense roles, plus any posting that asks for a clearance or U.S. citizenship. New to this track? Read the [Government and defense section of the Career tracks guide](guides/tracks.md#government-and-defense).
 
@@ -34,10 +34,12 @@ A posting is on this page if its title names government, a national lab or defen
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (211)
+## Internships (213)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| Anduril Industries | [2027 Machine Learning Engineer Intern](https://boards.greenhouse.io/andurilindustries/jobs/5274037007?gh_jid=5274037007)<br><sub>“Must be a U.S. Person due to required access to U.S. export-controlled information or facilities; U.S. clearance eligibility may be required…”</sub> | Santa Ana, California, United States | 🗽 citizens | Nov 17 |
+| Anduril Industries | [2027 Product Data Quality Co-op](https://boards.greenhouse.io/andurilindustries/jobs/5273039007?gh_jid=5273039007)<br><sub>“Must be a U.S. Person due to required access to U.S. export-controlled information or facilities; U.S. clearance eligibility may be required…”</sub> | Santa Ana, California, United States | 🗽 citizens<br>🔄 co-op | Nov 17 |
 | ICF | [2027 Summer Intern, AI Engineer](https://icf.wd5.myworkdayjobs.com/ICFExternal_Career_Site/job/Reston-VA/XMLNAME-2027-Summer-Intern--AI-Engineer--Reston--VA-_R2603518)<br><sub>“Due to contract requirements, U.S. Citizenship is required”</sub> | Reston, VA | 🗽 citizens | Nov 16 |
 | Leidos | [Cybersecurity Intern](https://leidos.wd5.myworkdayjobs.com/External/job/Fort-Belvoir-VA/Cybersecurity-Intern_R-00197087)<br><sub>“U.S. citizenship required.”</sub> | Fort Belvoir, VA | 🗽 citizens<br>🔒 secret | Nov 16 |
 | Oshkosh Corporation | [Autonomy Intern](https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Oshkosh-Wisconsin-United-States/Autonomy-Intern_R52031)<br><sub>“Applicants for these positions may need to be "U.S. Persons," as defined in these regulations.”</sub> | Oshkosh, Wisconsin, United States | 🗽 citizens | Nov 16 |
@@ -219,8 +221,8 @@ A posting is on this page if its title names government, a national lab or defen
 | Honeywell | [Information Systems, IT, Cyber Engineer &amp; Data Science - Summer 2027 Intern \(US Person Required\)](https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/155554)<br><sub>“Candidates must be authorized to legally work in the United States without current or future sponsorship requirements.”</sub> | United States | 🛂❌ no sponsor<br>🗽 citizens<br>⏳ 60+ days | Aug 25 |
 | Honeywell | [Software Engineer &amp; Computer Science - Summer 2027 Intern \(US Person Required\)](https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/155557)<br><sub>“Candidates must be authorized to legally work in the United States without current or future sponsorship requirements.”</sub> | United States | 🛂❌ no sponsor<br>🗽 citizens<br>⏳ 60+ days | Aug 25 |
 | LLNL | [National Security Engineering Division \(NSED\) Undergraduate Intern - Summer 2027](https://jobs.smartrecruiters.com/LLNL/3743990014731656-national-security-engineering-division-nsed-undergraduate-intern-summer-2027)<br><sub>“Security Clearance”</sub> | Livermore, CA, US | 🔒 clearance<br>🎓 3.5+ GPA<br>⏳ 60+ days | Aug 21 |
-| The Nuclear Company | [Spring 2027 AI Applied Research Internship](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5391888008)<br><sub>“U.S. Person status \(U.S. citizen or lawful permanent resident\) is required, and TNC does not provide visa sponsorship for these roles.…”</sub> | Washington, DC | 🛂❌ no sponsor<br>🗽 citizens<br>🌱 spring<br>⏳ 60+ days | Aug 14 |
-| The Nuclear Company | [Summer 2027 AI Applied Research Internship](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5391923008)<br><sub>“U.S. Person status \(U.S. citizen or lawful permanent resident\) is required, and TNC does not provide visa sponsorship for these roles.…”</sub> | Washington, DC | 🛂❌ no sponsor<br>🗽 citizens<br>⏳ 60+ days | Aug 14 |
+| The Nuclear Company | [Spring 2027 AI Applied Research Internship](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5391888008)<br><sub>“U.S. Person status \(U.S. citizen or lawful permanent resident\) is required, and TNC does not provide visa sponsorship for these roles”</sub> | Washington, DC | 🛂❌ no sponsor<br>🗽 citizens<br>🌱 spring<br>⏳ 60+ days | Aug 14 |
+| The Nuclear Company | [Summer 2027 AI Applied Research Internship](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5391923008)<br><sub>“U.S. Person status \(U.S. citizen or lawful permanent resident\) is required, and TNC does not provide visa sponsorship for these roles.”</sub> | Washington, DC | 🛂❌ no sponsor<br>🗽 citizens<br>⏳ 60+ days | Aug 14 |
 | The Nuclear Company | [Spring 2027 AI/ML Engineering Intern](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383212008)<br><sub>“U.S. Person status \(U.S. citizen or lawful permanent resident\) is required, and TNC does not provide visa sponsorship for these roles”</sub> | Washington, DC | 🛂❌ no sponsor<br>🗽 citizens<br>🌱 spring<br>⏳ 60+ days | Aug 7 |
 | The Nuclear Company | [Spring 2027 Data Science Intern](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383218008)<br><sub>“U.S. Person status \(U.S. citizen or lawful permanent resident\) is required, and TNC does not provide visa sponsorship for these roles”</sub> | Washington, DC | 🛂❌ no sponsor<br>🗽 citizens<br>🌱 spring<br>⏳ 60+ days | Aug 7 |
 | The Nuclear Company | [Summer 2027 AI/ML Engineering Intern](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383231008)<br><sub>“U.S. Person status \(U.S. citizen or lawful permanent resident\) is required, and TNC does not provide visa sponsorship for these roles”</sub> | Washington, DC | 🛂❌ no sponsor<br>🗽 citizens<br>⏳ 60+ days | Aug 7 |

@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 1987 open · page 17 of 17 · updated 2026-11-17
+[⬅ Back to the main page](./) · 1995 open · page 17 of 17 · updated 2026-11-17
 
 [⬅ page 16](INTERNSHIPS-16.md) · page 17 of 17
 
@@ -34,6 +34,14 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| IMC | [Quantitative Research Intern \(BS/MS\) - Summer 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4907399101) | Chicago, United States | ⏳ 60+ days | Jul 1 |
+| IMC | [Quantitative Trader Intern - Summer 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4823923101) | Chicago, United States | ⏳ 60+ days | Jul 1 |
+| IMC | [Software Engineer Intern - Summer 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4823924101)<br><sub>“Please note that immigration sponsorship is not offered for this specific opening.”</sub> | Chicago, United States | 🛂❌ no sponsor<br>⏳ 60+ days | Jul 1 |
+| Palantir Technologies | [Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2) | Chicago, IL | ⏳ 60+ days | Jun 30 |
+| Mayo Clinic | [AI/ML Intern - Radiation Oncology](https://fa-euwp-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/385703)<br><sub>“This vacancy is not eligible for sponsorship/we will not sponsor or transfer visas for this position.”</sub> | Rochester, MN, United States | 🛂❌ no sponsor<br>⏳ 60+ days | Jun 25 |
+| Palantir Technologies | [Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3)<br><sub>“For USG: An active U.S. security clearance, or eligibility and willingness to obtain one, is required”</sub> | Chicago, IL | 🔒 clearance<br>⏳ 60+ days | Jun 24 |
+| Quantiq | [Software Developer Internship \(Summer 2027\)](https://job-boards.greenhouse.io/quantiq/jobs/4287936009) | Austin, TX | ⏳ 60+ days | Jun 17 |
+| Campbell's | [Agentic AI Engineer Co-Op](https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---Remote/Agentic-AI-Engineer-Co-Op_Req-66015) | USA - Remote | 🔄 co-op<br>🌐 remote<br>⏳ 60+ days | Jun 16 |
 | Campbell's | [Business Analyst \(Co-op\), DA&amp;AI](https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---Remote/Business-Analyst--Co-op---DA-AI_Req-65915) | USA - Remote | 🔄 co-op<br>🌐 remote<br>⏳ 60+ days | Jun 12 |
 | Campbell's | [Data Engineer - Operational Support \(Co-op\)](https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Data-Engineer---Operational-Support--Co-op-_Req-65842) | USA - NJ - Camden | 🔄 co-op<br>⏳ 60+ days | Jun 12 |
 | Campbell's | [Data Engineer – Agentic AI &amp; ML Ops \(Co-op\)](https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Data-Engineer---Agentic-AI---ML-Ops--Co-op-_Req-65843) | USA - NJ - Camden | 🔄 co-op<br>⏳ 60+ days | Jun 12 |

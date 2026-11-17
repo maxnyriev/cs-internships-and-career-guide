@@ -1,6 +1,6 @@
 # Data and ML
 
-[⬅ Back to the main page](./) · 570 open · updated 2026-11-17
+[⬅ Back to the main page](./) · 576 open · updated 2026-11-17
 
 Data analysis, data engineering, machine learning and AI roles. New to this track? Read the [Data and ML section of the Career tracks guide](guides/tracks.md#data-and-ml).
 
@@ -34,10 +34,12 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (557)
+## Internships (563)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| Anduril Industries | [2027 Machine Learning Engineer Intern](https://boards.greenhouse.io/andurilindustries/jobs/5274037007?gh_jid=5274037007)<br><sub>“Must be a U.S. Person due to required access to U.S. export-controlled information or facilities; U.S. clearance eligibility may be required…”</sub> | Santa Ana, California, United States | 🗽 citizens | Nov 17 |
+| Anduril Industries | [2027 Product Data Quality Co-op](https://boards.greenhouse.io/andurilindustries/jobs/5273039007?gh_jid=5273039007)<br><sub>“Must be a U.S. Person due to required access to U.S. export-controlled information or facilities; U.S. clearance eligibility may be required…”</sub> | Santa Ana, California, United States | 🗽 citizens<br>🔄 co-op | Nov 17 |
 | Bosch Group | [AI Application Intern \(8 months/40 hours per week\)](https://jobs.smartrecruiters.com/BoschGroup/744000162076254-ai-application-intern-8-months-40-hours-per-week-) | Farmington Hills, MI, US | 🎓 3.0+ GPA<br>⚠ unverified | Nov 17 |
 | General Dynamics Mission Systems | [Ontology Data Analysis and Validation Intern, Summer 2027](https://careers-gdms.icims.com/jobs/76095/ontology-data-analysis-and-validation-intern%2c-summer-2027/job) | Pittsfield, MA, US; Scottsdale, AZ, US; Chant… | ⚠ unverified | — |
 | Idaho National Laboratory | [Electric Vehicle Charging Data Analysis Intern - Summer 2027](https://elhe.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/pro/job/2149) | Idaho Falls, ID, United States | 🎓 3.0+ GPA | Nov 17 |
@@ -45,7 +47,11 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Shure | [Web Analytics Intern](https://careersus-shure.icims.com/jobs/5027/web-analytics-intern/job) | Niles, IL, US |  | — |
 | Springs Window Fashions | [Consumer Business Unit - AI Analyst Internship - Summer 2027](https://careers-springswindowfashions.icims.com/jobs/12875/consumer-business-unit---ai-analyst-internship---summer-2027/job) | MIDDLETON, WI, US |  | — |
 | Springs Window Fashions | [Consumer Business Unit - Data Analyst Internship - Summer 2027](https://careers-springswindowfashions.icims.com/jobs/12874/consumer-business-unit---data-analyst-internship---summer-2027/job) | MIDDLETON, WI, US |  | — |
+| Springs Window Fashions | [Dealer Business Operations &amp; Analytics Internship - Summer 2027](https://careers-springswindowfashions.icims.com/jobs/12886/dealer-business-operations-%26-analytics-internship---summer-2027/job) | MIDDLETON, WI, US | ⚠ unverified | — |
 | Springs Window Fashions | [Textile Engineering Analytics &amp; Software Internship - summer 2027](https://careers-springswindowfashions.icims.com/jobs/12881/textile-engineering-analytics-%26-software-internship---summer-2027/job) | MIDDLETON, WI, US |  | — |
+| Toyota Research Institute | [Robotics Intern, Agentic Robotics](https://jobs.lever.co/tri/7f676d3c-6a86-4b00-a9fd-c1009035fe49) | Cambridge, MA |  | Nov 17 |
+| V2X | [Artificial Intelligence Intern 2027](https://careers.gov2x.com/why-gov2x/jobs/62843) | Indianapolis, Indiana | ⚠ unverified | — |
+| Waymo | [2027 Summer Intern, BS, Waymo ML Ops &amp; Automation](https://careers.withwaymo.com/jobs?gh_jid=8257237) | Mountain View, California | ⚠ unverified | — |
 | Acuity | [Finance AI Engineering Intern - Onsite](https://careers.acuityinc.com/job/Atlanta-Finance-AI-Engineering-Intern-Onsite-GA-30309/1434878900/) | Atlanta, Georgia |  | — |
 | Aflac | [2027 Global Investments \(NY\) Business &amp; Analytics Intern](https://careers.aflac.com/job/New-York-City-2027-Global-Investments-%28NY%29-Business-&-Analytics-Intern-NY-10005/1443293800/) | New York, New York |  | — |
 | AGCO | [AI &amp; Data Science Intern - Spring 2027](https://careers.agcocorp.com/job/Champaign-AI-&-Data-Science-Intern-Spring-2027-IL/1440146300/) | Champaign, Illinois | 🌱 spring<br>⚠ unverified | — |
@@ -568,8 +574,8 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Mercor | [Data Science Intern](https://jobs.ashbyhq.com/mercor/11516609-e54b-4087-87c2-e84a8bafbb5a) | San Francisco | ⏳ 60+ days | Aug 19 |
 | Dimensional Fund Advisors | [Internship in Global Client Group - Data and Tools \(Undergraduate &amp; Master's\)](https://dimensional.wd5.myworkdayjobs.com/DFA_Careers/job/Austin/Internship-in-Global-Client-Group---Data-and-Tools--Undergraduate---Master-s-_2026-9003)<br><sub>“This role is not eligible for immigration sponsorship.”</sub> | Austin | 🛂❌ no sponsor<br>🎓 3.2+ GPA<br>⏳ 60+ days | Aug 18 |
 | LPL Financial Holdings | [Intern 2027 - Data Engineer](https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027---Data_R-052914) | Fort Mill/Charlotte | ⏳ 60+ days | Aug 18 |
-| The Nuclear Company | [Spring 2027 AI Applied Research Internship](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5391888008)<br><sub>“U.S. Person status \(U.S. citizen or lawful permanent resident\) is required, and TNC does not provide visa sponsorship for these roles.…”</sub> | Washington, DC | 🛂❌ no sponsor<br>🗽 citizens<br>🌱 spring<br>⏳ 60+ days | Aug 14 |
-| The Nuclear Company | [Summer 2027 AI Applied Research Internship](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5391923008)<br><sub>“U.S. Person status \(U.S. citizen or lawful permanent resident\) is required, and TNC does not provide visa sponsorship for these roles.…”</sub> | Washington, DC | 🛂❌ no sponsor<br>🗽 citizens<br>⏳ 60+ days | Aug 14 |
+| The Nuclear Company | [Spring 2027 AI Applied Research Internship](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5391888008)<br><sub>“U.S. Person status \(U.S. citizen or lawful permanent resident\) is required, and TNC does not provide visa sponsorship for these roles”</sub> | Washington, DC | 🛂❌ no sponsor<br>🗽 citizens<br>🌱 spring<br>⏳ 60+ days | Aug 14 |
+| The Nuclear Company | [Summer 2027 AI Applied Research Internship](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5391923008)<br><sub>“U.S. Person status \(U.S. citizen or lawful permanent resident\) is required, and TNC does not provide visa sponsorship for these roles.”</sub> | Washington, DC | 🛂❌ no sponsor<br>🗽 citizens<br>⏳ 60+ days | Aug 14 |
 | Vertiv | [Planning Analytics Intern \(Summer 2027\)](https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20279236) | Westerville, OH, United States | ⚠ unverified<br>⏳ 60+ days | Aug 14 |
 | Mortenson | [AI Intern](https://fa-esgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/23339)<br><sub>“Visa sponsorship is not offered for this position.”</sub> | MN, United States | 🛂❌ no sponsor<br>⚠ unverified<br>⏳ 60+ days | Aug 10 |
 | The Nuclear Company | [Spring 2027 AI/ML Engineering Intern](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383212008)<br><sub>“U.S. Person status \(U.S. citizen or lawful permanent resident\) is required, and TNC does not provide visa sponsorship for these roles”</sub> | Washington, DC | 🛂❌ no sponsor<br>🗽 citizens<br>🌱 spring<br>⏳ 60+ days | Aug 7 |

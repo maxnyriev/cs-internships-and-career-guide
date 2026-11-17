@@ -1,6 +1,6 @@
 # 🆕 New this week
 
-[⬅ Back to the main page](./) · 439 posted in the last 7 days · updated 2026-11-17
+[⬅ Back to the main page](./) · 447 posted in the last 7 days · updated 2026-11-17
 
 **Click a job title to open the company's application page.**
 
@@ -32,6 +32,8 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| Anduril Industries | [2027 Machine Learning Engineer Intern](https://boards.greenhouse.io/andurilindustries/jobs/5274037007?gh_jid=5274037007)<br><sub>“Must be a U.S. Person due to required access to U.S. export-controlled information or facilities; U.S. clearance eligibility may be required…”</sub> | Santa Ana, California, United States | 🗽 citizens | Nov 17 |
+| Anduril Industries | [2027 Product Data Quality Co-op](https://boards.greenhouse.io/andurilindustries/jobs/5273039007?gh_jid=5273039007)<br><sub>“Must be a U.S. Person due to required access to U.S. export-controlled information or facilities; U.S. clearance eligibility may be required…”</sub> | Santa Ana, California, United States | 🗽 citizens<br>🔄 co-op | Nov 17 |
 | Blackhawk Network Holdings | [Technology Intern](https://careers-blackhawknetwork.icims.com/jobs/26867/technology-intern/job) | Pleasanton, CA, US |  | — |
 | Blackhawk Network Holdings | [Technology Intern](https://careers-blackhawknetwork.icims.com/jobs/26866/technology-intern/job) | Coppell, TX, US |  | — |
 | Bosch Group | [AI Application Intern \(8 months/40 hours per week\)](https://jobs.smartrecruiters.com/BoschGroup/744000162076254-ai-application-intern-8-months-40-hours-per-week-) | Farmington Hills, MI, US | 🎓 3.0+ GPA<br>⚠ unverified | Nov 17 |
@@ -50,8 +52,13 @@
 | Shure | [Embedded Software Intern](https://careersus-shure.icims.com/jobs/5018/embedded-software-intern/job) | Niles, IL, US |  | — |
 | Springs Window Fashions | [Consumer Business Unit - AI Analyst Internship - Summer 2027](https://careers-springswindowfashions.icims.com/jobs/12875/consumer-business-unit---ai-analyst-internship---summer-2027/job) | MIDDLETON, WI, US |  | — |
 | Springs Window Fashions | [Consumer Business Unit - Data Analyst Internship - Summer 2027](https://careers-springswindowfashions.icims.com/jobs/12874/consumer-business-unit---data-analyst-internship---summer-2027/job) | MIDDLETON, WI, US |  | — |
-| Springs Window Fashions | [Information Technology - AI Internship - summer 2027](https://careers-springswindowfashions.icims.com/jobs/12945/information-technology---ai-internship---summer-2027/job) | MIDDLETON, WI, US |  | — |
+| Springs Window Fashions | [Dealer Business Operations &amp; Analytics Internship - Summer 2027](https://careers-springswindowfashions.icims.com/jobs/12886/dealer-business-operations-%26-analytics-internship---summer-2027/job) | MIDDLETON, WI, US | ⚠ unverified | — |
+| Toyota Research Institute | [Robotics Intern, Agentic Robotics](https://jobs.lever.co/tri/7f676d3c-6a86-4b00-a9fd-c1009035fe49) | Cambridge, MA |  | Nov 17 |
+| V2X | [Artificial Intelligence Intern 2027](https://careers.gov2x.com/why-gov2x/jobs/62843) | Indianapolis, Indiana | ⚠ unverified | — |
 | Walmart | [Summer 2027 Corporate Intern: APD Automation Engineer](https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/USA-Together-Building-AR-Bentonville-Home-Office/Summer-2027-Corporate-Intern--APD-Automation-Engineer_R-2630170)<br><sub>“IMMIGRATION SPONSORSHIP IS NOT AVAILABLE FOR THIS ROLE”</sub> | \(USA\) Together Building AR Bentonville Home O… | 🛂❌ no sponsor | Nov 17 |
+| Waymo | [2027 Summer Intern, BS, Software Engineering, Labeling](https://careers.withwaymo.com/jobs?gh_jid=8238525) | Mountain View, California | ⚠ unverified | — |
+| Waymo | [2027 Summer Intern, BS, Waymo ML Ops &amp; Automation](https://careers.withwaymo.com/jobs?gh_jid=8257237) | Mountain View, California | ⚠ unverified | — |
+| Waymo | [2027 Summer Intern, BS/MS, Software Engineering, Maneuvering Tech](https://careers.withwaymo.com/jobs?gh_jid=8203200) | San Francisco, California | ⚠ unverified | — |
 | Acadian Asset Management | [Quantitative Investment Internship Program - Summer 2027](https://www.acadian-asset.com/careers/open-positions?gh_jid=4720681006) | Boston, Massachusetts | ⚠ unverified | — |
 | Acuity | [Finance AI Engineering Intern - Onsite](https://careers.acuityinc.com/job/Atlanta-Finance-AI-Engineering-Intern-Onsite-GA-30309/1434878900/) | Atlanta, Georgia |  | — |
 | Aflac | [2027 Global Investments \(NY\) Business &amp; Analytics Intern](https://careers.aflac.com/job/New-York-City-2027-Global-Investments-%28NY%29-Business-&-Analytics-Intern-NY-10005/1443293800/) | New York, New York |  | — |
@@ -100,14 +107,7 @@
 | Elire | [Summer 2027 AI Data Science Consulting Internship](https://jobs.jobvite.com/elire/job/oppLAfwT) | Minneapolis, Minnesota |  | — |
 | Elire | [Summer 2027 AI Full Stack Developer Consulting Intern](https://jobs.jobvite.com/elire/job/oM5LAfwW) | Minneapolis, Minnesota |  | — |
 | Erie Insurance Group | [Intern II \(Claims Systems &amp; AI\)](https://jobs.erieinsurance.com/job/Erie-Intern-II-%28Claims-Systems-&-AI%29-PA-16506/1447480500/) | Millcreek Township, Pennsylvania |  | — |
-| Exol | [Intern- Software Engineer](https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington--MA---HQ/Software-Engineer_R7963) | USA Wilmington, MA - HQ |  | Nov 16 |
-| Federal Reserve System | [2027 Summer Internship Program - IT Portfolio Analyst Intern](https://rb.wd5.myworkdayjobs.com/FRS/job/Atlanta-GA/XMLNAME-2027-Summer-Internship-Program---IT-Portfolio-Analyst-Intern_R-0000034092)<br><sub>“Applicants must be currently authorized to work in the United States without the need for visa sponsorship now or in the future.”</sub> | Atlanta, GA | 🛂❌ no sponsor | Nov 16 |
-| Formlabs | [2027 \(Summer\) - Manufacturing - Manufacturing Test Software Intern](https://careers.formlabs.com/job/8374598/apply/?gh_jid=8374598) | Somerville, Massachusetts |  | — |
-| Genuine Parts Company | [Technology Intern 2027](https://genpt.wd1.myworkdayjobs.com/Careers/job/Atlanta-GA-USA/Technology-Intern-2027_R26_0000037382) | Atlanta, GA, USA | 🧪 OA<br>🎓 3.6+ GPA | Nov 16 |
-| GM Financial | [Intern - Software Development Engineer](https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/261292) | Irving, TX, United States | 🎓 3.0+ GPA | Nov 16 |
-| Great American Insurance Group | [Predictive Analytics Intern - Summer 2027](https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Predictive-Analytics-Intern---Summer-2027_R9904)<br><sub>“Applicants must be authorized to work in the United States without the need for current or future sponsorship.”</sub> | Cincinnati, OH \(USA\) | 🛂❌ no sponsor | Nov 16 |
-| Huntington Ingalls Industries | [Software Engineer Intern \(Multiple Levels\) - 30069](https://jobs.hii-tsd.com/job/Columbia%2C-MD-Software-Engineer-Intern-%28Multiple-Levels%29-30069-Mary/1425423000/) | Columbia, Maryland |  | — |
 
-_439 postings were posted this week. This list shows up to 3 per company; the rest are in the [internships](INTERNSHIPS.md) and [new grad](NEW_GRAD.md) lists._
+_447 postings were posted this week. This list shows up to 3 per company; the rest are in the [internships](INTERNSHIPS.md) and [new grad](NEW_GRAD.md) lists._
 
 _Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._

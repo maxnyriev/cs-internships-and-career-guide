@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 1987 open · page 4 of 17 · updated 2026-11-17
+[⬅ Back to the main page](./) · 1995 open · page 4 of 17 · updated 2026-11-17
 
 [⬅ page 3](INTERNSHIPS-3.md) · page 4 of 17 · [page 5 ➡](INTERNSHIPS-5.md)
 
@@ -34,6 +34,14 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| Genentech | [2027 Summer Intern - Digital, AI, and Clinical Outcome Assessments](https://roche.wd3.myworkdayjobs.com/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2027-Summer-Intern---Digital--AI--and-Clinical-Outcome-Assessments_202611-128790) | South San Francisco |  | Nov 11 |
+| Genentech | [2027 Summer Intern - Product Development Data Sciences](https://roche.wd3.myworkdayjobs.com/ROG-A2O-GENE/job/Boston/XMLNAME-2027-Summer-Intern---Product-Development-Data-Sciences_202611-128802) | Boston |  | Nov 11 |
+| Grant Thornton | [Cybersecurity and Privacy Intern - Summer 2027](https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115637)<br><sub>“No visa sponsorship is available for this position.”</sub> | New York, NY, United States | 🛂❌ no sponsor | Nov 11 |
+| Health Care Service Corporation | [Early Careers - Automation Programmer Intern](https://hcsc.wd1.myworkdayjobs.com/HCSC_External/job/TX---Richardson/Early-Careers---Automation-Programmer-Intern_R0059484)<br><sub>“Unrestricted authorization to work in the United States; sponsorship is not available for this role.”</sub> | TX - Richardson | 🛂❌ no sponsor<br>🎓 3.0+ GPA | Nov 11 |
+| HNTB | [Technology Intern - Summer 2027](https://hntb.wd5.myworkdayjobs.com/HNTB_University_Careers/job/Atlanta-GA/Technology-Intern---Summer-2027_R-32424)<br><sub>“Visa sponsorship is not available for this position.”</sub> | Atlanta, GA | 🛂❌ no sponsor | Nov 11 |
+| Lightmatter | [Laser Firmware Intern - Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5479596008?gh_jid=5479596008) | Boston, MA |  | Nov 11 |
+| Minitab | [Software Quality Engineer Intern](https://job-boards.greenhouse.io/minitab/jobs/8200698003) | State College, Pennsylvania, United States |  | Nov 11 |
+| Motorola Solutions | [Software Engineering Intern - 2027 Summer Internship](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Schaumburg-IL/Software-Engineering-Intern---2027-Summer-Internship_R70179) | Schaumburg, IL |  | Nov 11 |
 | NBCUniversal | [Software Engineering Internships – Summer 2027](https://jobs.smartrecruiters.com/NBCUniversal3/744000161179529-software-engineering-internships-summer-2027)<br><sub>“For further clarification, candidates currently on any student or exchange visa \(e.g. F-1 CPT, F-1 OPT, J-1, M-1\) are not eligible to apply…”</sub> | Universal City, CA, US | 🚫 no CPT/OPT<br>🎓 3.0+ GPA | Nov 11 |
 | Newrez | [2027 Summer Internship - Software Developer](https://newrez.wd1.myworkdayjobs.com/NRZ/job/TX-Coppell/XMLNAME-2027-Summer-Internship---Software-Developer_R10390)<br><sub>“Newrez does not consider visa sponsorship for early career program opportunities.”</sub> | TX, Coppell | 🛂❌ no sponsor | Nov 11 |
 | PTC | [Creo Graphics Engineering Intern \(Summer 2027\)](https://ptc.wd1.myworkdayjobs.com/PTC/job/Boston-MA-USA/Creo-Graphics-Engineering-Intern--Summer-2027-_JR112970)<br><sub>“Applicants must be authorized to work in the United States without requiring current or future sponsorship from PTC.”</sub> | Boston, MA, USA | 🛂❌ no sponsor | Nov 11 |
@@ -146,14 +154,6 @@
 | CACI International | [Software Engineering Co-op - Spring 2027](https://caci.wd1.myworkdayjobs.com/External/job/King-of-Prussia-PA-US/Software-Engineering-Co-op---Spring-2027_334665)<br><sub>“Must be legally authorized to work in the United States without the need for employer sponsorship, now or at any time in the future”</sub> | King of Prussia, PA, US | 🛂❌ no sponsor<br>🔄 co-op<br>🌱 spring<br>⚠ unverified | Nov 6 |
 | DataRobot | [Software Design Engineer Intern](https://datarobot.wd1.myworkdayjobs.com/DataRobot_External_Careers/job/Boston-Massachusetts-US/Software-Design-Engineer-Intern_R-102764) | Boston, Massachusetts, US |  | Nov 6 |
 | Etched | [Infrastructure Engineering &amp; Projects Intern](https://jobs.ashbyhq.com/Etched/1a92048c-60e0-445b-a84e-8f008f1cf47b) | San Jose |  | Nov 6 |
-| Federal Reserve System | [2027 Information Technology Internship](https://rb.wd5.myworkdayjobs.com/FRS/job/St-Louis-MO/XMLNAME-2027-Information-Technology-Internship_R-0000034047) | St. Louis, MO |  | Nov 6 |
-| GM Financial | [Intern - Software Development Engineer](https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260831) | Arlington, TX, United States | 🎓 3.0+ GPA | Nov 6 |
-| Invesco Ltd | [Early Career Intern - Real Estate \(Data Science\)](https://invesco.wd1.myworkdayjobs.com/IVZearlycareers/job/Dallas-Texas/Early-Career-Intern---Real-Estate--Data-Science-_R-15091) | Dallas, Texas | 🎓 3.2+ GPA | Nov 6 |
-| Leidos | [AI/Automation Development Intern - Assessment &amp; Authorization](https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/AI-Automation-Development-Intern---Assessment---Authorization_R-00195319)<br><sub>“Must be a U.S. Citizen”</sub> | 6314 Remote/Teleworker US | 🗽 citizens<br>🔒 secret<br>🌐 remote | Nov 6 |
-| Motorola Solutions | [Software Presales Enablement Intern - Summer Internship 2027](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Illinois-Remote-Work/Software-Presales-Enablement-Intern---Summer-Internship-2027_R70228)<br><sub>“Employer work permit sponsorship is not available for this position”</sub> | Illinois Remote Work | 🛂❌ no sponsor<br>🌐 remote | Nov 6 |
-| Reinsurance Group of America, Incorporated | [Summer Intern - Data Analyst](https://rgare.wd1.myworkdayjobs.com/Careers/job/United-States-Chesterfield-MO-RGA-HQ/Summer-Intern---Data-Analyst_J29309) | United States, Chesterfield, MO, RGA HQ | ⚠ unverified | Nov 6 |
-| Rhoda AI | [Optical Sensing Intern - Robot Perception](https://jobs.ashbyhq.com/rhoda-ai/df2aa2a4-ca56-4fa6-b106-89a7fc6a9bb4) | Mountain View |  | Nov 6 |
-| SharkNinja | [Spring 2027: AI/Sharks Applied AI &amp; Analytics Co-op \(January to June\)](https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4725275006) | Needham, MA, United States | 🔄 co-op<br>🌱 spring | Nov 6 |
 
 [⬅ page 3](INTERNSHIPS-3.md) · page 4 of 17 · [page 5 ➡](INTERNSHIPS-5.md)
 

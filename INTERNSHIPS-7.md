@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 1987 open · page 7 of 17 · updated 2026-11-17
+[⬅ Back to the main page](./) · 1995 open · page 7 of 17 · updated 2026-11-17
 
 [⬅ page 6](INTERNSHIPS-6.md) · page 7 of 17 · [page 8 ➡](INTERNSHIPS-8.md)
 
@@ -34,6 +34,14 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| Chatham Financial | [2027 Software Engineering Intern](https://chathamfinancial.wd501.myworkdayjobs.com/ChathamFinancial/job/Kennett-Square/XMLNAME-2027-Software-Engineering-Intern_R-100348) | Kennett Square |  | Oct 29 |
+| Dee Zee, Inc | [Software Development Intern](https://deezee.wd108.myworkdayjobs.com/DeeZee_Careers/job/Des-Moines/Software-Development-Intern_REQ00471) | Des Moines | ⚠ unverified | Oct 29 |
+| Emerson | [Software Engineering Intern](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010840)<br><sub>“Authorized to work in the United States without sponsorship now or in the future.”</sub> | Austin, TX, United States | 🛂❌ no sponsor | Oct 29 |
+| General Motors | [2027 Summer Intern - AI/ML Engineer - Autonomous Vehicles](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---AI-ML-Engineer---Autonomous-Vehicles_JR-202623439) | Sunnyvale, California, United States of Ameri… |  | Oct 29 |
+| GM Financial | [Intern - Data Engineer](https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/261197) | Arlington, TX, United States | 🎓 3.0+ GPA | Oct 29 |
+| Great American Insurance Group | [Content Publishing Developer Intern - Summer 2027](https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Content-Publishing-Developer-Intern---Summer-2027_R9813) | Cincinnati, OH \(USA\) |  | Oct 29 |
+| Great American Insurance Group | [DevOps Developer Intern - Summer 2027](https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/DevOps-Developer-Intern---Summer-2027_R9826) | Cincinnati, OH \(USA\) |  | Oct 29 |
+| Great American Insurance Group | [Extreme Programming Engineer Intern - Summer 2027](https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Extreme-Programming-Engineer-Intern---Summer-2027_R9821) | Cincinnati, OH \(USA\) |  | Oct 29 |
 | Great American Insurance Group | [IT Data Intern - Summer 2027](https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/IT-Data-Intern---Summer-2027_R9820) | Cincinnati, OH \(USA\) | 🎓 3.0+ GPA | Oct 29 |
 | Grimco | [IT Support Intern](https://jobs.smartrecruiters.com/Grimco/3743990016495356-it-support-intern) | Sunset Hills, MO, US |  | Oct 29 |
 | Health Care Service Corporation | [Early Careers - Cybersecurity Operations Intern](https://hcsc.wd1.myworkdayjobs.com/HCSC_External/job/IL---Chicago/Early-Careers---Cybersecurity-Operations-Intern_R0059508)<br><sub>“Unrestricted authorization to work in the United States; sponsorship is not available for this role.”</sub> | IL - Chicago | 🛂❌ no sponsor<br>🎓 3.0+ GPA | Oct 29 |
@@ -146,14 +154,6 @@
 | Samsung Semiconductor | [Intern, Power-Thermal Simulation Software Engineer](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8046795003) | San Jose, California, United States |  | Oct 27 |
 | Sherwin-Williams | [R&amp;D GSC Product Technology Internship- Brecksville, OH](https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/2627596) | Brecksville, OH, United States | 🎓 2.8+ GPA<br>⚠ unverified | Oct 27 |
 | Sherwin-Williams | [R&amp;D IT Summer Internship- Brecksville, OH](https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/2627637) | Brecksville, OH, United States | 🎓 2.8+ GPA<br>⚠ unverified | Oct 27 |
-| Sierra Nevada Corporation | [IT Service Desk Intern \(Summer 2027\)](https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Lone-Tree-CO/IT-Support-Technician-Intern--Summer-2027-_R0030762)<br><sub>“U.S. Citizenship status is required as this position needs an active U.S. Security Clearance for employment.”</sub> | Lone Tree, CO | 🗽 citizens<br>🔒 secret | Oct 27 |
-| Sony | [Research Engineer Intern \(Ethical Creative and Protective AI Lab\)](https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Remote---New-York/Engineering-Intern--AI-Ethics-_JR-119784) | Remote - New York | 🌐 remote | Oct 27 |
-| Strada Education Foundation | [Strada Education Foundation Internship: Clear Outcomes and Data Science Intern](https://jobs.lever.co/stradaeducation/d8109e92-5156-48e2-879f-c9ea299e971b) | Washington, DC |  | Oct 27 |
-| Trace3 | [Cloud FinOps Consulting Intern](https://job-boards.greenhouse.io/trace3/jobs/8329225) | Remote | 🎓 3.0+ GPA<br>🌐 remote | Oct 27 |
-| Trinity Life Sciences | [Analytics Strategy Intern](https://trinitylifesciences.wd108.myworkdayjobs.com/Trinity/job/Waltham-MA---Headquarters/Analytics-Strategy-Intern_JR100879)<br><sub>“Applicants for this position must be legally authorized to work in the United States without the need for employer sponsorship.”</sub> | Waltham, MA - Headquarters | 🛂❌ no sponsor<br>⚠ unverified | Oct 27 |
-| Trinity Life Sciences | [Data Science Intern](https://trinitylifesciences.wd108.myworkdayjobs.com/Trinity/job/Waltham-MA---Headquarters/Data-Science-Intern_JR100881)<br><sub>“Applicants for this position must be legally authorized to work in the United States without the need for employer sponsorship.”</sub> | Waltham, MA - Headquarters | 🛂❌ no sponsor<br>⚠ unverified | Oct 27 |
-| Velco | [Intern- IT Project Management](https://velco.wd12.myworkdayjobs.com/VELCO/job/Rutland-VT/IT-Project-Management-Intern_JR26-68) | Rutland, VT |  | Oct 27 |
-| Analog Devices | [DevOps Co-Op](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Boston/DevOps-Co-Op_R267690) | US, MA, Boston | 🔄 co-op | Oct 26 |
 
 [⬅ page 6](INTERNSHIPS-6.md) · page 7 of 17 · [page 8 ➡](INTERNSHIPS-8.md)
 

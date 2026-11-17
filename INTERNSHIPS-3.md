@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 1987 open · page 3 of 17 · updated 2026-11-17
+[⬅ Back to the main page](./) · 1995 open · page 3 of 17 · updated 2026-11-17
 
 [⬅ page 2](INTERNSHIPS-2.md) · page 3 of 17 · [page 4 ➡](INTERNSHIPS-4.md)
 
@@ -34,6 +34,14 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| White Cap | [Corporate Intern - Product Data Management](https://whitecap.wd1.myworkdayjobs.com/Careers/job/Corporate-Intern---Product-Data-Management_WCJR-036650) |  |  | Nov 16 |
+| Zoetis | [Information Security Intern](https://zoetis.wd5.myworkdayjobs.com/broadbean_external/job/Parsippany/Information-Security-Intern_JR00021994) | Parsippany |  | Nov 16 |
+| Zoetis | [IT/OT Security Intern](https://zoetis.wd5.myworkdayjobs.com/broadbean_external/job/Kalamazoo---Kilgore-Road/IT-OT-Security-Intern_JR00021980) | Kalamazoo - Kilgore Road |  | Nov 16 |
+| FlexStaff | [Emerging Technology &amp; AI Internship](https://eppr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/203746) | New Hyde Park, Nassau, United States |  | Nov 15 |
+| Marvell Technology | [Software/Firmware Engineering Intern](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Petah-Tikva/Software-Firmware-Engineering_2604496) | Petah-Tikva |  | Nov 15 |
+| RTX | [2027 Summer Intern - Software Engineering - Onsite](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CA-EL-SEGUNDO-E04--2006-E-El-Segundo-Blvd--BLDG-E04/XMLNAME-2027-Summer-Intern---Software-Engineering---Onsite_01885225)<br><sub>“Onsite U.S. Citizen, U.S. Person, or Immigration Status Requirements: U.S. citizenship is required, as only U.S. citizens are auth…”</sub> | US-CA-EL SEGUNDO-E04 \~ 2006 E El Segundo Blvd… | 🗽 citizens<br>🔒 clearance<br>⚠ unverified | Nov 15 |
+| Amazon | [Data Center Infrastructure Engineer Intern, Summer 2027 - East](https://www.amazon.jobs/en/jobs/10605141/data-center-infrastructure-engineer-intern-summer-2027-east) | Herndon, Virginia, USA |  | Nov 14 |
+| Amazon | [Data Center Infrastructure Engineer Intern, Summer 2027 - West Coast](https://www.amazon.jobs/en/jobs/10605132/data-center-infrastructure-engineer-intern-summer-2027-west-coast) | Umatilla, Oregon, USA |  | Nov 14 |
 | PTC | [Onshape Software Engineer Intern \(Summer 2027\)](https://ptc.wd1.myworkdayjobs.com/PTC/job/Boston-MA-USA/Software-Engineer-Intern--Summer-2027-_JR112943)<br><sub>“Applicants must be authorized to work in the United States without requiring current or future sponsorship from PTC .”</sub> | Boston, MA, USA | 🛂❌ no sponsor | Nov 14 |
 | 3M | [Internship - 2027 Undergraduate Business Analytics Intern – Consumer Business Group \(CBG\)](https://3m.wd1.myworkdayjobs.com/Search/job/US-Minnesota-Maplewood/Internship---2027-Undergraduate-Business-Analytics-Intern---Consumer-Business-Group--CBG-_R01171049)<br><sub>“Must be legally authorized to work in country of employment without sponsorship for employment visa status \(e.g., H1B status\).”</sub> | US, Minnesota, Maplewood | 🛂❌ no sponsor<br>🎓 3.0+ GPA | Nov 13 |
 | Airbus | [Internship \(d/f/m\) Embedded Software Engineering for Weapon Systems](https://ag.wd3.myworkdayjobs.com/Airbus/job/Donauwrth/Internship--d-f-m--Embedded-Software-Engineering-for-Weapon-Systems_JR10442671-2) | Donauwörth |  | Nov 13 |
@@ -77,7 +85,7 @@
 | ServiceNow | [AI Security Engineer Intern](https://jobs.smartrecruiters.com/ServiceNow/744000161548289-ai-security-engineer-intern) | San Diego, California, US |  | Nov 13 |
 | ServiceNow | [Information Security Analyst Intern](https://jobs.smartrecruiters.com/ServiceNow/744000161550869-information-security-analyst-intern) | San Diego, CALIFORNIA, US |  | Nov 13 |
 | ServiceNow | [Security Engineer Intern](https://jobs.smartrecruiters.com/ServiceNow/744000161592679-security-engineer-intern) | Kirkland, Washington, US |  | Nov 13 |
-| ServiceNow | [Security Engineering &amp; Automation Intern](https://jobs.smartrecruiters.com/ServiceNow/744000161548528-security-engineering-automation-intern-) | Kirkland, Washington, US |  | Nov 13 |
+| ServiceNow | [Security Engineering &amp; Automation Intern](https://jobs.smartrecruiters.com/ServiceNow/744000161548528-security-engineering-automation-intern-) | Kirkland, Washington, US | ⚠ unverified | Nov 13 |
 | Software Engineering Institute / Carnegie Mellon University | [Cyber AI Engineering Intern \(Spring 2027\)](https://cmu.wd115.myworkdayjobs.com/SEI/job/Pittsburgh-PA/Cyber-AI-Engineering-Intern--Spring-2027-_2025346-2)<br><sub>“• You will be subject to a background check and must be eligible to work in the United States without Visa sponsorship.”</sub> | Pittsburgh, PA | 🛂❌ no sponsor<br>🌱 spring | Nov 13 |
 | Software Engineering Institute / Carnegie Mellon University | [Cybersecurity Engineer Intern \(Spring 2027\)](https://cmu.wd115.myworkdayjobs.com/SEI/job/Pittsburgh-PA/Cybersecurity-Engineer-Intern--Spring-2027-_2025347-1)<br><sub>“You can pass a background check, obtain and maintain a DoW security clearance, and other customer-required background checks as needed.”</sub> | Pittsburgh, PA | 🔒 clearance<br>🌱 spring | Nov 13 |
 | State Street | [Cyber Security Operations Center Analyst, Full-time Internship \(Jan - June 2027\)](https://statestreet.wd1.myworkdayjobs.com/Global/job/Quincy-Massachusetts/Cyber-Security-Operations-Center-Analyst--Full-time-Internship--Jan---June-2027-_R-801091) | Quincy, Massachusetts |  | Nov 13 |
@@ -146,14 +154,6 @@
 | Formlabs Internships | [Hardware Systems Integration Intern \(Summer 2027\)](https://job-boards.greenhouse.io/formlabsinternships/jobs/8381595) | Somerville, MA |  | Nov 11 |
 | Formlabs Internships | [Manufacturing Test Software Intern \(Summer 2027\)](https://job-boards.greenhouse.io/formlabsinternships/jobs/8256076) | Somerville, MA |  | Nov 11 |
 | Genentech | [2027 Summer Intern - Biostatistics and Analytical Data Sciences](https://roche.wd3.myworkdayjobs.com/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2027-Summer-Intern---Biostatistics-and-Analytical-Data-Sciences_202611-128787) | South San Francisco |  | Nov 11 |
-| Genentech | [2027 Summer Intern - Digital, AI, and Clinical Outcome Assessments](https://roche.wd3.myworkdayjobs.com/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2027-Summer-Intern---Digital--AI--and-Clinical-Outcome-Assessments_202611-128790) | South San Francisco |  | Nov 11 |
-| Genentech | [2027 Summer Intern - Product Development Data Sciences](https://roche.wd3.myworkdayjobs.com/ROG-A2O-GENE/job/Boston/XMLNAME-2027-Summer-Intern---Product-Development-Data-Sciences_202611-128802) | Boston |  | Nov 11 |
-| Grant Thornton | [Cybersecurity and Privacy Intern - Summer 2027](https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115637)<br><sub>“No visa sponsorship is available for this position.”</sub> | New York, NY, United States | 🛂❌ no sponsor | Nov 11 |
-| Health Care Service Corporation | [Early Careers - Automation Programmer Intern](https://hcsc.wd1.myworkdayjobs.com/HCSC_External/job/TX---Richardson/Early-Careers---Automation-Programmer-Intern_R0059484)<br><sub>“Unrestricted authorization to work in the United States; sponsorship is not available for this role.”</sub> | TX - Richardson | 🛂❌ no sponsor<br>🎓 3.0+ GPA | Nov 11 |
-| HNTB | [Technology Intern - Summer 2027](https://hntb.wd5.myworkdayjobs.com/HNTB_University_Careers/job/Atlanta-GA/Technology-Intern---Summer-2027_R-32424)<br><sub>“Visa sponsorship is not available for this position.”</sub> | Atlanta, GA | 🛂❌ no sponsor | Nov 11 |
-| Lightmatter | [Laser Firmware Intern - Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5479596008?gh_jid=5479596008) | Boston, MA |  | Nov 11 |
-| Minitab | [Software Quality Engineer Intern](https://job-boards.greenhouse.io/minitab/jobs/8200698003) | State College, Pennsylvania, United States |  | Nov 11 |
-| Motorola Solutions | [Software Engineering Intern - 2027 Summer Internship](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Schaumburg-IL/Software-Engineering-Intern---2027-Summer-Internship_R70179) | Schaumburg, IL |  | Nov 11 |
 
 [⬅ page 2](INTERNSHIPS-2.md) · page 3 of 17 · [page 4 ➡](INTERNSHIPS-4.md)
 

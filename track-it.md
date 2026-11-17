@@ -58,7 +58,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | PwC | [Technology Consulting - Geographic Information Systems Intern - Summer 2027](https://pwc.wd3.myworkdayjobs.com/NonPublic_Postings/job/IL-Rosemont/Technology-Consulting---Geographic-Information-Systems-Intern---Summer-2027_757257WD-1) | IL-Rosemont | ⚠ unverified | Nov 16 |
 | Red Hat | [Cloud Services Intern](https://redhat.wd5.myworkdayjobs.com/Jobs/job/Santiago/Cloud-Services-Intern_R-059108)<br><sub>“Red Hat will not be providing visa sponsorship for this position.”</sub> | Santiago | 🛂❌ no sponsor | Nov 16 |
 | Schneider Electric | [Technical Support Engineering Intern](https://careers.se.com/jobs/134954) | Irvine, California | ⚠ unverified | — |
-| Trilogy Health Services | [Information Systems Developer of AI Intern](https://jobs.trilogyhs.com/jobs/214624) | Louisville, Kentucky | ⚠ unverified | — |
+| Trilogy Health Services | [Information Systems Developer of AI Intern](https://jobs.trilogyhs.com/jobs/214624) | Louisville, Kentucky |  | — |
 | TruStage | [Information Technology - Development and Infrastructure Internship \(hybrid\)](https://trustage.wd1.myworkdayjobs.com/TruStage/job/Wisconsin---Remote/Enterprise-Information---Technology-Internship--Hybrid-_R-012155) | Wisconsin - Remote | 🌐 remote | Nov 16 |
 | Tucson Electric Power | [Student Intern, IT Energy Systems](https://tep.wd1.myworkdayjobs.com/TEP/job/Tucson-AZ---Irvington/Student-Intern--IT-Energy-Systems_JR450) | Tucson, AZ - Irvington |  | Nov 16 |
 | Amazon | [Data Center Infrastructure Engineer Intern, Summer 2027 - East](https://www.amazon.jobs/en/jobs/10605141/data-center-infrastructure-engineer-intern-summer-2027-east) | Herndon, Virginia, USA |  | Nov 14 |

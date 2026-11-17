@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 1987 open · page 6 of 17 · updated 2026-11-17
+[⬅ Back to the main page](./) · 1995 open · page 6 of 17 · updated 2026-11-17
 
 [⬅ page 5](INTERNSHIPS-5.md) · page 6 of 17 · [page 7 ➡](INTERNSHIPS-7.md)
 
@@ -34,6 +34,14 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| Trimble Inc | [AI Developer Intern](https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---OH-Dayton/AI-Developer-Intern_R58195) | US - OH, Dayton |  | Nov 3 |
+| Trimble Inc | [Hardware/Software Testing Intern](https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---CO-Westminster/Hardware-Software-Testing-Intern_R57677-1)<br><sub>“Visa sponsorship is not available for this position.”</sub> | US - CO, Westminster | 🛂❌ no sponsor | Nov 3 |
+| Trimble Inc | [Software Engineering Intern](https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---CO-Westminster/Software-Engineering-Intern_R57676)<br><sub>“Visa sponsorship is not available for this position.”</sub> | US - CO, Westminster | 🛂❌ no sponsor | Nov 3 |
+| Trimble Inc | [Telecom Intern](https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---CO-Westminster/Telecom-Intern_R58202-1) | US - CO, Westminster |  | Nov 3 |
+| TruStage | [IT - Innovation &amp; AI Technology Internship \(Hybrid\)](https://trustage.wd1.myworkdayjobs.com/TruStage/job/Madison-WI/IT---Innovation---AI-Technology-Internship--Hybrid-_R-012293) | Madison, WI |  | Nov 3 |
+| USAFacts | [AI Product Intern](https://job-boards.greenhouse.io/usafacts/jobs/4478239009) | Bellevue, WA |  | Nov 3 |
+| Vizient | [2027 Summer Internship - Strategy Analytics Project](https://vizient.wd1.myworkdayjobs.com/Vizient_Careers/job/Chicago-IL-60607/XMLNAME-2027-Summer-Internship---Strategy-Analytics-Project_36009R) | Chicago, IL 60607 |  | Nov 3 |
+| Yanfeng | [IT Operations Intern - Summer 2027](https://fa-epuh-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/20263654) | Harrison Township, MI, United States | 🎓 3.0+ GPA | Nov 3 |
 | CACI International | [Software Development Intern - Summer 2027](https://caci.wd1.myworkdayjobs.com/External/job/Ashburn-VA-US/Software-Development-Intern---Summer-2027_333051)<br><sub>“Must be legally authorized to work in the United States without the need for employer sponsorship, now or at any time in the future”</sub> | Ashburn, VA, US | 🛂❌ no sponsor<br>🔒 public trust<br>⚠ unverified | Nov 2 |
 | Cadence Design Systems | [CST Intern - Data Center GTM Intern](https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/SAN-JOSE/CST-Intern---Data-Center-GTM-Intern_R57099-1) | SAN JOSE |  | Nov 2 |
 | Cisco | [Hardware Engineer II Intern - United States](https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Hardware-Engineer-II-Intern---United-States_2024757) | San Jose, California, US | ⚠ unverified | Nov 2 |
@@ -146,14 +154,6 @@
 | Amazon | [Data Center Infrastructure Engineer Intern, Summer 2027 - Midwest / Southeast](https://www.amazon.jobs/en/jobs/10593054/data-center-infrastructure-engineer-intern-summer-2027-midwest-southeast) | Austin, Texas, USA |  | Oct 29 |
 | Axiom Space | [Enterprise Data Analyst Intern, Power BI &amp; Data Quality \(Summer 2027\)](https://axiomspace.wd5.myworkdayjobs.com/External_Career_Site/job/Houston/Enterprise-Data-Analyst-Intern--Power-BI---Data-Quality--Summer-2027-_JR100823)<br><sub>“Must qualify as a “U.S. person” under U.S. export control laws \(U.S. citizen, lawful permanent resident, or protected individual\)”</sub> | Houston | 🗽 citizens<br>🎓 3.0+ GPA | Oct 29 |
 | Bosch Group | [IT Systems Engineering Intern \(19 hours per week\)](https://jobs.smartrecruiters.com/BoschGroup/744000158620079-it-systems-engineering-intern-19-hours-per-week-) | Roseville, CA, US | 🎓 3.0+ GPA<br>⚠ unverified | Oct 29 |
-| Chatham Financial | [2027 Software Engineering Intern](https://chathamfinancial.wd501.myworkdayjobs.com/ChathamFinancial/job/Kennett-Square/XMLNAME-2027-Software-Engineering-Intern_R-100348) | Kennett Square |  | Oct 29 |
-| Dee Zee, Inc | [Software Development Intern](https://deezee.wd108.myworkdayjobs.com/DeeZee_Careers/job/Des-Moines/Software-Development-Intern_REQ00471) | Des Moines | ⚠ unverified | Oct 29 |
-| Emerson | [Software Engineering Intern](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010840)<br><sub>“Authorized to work in the United States without sponsorship now or in the future.”</sub> | Austin, TX, United States | 🛂❌ no sponsor | Oct 29 |
-| General Motors | [2027 Summer Intern - AI/ML Engineer - Autonomous Vehicles](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---AI-ML-Engineer---Autonomous-Vehicles_JR-202623439) | Sunnyvale, California, United States of Ameri… |  | Oct 29 |
-| GM Financial | [Intern - Data Engineer](https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/261197) | Arlington, TX, United States | 🎓 3.0+ GPA | Oct 29 |
-| Great American Insurance Group | [Content Publishing Developer Intern - Summer 2027](https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Content-Publishing-Developer-Intern---Summer-2027_R9813) | Cincinnati, OH \(USA\) |  | Oct 29 |
-| Great American Insurance Group | [DevOps Developer Intern - Summer 2027](https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/DevOps-Developer-Intern---Summer-2027_R9826) | Cincinnati, OH \(USA\) |  | Oct 29 |
-| Great American Insurance Group | [Extreme Programming Engineer Intern - Summer 2027](https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Extreme-Programming-Engineer-Intern---Summer-2027_R9821) | Cincinnati, OH \(USA\) |  | Oct 29 |
 
 [⬅ page 5](INTERNSHIPS-5.md) · page 6 of 17 · [page 7 ➡](INTERNSHIPS-7.md)
 

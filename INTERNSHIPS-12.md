@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 1987 open · page 12 of 17 · updated 2026-11-17
+[⬅ Back to the main page](./) · 1995 open · page 12 of 17 · updated 2026-11-17
 
 [⬅ page 11](INTERNSHIPS-11.md) · page 12 of 17 · [page 13 ➡](INTERNSHIPS-13.md)
 
@@ -34,6 +34,14 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| CarGurus Early Careers | [Site Reliability Engineer Intern](https://job-boards.greenhouse.io/ecjobb/jobs/8230755) | Boston, Massachusetts, United States | ⚠ unverified | Sep 30 |
+| CarGurus Early Careers | [Software Development Engineer Intern](https://job-boards.greenhouse.io/ecjobb/jobs/8231504) | Boston, Massachusetts, United States |  | Sep 30 |
+| CarGurus Early Careers | [Software Development Engineer Intern \(Full Stack\)](https://job-boards.greenhouse.io/ecjobb/jobs/8230763) | Boston, Massachusetts, United States |  | Sep 30 |
+| Dallas Fort Worth International Airport | [2027 Undergraduate Summer Internship – Enterprise Data &amp; Analytics](https://dfwairport.wd5.myworkdayjobs.com/External/job/DFW-Intl-Airport-Board/XMLNAME-2027-Undergraduate-Summer-Internship---Enterprise-Data---Analytics_JR102162-1)<br><sub>“However, we are not able to sponsor visas for this position at this time.”</sub> | DFW Intl. Airport Board | 🛂❌ no sponsor<br>🎓 3.0+ GPA | Sep 30 |
+| GE Aerospace | [Lynn CNC Programmer Co-Op](https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Lynn/Lynn-CNC-Programmer-Co-Op_R5040944-1) | Lynn | 🔄 co-op | Sep 30 |
+| GenScript | [AI Intern, Enterprise Agent Development](https://job-boards.greenhouse.io/genscript/jobs/5253581007) | Piscataway, New Jersey, United States |  | Sep 30 |
+| Intel Corporation | [Research Scientist Intern - Graphics, ML](https://intel.wd1.myworkdayjobs.com/External/job/Virtual-US/Research-Scientist-Intern---Graphics--ML_JR0287525) | Virtual US |  | Sep 30 |
+| ITW | [Summer 2027 Software Engineering Intern](https://itw.wd5.myworkdayjobs.com/External/job/MTS-Headquarters/Software-Engineering-Intern_JR10261) | MTS Headquarters |  | Sep 30 |
 | Muon Space | [Flight Software Engineering Intern \(Summer 2027\)](https://job-boards.greenhouse.io/muonspace/jobs/5247725007)<br><sub>“To conform to U.S. Government export regulations applicable to that information, applicant must either be \(A\) a U.S. person, defined as a \(i…”</sub> | San Jose, CA | 🗽 citizens | Sep 30 |
 | Oceaneering | [IT Security Architecture Intern](https://ebfr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobs/job/11613) | Houston, TX, United States | 🎓 3.0+ GPA | Sep 30 |
 | POET | [Data Engineering Intern - Summer 2027](https://poet.wd1.myworkdayjobs.com/POET/job/Sioux-Falls-SD/Data-Engineering-Intern_R101787) | Sioux Falls, SD |  | Sep 30 |
@@ -146,14 +154,6 @@
 | ZipRecruiter | [Software Engineer - Intern](https://job-boards.greenhouse.io/ziprecruiter/jobs/8180455) | Santa Monica, CA |  | Sep 23 |
 | Amazon | [Security Engineer Internship – 2027 \(US\)](https://www.amazon.jobs/en/jobs/10557133/security-engineer-internship-2027-us) | Seattle, Washington, USA |  | Sep 22 |
 | Astranis | [Flight Software Intern \(Summer 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4704598006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco | 🗽 citizens | Sep 22 |
-| Astranis | [Flight Software Intern \(Winter 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4704595006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco | 🗽 citizens | Sep 22 |
-| Astranis | [Hardware Test Intern \(Winter 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4707012006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco | 🗽 citizens | Sep 22 |
-| Astranis | [Software Engineer - Enterprise Systems Intern \(Summer 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4705610006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco, CA | 🗽 citizens | Sep 22 |
-| Astranis | [Software Engineer Backend Intern \(Summer 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4705214006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco, CA | 🗽 citizens | Sep 22 |
-| Bracco Medical Technologies | [Product Security Engineering Intern](https://bracco.wd103.myworkdayjobs.com/BraccoCareers/job/USA-Eden-Prairie-Minnesota-55344/Product-Security-Engineering-Intern_JR100318) | USA, Eden Prairie, Minnesota, 55344 |  | Sep 22 |
-| Exol | [Co-op- Hardware Engineer](https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington-MA---ITC/Hardware-Engineer_R7976) | USA Wilmington, MA - ITC | 🔄 co-op | Sep 22 |
-| Formlabs Internships | [Desktop Software Intern \(Winter/Spring 2027\)](https://job-boards.greenhouse.io/formlabsinternships/jobs/8188725) | Somerville, MA | 🌱 spring | Sep 22 |
-| Geneva Trading | [Python Developer Intern](https://job-boards.greenhouse.io/genevatrading/jobs/5242196007) | Chicago Office |  | Sep 22 |
 
 [⬅ page 11](INTERNSHIPS-11.md) · page 12 of 17 · [page 13 ➡](INTERNSHIPS-13.md)
 

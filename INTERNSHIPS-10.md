@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 1987 open · page 10 of 17 · updated 2026-11-17
+[⬅ Back to the main page](./) · 1995 open · page 10 of 17 · updated 2026-11-17
 
 [⬅ page 9](INTERNSHIPS-9.md) · page 10 of 17 · [page 11 ➡](INTERNSHIPS-11.md)
 
@@ -34,6 +34,14 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| AeroVironment | [Summer 2027 Software Engineering Intern](https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/Summer-2027-Software-Engineering-Intern_8611)<br><sub>“ITAR Requirement: This position requires access to information that is subject to compliance with the International Traffic Arms Regulations…”</sub> | Simi Valley, CA | 📜 ITAR<br>🎓 3.0+ GPA | Oct 13 |
+| Amazon | [ASIC Engineer Intern, Summer 2027](https://www.amazon.jobs/en/jobs/10576619/asic-engineer-intern-summer-2027) | Sunnyvale, California, USA |  | Oct 13 |
+| Amazon | [Hardware Development Engineer Intern, Summer 2027](https://www.amazon.jobs/en/jobs/10578090/hardware-development-engineer-intern-summer-2027) | Sunnyvale, California, USA |  | Oct 13 |
+| American Family Insurance | [Summer 2027 Intern - Application Billing Center Developer](https://amfam.wd1.myworkdayjobs.com/AmFamGroupInternCareers/job/WI-Madison/Intern---Application-Billing-Center-Developer_R39407)<br><sub>“Sponsorship will not be considered for this position unless specified in the posting”</sub> | WI Madison | 🛂❌ no sponsor | Oct 13 |
+| Anduril Industries | [2027 Firmware Engineer Intern](https://boards.greenhouse.io/andurilindustries/jobs/5265158007?gh_jid=5265158007)<br><sub>“Must be a U.S. Person due to required access to U.S. export-controlled information or facilities; U.S. clearance eligibility may be required…”</sub> | Costa Mesa, California, United States | 🗽 citizens | Oct 13 |
+| Blue Origin | [Summer 2027 Avionics Software Internship - Graduate](https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Greater-Seattle-Area/Summer-2027-Avionics-Software-Internship---Graduate_R71423)<br><sub>“Basic Qualifications: Must be a U.S. citizen or national, U.S. permanent resident \(current Green Card holder\), or lawfully admitted into the…”</sub> | Greater Seattle Area | 🗽 citizens | Oct 13 |
+| Blue Origin | [Summer 2027 Avionics Software Internship - Undergraduate](https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Greater-Seattle-Area/Summer-2027-Avionics-Software-Internship---Undergraduate_R71424)<br><sub>“Basic Qualifications: Must be a U.S. citizen or national, U.S. permanent resident \(current Green Card holder\), or lawfully admitted into the…”</sub> | Greater Seattle Area | 🗽 citizens | Oct 13 |
+| Blue Origin | [Summer 2027 Software Developer Internship - Graduate](https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Greater-Seattle-Area/Summer-2027-Software-Developer-Internship---Graduate_R71434)<br><sub>“Basic Qualifications: Must be a U.S. citizen or national, U.S. permanent resident \(current Green Card holder\), or lawfully admitted into the…”</sub> | Greater Seattle Area | 🗽 citizens | Oct 13 |
 | Blue Origin | [Summer 2027 Software Developer Internship - Undergraduate](https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Greater-Seattle-Area/Summer-2027-Software-Developer-Internship---Undergraduate_R71425)<br><sub>“Basic Qualifications: Must be a U.S. citizen or national, U.S. permanent resident \(current Green Card holder\), or lawfully admitted into the…”</sub> | Greater Seattle Area | 🗽 citizens | Oct 13 |
 | BorgWarner | [IT Service Desk Intern \(Year-Round\)](https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers/job/Auburn-Hills---Michigan---USA/IT-Service-Desk-Intern--Year-Round-_R2026-4037) | Auburn Hills - Michigan - USA |  | Oct 13 |
 | Bose Corporation | [Audio Machine Learning Co-op](https://boseallaboutme.wd503.myworkdayjobs.com/Bose_Careers/job/US-MA---Framingham/Audio-Machine-Learning-Co-op_R29274) | US, MA - Framingham | 🔄 co-op | Oct 13 |
@@ -146,14 +154,6 @@
 | Cadence Design Systems | [CST Application Engineer Intern - Silicon](https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/SAN-JOSE/CST-Application-Engineer-Intern---Silicon_R56655) | SAN JOSE |  | Oct 6 |
 | Courier Health | [Software Engineering Intern \(Summer 2027\)](https://job-boards.greenhouse.io/courierhealth/jobs/5258913007) | New York, New York, United States |  | Oct 6 |
 | DV Trading | [Database Engineer Intern - Summer 2027](https://job-boards.greenhouse.io/dvtrading/jobs/4741016005) | Chicago |  | Oct 6 |
-| F5 | [Software Development Engineer Intern \(San Jose, CA\)](https://ffive.wd5.myworkdayjobs.com/f5jobs/job/San-Jose/Software-Development-Engineer-Intern--San-Jose--CA-_RP1039076) | San Jose |  | Oct 6 |
-| F5 | [Software Development Engineer Intern \(Seattle, WA\)](https://ffive.wd5.myworkdayjobs.com/f5jobs/job/Seattle/Software-Development-Engineer-Intern--Seattle--WA-_RP1039073) | Seattle |  | Oct 6 |
-| Hewlett Packard Enterprise | [Hardware Engineering Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Sunnyvale-California-United-States-of-America/Hardware-Engineering-Intern_1214064) | Sunnyvale, California, United States of Ameri… |  | Oct 6 |
-| Leidos | [Business Systems AI Intern](https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Business-Systems-AI-Intern_R-00193327)<br><sub>“Candidates must be US citizens able to obtain and/or maintain a Department of Defense Secret security clearance as a condition of employment”</sub> | 6314 Remote/Teleworker US | 🗽 citizens<br>🔒 secret<br>🌐 remote | Oct 6 |
-| Macy's | [Macy's 2027 Summer Internship – Consumer Insights: Customer &amp; Digital Intelligence and Analytics](https://ebwh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/93380) | New York, NY, United States |  | Oct 6 |
-| Macy's | [Macy's 2027 Summer Internship – Customer &amp; Digital Growth, Insights and Platforms – Analytics](https://ebwh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/93389) | New York, NY, United States |  | Oct 6 |
-| Macy's | [Macy's 2027 Summer Internship – Customer &amp; Digital Growth, Insights and Platforms – Data Systems](https://ebwh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/93388) | New York, NY, United States |  | Oct 6 |
-| Manitowoc | [Summer 2027 Intern - Cybersecurity](https://fda.fa.us1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/3330) | Shady Grove, PA, United States |  | Oct 6 |
 
 [⬅ page 9](INTERNSHIPS-9.md) · page 10 of 17 · [page 11 ➡](INTERNSHIPS-11.md)
 
