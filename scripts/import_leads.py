@@ -83,10 +83,16 @@ def clean(s: str) -> str:
     return INVISIBLE.sub("", s or "").strip()
 
 
+def https_url(u: str) -> str:
+    """The board stores https links only (the schema requires it); almost every careers host redirects http there anyway."""
+    u = clean(u)
+    return "https://" + u[len("http://"):] if u.startswith("http://") else u
+
+
 def read_leads(path: Path) -> list:
     with open(path, newline="", encoding="utf-8") as f:
         return [{"company": clean(r["company"]), "title": clean(r["title"]), "location": clean(r.get("location")),
-                 "url": clean(r.get("url") or r.get("apply_url"))} for r in csv.DictReader(f)]
+                 "url": https_url(r.get("url") or r.get("apply_url"))} for r in csv.DictReader(f)]
 
 
 def main():

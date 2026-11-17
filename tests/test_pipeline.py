@@ -618,3 +618,10 @@ def test_schema_accepts_the_unverified_flag_on_a_posting():
     row = json.loads((validate.DATA / "postings.json").read_text(encoding="utf-8"))[0]
     row["unverified"] = True
     jsonschema.validate([row], schema, format_checker=jsonschema.FormatChecker())
+
+
+def test_import_leads_upgrades_http_urls_to_https():
+    import import_leads
+    assert import_leads.https_url("http://prizepicks.com/position?gh_jid=1") == "https://prizepicks.com/position?gh_jid=1"
+    assert import_leads.https_url("https://x.com/jobs/1") == "https://x.com/jobs/1"
+    assert import_leads.https_url(" http://x.com/j ") == "https://x.com/j"

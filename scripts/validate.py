@@ -20,7 +20,7 @@ from common import DATA, POSTINGS, load_json  # noqa: E402
 def previous_count(n=7):
     try:
         log = subprocess.run(["git", "log", f"-{n}", "--format=%H %s", "--", "data/postings.json"],
-                             capture_output=True, text=True, check=True).stdout.splitlines()
+                             capture_output=True, text=True, encoding="utf-8", check=True).stdout.splitlines()
         shas = []
         for line in log:  # a commit whose message has [reset-baseline] is an intended shrink: look no further back
             shas.append(line.split()[0])
@@ -28,7 +28,7 @@ def previous_count(n=7):
                 break
         counts = []
         for sha in shas:
-            out = subprocess.run(["git", "show", f"{sha}:data/postings.json"], capture_output=True, text=True, check=True).stdout
+            out = subprocess.run(["git", "show", f"{sha}:data/postings.json"], capture_output=True, text=True, encoding="utf-8", check=True).stdout
             counts.append(len(json.loads(out)))
         return max(counts) if counts else None
     except FileNotFoundError:  # git isn't installed: can't check, said loudly below
