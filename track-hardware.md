@@ -1,6 +1,6 @@
 # Hardware and chips
 
-[⬅ Back to the main page](./) · 123 open · updated 2026-11-17
+[⬅ Back to the main page](./) · 117 open · updated 2026-11-17
 
 Chip design, FPGA and ASIC work, and design verification. New to this track? Read the [Hardware and chips section of the Career tracks guide](guides/tracks.md#hardware-and-chips).
 
@@ -34,7 +34,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (117)
+## Internships (111)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
@@ -105,7 +105,6 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Marvell Technology | [Hardware Engineer Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Santa-Clara-CA/Hardware-Engineer-Intern--BS---Summer-2027_2604975) | Santa Clara, CA |  | Oct 5 |
 | RosaicLabs | [AI Accelerator Design Verification Engineer - Intern](https://jobs.lever.co/rosaiclabs/8e3e00f8-5b06-450c-bb63-5cc4fc3136ab) | Santa Clara, CA |  | Oct 5 |
 | RosaicLabs | [CPU Design Verification Engineer - Intern](https://jobs.lever.co/rosaiclabs/11a93b50-2472-4ec9-85d9-c99a3a17405e) | Santa Clara, CA |  | Oct 5 |
-| Allegion | [Summer Intern - Hardware Engineering](https://allegion.wd5.myworkdayjobs.com/careers/job/Indianapolis-IN---Hague-Rd/Summer-Intern---Hardware-Engineering_JR37413-1)<br><sub>“The company does not intend to provide sponsorship for employment visa status \(e.g., H-1B, TN, etc.\) for this employment position.”</sub> | Indianapolis, IN - Hague Rd | 🛂❌ no sponsor<br>🎓 3.0+ GPA<br>⚠ unverified | Oct 2 |
 | Arc Boat Company | [Electrical Hardware Engineering Intern](https://job-boards.greenhouse.io/arcboatcompany/jobs/5442853008) | Torrance, CA |  | Oct 2 |
 | Hewlett Packard Enterprise | [ASIC Engineering Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Durham-North-Carolina-United-States-of-America/ASIC-Engineering-Intern_1214213) | Durham, North Carolina, United States of Amer… |  | Oct 2 |
 | Cisco | [Hardware Engineer I \(Co-op\) - United States](https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Hardware-Engineer-I--Co-op----United-States_2025369) | San Jose, California, US | 🔄 co-op<br>⚠ unverified | Oct 1 |
@@ -130,16 +129,11 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Bedrock Robotics Inc | [2027 Internship Sensor Hardware Test Engineer](https://jobs.ashbyhq.com/bedrock-robotics/1f413f83-b897-4938-a19e-ab91bd326c51) | San Francisco, CA | ⏳ 60+ days | Sep 10 |
 | The Toro Company | [Hardware and Software Engineering Intern - Ditch Witch](https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers/job/Perry-OK/Hardware-and-Software-Engineering-Intern---Ditch-Witch_JR17183)<br><sub>“We are unable to sponsor or take over sponsorship of a school/employment or any other visa, regardless of expiration date, now or in the fut…”</sub> | Perry, OK | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 10 |
 | Amazon | [Hardware Development Engineer Intern/Co-Op, ROBOTICS - 2027](https://www.amazon.jobs/en/jobs/10535282/hardware-development-engineer-intern-co-op-robotics-2027) | North Reading, Massachusetts, USA | 🔄 co-op<br>⏳ 60+ days | Sep 9 |
-| Motorola Solutions | [FPGA Design Engineering Intern - Summer 2027](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Schaumburg-IL/FPGA-Design-Engineering-Intern---Summer-2027_R68401)<br><sub>“Must be a US Citizen, permanent resident, or an MS student with work authorization \(F1 Visa on CPT accepted only for master 's-level student…”</sub> | Schaumburg, IL | 🗽 citizens<br>⚠ unverified<br>⏳ 60+ days | Sep 9 |
 | Qube Research &amp; Technologies | [2027 – Internship or Graduate, FPGA Engineering](https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8777855002) | London, Paris, New York | ⏳ 60+ days | Sep 8 |
 | RF-SMART | [Hardware Support Internship - Summer 2027](https://job-boards.greenhouse.io/rfsmart/jobs/5407220008)<br><sub>“Employer does not sponsor applicants for employment visa status \(e.g. H-1B visa status\).”</sub> | Jacksonville, Florida, United States | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 8 |
 | Solidigm | [2027 Graduate Hardware, Validation, and Product Engineering Internships - US](https://jobs.smartrecruiters.com/Solidigm/744000147613779-2027-graduate-hardware-validation-and-product-engineering-internships-us) | Rancho Cordova, CA, US | ⏳ 60+ days | Sep 5 |
 | Solidigm | [2027 Undergraduate Hardware &amp; Product Development Engineering Internships – US](https://jobs.smartrecruiters.com/Solidigm/744000147613839-2027-undergraduate-hardware-product-development-engineering-internships-us) | Rancho Cordova, CA, US | ⏳ 60+ days | Sep 5 |
 | Hewlett Packard Enterprise | [Hardware Engineering Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Spring-Texas-United-States-of-America/Hardware-Engineering-Intern_1213408) | Spring, Texas, United States of America | ⏳ 60+ days | Sep 2 |
-| Intel Corporation | [Platform Hardware and Systems Engineering - Intern, Bachelor’s](https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Platform-Hardware-and-Systems-Engineering---Intern--Bachelor-s_JR0286827)<br><sub>“This position does not qualify for Intel sponsorship because it is either a non-STEM position, or a STEM position that only requires a Bache…”</sub> | US, Oregon, Hillsboro | 🛂❌ no sponsor<br>⚠ unverified<br>⏳ 60+ days | Sep 2 |
-| Intel Corporation | [Platform Hardware and Systems Engineering - Intern, Graduate](https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Platform-Hardware-and-Systems-Engineering---Intern--Graduate_JR0286828)<br><sub>“This position does not qualify for Intel sponsorship because it is either a non-STEM position, or a STEM position that only requires a Bache…”</sub> | US, Oregon, Hillsboro | 🛂❌ no sponsor<br>⚠ unverified<br>⏳ 60+ days | Sep 2 |
-| Intel Corporation | [Silicon Hardware Engineering - Intern, Bachelor’s](https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Silicon-Hardware-Engineering---Intern--Bachelor-s_JR0286829)<br><sub>“This position does not qualify for Intel sponsorship because it is either a non-STEM position, or a STEM position that only requires a Bache…”</sub> | US, Oregon, Hillsboro | 🛂❌ no sponsor<br>⚠ unverified<br>⏳ 60+ days | Sep 2 |
-| Intel Corporation | [Silicon Hardware Engineering - Intern, Graduate](https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Silicon-Hardware-Engineering---Intern--Graduate_JR0286830)<br><sub>“This position does not qualify for Intel sponsorship because it is either a non-STEM position, or a STEM position that only requires a Bache…”</sub> | US, Oregon, Hillsboro | 🛂❌ no sponsor<br>⚠ unverified<br>⏳ 60+ days | Sep 2 |
 | Texas Instruments | [Design Verification Engineering Intern - Bachelors](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017545)<br><sub>“Texas Instruments will not sponsor job applicants for visas or work authorization for this position.”</sub> | Dallas, TX, United States | 🛂❌ no sponsor<br>🎓 3.0+ GPA<br>⏳ 60+ days | Sep 2 |
 | Amazon | [ASIC Engineer Intern, Annapurna Labs - 2027](https://www.amazon.jobs/en/jobs/10517535/asic-engineer-intern-annapurna-labs-2027) | Cupertino, California, USA | ⏳ 60+ days | Aug 27 |
 | Amazon | [Cloud Hardware Development Engineer Intern, Annapurna Labs - 2027](https://www.amazon.jobs/en/jobs/10517649/cloud-hardware-development-engineer-intern-annapurna-labs-2027) | Austin, Texas, USA | ⏳ 60+ days | Aug 27 |
