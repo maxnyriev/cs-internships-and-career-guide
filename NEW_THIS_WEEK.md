@@ -1,6 +1,6 @@
 # 🆕 New this week
 
-[⬅ Back to the main page](./) · 447 posted in the last 7 days · updated 2026-11-17
+[⬅ Back to the main page](./) · 393 posted in the last 7 days · updated 2026-11-18
 
 **Click a job title to open the company's application page.**
 
@@ -32,8 +32,13 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| Airbnb | [Software Engineering Intern \(BS/MS\)](https://careers.airbnb.com/positions/8360478?gh_jid=8360478) | San Francisco, California |  | Nov 18 |
+| DriveWealth | [AI Consulting Associate Program \(AI CAP\) People Analytics Intern - Summer 2027](https://boards.greenhouse.io/drivewealth/jobs/8200548003?gh_jid=8200548003)<br><sub>“Applicants must be authorized to work for any employer in the U.S. DriveWealth is unable to sponsor an employment Visa at this time.”</sub> | Office - Chicago; Office - NYC | 🛂❌ no sponsor | Nov 18 |
+| Toyota Research Institute | [Robotics Intern, Prototyping and Robotics Operations](https://jobs.lever.co/tri/b2bed6be-16bd-48ee-ba71-215307fa2ab8) | Cambridge, MA |  | Nov 18 |
 | Anduril Industries | [2027 Machine Learning Engineer Intern](https://boards.greenhouse.io/andurilindustries/jobs/5274037007?gh_jid=5274037007)<br><sub>“Must be a U.S. Person due to required access to U.S. export-controlled information or facilities; U.S. clearance eligibility may be required…”</sub> | Santa Ana, California, United States | 🗽 citizens | Nov 17 |
 | Anduril Industries | [2027 Product Data Quality Co-op](https://boards.greenhouse.io/andurilindustries/jobs/5273039007?gh_jid=5273039007)<br><sub>“Must be a U.S. Person due to required access to U.S. export-controlled information or facilities; U.S. clearance eligibility may be required…”</sub> | Santa Ana, California, United States | 🗽 citizens<br>🔄 co-op | Nov 17 |
+| Atoms | [AI Researcher - New Grad \(BS/MS\)](https://job-boards.greenhouse.io/atoms/jobs/8948841002) | San Francisco, CA |  | Nov 17 |
+| ATOMS Careers page | [AI Researcher - New Grad \(BS/MS\)](https://job-boards.greenhouse.io/cssmerge/jobs/8948844002) | San Francisco, CA |  | Nov 17 |
 | Blackhawk Network Holdings | [Technology Intern](https://careers-blackhawknetwork.icims.com/jobs/26867/technology-intern/job) | Pleasanton, CA, US |  | — |
 | Blackhawk Network Holdings | [Technology Intern](https://careers-blackhawknetwork.icims.com/jobs/26866/technology-intern/job) | Coppell, TX, US |  | — |
 | Bosch Group | [AI Application Intern \(8 months/40 hours per week\)](https://jobs.smartrecruiters.com/BoschGroup/744000162076254-ai-application-intern-8-months-40-hours-per-week-) | Farmington Hills, MI, US | 🎓 3.0+ GPA<br>⚠ unverified | Nov 17 |
@@ -52,13 +57,9 @@
 | Shure | [Embedded Software Intern](https://careersus-shure.icims.com/jobs/5018/embedded-software-intern/job) | Niles, IL, US |  | — |
 | Springs Window Fashions | [Consumer Business Unit - AI Analyst Internship - Summer 2027](https://careers-springswindowfashions.icims.com/jobs/12875/consumer-business-unit---ai-analyst-internship---summer-2027/job) | MIDDLETON, WI, US |  | — |
 | Springs Window Fashions | [Consumer Business Unit - Data Analyst Internship - Summer 2027](https://careers-springswindowfashions.icims.com/jobs/12874/consumer-business-unit---data-analyst-internship---summer-2027/job) | MIDDLETON, WI, US |  | — |
-| Springs Window Fashions | [Dealer Business Operations &amp; Analytics Internship - Summer 2027](https://careers-springswindowfashions.icims.com/jobs/12886/dealer-business-operations-%26-analytics-internship---summer-2027/job) | MIDDLETON, WI, US | ⚠ unverified | — |
+| Springs Window Fashions | [Information Technology - AI Internship - summer 2027](https://careers-springswindowfashions.icims.com/jobs/12945/information-technology---ai-internship---summer-2027/job) | MIDDLETON, WI, US |  | — |
 | Toyota Research Institute | [Robotics Intern, Agentic Robotics](https://jobs.lever.co/tri/7f676d3c-6a86-4b00-a9fd-c1009035fe49) | Cambridge, MA |  | Nov 17 |
-| V2X | [Artificial Intelligence Intern 2027](https://careers.gov2x.com/why-gov2x/jobs/62843) | Indianapolis, Indiana | ⚠ unverified | — |
 | Walmart | [Summer 2027 Corporate Intern: APD Automation Engineer](https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/USA-Together-Building-AR-Bentonville-Home-Office/Summer-2027-Corporate-Intern--APD-Automation-Engineer_R-2630170)<br><sub>“IMMIGRATION SPONSORSHIP IS NOT AVAILABLE FOR THIS ROLE”</sub> | \(USA\) Together Building AR Bentonville Home O… | 🛂❌ no sponsor | Nov 17 |
-| Waymo | [2027 Summer Intern, BS, Software Engineering, Labeling](https://careers.withwaymo.com/jobs?gh_jid=8238525) | Mountain View, California | ⚠ unverified | — |
-| Waymo | [2027 Summer Intern, BS, Waymo ML Ops &amp; Automation](https://careers.withwaymo.com/jobs?gh_jid=8257237) | Mountain View, California | ⚠ unverified | — |
-| Waymo | [2027 Summer Intern, BS/MS, Software Engineering, Maneuvering Tech](https://careers.withwaymo.com/jobs?gh_jid=8203200) | San Francisco, California | ⚠ unverified | — |
 | Acadian Asset Management | [Quantitative Investment Internship Program - Summer 2027](https://www.acadian-asset.com/careers/open-positions?gh_jid=4720681006) | Boston, Massachusetts | ⚠ unverified | — |
 | Acuity | [Finance AI Engineering Intern - Onsite](https://careers.acuityinc.com/job/Atlanta-Finance-AI-Engineering-Intern-Onsite-GA-30309/1434878900/) | Atlanta, Georgia |  | — |
 | Aflac | [2027 Global Investments \(NY\) Business &amp; Analytics Intern](https://careers.aflac.com/job/New-York-City-2027-Global-Investments-%28NY%29-Business-&-Analytics-Intern-NY-10005/1443293800/) | New York, New York |  | — |
@@ -106,8 +107,7 @@
 | Eaton | [Internship Program: Digital Integrated Solutions Engineer](https://eaton.eightfold.ai/careers/job/687238085352-internship-program-digital-integrated-solutions-engineer-moon-township-pennsylvania-usa-15108) | Littleton, Colorado | ⚠ unverified | — |
 | Elire | [Summer 2027 AI Data Science Consulting Internship](https://jobs.jobvite.com/elire/job/oppLAfwT) | Minneapolis, Minnesota |  | — |
 | Elire | [Summer 2027 AI Full Stack Developer Consulting Intern](https://jobs.jobvite.com/elire/job/oM5LAfwW) | Minneapolis, Minnesota |  | — |
-| Erie Insurance Group | [Intern II \(Claims Systems &amp; AI\)](https://jobs.erieinsurance.com/job/Erie-Intern-II-%28Claims-Systems-&-AI%29-PA-16506/1447480500/) | Millcreek Township, Pennsylvania |  | — |
 
-_447 postings were posted this week. This list shows up to 3 per company; the rest are in the [internships](INTERNSHIPS.md) and [new grad](NEW_GRAD.md) lists._
+_393 postings were posted this week. This list shows up to 3 per company; the rest are in the [internships](INTERNSHIPS.md) and [new grad](NEW_GRAD.md) lists._
 
 _Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._

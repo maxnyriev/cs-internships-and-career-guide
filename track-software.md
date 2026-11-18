@@ -1,6 +1,6 @@
 # Software
 
-[⬅ Back to the main page](./) · 856 open · updated 2026-11-17
+[⬅ Back to the main page](./) · 847 open · updated 2026-11-18
 
 Web, mobile, backend, full-stack and general software roles. New to this track? Read the [Software section of the Career tracks guide](guides/tracks.md#software).
 
@@ -34,10 +34,12 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (772)
+## Internships (764)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| Airbnb | [Software Engineering Intern \(BS/MS\)](https://careers.airbnb.com/positions/8360478?gh_jid=8360478) | San Francisco, California |  | Nov 18 |
+| Toyota Research Institute | [Robotics Intern, Prototyping and Robotics Operations](https://jobs.lever.co/tri/b2bed6be-16bd-48ee-ba71-215307fa2ab8) | Cambridge, MA |  | Nov 18 |
 | Blackhawk Network Holdings | [Technology Intern](https://careers-blackhawknetwork.icims.com/jobs/26867/technology-intern/job) | Pleasanton, CA, US |  | — |
 | Blackhawk Network Holdings | [Technology Intern](https://careers-blackhawknetwork.icims.com/jobs/26866/technology-intern/job) | Coppell, TX, US |  | — |
 | General Dynamics Mission Systems | [Full-Stack Application Development Intern, Summer 2027](https://careers-gdms.icims.com/jobs/75971/full-stack-application-development-intern%2c-summer-2027/job) | Scottsdale, AZ, US; Chantilly, VA, US; Pittsf… | ⚠ unverified | — |
@@ -56,8 +58,6 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Shure | [Unified Communication \(UC\) Technology Intern](https://careersus-shure.icims.com/jobs/5002/unified-communication-%28uc%29-technology-intern/job) | Skokie, IL, US |  | — |
 | Springs Window Fashions | [Software Engineering Internship - Summer 2027](https://careers-springswindowfashions.icims.com/jobs/12891/software-engineering-internship---summer-2027/job) | LONG ISLAND CITY, NY, US |  | — |
 | Walmart | [Summer 2027 Corporate Intern: APD Automation Engineer](https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/USA-Together-Building-AR-Bentonville-Home-Office/Summer-2027-Corporate-Intern--APD-Automation-Engineer_R-2630170)<br><sub>“IMMIGRATION SPONSORSHIP IS NOT AVAILABLE FOR THIS ROLE”</sub> | \(USA\) Together Building AR Bentonville Home O… | 🛂❌ no sponsor | Nov 17 |
-| Waymo | [2027 Summer Intern, BS, Software Engineering, Labeling](https://careers.withwaymo.com/jobs?gh_jid=8238525) | Mountain View, California | ⚠ unverified | — |
-| Waymo | [2027 Summer Intern, BS/MS, Software Engineering, Maneuvering Tech](https://careers.withwaymo.com/jobs?gh_jid=8203200) | San Francisco, California | ⚠ unverified | — |
 | Acadian Asset Management | [Quantitative Investment Internship Program - Summer 2027](https://www.acadian-asset.com/careers/open-positions?gh_jid=4720681006) | Boston, Massachusetts | ⚠ unverified | — |
 | Altice USA | [Intern - Software Developer](https://www.optimumcareers.com/job/Bethpage-Intern-Software-Developer-NY-11714/1450884000/) | Town of Oyster Bay, New York | ⚠ unverified | — |
 | APEX Analytix | [QA Automation Intern](https://ats.rippling.com/apexanalytix-careers/jobs/ebafabc3-be09-477d-94a9-0ba244f52319) | Greensboro, North Carolina |  | — |
@@ -129,7 +129,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | The Aerospace Corporation | [2027 Software Tools and Assurance Engineering Grad Intern](https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/XMLNAME-2027-Software-Tools-and-Assurance-Engineering-Grad-Intern_R016753)<br><sub>“U.S. citizenship is required to obtain a security clearance”</sub> | El Segundo, CA | 🗽 citizens<br>🔒 clearance<br>🎓 3.5+ GPA | Nov 16 |
 | Toyota Research Institute | [Research Intern, Spatial Intelligence for Robotics](https://jobs.lever.co/tri/2d65fd58-00bb-49bc-b4db-e381df1ebd1e) | Cambridge, MA |  | Nov 16 |
 | Toyota Research Institute | [Robotics Intern, World Models, Multimodal Sensing](https://jobs.lever.co/tri/c6569529-4b6b-4229-b2c9-f97467c26cd3) | Cambridge, MA |  | Nov 16 |
-| Westinghouse Electric Company | [Summer Intern - Computer Aided Engineering](https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Computer-Aided-Engineering-NC/1447267500/) | Cranberry Township, Pennsylvania |  | — |
+| Westinghouse Electric Company | [Summer Intern - Computer Aided Engineering](https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Computer-Aided-Engineering-NC/1447267500/) | Cranberry Township, Pennsylvania | ⚠ unverified | — |
 | Westinghouse Electric Company | [Summer Intern - Software Development](https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Software-Development-NC/1441279500/) | Cranberry Township, Pennsylvania | ⚠ unverified | — |
 | Westinghouse Electric Company | [Summer Intern - Software Engineering](https://careers.westinghousenuclear.com/job/Warrendale-Summer-Intern-Software-Engineering-OR/1442826200/) | Warrendale, Oregon |  | — |
 | RTX | [2027 Summer Intern - Software Engineering - Onsite](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CA-EL-SEGUNDO-E04--2006-E-El-Segundo-Blvd--BLDG-E04/XMLNAME-2027-Summer-Intern---Software-Engineering---Onsite_01885225)<br><sub>“Onsite U.S. Citizen, U.S. Person, or Immigration Status Requirements: U.S. citizenship is required, as only U.S. citizens are auth…”</sub> | US-CA-EL SEGUNDO-E04 \~ 2006 E El Segundo Blvd… | 🗽 citizens<br>🔒 clearance<br>⚠ unverified | Nov 15 |
@@ -166,13 +166,12 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | 7-Eleven | [Enterprise Technology Intern](https://my7elevenhr.wd12.myworkdayjobs.com/Careers/job/SSC-Irving-TX/Enterprise-Technology-Intern_R26_6466) | SSC Irving TX |  | Nov 10 |
 | Addepar | [Software Engineering Intern - Summer 2027](https://job-boards.greenhouse.io/addepar1/jobs/8927531002)<br><sub>“Applicants must be legally authorized to work in the United States for any employer without requiring current or future visa sponsorship \(fo…”</sub> | New York, NY | 🛂❌ no sponsor | Nov 10 |
 | Booz Allen | [University - Summer 2027 Quantum Computing Research Intern](https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Washington-DC/University---Summer-2027-Quantum-Computing-Research-Intern_R0249046)<br><sub>“Ability to obtain a Secret clearance”</sub> | Washington, DC | 🔒 secret | Nov 10 |
-| Echo Global Logistics | [Software Engineering Intern- Chicago](https://echo.wd1.myworkdayjobs.com/Echo_Logistics/job/Remote/Software-Engineering-Intern--Chicago_R4645-1) | Remote | 🌐 remote<br>⚠ unverified | Nov 10 |
 | Entegris | [Solutions Engineering Intern](https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Billerica-MA/Solutions-Engineering-Intern_REQ-15884) | Billerica, MA |  | Nov 10 |
 | Hunt | [Application Developer Intern - Summer 2027](https://fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1104) | Dallas, TX, United States | 🎓 3.0+ GPA | Nov 10 |
 | Johnson &amp; Johnson Innovative Medicine | [Software Engineering Co-Op](https://jj.wd5.myworkdayjobs.com/JJ/job/Danvers-Massachusetts-United-States-of-America/Software-Engineering-Co-Op_R-098277)<br><sub>“Students currently on CPT, OPT, or STEM OPT usually requires future sponsorship for long term employment and do not meet the requirements fo…”</sub> | Danvers, Massachusetts, United States of Amer… | 🛂❌ no sponsor<br>🔄 co-op<br>⚠ unverified | Nov 10 |
 | Motorola Solutions | [Software System Technologist Intern \(Summer 2027 Internship\)](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/Software-System-Technologist-Intern--Summer-2027-Internship-_R70511)<br><sub>“Employer work permit sponsorship is not available for this position.”</sub> | Allen, TX \(TX139\) | 🛂❌ no sponsor<br>🔒 clearance | Nov 10 |
 | National Information Solutions Cooperative \(NISC\) | [Intern - Test Automation](https://job-boards.greenhouse.io/nisc/jobs/8372340) | Lake Saint Louis, MO |  | Nov 10 |
-| Palantir Technologies | [Software Engineer, Intern - Connectivity Platform and Product](https://jobs.lever.co/palantir/eb496d6a-a960-43d3-a09b-e3843052f54e) | Denver, CO |  | Nov 10 |
+| Palantir Technologies | [Software Engineer, Internship - Connectivity Platform and Product](https://jobs.lever.co/palantir/eb496d6a-a960-43d3-a09b-e3843052f54e) | Denver, CO |  | Nov 10 |
 | REGENT | [Mission Software Engineering Intern \(Summer\)](https://jobs.ashbyhq.com/REGENT/1da518a0-9030-48d1-a58c-15d1f88f0eaa) | North Kingstown, Rhode Island, USA |  | Nov 10 |
 | SAP IT Business Systeme | [SAP iXp Intern - AI Developer](https://jobs.smartrecruiters.com/SAPITBusinessSysteme/744000160905751-sap-ixp-intern-ai-developer) | Palo Alto, CA, US |  | Nov 10 |
 | SAP IT Business Systeme | [SAP iXp Intern - Full-Stack Software Engineer](https://jobs.smartrecruiters.com/SAPITBusinessSysteme/744000160967354-sap-ixp-intern-full-stack-software-engineer) | Palo Alto, California, US |  | Nov 10 |
@@ -181,9 +180,8 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | T-Mobile | [Summer 2027 T-Ads Software Engineering Internship](https://tmobile.wd1.myworkdayjobs.com/External/job/Philadelphia-Pennsylvania/Summer-2027-T-Ads-Software-Engineering-Internship_REQ381225) | Philadelphia, Pennsylvania | ⚠ unverified | Nov 10 |
 | Thomson Reuters | [Software Engineer Co-Op](https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/job/United-States-of-America-Rochester-New-York/Software-Engineer-Co-Op_JREQ203587)<br><sub>“Ability to obtain and maintain a U.S. national security clearance”</sub> | United States of America, Rochester, New York | 🔒 clearance<br>🔄 co-op | Nov 10 |
 | Trimble Inc | [Software Engineering Intern](https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---TN-Knoxville/Software-Engineering-Intern_R58120)<br><sub>“Work Authorization: Visa sponsorship is not available for this position.”</sub> | US - TN, Knoxville | 🛂❌ no sponsor<br>⚠ unverified | Nov 10 |
-| Veolia Environnement SA | [Manufacturing Software Engineer Intern](https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000160896184-manufacturing-software-engineer-intern) | Boulder, CO, US |  | Nov 10 |
+| Veolia Environnement SA | [Manufacturing Software Engineer Intern](https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000160896184-manufacturing-software-engineer-intern) | Boulder, CO, US | ⚠ unverified | Nov 10 |
 | GE Vernova | [GE Vernova - Energy Optimization Software Engineer Intern - Summer 2027](https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Bellevue/GE-Vernova---Energy-Optimization-Software-Engineer-Intern---Summer-2027_R5050022-2)<br><sub>“Must have the ability to work in the US for an unlimited amount of time without sponsorship”</sub> | Bellevue | 🛂❌ no sponsor<br>🎓 3.0+ GPA<br>⚠ unverified | Nov 9 |
-| Johnson &amp; Johnson Innovative Medicine | [Software Test Engineering Co-op \(RLM\)](https://jj.wd5.myworkdayjobs.com/JJ/job/Danvers-Massachusetts-United-States-of-America/Software-Test-Engineering-Co-op--RLM-_R-098669)<br><sub>“Students currently on CPT, OPT, or STEM OPT usually requires future sponsorship for long term employment and do not meet the requirements fo…”</sub> | Danvers, Massachusetts, United States of Amer… | 🛂❌ no sponsor<br>🔄 co-op<br>⚠ unverified | Nov 9 |
 | NBCUniversal | [NBC News Group Technology Internships – Summer 2027](https://jobs.smartrecruiters.com/NBCUniversal3/744000160731770-nbc-news-group-technology-internships-summer-2027)<br><sub>“For further clarification, candidates currently on any student or exchange visa \(e.g. F-1 CPT, F-1 OPT, J-1, M-1\) are not eligible to apply…”</sub> | New York, NY, US | 🚫 no CPT/OPT<br>🎓 3.0+ GPA | Nov 9 |
 | NBCUniversal | [NBC Sports Programming Internships – Summer 2027](https://jobs.smartrecruiters.com/NBCUniversal3/744000160642592-nbc-sports-programming-internships-summer-2027)<br><sub>“For further clarification, candidates currently on any student or exchange visa \(e.g. F-1 CPT, F-1 OPT, J-1, M-1\) are not eligible to apply…”</sub> | Stamford, CT, US | 🚫 no CPT/OPT<br>🎓 3.0+ GPA | Nov 9 |
 | NBCUniversal | [Software Engineering Internships – Summer 2027](https://jobs.smartrecruiters.com/NBCUniversal3/744000160659459-software-engineering-internships-summer-2027)<br><sub>“For further clarification, candidates currently on any student or exchange visa \(e.g. F-1 CPT, F-1 OPT, J-1, M-1\) are not eligible to apply…”</sub> | New York, NY, US | 🚫 no CPT/OPT<br>🎓 3.0+ GPA | Nov 9 |
@@ -202,8 +200,8 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | GM Financial | [Intern - Software Development Engineer](https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260831) | Arlington, TX, United States | 🎓 3.0+ GPA | Nov 6 |
 | Motorola Solutions | [Software Presales Enablement Intern - Summer Internship 2027](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Illinois-Remote-Work/Software-Presales-Enablement-Intern---Summer-Internship-2027_R70228)<br><sub>“Employer work permit sponsorship is not available for this position”</sub> | Illinois Remote Work | 🛂❌ no sponsor<br>🌐 remote | Nov 6 |
 | Rhoda AI | [Optical Sensing Intern - Robot Perception](https://jobs.ashbyhq.com/rhoda-ai/df2aa2a4-ca56-4fa6-b106-89a7fc6a9bb4) | Mountain View |  | Nov 6 |
-| The New York Times | [Android Engineering Intern](https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751917005) | New York, NY |  | Nov 6 |
-| The New York Times | [iOS Engineering Intern](https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751919005) | New York, NY |  | Nov 6 |
+| The New York Times | [Android Engineering Intern](https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751917005) | New York, NY | ⚠ unverified | Nov 6 |
+| The New York Times | [iOS Engineering Intern](https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751919005) | New York, NY | ⚠ unverified | Nov 6 |
 | Tinder | [Android Engineer Intern](https://jobs.lever.co/matchgroup/f0e29495-4dd2-4bc5-9ceb-31d36f0b5a9d) | Los Angeles, California |  | Nov 6 |
 | Tinder | [Backend Engineer Intern](https://jobs.lever.co/matchgroup/54a814d1-9a73-43d7-a266-c933ffd99ce3) | Palo Alto, California |  | Nov 6 |
 | Tinder | [iOS Engineer Intern](https://jobs.lever.co/matchgroup/cda906dd-c02a-4bbc-b533-1636d58958ef) | Los Angeles, California |  | Nov 6 |
@@ -225,13 +223,12 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Toyota Research Institute | [Robotics Intern, Human-Robot Interaction](https://jobs.lever.co/tri/11da7518-14d4-4960-a3aa-57dc010f3642) | Cambridge, MA |  | Nov 5 |
 | AeroVironment | [Software Engineering Intern](https://avav.wd1.myworkdayjobs.com/AVAV/job/Melbourne-FL/Software-Engineering-Intern_8613)<br><sub>“U.S. Citizenship required”</sub> | Melbourne, FL | 🗽 citizens<br>🎓 3.0+ GPA | Nov 4 |
 | NASA Jet Propulsion Laboratory | [Electrical &amp; Computer Engineering Academic Part Time Intern](https://citjpl.wd5.myworkdayjobs.com/Jobs/job/JPL-Campus/Academic-Part-Time-Intern_R6220) | JPL Campus | 🎓 3.0+ GPA<br>⏱ part-time | Nov 4 |
-| Palantir Technologies | [Software Engineer, Intern - Connectivity Platform and Product](https://jobs.lever.co/palantir/130ee501-bd22-4d44-b651-39581ef97743) | New York, NY |  | Nov 4 |
+| Palantir Technologies | [Software Engineer, Internship - Connectivity Platform and Product](https://jobs.lever.co/palantir/130ee501-bd22-4d44-b651-39581ef97743) | New York, NY |  | Nov 4 |
 | Palantir Technologies | [Software Engineer, Internship - Data Connectors](https://jobs.lever.co/palantir/45e4617d-d658-4b30-8dc9-378ca84a027a) | New York, NY |  | Nov 4 |
 | Samsung Research America | [2027 Spring Intern, Robotics Lab](https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8927812002) | 665 Clyde Avenue, Mountain View, CA, USA | 🌱 spring | Nov 4 |
 | Smith+Nephew | [Intern Agentic AI Software Engineering](https://smithnephew.wd5.myworkdayjobs.com/External/job/Andover-MA/Intern-Agentic-AI-Software-Engineering_R92953) | Andover, MA | 🎓 3.0+ GPA<br>⚠ unverified | Nov 4 |
 | Smith+Nephew | [Intern Robotics Software Engineering](https://smithnephew.wd5.myworkdayjobs.com/External/job/US---Pittsburgh-PA/Intern-Robotics-Software-Engineering_R92482) | US - Pittsburgh, PA | 🎓 3.0+ GPA<br>⚠ unverified | Nov 4 |
 | Toyota Research Institute | [Robotics Research Intern, Manipulation](https://jobs.lever.co/tri/17acdd1f-f234-4a30-a313-34be94a1adcd) | Los Altos, CA |  | Nov 4 |
-| American Express | [Campus Undergraduate Summer Internship Program - 2027 Software Engineer, Enterprise Technology Services- Sunnyvale, CA](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015722)<br><sub>“Employment eligibility to work with American Express in the United States is required as the company will not pursue visa sponsorship for th…”</sub> | Sunnyvale, CA, United States | 🛂❌ no sponsor<br>⚠ unverified | Nov 3 |
 | Arrowstreet Capital | [Software Engineer Intern, Summer 2027](https://arrowstreetcapital.wd5.myworkdayjobs.com/Campus_Careers/job/Boston/Software-Engineer-Intern--Summer-2027_R1561) | Boston |  | Nov 3 |
 | Bose Corporation | [Software/DSP Research Engineer Co-op](https://boseallaboutme.wd503.myworkdayjobs.com/Bose_Careers/job/US-MA---Framingham/Software-DSP-Research-Engineer-Co-op_R29369) | US, MA - Framingham | 🔄 co-op | Nov 3 |
 | Fermilab | [Quantum Computing Internship for Physics Undergraduates Program \(QCIPU\) - Summer 2027](https://fermilab.wd5.myworkdayjobs.com/FermilabCareers/job/Batavia/Quantum-Computing-Internship-for-Physics-Undergraduates-Program--QCIPU----Summer-2027_R_010003) | Batavia |  | Nov 3 |
@@ -313,7 +310,6 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | USAFacts | [AI &amp; Software Engineering Intern](https://job-boards.greenhouse.io/usafacts/jobs/4472154009) | Bellevue, WA |  | Oct 28 |
 | Wabtec | [Wabtec Spring 2027 Software Engineering Co-Op \(10-Week\)](https://jobs.smartrecruiters.com/Wabtec/3743990016452226-wabtec-spring-2027-software-engineering-co-op-10-week-) | Schenectady, NY, US | 🎓 3.0+ GPA<br>🔄 co-op<br>🌱 spring | Oct 28 |
 | ABB | [Automation Engineer Intern - Summer 2027](https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/New-Berlin-Wisconsin-United-States-of-America/Automation-Engineer-Intern---Summer-2027_JR00049934) | New Berlin, Wisconsin, United States of Ameri… |  | Oct 27 |
-| Amazon | [Database Engineer Intern - Summer 2027](https://www.amazon.jobs/en/jobs/10590290/database-engineer-intern-summer-2027) | Seattle, Washington, USA | ⚠ unverified | Oct 27 |
 | ASML | [Internship - Frontend Developer](https://asml.wd3.myworkdayjobs.com/ASMLEXT1/job/San-Jose-CA-USA/Internship---Frontend-Developer_J-00354852) | San Jose, CA, USA |  | Oct 27 |
 | ASML | [Internship- Platform Software Engineer In Test](https://asml.wd3.myworkdayjobs.com/ASMLEXT1/job/San-Jose-CA-USA/Platform-Software-Engineer-In-Test---Internship-_J-00354558) | San Jose, CA, USA |  | Oct 27 |
 | Chatham Financial | [2027 Software Engineering Intern](https://chathamfinancial.wd501.myworkdayjobs.com/ChathamFinancial/job/Denver/XMLNAME-2027-Software-Engineering-Intern_R-100349) | Denver |  | Oct 27 |
@@ -435,7 +431,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Skydio | [Software Engineer Intern - Summer 2027](https://jobs.ashbyhq.com/skydio/79fdda46-4ff5-42c7-b208-55f2084cdb8c) | San Mateo, California, United States |  | Oct 13 |
 | Bosch Group | [Robotics Research Intern](https://jobs.smartrecruiters.com/BoschGroup/744000154911489-robotics-research-intern) | Sunnyvale, CA, US | 🎓 3.0+ GPA<br>⚠ unverified | Oct 12 |
 | CACI International | [Software Engineering Co-op - Summer &amp; Fall 2027](https://caci.wd1.myworkdayjobs.com/External/job/Danbury-CT-US/Software-Engineering-Co-op---Summer---Fall-2027_331354)<br><sub>“Must be legally authorized to work in the United States without the need for employer sponsorship, now or at any time in the future”</sub> | Danbury, CT, US | 🛂❌ no sponsor<br>🔄 co-op<br>🍂 fall<br>⚠ unverified | Oct 12 |
-| CapTech Consulting | [Consulting Internship: Software Engineering \(Summer 2027\)](https://jobs.smartrecruiters.com/CapTechConsulting/744000155019115-consulting-internship-software-engineering-summer-2027-)<br><sub>“At this time, CapTech cannot transfer nor sponsor a work visa for this position.”</sub> | Richmond, VA, US | 🛂❌ no sponsor | Oct 12 |
+| CapTech Consulting | [Consulting Internship: Software Engineering \(Summer 2027\)](https://jobs.smartrecruiters.com/CapTechConsulting/744000155019115-consulting-internship-software-engineering-summer-2027-)<br><sub>“At this time, CapTech cannot transfer nor sponsor a work visa for this position.”</sub> | Richmond, VA, US | 🛂❌ no sponsor<br>⚠ unverified | Oct 12 |
 | Cboe Global Markets | [Software Engineer Intern \(C++\)](https://cboe.wd1.myworkdayjobs.com/External_Career_CBOE/job/Kansas-City-MO/Software-Engineer-Intern--C---_R-4726)<br><sub>“This position is not eligible for visa sponsorship.”</sub> | Kansas City, MO | 🛂❌ no sponsor | Oct 12 |
 | KLA | [Algorithm Engineering Intern \(GPU/CUDA\)](https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Algorithm-Engineering-Intern--GPU-CUDA-_2642044) | Milpitas, CA |  | Oct 12 |
 | Life Fitness | [Android Software Intern](https://lifefitness.wd1.myworkdayjobs.com/searchLFN/job/Schaumburg-IL/Android-Software-Intern_JR-025277) | Schaumburg, IL | 🎓 3.5+ GPA | Oct 12 |
@@ -468,13 +464,13 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Tenstorrent University Jobs | [AI Software Intern - Cloud, Infrastructure &amp; Data Centre Deployment \(USA\)](https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5256686007) | Austin, Texas, United States; Santa Clara, Ca… |  | Oct 7 |
 | AeroVironment | [Hypersonic RF Software Engineering Intern](https://avav.wd1.myworkdayjobs.com/AVAV/job/Germantown-MD/Hypersonic-RF-Software-Engineering-Intern_8993)<br><sub>“U.S. Citizenship required”</sub> | Germantown, MD | 🗽 citizens<br>🎓 3.0+ GPA | Oct 6 |
 | Courier Health | [Software Engineering Intern \(Summer 2027\)](https://job-boards.greenhouse.io/courierhealth/jobs/5258913007) | New York, New York, United States |  | Oct 6 |
-| DV Trading | [Database Engineer Intern - Summer 2027](https://job-boards.greenhouse.io/dvtrading/jobs/4741016005) | Chicago |  | Oct 6 |
+| DV Trading | [Database Engineer Intern - Summer 2027](https://job-boards.greenhouse.io/dvtrading/jobs/4741016005) | Chicago | ⚠ unverified | Oct 6 |
 | F5 | [Software Development Engineer Intern \(San Jose, CA\)](https://ffive.wd5.myworkdayjobs.com/f5jobs/job/San-Jose/Software-Development-Engineer-Intern--San-Jose--CA-_RP1039076) | San Jose |  | Oct 6 |
 | F5 | [Software Development Engineer Intern \(Seattle, WA\)](https://ffive.wd5.myworkdayjobs.com/f5jobs/job/Seattle/Software-Development-Engineer-Intern--Seattle--WA-_RP1039073) | Seattle |  | Oct 6 |
 | Oceaneering | [3d Subsea Simulator Software Intern](https://ebfr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobs/job/11523) | Austin, TX, United States | 🎓 2.5+ GPA | Oct 6 |
 | Pure Storage | [Software Engineer Intern \(Summer 2027\)](https://job-boards.greenhouse.io/purestorage/jobs/8249749) | Santa Clara, California |  | Oct 6 |
 | Revel | [Internship: Forward Deployed Engineer, Software](https://jobs.ashbyhq.com/revel/34f97b81-c981-4c4b-9f4d-d471c33b46cc)<br><sub>“- US citizen, lawful permanent resident, refugee, or asylee \(ITAR requirement\)”</sub> | Los Angeles | 📜 ITAR | Oct 6 |
-| Revel | [Internship: Full Stack Software Engineer](https://jobs.ashbyhq.com/revel/29968ce1-8838-44e8-ac4e-6b1c87ce5314)<br><sub>“- US citizen, lawful permanent resident, refugee, or asylee \(ITAR requirement\)”</sub> | Los Angeles | 📜 ITAR | Oct 6 |
+| Revel | [Internship: Full Stack Software Engineer](https://jobs.ashbyhq.com/revel/29968ce1-8838-44e8-ac4e-6b1c87ce5314)<br><sub>“- US citizen, lawful permanent resident, refugee, or asylee \(ITAR requirement\)”</sub> | Los Angeles | 📜 ITAR<br>⚠ unverified | Oct 6 |
 | Revel | [Internship: Software Engineer, Test](https://jobs.ashbyhq.com/revel/f080b27d-92c7-4e1f-a85f-b4a7c166d738)<br><sub>“- US citizen, lawful permanent resident, refugee, or asylee \(ITAR requirement\)”</sub> | Los Angeles | 📜 ITAR | Oct 6 |
 | Sigma Computing | [Software Engineering Intern \(Summer 2027\)](https://job-boards.greenhouse.io/sigmacomputing/jobs/7850795003)<br><sub>“Visa sponsorship is not available for our internship positions”</sub> | San Francisco, CA | 🛂❌ no sponsor | Oct 6 |
 | Sigma Computing | [Software Engineering Intern \(Summer 2027\)](https://job-boards.greenhouse.io/sigmacomputing/jobs/8001295003)<br><sub>“Visa sponsorship is not available for our internship positions”</sub> | New York, NY | 🛂❌ no sponsor | Oct 6 |
@@ -528,7 +524,6 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Fox Corporation | [Summer 2027 FOX Technology Internship Program - Tempe, AZ](https://fox.wd1.myworkdayjobs.com/Domestic/job/USA---AZ---Tempe---2010-E-Centennial-Cir/Summer-2027-FOX-Technology-Internship-Program---Tempe--AZ_R50033969-1) | USA - AZ - Tempe - 2010 E Centennial Cir |  | Sep 28 |
 | Keenfinity | [Software Engineering Intern](https://jobs.smartrecruiters.com/Keenfinity/744000152241469-software-engineering-intern)<br><sub>“Future sponsorship for work authorization is not available.”</sub> | Lincoln, NE, US | 🛂❌ no sponsor | Sep 28 |
 | LLNL | [Defense Science and Technology Internship Graduate Computer Student - Summer 2027](https://jobs.smartrecruiters.com/LLNL/3743990015740696-defense-science-and-technology-internship-graduate-computer-student-summer-2027)<br><sub>“Security Clearance is not required however due to federal requirements applicable to this position, US citizenship is required.”</sub> | Livermore, CA, US | 🗽 citizens<br>🔒 clearance<br>🎓 3.5+ GPA | Sep 28 |
-| Lowe's Companies, Inc | [Quality Assurance Engineering - Undergrad Internship - Summer 2027](https://lowes.wd5.myworkdayjobs.com/LWS_External_CS/job/Mooresville-NC-SSC-1999/Quality-Assurance-Engineering---Undergrad-Internship---Summer-2027_JR-02648572) | Mooresville, NC \(SSC\) 1999 | 🎓 3.0+ GPA<br>⚠ unverified | Sep 28 |
 | Voyager Technologies | [2027 Software Engineering Intern](https://job-boards.greenhouse.io/voyagertechnologiesinc/jobs/4423330009)<br><sub>“To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations \(ITAR\) you must b…”</sub> | Long Beach | 🗽 citizens | Sep 28 |
 | QuEra Computing, Inc | [Internship - Quantum Applications Research](https://job-boards.greenhouse.io/queracomputinginc/jobs/5435901008) | Boston, MA, USA |  | Sep 27 |
 | QuEra Computing, Inc | [Internship - Quantum Error Correction Research](https://job-boards.greenhouse.io/queracomputinginc/jobs/5435899008) | Boston, MA, USA |  | Sep 27 |
@@ -586,12 +581,11 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Monolithic Power Systems, Inc | [AI Developer Intern](https://monolithicpower.wd12.myworkdayjobs.com/MPS_Careers/job/San-Jose---California/AI-Developer-Intern_R-1756) | San Jose - California |  | Sep 21 |
 | Relay | [Solutions Engineer Intern \(Summer 2027 Opportunity\)](https://job-boards.greenhouse.io/relaypro/jobs/8214334) | Raleigh, NC | 🎓 3.5+ GPA | Sep 21 |
 | Tenet Healthcare Corporation | [BI Developer Intern - Hybrid in Dallas, TX](https://eodr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2603021909) | Dallas, TX, United States | ⚠ unverified | Sep 21 |
-| Acron Aviation | [Software Engineer Intern - St. Pete Site](https://jobs.lever.co/acronaviation/19dbac7d-b4fb-4d21-9247-dc610bf55fed)<br><sub>“To comply with these requirements, applicants must qualify as a US Person.”</sub> | St Petersburg, FL | 🗽 citizens | Sep 18 |
-| Adobe | [2027 Intern - Software Engineer](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Software-Engineer_R171666) | San Jose |  | Sep 18 |
-| GreatAmerica Financial Services | [Quality Assurance Analyst Intern](https://greatamerica.wd12.myworkdayjobs.com/greatamericacareers/job/Cedar-Rapids-IA/Software-Quality-Engineer-Intern_JR1235) | Cedar Rapids, IA |  | Sep 18 |
-| ITW | [Software Engineering Intern](https://itw.wd5.myworkdayjobs.com/External/job/Appleton-1635-W-Spencer/Software-Engineering-Intern_JR10122) | Appleton-1635 W Spencer | 🎓 3.0+ GPA | Sep 18 |
-| Stantec | [Technology Intern/Co-op - Buildings \(Summer 2027\)](https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1007834) | New York, NY, United States | 🔄 co-op | Sep 18 |
-| Together AI | [Systems Research Engineer Intern - GPU Programming \(Summer 2027\)](https://job-boards.greenhouse.io/togetherai/jobs/5238460007) | San Francisco | ⚠ unverified | Sep 18 |
+| Acron Aviation | [Software Engineer Intern - St. Pete Site](https://jobs.lever.co/acronaviation/19dbac7d-b4fb-4d21-9247-dc610bf55fed)<br><sub>“To comply with these requirements, applicants must qualify as a US Person.”</sub> | St Petersburg, FL | 🗽 citizens<br>⏳ 60+ days | Sep 18 |
+| Adobe | [2027 Intern - Software Engineer](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Software-Engineer_R171666) | San Jose | ⏳ 60+ days | Sep 18 |
+| GreatAmerica Financial Services | [Quality Assurance Analyst Intern](https://greatamerica.wd12.myworkdayjobs.com/greatamericacareers/job/Cedar-Rapids-IA/Software-Quality-Engineer-Intern_JR1235) | Cedar Rapids, IA | ⏳ 60+ days | Sep 18 |
+| ITW | [Software Engineering Intern](https://itw.wd5.myworkdayjobs.com/External/job/Appleton-1635-W-Spencer/Software-Engineering-Intern_JR10122) | Appleton-1635 W Spencer | 🎓 3.0+ GPA<br>⏳ 60+ days | Sep 18 |
+| Stantec | [Technology Intern/Co-op - Buildings \(Summer 2027\)](https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1007834) | New York, NY, United States | 🔄 co-op<br>⏳ 60+ days | Sep 18 |
 | ACI Worldwide | [Technology Internships](https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19943) | Norcross, GA, United States | ⏳ 60+ days | Sep 17 |
 | Amazon | [Software Development Engineer Intern - Summer 2027 \(USA\)](https://www.amazon.jobs/en/jobs/10552937/software-development-engineer-intern-summer-2027-usa) | Seattle, Washington, USA | ⏳ 60+ days | Sep 17 |
 | Amperesand | [Software Intern, Factory &amp; Ops](https://job-boards.greenhouse.io/amperesand/jobs/4409254009) | Reno, Nevada, United States | ⏳ 60+ days | Sep 17 |
@@ -614,7 +608,6 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Inmar Intelligence | [Software Engineering Internships, Summer 2027](https://inmar.wd1.myworkdayjobs.com/inmarcareers/job/Headquarters-Winston-Salem-NC/Software-Engineering-Internships--Summer-2027_JY2627638)<br><sub>“Candidates must have authorization to work in the U.S. without the need for employer sponsorship now or in the future.”</sub> | Headquarters, Winston Salem, NC | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 15 |
 | NOV | [Software Engineering Intern](https://egay.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_xx/job/44449) | Houston, TX, United States | ⏳ 60+ days | Sep 15 |
 | SingleStore | [Software Engineer Intern- Helios- 2027](https://job-boards.greenhouse.io/singlestore/jobs/8205514)<br><sub>“Sponsorship is available for this position and other select roles.”</sub> | United States | 🛂✅ sponsors<br>⏳ 60+ days | Sep 15 |
-| Vestmark Internship Program | [Software Engineer Co-op](https://job-boards.greenhouse.io/internrecruiting/jobs/8204511) | Boston, MA | 🔄 co-op<br>⚠ unverified<br>⏳ 60+ days | Sep 15 |
 | Base Power Company | [Quantitative Developer Intern](https://jobs.ashbyhq.com/base-power/b6b2332e-1226-4575-b2c9-9e5258f2540e) | Austin, TX | ⏳ 60+ days | Sep 14 |
 | Base Power Company | [Software Engineering Intern](https://jobs.ashbyhq.com/base-power/5353ea33-57d4-46fa-9a96-e392a3f841bc) | Austin, TX | ⏳ 60+ days | Sep 14 |
 | Cyvl | [Software Engineering Intern - SWE/ML \(Summer 2027\)](https://jobs.ashbyhq.com/cyvl/8bfc4116-b0bb-47f8-bca1-7069a37db328) | Boston, Massachusetts | ⏳ 60+ days | Sep 14 |
@@ -719,7 +712,6 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | BNY Mellon | [2027 BNY Summer Internship Program - Engineering \(Developer\) - New York, NY](https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/81253)<br><sub>“Does not require sponsorship for employment visa status \(now or in the future\) in the country where applying.”</sub> | New York, NY, United States | 🛂❌ no sponsor<br>🎓 3.0+ GPA<br>⏳ 60+ days | Aug 24 |
 | BNY Mellon | [2027 BNY Summer Internship Program - Engineering \(Developer\) - Pittsburgh, PA](https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/81254)<br><sub>“Does not require sponsorship for employment visa status \(now or in the future\) in the country where applying.”</sub> | Pittsburgh, PA, United States | 🛂❌ no sponsor<br>🎓 3.0+ GPA<br>⏳ 60+ days | Aug 24 |
 | ATOMS Careers page | [Robotics Software Engineer Intern](https://job-boards.greenhouse.io/cssmerge/jobs/8695475002) | Pittsburgh, PA | ⏳ 60+ days | Aug 21 |
-| General Matter | [Summer 2027 Internship - Software Engineering](https://job-boards.greenhouse.io/generalmatter/jobs/5377118008) | Los Angeles, CA | ⚠ unverified<br>⏳ 60+ days | Aug 19 |
 | LPL Financial Holdings | [Intern 2027- Platform Engineer](https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Platform-Engineer_R-052920-1) | Fort Mill/Charlotte | ⏳ 60+ days | Aug 18 |
 | LPL Financial Holdings | [Intern 2027- Software Engineer](https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Software-Engineer_R-052921) | Fort Mill/Charlotte | ⏳ 60+ days | Aug 18 |
 | PIMCO | [2027 Summer Intern - Technology Analyst, Software Engineering](https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Austin-TX-USA/XMLNAME-2027-Summer-Intern---Technology-Analyst--Software-Engineering_R106745) | Austin, TX USA | 🧪 OA<br>🎓 3.5+ GPA<br>⏳ 60+ days | Aug 18 |
@@ -756,7 +748,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Five Rings Capital | [Summer Intern 2027 - Software Developer](https://job-boards.greenhouse.io/fiveringsllc/jobs/5349707008) | New York | ⏳ 60+ days | Jul 14 |
 | DRW | [Quantitative Research Intern](https://job-boards.greenhouse.io/drweng/jobs/7818540) | Chicago, New York City | ⏳ 60+ days | Jul 13 |
 | DRW | [Quantitative Trading Analyst Intern](https://job-boards.greenhouse.io/drweng/jobs/7668776) | Chicago, Illinois | ⏳ 60+ days | Jul 13 |
-| DRW | [Software Developer Intern](https://job-boards.greenhouse.io/drweng/jobs/7992936) | Chicago | ⏳ 60+ days | Jul 13 |
+| DRW | [Software Developer Intern](https://job-boards.greenhouse.io/drweng/jobs/7992936) | Chicago | ⚠ unverified<br>⏳ 60+ days | Jul 13 |
 | Copart | [QA Engineering Intern](https://copart.wd12.myworkdayjobs.com/Copart/job/Dallas-TX---Headquarters/QA-Engineering-Intern_JR109671) | Dallas, TX - Headquarters | ⏳ 60+ days | Jul 10 |
 | Flow Traders | [Quantitative Trading Intern Summer 2027](https://job-boards.greenhouse.io/flowtraders/jobs/8047166) | New York | ⏳ 60+ days | Jul 8 |
 | Marshall Wace | [Technology Intern - New York - 2027](https://job-boards.greenhouse.io/mwinternshipprogram/jobs/8606238002) | New York | ⏳ 60+ days | Jul 6 |
@@ -811,7 +803,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Palantir Technologies | [Privacy and Civil Liberties Software Engineer, Internship](https://jobs.lever.co/palantir/09846827-b931-4a9f-bd64-c3bb8860187b) | New York, NY | ⏳ 60+ days | Oct 6 |
 | Palantir Technologies | [Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/4d29249a-d7e8-4c39-880d-3b35d7b2f6f6) | New York, NY | ⏳ 60+ days | Feb 24 |
 
-## New grad (84)
+## New grad (83)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
@@ -837,8 +829,8 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Palantir Technologies | [Software Engineer, New Grad - Query Engines](https://jobs.lever.co/palantir/90329118-d9b7-4b96-acdf-13377e3196ac) | New York, NY |  | Oct 19 |
 | CACI International | [Entry Level C\# Software Engineer](https://caci.wd1.myworkdayjobs.com/External/job/Virginia-Beach-VA-US/Entry-Level-C--Software-Engineer_333249)<br><sub>“• Candidate must be a US Citizen, and able to obtain a DoD Secret Clearance.”</sub> | Virginia Beach, VA, US | 🗽 citizens<br>🔒 secret<br>⚠ unverified | Oct 7 |
 | CACI International | [Web Application Developer – Early Career](https://caci.wd1.myworkdayjobs.com/External/job/Chantilly-VA-US/Web-Application-Developer---Early-Career_333158) | Chantilly, VA, US | ⚠ unverified | Oct 7 |
-| Affirm | [Software Engineer, Early Career \(NYC\)](https://job-boards.greenhouse.io/affirm/jobs/8008649003) | New York, New York, United States |  | Oct 6 |
-| Affirm | [Software Engineer, Early Career \(SF\)](https://job-boards.greenhouse.io/affirm/jobs/8010617003) | San Francisco, California, United States |  | Oct 6 |
+| Affirm | [Software Engineer, Early Career \(NYC\)](https://job-boards.greenhouse.io/affirm/jobs/8008649003) | New York, New York, United States | ⚠ unverified | Oct 6 |
+| Affirm | [Software Engineer, Early Career \(SF\)](https://job-boards.greenhouse.io/affirm/jobs/8010617003) | San Francisco, California, United States | ⚠ unverified | Oct 6 |
 | Shield AI | [Software Development Engineer - New Graduate](https://jobs.lever.co/shieldai/79c3b65f-ce0c-4868-bedf-4ddcc4cfe583) | San Diego, California | ⚠ unverified | Oct 6 |
 | Belvedere Trading | [Quantitative Researcher - Entry Level 2027](https://jobs.lever.co/belvederetrading/337314ee-4de5-4b96-a419-1b9287a7df68) | Chicago, Illinois |  | Oct 5 |
 | Relling | [Robotics Software Engineer - New Grad](https://jobs.ashbyhq.com/Relling/a31f91ae-30f9-4e36-b9d2-2cb74c398d2e) | San Francisco |  | Oct 2 |
@@ -873,7 +865,6 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | SpaceX | [New Graduate Engineer, Software - '26/'27 \(Starlink\)](https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002)<br><sub>“ITAR REQUIREMENTS: To conform to U.S. Government export regulations, applicant must be a \(i\) U.S. citizen or national, \(ii\) U.S. lawful, per…”</sub> | Palo Alto, CA | 📜 ITAR<br>⏳ 60+ days | Aug 14 |
 | General Matter | [Software Engineer, New Grad](https://job-boards.greenhouse.io/generalmatter/jobs/5375987008) | Los Angeles, CA | ⏳ 60+ days | Aug 12 |
 | Freeform | [Software Engineer \(New Grad December 2026\)](https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7826634003) | Los Angeles, CA \(On-site\) | ⏳ 60+ days | Aug 7 |
-| ATOMS Careers page | [Software Engineer - New Grad](https://job-boards.greenhouse.io/cssmerge/jobs/8687930002) | Multiple Locations Available | 🎓 3.7+ GPA<br>⚠ unverified<br>⏳ 60+ days | Aug 6 |
 | Muon Space | [Software Engineer, Entry-Level](https://job-boards.greenhouse.io/muonspace/jobs/5204498007)<br><sub>“To conform to U.S. Government export regulations applicable to that information, applicant must either be \(A\) a U.S. person, defined as a \(i…”</sub> | San Jose, CA | 🗽 citizens<br>⏳ 60+ days | Aug 5 |
 | Belvedere Trading | [Quantitative Trader - Entry Level 2027](https://jobs.lever.co/belvederetrading/34369a5c-55c0-4e9f-9d2e-4f21b9418bee) | Chicago, Illinois | ⏳ 60+ days | Aug 4 |
 | Palantir Technologies | [Forward Deployed Software Engineer, New Grad - Commercial](https://jobs.lever.co/palantir/e500bcf3-19d8-4d3c-b340-4d76e4a55b40) | Chicago, IL | ⏳ 60+ days | Jun 29 |
@@ -893,7 +884,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Palantir Technologies | [Software Engineer, New Grad - Defense](https://jobs.lever.co/palantir/18d901fc-93bb-4d18-9f04-c72031e20d79)<br><sub>“What We Require: Active US Security clearance or eligibility and willingness to obtain a US Security clearance.”</sub> | Washington, D.C. | 🔒 clearance<br>⏳ 60+ days | Jun 19 |
 | Palantir Technologies | [Software Engineer, New Grad - Defense](https://jobs.lever.co/palantir/f362d7aa-360d-4059-ab38-f482742693b3)<br><sub>“What We Require: Active US Security clearance or eligibility and willingness to obtain a US Security clearance.”</sub> | Palo Alto, CA | 🔒 clearance<br>⏳ 60+ days | Jun 19 |
 | Palantir Technologies | [Forward Deployed Software Engineer, New Grad - Commercial](https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728) | New York, NY | ⏳ 60+ days | Jun 13 |
-| Databricks | [Software Engineer - New Grad, Distributed Data Systems \(2027 Start\)](https://databricks.com/company/careers/open-positions/job?gh_jid=6865704002) | Bellevue, Washington; Mountain View, Californ… | ⏳ 60+ days | Aug 4 |
+| Databricks | [Software Engineer - New Grad, Distributed Data Systems \(2027 Start\)](https://databricks.com/company/careers/open-positions/job?gh_jid=6865704002) | Bellevue, Washington; Mountain View, Californ… | ⚠ unverified<br>⏳ 60+ days | Aug 4 |
 | Perpay | [Software Engineer, New Grad](https://job-boards.greenhouse.io/perpay/jobs/4034578007) | Philadelphia, Pennsylvania, United States | ⏳ 60+ days | Jul 7 |
 | Palantir Technologies | [Forward Deployed Software Engineer, New Grad - US Government](https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb)<br><sub>“What We Require: Active US Security clearance or eligibility and willingness to obtain a US Security clearance.”</sub> | Washington, D.C. | 🔒 clearance<br>⏳ 60+ days | Jun 30 |
 | Palantir Technologies | [Forward Deployed Software Engineer, New Grad - US Government](https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca)<br><sub>“What We Require: Active US Security clearance or eligibility and willingness to obtain a US Security clearance.”</sub> | New York, NY | 🔒 clearance<br>⏳ 60+ days | Jun 30 |

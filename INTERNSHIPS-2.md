@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 1995 open · page 2 of 17 · updated 2026-11-17
+[⬅ Back to the main page](./) · 1973 open · page 2 of 17 · updated 2026-11-18
 
 [⬅ page 1](INTERNSHIPS.md) · page 2 of 17 · [page 3 ➡](INTERNSHIPS-3.md)
 
@@ -34,8 +34,6 @@
 
 | Company | Role | Location | Tags |
 |---|---|---|---|
-| Federal Reserve System | [2027 Summer Internship Program - IT Portfolio Analyst Intern](https://rb.wd5.myworkdayjobs.com/FRS/job/Atlanta-GA/XMLNAME-2027-Summer-Internship-Program---IT-Portfolio-Analyst-Intern_R-0000034092)<br><sub>“Applicants must be currently authorized to work in the United States without the need for visa sponsorship now or in the future.”</sub> | Atlanta, GA | 🛂❌ no sponsor |
-| Formlabs | [2027 \(Summer\) - Manufacturing - Manufacturing Test Software Intern](https://careers.formlabs.com/job/8374598/apply/?gh_jid=8374598) | Somerville, Massachusetts |  |
 | Genuine Parts Company | [Technology Intern 2027](https://genpt.wd1.myworkdayjobs.com/Careers/job/Atlanta-GA-USA/Technology-Intern-2027_R26_0000037382) | Atlanta, GA, USA | 🧪 OA<br>🎓 3.6+ GPA |
 | GM Financial | [Intern - Software Development Engineer](https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/261292) | Irving, TX, United States | 🎓 3.0+ GPA |
 | Great American Insurance Group | [Predictive Analytics Intern - Summer 2027](https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Predictive-Analytics-Intern---Summer-2027_R9904)<br><sub>“Applicants must be authorized to work in the United States without the need for current or future sponsorship.”</sub> | Cincinnati, OH \(USA\) | 🛂❌ no sponsor |
@@ -149,11 +147,13 @@
 | Tucson Electric Power | [Student Intern, IT Energy Systems](https://tep.wd1.myworkdayjobs.com/TEP/job/Tucson-AZ---Irvington/Student-Intern--IT-Energy-Systems_JR450) | Tucson, AZ - Irvington |  |
 | V2X | [AI Intern - Junior](https://careers.gov2x.com/why-gov2x/jobs/63949) | Indianapolis, Indiana | ⚠ unverified |
 | Waymo | [2027 Summer Intern, Perception - Perception Data Foundations](https://careers.withwaymo.com/jobs?gh_jid=8248327) | Mountain View, California | ⚠ unverified |
-| Westinghouse Electric Company | [Summer Intern - Computer Aided Engineering](https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Computer-Aided-Engineering-NC/1447267500/) | Cranberry Township, Pennsylvania |  |
+| Westinghouse Electric Company | [Summer Intern - Computer Aided Engineering](https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Computer-Aided-Engineering-NC/1447267500/) | Cranberry Township, Pennsylvania | ⚠ unverified |
 | Westinghouse Electric Company | [Summer Intern - ICS Cyber Security](https://careers.westinghousenuclear.com/job/Warrendale-Summer-Intern-ICS-Cyber-Security-OR/1448123600/) | Warrendale, Oregon |  |
 | Westinghouse Electric Company | [Summer Intern - Software Development](https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Software-Development-NC/1441279500/) | Cranberry Township, Pennsylvania | ⚠ unverified |
 | Westinghouse Electric Company | [Summer Intern - Software Engineering](https://careers.westinghousenuclear.com/job/Warrendale-Summer-Intern-Software-Engineering-OR/1442826200/) | Warrendale, Oregon |  |
 | White Cap | [Corporate Intern - Information Security](https://whitecap.wd1.myworkdayjobs.com/Careers/job/Atlanta_30360/Corporate-Intern---Information-Security_WCJR-036638) | Atlanta\_30360 |  |
+| White Cap | [Corporate Intern - Product Data Management](https://whitecap.wd1.myworkdayjobs.com/Careers/job/Corporate-Intern---Product-Data-Management_WCJR-036650) |  |  |
+| Zoetis | [Information Security Intern](https://zoetis.wd5.myworkdayjobs.com/broadbean_external/job/Parsippany/Information-Security-Intern_JR00021994) | Parsippany |  |
 
 [⬅ page 1](INTERNSHIPS.md) · page 2 of 17 · [page 3 ➡](INTERNSHIPS-3.md)
 

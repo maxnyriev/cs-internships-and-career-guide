@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 1995 open · page 11 of 17 · updated 2026-11-17
+[⬅ Back to the main page](./) · 1973 open · page 11 of 17 · updated 2026-11-18
 
 [⬅ page 10](INTERNSHIPS-10.md) · page 11 of 17 · [page 12 ➡](INTERNSHIPS-12.md)
 
@@ -34,23 +34,10 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| F5 | [Software Development Engineer Intern \(San Jose, CA\)](https://ffive.wd5.myworkdayjobs.com/f5jobs/job/San-Jose/Software-Development-Engineer-Intern--San-Jose--CA-_RP1039076) | San Jose |  | Oct 6 |
-| F5 | [Software Development Engineer Intern \(Seattle, WA\)](https://ffive.wd5.myworkdayjobs.com/f5jobs/job/Seattle/Software-Development-Engineer-Intern--Seattle--WA-_RP1039073) | Seattle |  | Oct 6 |
-| Hewlett Packard Enterprise | [Hardware Engineering Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Sunnyvale-California-United-States-of-America/Hardware-Engineering-Intern_1214064) | Sunnyvale, California, United States of Ameri… |  | Oct 6 |
-| Leidos | [Business Systems AI Intern](https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Business-Systems-AI-Intern_R-00193327)<br><sub>“Candidates must be US citizens able to obtain and/or maintain a Department of Defense Secret security clearance as a condition of employment”</sub> | 6314 Remote/Teleworker US | 🗽 citizens<br>🔒 secret<br>🌐 remote | Oct 6 |
-| Macy's | [Macy's 2027 Summer Internship – Consumer Insights: Customer &amp; Digital Intelligence and Analytics](https://ebwh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/93380) | New York, NY, United States |  | Oct 6 |
-| Macy's | [Macy's 2027 Summer Internship – Customer &amp; Digital Growth, Insights and Platforms – Analytics](https://ebwh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/93389) | New York, NY, United States |  | Oct 6 |
-| Macy's | [Macy's 2027 Summer Internship – Customer &amp; Digital Growth, Insights and Platforms – Data Systems](https://ebwh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/93388) | New York, NY, United States |  | Oct 6 |
-| Manitowoc | [Summer 2027 Intern - Cybersecurity](https://fda.fa.us1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/3330) | Shady Grove, PA, United States |  | Oct 6 |
-| NCR Atleos | [AI Product Analyst Intern](https://ncratleos.wd1.myworkdayjobs.com/ext_contractors/job/ATLANTA-GA-USA/AI-Product-Analyst-Intern_R1154949) | ATLANTA, GA, USA |  | Oct 6 |
-| Oceaneering | [3d Subsea Simulator Software Intern](https://ebfr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobs/job/11523) | Austin, TX, United States | 🎓 2.5+ GPA | Oct 6 |
-| Oceaneering | [IT Finance Analyst Intern](https://ebfr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobs/job/11608) | Houston, TX, United States | 🎓 3.0+ GPA | Oct 6 |
-| Oceaneering | [IT SCM Business Analyst Intern](https://ebfr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobs/job/11640) | Houston, TX, United States | 🎓 3.0+ GPA | Oct 6 |
-| OxyChem | [IT Intern](https://oxychem.wd504.myworkdayjobs.com/Corporate/job/Dallas-Texas/IT-Intern_JR110339) | Dallas, Texas | 🎓 2.9+ GPA | Oct 6 |
 | Pure Storage | [Software Engineer Intern \(Summer 2027\)](https://job-boards.greenhouse.io/purestorage/jobs/8249749) | Santa Clara, California |  | Oct 6 |
-| Revel | [Internship: Embedded Software Engineer](https://jobs.ashbyhq.com/revel/f8eec1fd-da28-47ce-bca4-2fbe9c48a889)<br><sub>“- US citizen, lawful permanent resident, refugee, or asylee \(ITAR requirement\)”</sub> | Los Angeles | 📜 ITAR | Oct 6 |
+| Revel | [Internship: Embedded Software Engineer](https://jobs.ashbyhq.com/revel/f8eec1fd-da28-47ce-bca4-2fbe9c48a889)<br><sub>“- US citizen, lawful permanent resident, refugee, or asylee \(ITAR requirement\)”</sub> | Los Angeles | 📜 ITAR<br>⚠ unverified | Oct 6 |
 | Revel | [Internship: Forward Deployed Engineer, Software](https://jobs.ashbyhq.com/revel/34f97b81-c981-4c4b-9f4d-d471c33b46cc)<br><sub>“- US citizen, lawful permanent resident, refugee, or asylee \(ITAR requirement\)”</sub> | Los Angeles | 📜 ITAR | Oct 6 |
-| Revel | [Internship: Full Stack Software Engineer](https://jobs.ashbyhq.com/revel/29968ce1-8838-44e8-ac4e-6b1c87ce5314)<br><sub>“- US citizen, lawful permanent resident, refugee, or asylee \(ITAR requirement\)”</sub> | Los Angeles | 📜 ITAR | Oct 6 |
+| Revel | [Internship: Full Stack Software Engineer](https://jobs.ashbyhq.com/revel/29968ce1-8838-44e8-ac4e-6b1c87ce5314)<br><sub>“- US citizen, lawful permanent resident, refugee, or asylee \(ITAR requirement\)”</sub> | Los Angeles | 📜 ITAR<br>⚠ unverified | Oct 6 |
 | Revel | [Internship: Software Engineer, Test](https://jobs.ashbyhq.com/revel/f080b27d-92c7-4e1f-a85f-b4a7c166d738)<br><sub>“- US citizen, lawful permanent resident, refugee, or asylee \(ITAR requirement\)”</sub> | Los Angeles | 📜 ITAR | Oct 6 |
 | Rockwell Automation | [Intern, Firmware and Software Test Development](https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mequon-Wisconsin-United-States/Intern--Firmware-and-Software-Test-Development_R26-7568)<br><sub>“Legal authorization to work in the U.S. We will not sponsor individuals for employment visas, now or in the future, for this job opening.”</sub> | Mequon, Wisconsin, United States | 🛂❌ no sponsor<br>🎓 2.8+ GPA | Oct 6 |
 | Sigma Computing | [Software Engineering Intern \(Summer 2027\)](https://job-boards.greenhouse.io/sigmacomputing/jobs/7850795003)<br><sub>“Visa sponsorship is not available for our internship positions”</sub> | San Francisco, CA | 🛂❌ no sponsor | Oct 6 |
@@ -154,6 +141,19 @@
 | CarGurus Early Careers | [Data Governance Engineer Intern](https://job-boards.greenhouse.io/ecjobb/jobs/8230749) | Boston, Massachusetts, United States |  | Sep 30 |
 | CarGurus Early Careers | [Data Platform Engineer Intern](https://job-boards.greenhouse.io/ecjobb/jobs/8230750) | Boston, Massachusetts, United States |  | Sep 30 |
 | CarGurus Early Careers | [Product Data Analyst Intern](https://job-boards.greenhouse.io/ecjobb/jobs/8230677) | Boston, Massachusetts, United States |  | Sep 30 |
+| CarGurus Early Careers | [Software Development Engineer Intern](https://job-boards.greenhouse.io/ecjobb/jobs/8231504) | Boston, Massachusetts, United States |  | Sep 30 |
+| CarGurus Early Careers | [Software Development Engineer Intern \(Full Stack\)](https://job-boards.greenhouse.io/ecjobb/jobs/8230763) | Boston, Massachusetts, United States |  | Sep 30 |
+| Dallas Fort Worth International Airport | [2027 Undergraduate Summer Internship – Enterprise Data &amp; Analytics](https://dfwairport.wd5.myworkdayjobs.com/External/job/DFW-Intl-Airport-Board/XMLNAME-2027-Undergraduate-Summer-Internship---Enterprise-Data---Analytics_JR102162-1)<br><sub>“However, we are not able to sponsor visas for this position at this time.”</sub> | DFW Intl. Airport Board | 🛂❌ no sponsor<br>🎓 3.0+ GPA | Sep 30 |
+| GE Aerospace | [Lynn CNC Programmer Co-Op](https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Lynn/Lynn-CNC-Programmer-Co-Op_R5040944-1) | Lynn | 🔄 co-op | Sep 30 |
+| GenScript | [AI Intern, Enterprise Agent Development](https://job-boards.greenhouse.io/genscript/jobs/5253581007) | Piscataway, New Jersey, United States |  | Sep 30 |
+| Intel Corporation | [Research Scientist Intern - Graphics, ML](https://intel.wd1.myworkdayjobs.com/External/job/Virtual-US/Research-Scientist-Intern---Graphics--ML_JR0287525) | Virtual US |  | Sep 30 |
+| ITW | [Summer 2027 Software Engineering Intern](https://itw.wd5.myworkdayjobs.com/External/job/MTS-Headquarters/Software-Engineering-Intern_JR10261) | MTS Headquarters |  | Sep 30 |
+| Muon Space | [Flight Software Engineering Intern \(Summer 2027\)](https://job-boards.greenhouse.io/muonspace/jobs/5247725007)<br><sub>“To conform to U.S. Government export regulations applicable to that information, applicant must either be \(A\) a U.S. person, defined as a \(i…”</sub> | San Jose, CA | 🗽 citizens | Sep 30 |
+| Oceaneering | [IT Security Architecture Intern](https://ebfr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobs/job/11613) | Houston, TX, United States | 🎓 3.0+ GPA | Sep 30 |
+| POET | [Data Engineering Intern - Summer 2027](https://poet.wd1.myworkdayjobs.com/POET/job/Sioux-Falls-SD/Data-Engineering-Intern_R101787) | Sioux Falls, SD |  | Sep 30 |
+| Stantec | [Data Science Intern - Infrastructure \(Summer 2027\)](https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1008052) | Orlando, FL, United States |  | Sep 30 |
+| Stripe | [High School Internship, Software Engineering \(Summer 2027\)](https://stripe.com/jobs/search?gh_jid=8241260) | Seattle, San Francisco |  | Sep 30 |
+| TRUMPF | [CNC Programming Intern](https://trumpf.wd3.myworkdayjobs.com/TRUMPF_Students/job/Farmington-CT/CNC-Programming-Intern_R00042595) | Farmington, CT |  | Sep 30 |
 
 [⬅ page 10](INTERNSHIPS-10.md) · page 11 of 17 · [page 12 ➡](INTERNSHIPS-12.md)
 

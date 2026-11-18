@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 1995 open · page 13 of 17 · updated 2026-11-17
+[⬅ Back to the main page](./) · 1973 open · page 13 of 17 · updated 2026-11-18
 
 [⬅ page 12](INTERNSHIPS-12.md) · page 13 of 17 · [page 14 ➡](INTERNSHIPS-14.md)
 
@@ -34,21 +34,6 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| Astranis | [Flight Software Intern \(Winter 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4704595006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco | 🗽 citizens | Sep 22 |
-| Astranis | [Hardware Test Intern \(Winter 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4707012006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco | 🗽 citizens | Sep 22 |
-| Astranis | [Software Engineer - Enterprise Systems Intern \(Summer 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4705610006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco, CA | 🗽 citizens | Sep 22 |
-| Astranis | [Software Engineer Backend Intern \(Summer 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4705214006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco, CA | 🗽 citizens | Sep 22 |
-| Bracco Medical Technologies | [Product Security Engineering Intern](https://bracco.wd103.myworkdayjobs.com/BraccoCareers/job/USA-Eden-Prairie-Minnesota-55344/Product-Security-Engineering-Intern_JR100318) | USA, Eden Prairie, Minnesota, 55344 |  | Sep 22 |
-| Exol | [Co-op- Hardware Engineer](https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington-MA---ITC/Hardware-Engineer_R7976) | USA Wilmington, MA - ITC | 🔄 co-op | Sep 22 |
-| Formlabs Internships | [Desktop Software Intern \(Winter/Spring 2027\)](https://job-boards.greenhouse.io/formlabsinternships/jobs/8188725) | Somerville, MA | 🌱 spring | Sep 22 |
-| Geneva Trading | [Python Developer Intern](https://job-boards.greenhouse.io/genevatrading/jobs/5242196007) | Chicago Office |  | Sep 22 |
-| Gordon Food Service | [Identity Analyst IT Internship](https://gfs.wd5.myworkdayjobs.com/usjobs-gen-gfs/job/Wyoming-Michigan/Identity-Analyst-IT-Internship_R-57499-1) | Wyoming, Michigan | 🎓 3.0+ GPA | Sep 22 |
-| GuideStone Financial Resources | [Summer Intern - Software Developer](https://guidestone.wd1.myworkdayjobs.com/GuideStone/job/Dallas-TX/Summer-Intern---Software-Developer_R2129)<br><sub>“Candidates must have permanent U.S. work authorization; we do not sponsor employment visas or accept students on a student visa.”</sub> | Dallas, TX | 🛂❌ no sponsor<br>🎓 3.0+ GPA | Sep 22 |
-| Idaho National Laboratory | [Computer Security Research Intern - Summer 2027](https://elhe.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/pro/job/2092) | Idaho Falls, ID, United States | 🎓 3.0+ GPA | Sep 22 |
-| Idaho National Laboratory | [Cyber Security Research Intern - Summer 2027](https://elhe.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/pro/job/2093) | Idaho Falls, ID, United States | 🎓 3.0+ GPA | Sep 22 |
-| KLA | [Algorithm Engineering Intern \(AI, Computer Vision &amp; Software Engineering\)](https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Algorithm-Engineering-Intern--AI--Computer-Vision---Software-Engineering-_2641392-2) | Milpitas, CA |  | Sep 22 |
-| KLA | [Software Engineering Intern \(C++, Unix\)](https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Software-Engineering-Intern--C----Unix-_2641325-1) | Milpitas, CA |  | Sep 22 |
-| Marvell Technology | [Electrical Validation Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Electrical-Validation-Intern--BS---Summer-2027_2603795-1) | Santa Clara, CA |  | Sep 22 |
 | PwC | [Salesforce Developer - Intern - Palermo\[ADV\]](https://pwc.wd3.myworkdayjobs.com/NonPublic_Postings/job/Palermo/Salesforce-Developer---Intern---Palermo-ADV-_763715WD)<br><sub>“Government Clearance Required?”</sub> | Palermo | 🔒 clearance<br>⚠ unverified | Sep 22 |
 | Tanium | [Cloud Security Intern](https://job-boards.greenhouse.io/tanium/jobs/8176398) | Durham, NC \(Hybrid\) | 🎓 3.5+ GPA | Sep 22 |
 | Tencent | [IT Operations Intern](https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/IT-Operations-Intern_R108176-2) | US-California-Palo Alto |  | Sep 22 |
@@ -72,21 +57,20 @@
 | Tenet Healthcare Corporation | [BI Developer Intern - Hybrid in Dallas, TX](https://eodr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2603021909) | Dallas, TX, United States | ⚠ unverified | Sep 21 |
 | Westfield | [2027 Summer Intern Program- IT Intern, Berkeley Heights, NJ](https://fa-exdv-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/12007) | Berkeley Heights, NJ, United States | 🎓 3.2+ GPA | Sep 21 |
 | Westfield | [2027 Summer Intern Program- IT Intern, Chicago](https://fa-exdv-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/12006) | Chicago, IL, United States | 🎓 3.2+ GPA | Sep 21 |
-| Acron Aviation | [Software Engineer Intern - St. Pete Site](https://jobs.lever.co/acronaviation/19dbac7d-b4fb-4d21-9247-dc610bf55fed)<br><sub>“To comply with these requirements, applicants must qualify as a US Person.”</sub> | St Petersburg, FL | 🗽 citizens | Sep 18 |
-| Adobe | [2027 Intern - Software Engineer](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Software-Engineer_R171666) | San Jose |  | Sep 18 |
-| Altar'd State | [Spring 2027 IT Analytics Intern](https://standoutforgood.wd12.myworkdayjobs.com/StandOutForGood/job/Knoxville-TN/Spring-2027-IT-Analytics-Intern_SOSJ12499) | Knoxville, TN | 🌱 spring | Sep 18 |
-| Altar'd State | [Spring 2027 IT Help Desk Intern](https://standoutforgood.wd12.myworkdayjobs.com/StandOutForGood/job/Knoxville-TN/Spring-2027-IT-Help-Desk-Intern_SOSJ12503-1) | Knoxville, TN | 🌱 spring | Sep 18 |
-| Amazon | [Data Engineer Internship - 2027 \(US\)](https://www.amazon.jobs/en/jobs/10553907/data-engineer-internship-2027-us) | Seattle, Washington, USA |  | Sep 18 |
-| Base Power Company | [Hardware Sourcing Intern](https://jobs.ashbyhq.com/base-power/7ba325d9-4256-4567-83a4-8dd9c72a0d10) | Austin, TX |  | Sep 18 |
-| Encompass Health | [Data Management Student Intern - Summer 2027](https://ibwsjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2528036) | Birmingham, AL, United States |  | Sep 18 |
-| Farmers Mutual Hail Insurance Company | [AI Intern](https://job-boards.greenhouse.io/farmersmutualhailinsurancecompany/jobs/4404387009)<br><sub>“This position is not eligible for sponsorship for work authorization by Farmers Mutual Hail Insurance Company, SI.”</sub> | West Des Moines, IA | 🛂❌ no sponsor | Sep 18 |
-| GreatAmerica Financial Services | [Quality Assurance Analyst Intern](https://greatamerica.wd12.myworkdayjobs.com/greatamericacareers/job/Cedar-Rapids-IA/Software-Quality-Engineer-Intern_JR1235) | Cedar Rapids, IA |  | Sep 18 |
-| Honeywell | [Future IT Leaders - Summer 2027 Intern](https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/157978)<br><sub>“Candidates must be authorized to legally work in the United States without current or future sponsorship requirements.”</sub> | United States | 🛂❌ no sponsor | Sep 18 |
-| ITW | [Software Engineering Intern](https://itw.wd5.myworkdayjobs.com/External/job/Appleton-1635-W-Spencer/Software-Engineering-Intern_JR10122) | Appleton-1635 W Spencer | 🎓 3.0+ GPA | Sep 18 |
-| LLNL | [Computing Undergraduate Student Intern: DevOps Internship Program - Summer 2027](https://jobs.smartrecruiters.com/LLNL/3743990015408206-computing-undergraduate-student-intern-devops-internship-program-summer-2027)<br><sub>“Security Clearance”</sub> | Livermore, CA, US | 🔒 clearance<br>🎓 3.0+ GPA | Sep 18 |
-| OCC | [Year-Round Intern - Application Security](https://theocc.wd5.myworkdayjobs.com/careers/job/Dallas-TX/Year-Round-Intern---Application-Security_REQ-4838) | Dallas, TX |  | Sep 18 |
-| Stantec | [Technology Intern/Co-op - Buildings \(Summer 2027\)](https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1007834) | New York, NY, United States | 🔄 co-op | Sep 18 |
-| Together AI | [Systems Research Engineer Intern - GPU Programming \(Summer 2027\)](https://job-boards.greenhouse.io/togetherai/jobs/5238460007) | San Francisco | ⚠ unverified | Sep 18 |
+| Acron Aviation | [Software Engineer Intern - St. Pete Site](https://jobs.lever.co/acronaviation/19dbac7d-b4fb-4d21-9247-dc610bf55fed)<br><sub>“To comply with these requirements, applicants must qualify as a US Person.”</sub> | St Petersburg, FL | 🗽 citizens<br>⏳ 60+ days | Sep 18 |
+| Adobe | [2027 Intern - Software Engineer](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Software-Engineer_R171666) | San Jose | ⏳ 60+ days | Sep 18 |
+| Altar'd State | [Spring 2027 IT Analytics Intern](https://standoutforgood.wd12.myworkdayjobs.com/StandOutForGood/job/Knoxville-TN/Spring-2027-IT-Analytics-Intern_SOSJ12499) | Knoxville, TN | 🌱 spring<br>⏳ 60+ days | Sep 18 |
+| Altar'd State | [Spring 2027 IT Help Desk Intern](https://standoutforgood.wd12.myworkdayjobs.com/StandOutForGood/job/Knoxville-TN/Spring-2027-IT-Help-Desk-Intern_SOSJ12503-1) | Knoxville, TN | 🌱 spring<br>⏳ 60+ days | Sep 18 |
+| Amazon | [Data Engineer Internship - 2027 \(US\)](https://www.amazon.jobs/en/jobs/10553907/data-engineer-internship-2027-us) | Seattle, Washington, USA | ⏳ 60+ days | Sep 18 |
+| Base Power Company | [Hardware Sourcing Intern](https://jobs.ashbyhq.com/base-power/7ba325d9-4256-4567-83a4-8dd9c72a0d10) | Austin, TX | ⏳ 60+ days | Sep 18 |
+| Encompass Health | [Data Management Student Intern - Summer 2027](https://ibwsjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2528036) | Birmingham, AL, United States | ⏳ 60+ days | Sep 18 |
+| Farmers Mutual Hail Insurance Company | [AI Intern](https://job-boards.greenhouse.io/farmersmutualhailinsurancecompany/jobs/4404387009)<br><sub>“This position is not eligible for sponsorship for work authorization by Farmers Mutual Hail Insurance Company, SI.”</sub> | West Des Moines, IA | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 18 |
+| GreatAmerica Financial Services | [Quality Assurance Analyst Intern](https://greatamerica.wd12.myworkdayjobs.com/greatamericacareers/job/Cedar-Rapids-IA/Software-Quality-Engineer-Intern_JR1235) | Cedar Rapids, IA | ⏳ 60+ days | Sep 18 |
+| Honeywell | [Future IT Leaders - Summer 2027 Intern](https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/157978)<br><sub>“Candidates must be authorized to legally work in the United States without current or future sponsorship requirements.”</sub> | United States | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 18 |
+| ITW | [Software Engineering Intern](https://itw.wd5.myworkdayjobs.com/External/job/Appleton-1635-W-Spencer/Software-Engineering-Intern_JR10122) | Appleton-1635 W Spencer | 🎓 3.0+ GPA<br>⏳ 60+ days | Sep 18 |
+| LLNL | [Computing Undergraduate Student Intern: DevOps Internship Program - Summer 2027](https://jobs.smartrecruiters.com/LLNL/3743990015408206-computing-undergraduate-student-intern-devops-internship-program-summer-2027)<br><sub>“Security Clearance”</sub> | Livermore, CA, US | 🔒 clearance<br>🎓 3.0+ GPA<br>⏳ 60+ days | Sep 18 |
+| OCC | [Year-Round Intern - Application Security](https://theocc.wd5.myworkdayjobs.com/careers/job/Dallas-TX/Year-Round-Intern---Application-Security_REQ-4838) | Dallas, TX | ⏳ 60+ days | Sep 18 |
+| Stantec | [Technology Intern/Co-op - Buildings \(Summer 2027\)](https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1007834) | New York, NY, United States | 🔄 co-op<br>⏳ 60+ days | Sep 18 |
 | ACI Worldwide | [Technology Internships](https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19943) | Norcross, GA, United States | ⏳ 60+ days | Sep 17 |
 | Amazon | [Software Development Engineer Intern - Summer 2027 \(USA\)](https://www.amazon.jobs/en/jobs/10552937/software-development-engineer-intern-summer-2027-usa) | Seattle, Washington, USA | ⏳ 60+ days | Sep 17 |
 | Amperesand | [Software Intern, Factory &amp; Ops](https://job-boards.greenhouse.io/amperesand/jobs/4409254009) | Reno, Nevada, United States | ⏳ 60+ days | Sep 17 |
@@ -154,6 +138,22 @@
 | Inmar Intelligence | [Software Engineering Internships, Summer 2027](https://inmar.wd1.myworkdayjobs.com/inmarcareers/job/Headquarters-Winston-Salem-NC/Software-Engineering-Internships--Summer-2027_JY2627638)<br><sub>“Candidates must have authorization to work in the U.S. without the need for employer sponsorship now or in the future.”</sub> | Headquarters, Winston Salem, NC | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 15 |
 | Insulet Corporation | [Co-op, Embedded Software Engineering: January-June 2027 \(Onsite\)](https://insulet.wd5.myworkdayjobs.com/insuletcareers/job/Acton-Massachusetts/Co-op--Embedded-Software-Engineering--January-June-2027--Onsite-_REQ-2026-17966)<br><sub>“Candidates must have authorization to work in the U.S. without current or future sponsorship needs.”</sub> | Acton, Massachusetts | 🛂❌ no sponsor<br>🔄 co-op<br>⏳ 60+ days | Sep 15 |
 | Insulet Corporation | [Co-op, Embedded Software Test Engineering: January-June 2027 \(Onsite\)](https://insulet.wd5.myworkdayjobs.com/insuletcareers/job/Acton-Massachusetts/Co-op--Embedded-Software-Test-Engineering--January-June-2027--Onsite-_REQ-2026-17986)<br><sub>“Candidates must have authorization to work in the U.S. without current or future sponsorship needs.”</sub> | Acton, Massachusetts | 🛂❌ no sponsor<br>🔄 co-op<br>⏳ 60+ days | Sep 15 |
+| Navy Federal | [Summer Associate Internship \(Product Security Engineer\)](https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32619) | Vienna, VA, United States | ⏳ 60+ days | Sep 15 |
+| Navy Federal Credit Union | [Summer Associate Internship \(Product Security Engineer\)](https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/32619) | Vienna, VA, United States | ⏳ 60+ days | Sep 15 |
+| NJM Insurance Group | [IT QA Automation Intern](https://njm.wd1.myworkdayjobs.com/njm/job/NJM---Trenton/IT-QA-Automation-Intern_R2008283) | NJM - Trenton | 🎓 3.0+ GPA<br>⏳ 60+ days | Sep 15 |
+| NJM Insurance Group | [IT Workstation Support Intern](https://njm.wd1.myworkdayjobs.com/njm/job/NJM---Trenton/IT-Workstation-Support--Intern_R2008273) | NJM - Trenton | 🎓 3.0+ GPA<br>⏳ 60+ days | Sep 15 |
+| NOV | [Software Engineering Intern](https://egay.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_xx/job/44449) | Houston, TX, United States | ⏳ 60+ days | Sep 15 |
+| NYISO Internship Program | [Intern - IT Service Delivery](https://job-boards.greenhouse.io/nyisointernships/jobs/5236071007) | Rensselaer, New York, United States | ⏳ 60+ days | Sep 15 |
+| Penn State University | [Embedded Systems and Hardware Co-Op](https://psu.wd1.myworkdayjobs.com/PSU_Staff/job/Warminster-PA/Embedded-Systems-and-Hardware-Co-Op_REQ_0000066566-2)<br><sub>“You will be subject to a government security investigation, and you must be a U.S. citizen to apply.”</sub> | Warminster, PA | 🗽 citizens<br>🔒 clearance<br>🔄 co-op<br>⏳ 60+ days | Sep 15 |
+| Ramp | [Applied Scientist Intern](https://jobs.ashbyhq.com/ramp/b39ceb08-a0a7-4f8b-a760-2fb88e209956) | New York, NY \(HQ\) | ⏳ 60+ days | Sep 15 |
+| SingleStore | [Software Engineer Intern- Helios- 2027](https://job-boards.greenhouse.io/singlestore/jobs/8205514)<br><sub>“Sponsorship is available for this position and other select roles.”</sub> | United States | 🛂✅ sponsors<br>⏳ 60+ days | Sep 15 |
+| Texas Instruments | [Information Technology Intern – Data Engineering](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017978)<br><sub>“Texas Instruments will not sponsor job applicants for visas or work authorization for this position.”</sub> | Dallas, TX, United States | 🛂❌ no sponsor<br>🎓 3.0+ GPA<br>⏳ 60+ days | Sep 15 |
+| Texas Instruments | [Information Technology Intern – Security](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017626)<br><sub>“Texas Instruments will not sponsor job applicants for visas or work authorization for this position.”</sub> | Dallas, TX, United States | 🛂❌ no sponsor<br>🎓 3.0+ GPA<br>⏳ 60+ days | Sep 15 |
+| AtkinsRéalis | [Water Infrastructure Engineering Intern - Summer 2027](https://slihrms.wd3.myworkdayjobs.com/Careers/job/USNVHenderson/Water-Infrastructure-Engineering-Intern---Summer-2027_R-160500-2) | US.NV.Henderson | ⏳ 60+ days | Sep 14 |
+| Baird | [Internship – IT AI &amp; Automation \(Year-Round\)](https://wd1.myworkdaysite.com/recruiting/baird/Careers/job/WI-Milwaukee/Internship---IT-Operations-Automation---AI--Year-Round-_R2026986-1) | WI-Milwaukee | ⏳ 60+ days | Sep 14 |
+| Baird | [Internship – IT Business Analyst \(Year-Round\)](https://wd1.myworkdaysite.com/recruiting/baird/Careers/job/WI-Milwaukee/Internship---IT-Business-Analyst--Year-Round-_R20261022-2) | WI-Milwaukee | ⏳ 60+ days | Sep 14 |
+| Base Power Company | [Embedded Software Engineering Intern](https://jobs.ashbyhq.com/base-power/a8ee9a66-e90b-42c2-a4a2-28d997c3e8c7) | Austin, TX | ⏳ 60+ days | Sep 14 |
+| Base Power Company | [Quantitative Developer Intern](https://jobs.ashbyhq.com/base-power/b6b2332e-1226-4575-b2c9-9e5258f2540e) | Austin, TX | ⏳ 60+ days | Sep 14 |
 
 [⬅ page 12](INTERNSHIPS-12.md) · page 13 of 17 · [page 14 ➡](INTERNSHIPS-14.md)
 

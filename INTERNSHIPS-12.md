@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 1995 open · page 12 of 17 · updated 2026-11-17
+[⬅ Back to the main page](./) · 1973 open · page 12 of 17 · updated 2026-11-18
 
 [⬅ page 11](INTERNSHIPS-11.md) · page 12 of 17 · [page 13 ➡](INTERNSHIPS-13.md)
 
@@ -34,20 +34,6 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| CarGurus Early Careers | [Site Reliability Engineer Intern](https://job-boards.greenhouse.io/ecjobb/jobs/8230755) | Boston, Massachusetts, United States | ⚠ unverified | Sep 30 |
-| CarGurus Early Careers | [Software Development Engineer Intern](https://job-boards.greenhouse.io/ecjobb/jobs/8231504) | Boston, Massachusetts, United States |  | Sep 30 |
-| CarGurus Early Careers | [Software Development Engineer Intern \(Full Stack\)](https://job-boards.greenhouse.io/ecjobb/jobs/8230763) | Boston, Massachusetts, United States |  | Sep 30 |
-| Dallas Fort Worth International Airport | [2027 Undergraduate Summer Internship – Enterprise Data &amp; Analytics](https://dfwairport.wd5.myworkdayjobs.com/External/job/DFW-Intl-Airport-Board/XMLNAME-2027-Undergraduate-Summer-Internship---Enterprise-Data---Analytics_JR102162-1)<br><sub>“However, we are not able to sponsor visas for this position at this time.”</sub> | DFW Intl. Airport Board | 🛂❌ no sponsor<br>🎓 3.0+ GPA | Sep 30 |
-| GE Aerospace | [Lynn CNC Programmer Co-Op](https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Lynn/Lynn-CNC-Programmer-Co-Op_R5040944-1) | Lynn | 🔄 co-op | Sep 30 |
-| GenScript | [AI Intern, Enterprise Agent Development](https://job-boards.greenhouse.io/genscript/jobs/5253581007) | Piscataway, New Jersey, United States |  | Sep 30 |
-| Intel Corporation | [Research Scientist Intern - Graphics, ML](https://intel.wd1.myworkdayjobs.com/External/job/Virtual-US/Research-Scientist-Intern---Graphics--ML_JR0287525) | Virtual US |  | Sep 30 |
-| ITW | [Summer 2027 Software Engineering Intern](https://itw.wd5.myworkdayjobs.com/External/job/MTS-Headquarters/Software-Engineering-Intern_JR10261) | MTS Headquarters |  | Sep 30 |
-| Muon Space | [Flight Software Engineering Intern \(Summer 2027\)](https://job-boards.greenhouse.io/muonspace/jobs/5247725007)<br><sub>“To conform to U.S. Government export regulations applicable to that information, applicant must either be \(A\) a U.S. person, defined as a \(i…”</sub> | San Jose, CA | 🗽 citizens | Sep 30 |
-| Oceaneering | [IT Security Architecture Intern](https://ebfr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobs/job/11613) | Houston, TX, United States | 🎓 3.0+ GPA | Sep 30 |
-| POET | [Data Engineering Intern - Summer 2027](https://poet.wd1.myworkdayjobs.com/POET/job/Sioux-Falls-SD/Data-Engineering-Intern_R101787) | Sioux Falls, SD |  | Sep 30 |
-| Stantec | [Data Science Intern - Infrastructure \(Summer 2027\)](https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1008052) | Orlando, FL, United States |  | Sep 30 |
-| Stripe | [High School Internship, Software Engineering \(Summer 2027\)](https://stripe.com/jobs/search?gh_jid=8241260) | Seattle, San Francisco |  | Sep 30 |
-| TRUMPF | [CNC Programming Intern](https://trumpf.wd3.myworkdayjobs.com/TRUMPF_Students/job/Farmington-CT/CNC-Programming-Intern_R00042595) | Farmington, CT |  | Sep 30 |
 | AeroVironment | [Software Engineering Intern](https://avav.wd1.myworkdayjobs.com/AVAV/job/Sunrise-FL/Software-Engineering-Intern_8797)<br><sub>“U.S. Citizenship required”</sub> | Sunrise, FL | 🗽 citizens<br>🎓 3.0+ GPA | Sep 29 |
 | AeroVironment | [Titan-SV Software Engineer Intern](https://avav.wd1.myworkdayjobs.com/AVAV/job/Leesburg-VA/Titan-SV-Software-Engineer-Intern_8901)<br><sub>“U.S. Citizenship required”</sub> | Leesburg, VA | 🗽 citizens<br>🎓 3.0+ GPA | Sep 29 |
 | AMCA | [Software Engineering Internship \(Summer 2027\)](https://job-boards.greenhouse.io/amca/jobs/4425120009)<br><sub>“All applicants must be U.S. persons within the meaning of ITAR.”</sub> | El Segundo, CA | 🗽 citizens | Sep 29 |
@@ -82,7 +68,6 @@
 | GM Financial | [Intern - Cybersecurity](https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260805)<br><sub>“GM Financial does not provide sponsorship for a work visa status for this position.”</sub> | Irving, TX, United States | 🛂❌ no sponsor<br>🎓 3.0+ GPA | Sep 28 |
 | Keenfinity | [Software Engineering Intern](https://jobs.smartrecruiters.com/Keenfinity/744000152241469-software-engineering-intern)<br><sub>“Future sponsorship for work authorization is not available.”</sub> | Lincoln, NE, US | 🛂❌ no sponsor | Sep 28 |
 | LLNL | [Defense Science and Technology Internship Graduate Computer Student - Summer 2027](https://jobs.smartrecruiters.com/LLNL/3743990015740696-defense-science-and-technology-internship-graduate-computer-student-summer-2027)<br><sub>“Security Clearance is not required however due to federal requirements applicable to this position, US citizenship is required.”</sub> | Livermore, CA, US | 🗽 citizens<br>🔒 clearance<br>🎓 3.5+ GPA | Sep 28 |
-| Lowe's Companies, Inc | [Quality Assurance Engineering - Undergrad Internship - Summer 2027](https://lowes.wd5.myworkdayjobs.com/LWS_External_CS/job/Mooresville-NC-SSC-1999/Quality-Assurance-Engineering---Undergrad-Internship---Summer-2027_JR-02648572) | Mooresville, NC \(SSC\) 1999 | 🎓 3.0+ GPA<br>⚠ unverified | Sep 28 |
 | South Jersey Gas | [Data Analytics Intern](https://sjindustries.wd1.myworkdayjobs.com/SJI/job/Folsom-NJ/Engineering-Design-Intern_R4369)<br><sub>“At this time, SJI is only considering applicants authorized to work in the United States currently and in the future without the need for vi…”</sub> | Folsom, NJ | 🛂❌ no sponsor | Sep 28 |
 | Voyager Technologies | [2027 Software Engineering Intern](https://job-boards.greenhouse.io/voyagertechnologiesinc/jobs/4423330009)<br><sub>“To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations \(ITAR\) you must b…”</sub> | Long Beach | 🗽 citizens | Sep 28 |
 | QuEra Computing, Inc | [Internship - Quantum Applications Research](https://job-boards.greenhouse.io/queracomputinginc/jobs/5435901008) | Boston, MA, USA |  | Sep 27 |
@@ -154,6 +139,21 @@
 | ZipRecruiter | [Software Engineer - Intern](https://job-boards.greenhouse.io/ziprecruiter/jobs/8180455) | Santa Monica, CA |  | Sep 23 |
 | Amazon | [Security Engineer Internship – 2027 \(US\)](https://www.amazon.jobs/en/jobs/10557133/security-engineer-internship-2027-us) | Seattle, Washington, USA |  | Sep 22 |
 | Astranis | [Flight Software Intern \(Summer 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4704598006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco | 🗽 citizens | Sep 22 |
+| Astranis | [Flight Software Intern \(Winter 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4704595006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco | 🗽 citizens | Sep 22 |
+| Astranis | [Hardware Test Intern \(Winter 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4707012006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco | 🗽 citizens | Sep 22 |
+| Astranis | [Software Engineer - Enterprise Systems Intern \(Summer 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4705610006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco, CA | 🗽 citizens | Sep 22 |
+| Astranis | [Software Engineer Backend Intern \(Summer 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4705214006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco, CA | 🗽 citizens | Sep 22 |
+| Bracco Medical Technologies | [Product Security Engineering Intern](https://bracco.wd103.myworkdayjobs.com/BraccoCareers/job/USA-Eden-Prairie-Minnesota-55344/Product-Security-Engineering-Intern_JR100318) | USA, Eden Prairie, Minnesota, 55344 |  | Sep 22 |
+| Exol | [Co-op- Hardware Engineer](https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington-MA---ITC/Hardware-Engineer_R7976) | USA Wilmington, MA - ITC | 🔄 co-op | Sep 22 |
+| Formlabs Internships | [Desktop Software Intern \(Winter/Spring 2027\)](https://job-boards.greenhouse.io/formlabsinternships/jobs/8188725) | Somerville, MA | 🌱 spring | Sep 22 |
+| Geneva Trading | [Python Developer Intern](https://job-boards.greenhouse.io/genevatrading/jobs/5242196007) | Chicago Office |  | Sep 22 |
+| Gordon Food Service | [Identity Analyst IT Internship](https://gfs.wd5.myworkdayjobs.com/usjobs-gen-gfs/job/Wyoming-Michigan/Identity-Analyst-IT-Internship_R-57499-1) | Wyoming, Michigan | 🎓 3.0+ GPA | Sep 22 |
+| GuideStone Financial Resources | [Summer Intern - Software Developer](https://guidestone.wd1.myworkdayjobs.com/GuideStone/job/Dallas-TX/Summer-Intern---Software-Developer_R2129)<br><sub>“Candidates must have permanent U.S. work authorization; we do not sponsor employment visas or accept students on a student visa.”</sub> | Dallas, TX | 🛂❌ no sponsor<br>🎓 3.0+ GPA | Sep 22 |
+| Idaho National Laboratory | [Computer Security Research Intern - Summer 2027](https://elhe.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/pro/job/2092) | Idaho Falls, ID, United States | 🎓 3.0+ GPA | Sep 22 |
+| Idaho National Laboratory | [Cyber Security Research Intern - Summer 2027](https://elhe.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/pro/job/2093) | Idaho Falls, ID, United States | 🎓 3.0+ GPA | Sep 22 |
+| KLA | [Algorithm Engineering Intern \(AI, Computer Vision &amp; Software Engineering\)](https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Algorithm-Engineering-Intern--AI--Computer-Vision---Software-Engineering-_2641392-2) | Milpitas, CA |  | Sep 22 |
+| KLA | [Software Engineering Intern \(C++, Unix\)](https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Software-Engineering-Intern--C----Unix-_2641325-1) | Milpitas, CA |  | Sep 22 |
+| Marvell Technology | [Electrical Validation Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Electrical-Validation-Intern--BS---Summer-2027_2603795-1) | Santa Clara, CA |  | Sep 22 |
 
 [⬅ page 11](INTERNSHIPS-11.md) · page 12 of 17 · [page 13 ➡](INTERNSHIPS-13.md)
 

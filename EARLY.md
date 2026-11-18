@@ -1,6 +1,6 @@
 # Early Programs (freshmen & sophomores)
 
-[⬅ Back to the main page](./) · 3 open · updated 2026-11-17
+[⬅ Back to the main page](./) · 3 open · updated 2026-11-18
 
 Postings that say freshmen or sophomores can apply, or programs built for them. The grey line under each title is the sentence from the posting, so you can check it.
 

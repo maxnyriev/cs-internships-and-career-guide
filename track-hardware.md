@@ -1,6 +1,6 @@
 # Hardware and chips
 
-[⬅ Back to the main page](./) · 116 open · updated 2026-11-17
+[⬅ Back to the main page](./) · 116 open · updated 2026-11-18
 
 Chip design, FPGA and ASIC work, and design verification. New to this track? Read the [Hardware and chips section of the Career tracks guide](guides/tracks.md#hardware-and-chips).
 
@@ -118,7 +118,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Astranis | [Software Defined Radio Hardware Intern \(Winter 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4716087006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco | 🗽 citizens | Sep 23 |
 | Astranis | [Hardware Test Intern \(Winter 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4707012006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco | 🗽 citizens | Sep 22 |
 | Exol | [Co-op- Hardware Engineer](https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington-MA---ITC/Hardware-Engineer_R7976) | USA Wilmington, MA - ITC | 🔄 co-op | Sep 22 |
-| Base Power Company | [Hardware Sourcing Intern](https://jobs.ashbyhq.com/base-power/7ba325d9-4256-4567-83a4-8dd9c72a0d10) | Austin, TX |  | Sep 18 |
+| Base Power Company | [Hardware Sourcing Intern](https://jobs.ashbyhq.com/base-power/7ba325d9-4256-4567-83a4-8dd9c72a0d10) | Austin, TX | ⏳ 60+ days | Sep 18 |
 | Insulet Corporation | [Co-op, Systems Engineering - Design Verification: January - June 2027 \(Onsite\)](https://insulet.wd5.myworkdayjobs.com/insuletcareers/job/Acton-Massachusetts/Co-op--Systems-Engineering---Design-Verification--January---June-2027--Onsite-_REQ-2026-18144-1)<br><sub>“Candidates must have authorization to work in the U.S. without current or future sponsorship needs.”</sub> | Acton, Massachusetts | 🛂❌ no sponsor<br>🔄 co-op<br>⏳ 60+ days | Sep 17 |
 | Bedrock Robotics Inc | [2027 Internship Hardware Engineer, Machine Integration &amp; Test](https://jobs.ashbyhq.com/bedrock-robotics/c9c08251-6a42-4f9c-be4d-2621995cc8f9) | San Francisco, CA | ⏳ 60+ days | Sep 14 |
 | Emerson | [Analog Hardware Design Intern](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010830)<br><sub>“Authorized to work in the United States without sponsorship now or in the future”</sub> | Austin, TX, United States | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 14 |
@@ -147,7 +147,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Virtu Financial | [2027 Internship- Hardware Engineer \(FPGA\)](https://job-boards.greenhouse.io/virtu/jobs/8657286002) | Austin, TX | 🧪 OA<br>⏳ 60+ days | Jul 29 |
 | Base Power Company | [Hardware Engineering Intern](https://jobs.ashbyhq.com/base-power/f22cee0e-55d9-42cd-806e-1c1fc7217770) | Austin, TX | ⏳ 60+ days | May 21 |
 | Etched | [DFT Intern](https://jobs.ashbyhq.com/Etched/5f1f5739-3b58-467c-b351-ff183c94d96d) | San Jose | ⏳ 60+ days | Apr 13 |
-| Figure | [Hardware Reliability Intern \[Winter 2027\]](https://job-boards.greenhouse.io/figureai/jobs/4613067006) | San Jose, CA | ⏳ 60+ days | Oct 24 |
+| Figure | [Hardware Reliability Intern \[Winter 2027\]](https://job-boards.greenhouse.io/figureai/jobs/4613067006) | San Jose, CA | ⚠ unverified<br>⏳ 60+ days | Oct 24 |
 
 ## New grad (6)
 

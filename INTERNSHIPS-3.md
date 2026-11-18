@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 1995 open · page 3 of 17 · updated 2026-11-17
+[⬅ Back to the main page](./) · 1973 open · page 3 of 17 · updated 2026-11-18
 
 [⬅ page 2](INTERNSHIPS-2.md) · page 3 of 17 · [page 4 ➡](INTERNSHIPS-4.md)
 
@@ -34,8 +34,6 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| White Cap | [Corporate Intern - Product Data Management](https://whitecap.wd1.myworkdayjobs.com/Careers/job/Corporate-Intern---Product-Data-Management_WCJR-036650) |  |  | Nov 16 |
-| Zoetis | [Information Security Intern](https://zoetis.wd5.myworkdayjobs.com/broadbean_external/job/Parsippany/Information-Security-Intern_JR00021994) | Parsippany |  | Nov 16 |
 | Zoetis | [IT/OT Security Intern](https://zoetis.wd5.myworkdayjobs.com/broadbean_external/job/Kalamazoo---Kilgore-Road/IT-OT-Security-Intern_JR00021980) | Kalamazoo - Kilgore Road |  | Nov 16 |
 | FlexStaff | [Emerging Technology &amp; AI Internship](https://eppr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/203746) | New Hyde Park, Nassau, United States |  | Nov 15 |
 | Marvell Technology | [Software/Firmware Engineering Intern](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Petah-Tikva/Software-Firmware-Engineering_2604496) | Petah-Tikva |  | Nov 15 |
@@ -85,7 +83,6 @@
 | ServiceNow | [AI Security Engineer Intern](https://jobs.smartrecruiters.com/ServiceNow/744000161548289-ai-security-engineer-intern) | San Diego, California, US |  | Nov 13 |
 | ServiceNow | [Information Security Analyst Intern](https://jobs.smartrecruiters.com/ServiceNow/744000161550869-information-security-analyst-intern) | San Diego, CALIFORNIA, US |  | Nov 13 |
 | ServiceNow | [Security Engineer Intern](https://jobs.smartrecruiters.com/ServiceNow/744000161592679-security-engineer-intern) | Kirkland, Washington, US |  | Nov 13 |
-| ServiceNow | [Security Engineering &amp; Automation Intern](https://jobs.smartrecruiters.com/ServiceNow/744000161548528-security-engineering-automation-intern-) | Kirkland, Washington, US | ⚠ unverified | Nov 13 |
 | Software Engineering Institute / Carnegie Mellon University | [Cyber AI Engineering Intern \(Spring 2027\)](https://cmu.wd115.myworkdayjobs.com/SEI/job/Pittsburgh-PA/Cyber-AI-Engineering-Intern--Spring-2027-_2025346-2)<br><sub>“• You will be subject to a background check and must be eligible to work in the United States without Visa sponsorship.”</sub> | Pittsburgh, PA | 🛂❌ no sponsor<br>🌱 spring | Nov 13 |
 | Software Engineering Institute / Carnegie Mellon University | [Cybersecurity Engineer Intern \(Spring 2027\)](https://cmu.wd115.myworkdayjobs.com/SEI/job/Pittsburgh-PA/Cybersecurity-Engineer-Intern--Spring-2027-_2025347-1)<br><sub>“You can pass a background check, obtain and maintain a DoW security clearance, and other customer-required background checks as needed.”</sub> | Pittsburgh, PA | 🔒 clearance<br>🌱 spring | Nov 13 |
 | State Street | [Cyber Security Operations Center Analyst, Full-time Internship \(Jan - June 2027\)](https://statestreet.wd1.myworkdayjobs.com/Global/job/Quincy-Massachusetts/Cyber-Security-Operations-Center-Analyst--Full-time-Internship--Jan---June-2027-_R-801091) | Quincy, Massachusetts |  | Nov 13 |
@@ -141,7 +138,7 @@
 | Vizient | [2027 Summer Internship - Contract Operations – Analytics](https://vizient.wd1.myworkdayjobs.com/Vizient_Careers/job/Chicago-IL-60607/XMLNAME-2027-Summer-Internship---Contract-Operations---Analytics_36238R-1) | Chicago, IL 60607 |  | Nov 12 |
 | Zoox | [Data Scientist Intern \[Summer 2027\]](https://jobs.lever.co/zoox/0f42ac76-3821-4805-8b59-446477d1e1db) | Foster City, CA |  | Nov 12 |
 | AeroVironment | [GNC / Autonomy Engineering Intern](https://avav.wd1.myworkdayjobs.com/AVAV/job/Lawrence-KS/GNC---Autonomy-Engineering-Intern_9363)<br><sub>“ITAR Requirement: This position requires access to information that is subject to compliance with the International Traffic Arms Regulations…”</sub> | Lawrence, KS | 📜 ITAR<br>🎓 3.0+ GPA | Nov 11 |
-| Airbnb | [Advanced Analytics Intern](https://careers.airbnb.com/positions/8380007?gh_jid=8380007) | United States |  | Nov 11 |
+| Airbnb | [Advanced Analytics Intern](https://careers.airbnb.com/positions/8380007?gh_jid=8380007) | United States | ⚠ unverified | Nov 11 |
 | Arcesium LLC | [AI Transformation Intern](https://job-boards.greenhouse.io/arcesiumllc/jobs/5257251007) | New York |  | Nov 11 |
 | Arrowstreet Capital | [Quantitative Developer Intern, Summer 2027](https://arrowstreetcapital.wd5.myworkdayjobs.com/Campus_Careers/job/Boston/Quantitative-Developer-Intern--Summer-2027_R1506) | Boston |  | Nov 11 |
 | Bose Corporation | [Agentic AI Engineering Co-op – Active Noise Cancellation / Fall 2027](https://boseallaboutme.wd503.myworkdayjobs.com/Bose_Careers/job/US-MA---Framingham/Agentic-AI-Engineering-Co-op---Active-Noise-Cancellation---Fall-2027_R29391) | US, MA - Framingham | 🔄 co-op<br>🍂 fall | Nov 11 |
@@ -154,6 +151,9 @@
 | Formlabs Internships | [Hardware Systems Integration Intern \(Summer 2027\)](https://job-boards.greenhouse.io/formlabsinternships/jobs/8381595) | Somerville, MA |  | Nov 11 |
 | Formlabs Internships | [Manufacturing Test Software Intern \(Summer 2027\)](https://job-boards.greenhouse.io/formlabsinternships/jobs/8256076) | Somerville, MA |  | Nov 11 |
 | Genentech | [2027 Summer Intern - Biostatistics and Analytical Data Sciences](https://roche.wd3.myworkdayjobs.com/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2027-Summer-Intern---Biostatistics-and-Analytical-Data-Sciences_202611-128787) | South San Francisco |  | Nov 11 |
+| Genentech | [2027 Summer Intern - Digital, AI, and Clinical Outcome Assessments](https://roche.wd3.myworkdayjobs.com/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2027-Summer-Intern---Digital--AI--and-Clinical-Outcome-Assessments_202611-128790) | South San Francisco |  | Nov 11 |
+| Genentech | [2027 Summer Intern - Product Development Data Sciences](https://roche.wd3.myworkdayjobs.com/ROG-A2O-GENE/job/Boston/XMLNAME-2027-Summer-Intern---Product-Development-Data-Sciences_202611-128802) | Boston |  | Nov 11 |
+| Grant Thornton | [Cybersecurity and Privacy Intern - Summer 2027](https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115637)<br><sub>“No visa sponsorship is available for this position.”</sub> | New York, NY, United States | 🛂❌ no sponsor | Nov 11 |
 
 [⬅ page 2](INTERNSHIPS-2.md) · page 3 of 17 · [page 4 ➡](INTERNSHIPS-4.md)
 

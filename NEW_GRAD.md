@@ -1,6 +1,6 @@
 # New Grad
 
-[⬅ Back to the main page](./) · 121 open · page 1 of 2 · updated 2026-11-17
+[⬅ Back to the main page](./) · 122 open · page 1 of 2 · updated 2026-11-18
 
 page 1 of 2 · [page 2 ➡](NEW_GRAD-2.md)
 
@@ -34,6 +34,8 @@ page 1 of 2 · [page 2 ➡](NEW_GRAD-2.md)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| Atoms | [AI Researcher - New Grad \(BS/MS\)](https://job-boards.greenhouse.io/atoms/jobs/8948841002) | San Francisco, CA |  | Nov 17 |
+| ATOMS Careers page | [AI Researcher - New Grad \(BS/MS\)](https://job-boards.greenhouse.io/cssmerge/jobs/8948844002) | San Francisco, CA |  | Nov 17 |
 | Amentum | [Entry Level Software Engineer - SECRET](https://pae.wd1.myworkdayjobs.com/Amentum_Careers/job/US-VA-Dahlgren/Entry-Level-Software-Engineer---SECRET_R0175348)<br><sub>“- Active Secret-level US Government Security Clearance \(US citizenship is required to maintain clearance\).”</sub> | US-VA-Dahlgren | 🗽 citizens<br>🔒 secret<br>⚠ unverified | Nov 16 |
 | Cox Enterprises | [Entry Level Software Engineer - Atlanta, GA](https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Atlanta-GA/Entry-Level-Software-Engineer---Atlanta--GA_R202680858-1)<br><sub>“No OPT, CPT, STEM/OPT or visa sponsorship now or in future.”</sub> | Atlanta GA | 🛂❌ no sponsor<br>🚫 no CPT/OPT | Nov 16 |
 | The Aerospace Corporation | [2027 Entry Level DSP &amp; SDR Engineer](https://aero.wd5.myworkdayjobs.com/External/job/Chantilly-VA/Entry-Level-DSP---SDR-Engineer_R016560)<br><sub>“U.S. citizenship is required to obtain this level of security clearance”</sub> | Chantilly, VA | 🗽 citizens<br>🔒 clearance | Nov 16 |
@@ -69,8 +71,8 @@ page 1 of 2 · [page 2 ➡](NEW_GRAD-2.md)
 | CACI International | [Web Application Developer – Early Career](https://caci.wd1.myworkdayjobs.com/External/job/Chantilly-VA-US/Web-Application-Developer---Early-Career_333158) | Chantilly, VA, US | ⚠ unverified | Oct 7 |
 | Freeform | [FPGA Engineer \(New Grad Summer 2027\)](https://job-boards.greenhouse.io/freeformfuturecorp/jobs/8016243003) | Los Angeles, CA \(On-site\) |  | Oct 7 |
 | Olsson | [Entry-Level Power Systems Studies Engineer - Data Centers](https://job-boards.greenhouse.io/olsson/jobs/5446995008) | Overland Park, KS |  | Oct 7 |
-| Affirm | [Software Engineer, Early Career \(NYC\)](https://job-boards.greenhouse.io/affirm/jobs/8008649003) | New York, New York, United States |  | Oct 6 |
-| Affirm | [Software Engineer, Early Career \(SF\)](https://job-boards.greenhouse.io/affirm/jobs/8010617003) | San Francisco, California, United States |  | Oct 6 |
+| Affirm | [Software Engineer, Early Career \(NYC\)](https://job-boards.greenhouse.io/affirm/jobs/8008649003) | New York, New York, United States | ⚠ unverified | Oct 6 |
+| Affirm | [Software Engineer, Early Career \(SF\)](https://job-boards.greenhouse.io/affirm/jobs/8010617003) | San Francisco, California, United States | ⚠ unverified | Oct 6 |
 | Shield AI | [Software Development Engineer - New Graduate](https://jobs.lever.co/shieldai/79c3b65f-ce0c-4868-bedf-4ddcc4cfe583) | San Diego, California | ⚠ unverified | Oct 6 |
 | Belvedere Trading | [Quantitative Researcher - Entry Level 2027](https://jobs.lever.co/belvederetrading/337314ee-4de5-4b96-a419-1b9287a7df68) | Chicago, Illinois |  | Oct 5 |
 | Kyndryl | [Early Career Consult Program - Associate AI Engineer](https://kyndryl.wd5.myworkdayjobs.com/KyndrylEarlyCareers/job/Dallas-USDALFRI-Frisco-AI-HUB/Early-Career-Consult-Program---Associate-AI-Engineer_R-66739)<br><sub>“The company will not sponsor employment visas for this role.”</sub> | Dallas \(USDALFRI\) Frisco AI HUB | 🛂❌ no sponsor | Oct 2 |
@@ -123,7 +125,6 @@ page 1 of 2 · [page 2 ➡](NEW_GRAD-2.md)
 | SpaceX | [New Graduate Engineer, Software Security - '26/'27 \(Starlink\)](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002)<br><sub>“ITAR REQUIREMENTS: To conform to U.S. Government export regulations, applicant must be a \(i\) U.S. citizen or national, \(ii\) U.S. lawful, per…”</sub> | Redmond, WA | 📜 ITAR<br>⏳ 60+ days | Aug 14 |
 | General Matter | [Software Engineer, New Grad](https://job-boards.greenhouse.io/generalmatter/jobs/5375987008) | Los Angeles, CA | ⏳ 60+ days | Aug 12 |
 | Freeform | [Software Engineer \(New Grad December 2026\)](https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7826634003) | Los Angeles, CA \(On-site\) | ⏳ 60+ days | Aug 7 |
-| ATOMS Careers page | [Software Engineer - New Grad](https://job-boards.greenhouse.io/cssmerge/jobs/8687930002) | Multiple Locations Available | 🎓 3.7+ GPA<br>⚠ unverified<br>⏳ 60+ days | Aug 6 |
 | Muon Space | [Software Engineer, Entry-Level](https://job-boards.greenhouse.io/muonspace/jobs/5204498007)<br><sub>“To conform to U.S. Government export regulations applicable to that information, applicant must either be \(A\) a U.S. person, defined as a \(i…”</sub> | San Jose, CA | 🗽 citizens<br>⏳ 60+ days | Aug 5 |
 | Belvedere Trading | [Quantitative Trader - Entry Level 2027](https://jobs.lever.co/belvederetrading/34369a5c-55c0-4e9f-9d2e-4f21b9418bee) | Chicago, Illinois | ⏳ 60+ days | Aug 4 |
 | NewsBreak | [Applied AI Engineer, Advertising Agents \(New Grad\)](https://job-boards.greenhouse.io/newsbreak/jobs/4700278006) | Mountain View, California, United States | ⏳ 60+ days | Jul 27 |
@@ -149,11 +150,10 @@ page 1 of 2 · [page 2 ➡](NEW_GRAD-2.md)
 | Palantir Technologies | [Software Engineer, New Grad - Defense](https://jobs.lever.co/palantir/18d901fc-93bb-4d18-9f04-c72031e20d79)<br><sub>“What We Require: Active US Security clearance or eligibility and willingness to obtain a US Security clearance.”</sub> | Washington, D.C. | 🔒 clearance<br>⏳ 60+ days | Jun 19 |
 | Palantir Technologies | [Software Engineer, New Grad - Defense](https://jobs.lever.co/palantir/f362d7aa-360d-4059-ab38-f482742693b3)<br><sub>“What We Require: Active US Security clearance or eligibility and willingness to obtain a US Security clearance.”</sub> | Palo Alto, CA | 🔒 clearance<br>⏳ 60+ days | Jun 19 |
 | Palantir Technologies | [Forward Deployed Software Engineer, New Grad - Commercial](https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728) | New York, NY | ⏳ 60+ days | Jun 13 |
-| Databricks | [Software Engineer - New Grad, Distributed Data Systems \(2027 Start\)](https://databricks.com/company/careers/open-positions/job?gh_jid=6865704002) | Bellevue, Washington; Mountain View, Californ… | ⏳ 60+ days | Aug 4 |
+| Databricks | [Software Engineer - New Grad, Distributed Data Systems \(2027 Start\)](https://databricks.com/company/careers/open-positions/job?gh_jid=6865704002) | Bellevue, Washington; Mountain View, Californ… | ⚠ unverified<br>⏳ 60+ days | Aug 4 |
 | Perpay | [Software Engineer, New Grad](https://job-boards.greenhouse.io/perpay/jobs/4034578007) | Philadelphia, Pennsylvania, United States | ⏳ 60+ days | Jul 7 |
 | Palantir Technologies | [Forward Deployed Software Engineer, New Grad - US Government](https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb)<br><sub>“What We Require: Active US Security clearance or eligibility and willingness to obtain a US Security clearance.”</sub> | Washington, D.C. | 🔒 clearance<br>⏳ 60+ days | Jun 30 |
 | Palantir Technologies | [Forward Deployed Software Engineer, New Grad - US Government](https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca)<br><sub>“What We Require: Active US Security clearance or eligibility and willingness to obtain a US Security clearance.”</sub> | New York, NY | 🔒 clearance<br>⏳ 60+ days | Jun 30 |
-| Palantir Technologies | [Software Engineer, New Grad](https://jobs.lever.co/palantir/94984771-0704-446c-88c6-91ce748f6d92)<br><sub>“Active US Security clearance, or eligibility and willingness to obtain a US Security clearance.”</sub> | New York, NY | 🔒 clearance<br>⏳ 60+ days | Jul 1 |
 
 page 1 of 2 · [page 2 ➡](NEW_GRAD-2.md)
 

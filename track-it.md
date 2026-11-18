@@ -1,6 +1,6 @@
 # IT and networking
 
-[⬅ Back to the main page](./) · 292 open · updated 2026-11-17
+[⬅ Back to the main page](./) · 291 open · updated 2026-11-18
 
 IT support, networking, systems administration and cloud operations. New to this track? Read the [IT and networking section of the Career tracks guide](guides/tracks.md#it-and-networking).
 
@@ -34,7 +34,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (284)
+## Internships (283)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
@@ -222,7 +222,6 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Federal Reserve System | [Summer 2027 Intern-Networking and Computer Engineering](https://rb.wd5.myworkdayjobs.com/FRS/job/Chicago-IL/Summer-2027-Intern-Networking-and-Computer-Engineering_R-0000033610)<br><sub>“Applicants must be currently authorized to work in the United States without the need for visa sponsorship now or in the future.”</sub> | Chicago, IL | 🛂❌ no sponsor | Oct 1 |
 | PROCON | [IT Intern - Local Candidates only](https://jobs.smartrecruiters.com/PROCON/744000153017330-it-intern-local-candidates-only) | Hooksett, NH, US |  | Oct 1 |
 | TD SYNNEX | [Summer 2027 Internship Program / Technical, Applied Innovation Track: • Information Technology • Systems and Cloud • Artificial Intelligence](https://synnex.wd5.myworkdayjobs.com/tdsynnexcareers/job/Greenville-SC/Summer-2027-Internship-Program---Technical--Applied-Innovation-Track----Information-Technology---Supply-Chain---Systems-and-Cloud---Artificial-Intelligence_R56571)<br><sub>“Authorized to work in the United States without current or future sponsorship”</sub> | Greenville, SC | 🛂❌ no sponsor | Oct 1 |
-| CarGurus Early Careers | [Site Reliability Engineer Intern](https://job-boards.greenhouse.io/ecjobb/jobs/8230755) | Boston, Massachusetts, United States | ⚠ unverified | Sep 30 |
 | INTEGRIS Health | [Administrative Intern - IT Epic Clinical Applications](https://ertr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/117227) | Oklahoma City, OK, United States |  | Sep 29 |
 | RF-SMART | [Service Delivery Intern \(IT Helpdesk\) - Summer 2027](https://job-boards.greenhouse.io/rfsmart/jobs/5425409008)<br><sub>“Employer does not sponsor applicants for employment visa status \(e.g. H-1B visa status\).”</sub> | Jacksonville, Florida, United States | 🛂❌ no sponsor | Sep 29 |
 | SouthState Bank | [Summer 2027 IT Business Office Intern \(Columbia-Hybrid\)](https://southstatebank.wd5.myworkdayjobs.com/External/job/Columbia-Gervais/Summer-2027-IT-Business-Office-Intern--Columbia-Hybrid-_R-06296) | Columbia Gervais |  | Sep 29 |
@@ -250,9 +249,9 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Protective | [2027 Summer IT Internship Program](https://jobs.lever.co/protective/32a8a257-c5d4-4b77-bf0b-d08dbb93b752) | Birmingham, AL |  | Sep 21 |
 | Westfield | [2027 Summer Intern Program- IT Intern, Berkeley Heights, NJ](https://fa-exdv-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/12007) | Berkeley Heights, NJ, United States | 🎓 3.2+ GPA | Sep 21 |
 | Westfield | [2027 Summer Intern Program- IT Intern, Chicago](https://fa-exdv-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/12006) | Chicago, IL, United States | 🎓 3.2+ GPA | Sep 21 |
-| Altar'd State | [Spring 2027 IT Help Desk Intern](https://standoutforgood.wd12.myworkdayjobs.com/StandOutForGood/job/Knoxville-TN/Spring-2027-IT-Help-Desk-Intern_SOSJ12503-1) | Knoxville, TN | 🌱 spring | Sep 18 |
-| Honeywell | [Future IT Leaders - Summer 2027 Intern](https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/157978)<br><sub>“Candidates must be authorized to legally work in the United States without current or future sponsorship requirements.”</sub> | United States | 🛂❌ no sponsor | Sep 18 |
-| LLNL | [Computing Undergraduate Student Intern: DevOps Internship Program - Summer 2027](https://jobs.smartrecruiters.com/LLNL/3743990015408206-computing-undergraduate-student-intern-devops-internship-program-summer-2027)<br><sub>“Security Clearance”</sub> | Livermore, CA, US | 🔒 clearance<br>🎓 3.0+ GPA | Sep 18 |
+| Altar'd State | [Spring 2027 IT Help Desk Intern](https://standoutforgood.wd12.myworkdayjobs.com/StandOutForGood/job/Knoxville-TN/Spring-2027-IT-Help-Desk-Intern_SOSJ12503-1) | Knoxville, TN | 🌱 spring<br>⏳ 60+ days | Sep 18 |
+| Honeywell | [Future IT Leaders - Summer 2027 Intern](https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/157978)<br><sub>“Candidates must be authorized to legally work in the United States without current or future sponsorship requirements.”</sub> | United States | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 18 |
+| LLNL | [Computing Undergraduate Student Intern: DevOps Internship Program - Summer 2027](https://jobs.smartrecruiters.com/LLNL/3743990015408206-computing-undergraduate-student-intern-devops-internship-program-summer-2027)<br><sub>“Security Clearance”</sub> | Livermore, CA, US | 🔒 clearance<br>🎓 3.0+ GPA<br>⏳ 60+ days | Sep 18 |
 | Gordon Food Service | [Human Resource Information Systems Internship](https://gfs.wd5.myworkdayjobs.com/usjobs-gen-gfs/job/Wyoming-Michigan/Human-Resource-Information-Systems-Internship_R-57339) | Wyoming, Michigan | 🎓 3.0+ GPA<br>⏳ 60+ days | Sep 17 |
 | Altar'd State | [Spring 2027 IT Data Intern](https://standoutforgood.wd12.myworkdayjobs.com/StandOutForGood/job/Knoxville-TN/Spring-2027-IT-Data-Intern_SOSJ12488-1) | Knoxville, TN | 🌱 spring<br>⏳ 60+ days | Sep 16 |
 | Altar'd State | [Spring 2027 IT Ecommerce Product Owner Intern](https://standoutforgood.wd12.myworkdayjobs.com/StandOutForGood/job/Knoxville-TN/Spring-2027-IT-Ecommerce-Product-Owner-Intern_SOSJ12489) | Knoxville, TN | 🌱 spring<br>⏳ 60+ days | Sep 16 |

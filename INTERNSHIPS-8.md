@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 1995 open · page 8 of 17 · updated 2026-11-17
+[⬅ Back to the main page](./) · 1973 open · page 8 of 17 · updated 2026-11-18
 
 [⬅ page 7](INTERNSHIPS-7.md) · page 8 of 17 · [page 9 ➡](INTERNSHIPS-9.md)
 
@@ -34,18 +34,6 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| Sierra Nevada Corporation | [IT Service Desk Intern \(Summer 2027\)](https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Lone-Tree-CO/IT-Support-Technician-Intern--Summer-2027-_R0030762)<br><sub>“U.S. Citizenship status is required as this position needs an active U.S. Security Clearance for employment.”</sub> | Lone Tree, CO | 🗽 citizens<br>🔒 secret | Oct 27 |
-| Sony | [Research Engineer Intern \(Ethical Creative and Protective AI Lab\)](https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Remote---New-York/Engineering-Intern--AI-Ethics-_JR-119784) | Remote - New York | 🌐 remote | Oct 27 |
-| Strada Education Foundation | [Strada Education Foundation Internship: Clear Outcomes and Data Science Intern](https://jobs.lever.co/stradaeducation/d8109e92-5156-48e2-879f-c9ea299e971b) | Washington, DC |  | Oct 27 |
-| Trace3 | [Cloud FinOps Consulting Intern](https://job-boards.greenhouse.io/trace3/jobs/8329225) | Remote | 🎓 3.0+ GPA<br>🌐 remote | Oct 27 |
-| Trinity Life Sciences | [Analytics Strategy Intern](https://trinitylifesciences.wd108.myworkdayjobs.com/Trinity/job/Waltham-MA---Headquarters/Analytics-Strategy-Intern_JR100879)<br><sub>“Applicants for this position must be legally authorized to work in the United States without the need for employer sponsorship.”</sub> | Waltham, MA - Headquarters | 🛂❌ no sponsor<br>⚠ unverified | Oct 27 |
-| Trinity Life Sciences | [Data Science Intern](https://trinitylifesciences.wd108.myworkdayjobs.com/Trinity/job/Waltham-MA---Headquarters/Data-Science-Intern_JR100881)<br><sub>“Applicants for this position must be legally authorized to work in the United States without the need for employer sponsorship.”</sub> | Waltham, MA - Headquarters | 🛂❌ no sponsor<br>⚠ unverified | Oct 27 |
-| Velco | [Intern- IT Project Management](https://velco.wd12.myworkdayjobs.com/VELCO/job/Rutland-VT/IT-Project-Management-Intern_JR26-68) | Rutland, VT |  | Oct 27 |
-| Analog Devices | [DevOps Co-Op](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Boston/DevOps-Co-Op_R267690) | US, MA, Boston | 🔄 co-op | Oct 26 |
-| Analog Devices | [Embedded Systems Co-Op](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Boston/Embedded-Systems-Co-Op_R267689) | US, MA, Boston | 🔄 co-op | Oct 26 |
-| Axos Bank | [AI Engineer Intern](https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/AI-Engineer-Intern_JR5658) | HQ - San Diego, CA |  | Oct 26 |
-| Axos Bank | [Data Analyst Intern](https://axos.wd5.myworkdayjobs.com/Axos/job/Omaha-NE/Data-Intern_JR5642) | Omaha, NE |  | Oct 26 |
-| Axos Bank | [Software Development Intern](https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Software-Development-Intern_JR5647) | HQ - San Diego, CA |  | Oct 26 |
 | Catalent Pharma Solutions | [2027 Intern - IT](https://catalent.wd1.myworkdayjobs.com/External/job/Madison-WI/XMLNAME-2027-Intern---IT_0097277) | Madison, WI | ⚠ unverified | Oct 26 |
 | Cisco | [Hardware Engineer II \(Co-op\) - United States](https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Hardware-Engineer-II--Co-op----United-States_2025375) | San Jose, California, US | 🔄 co-op<br>⚠ unverified | Oct 26 |
 | Cohesity | [Software Engineering Intern \(Summer 2027\)](https://cohesity.wd5.myworkdayjobs.com/Cohesity_Careers/job/Santa-Clara-CA---USA-Office/Software-Engineering-Intern--Summer-2027-_R04791-2) | Santa Clara, CA - USA \(Office\) |  | Oct 26 |
@@ -151,9 +139,21 @@
 | Trace3 | [Data &amp; Analytics Intern](https://job-boards.greenhouse.io/trace3/jobs/8274818) | Irvine, CA, United States | 🎓 3.0+ GPA | Oct 21 |
 | We One | [Information Security Intern](https://ehpv.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/WeOneCareers/job/27404)<br><sub>“Please note : This position does not offer sponsorship for employment visas.”</sub> | Charlotte, NC, United States | 🛂❌ no sponsor | Oct 21 |
 | We One | [Network Engineering Intern](https://ehpv.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/WeOneCareers/job/27403)<br><sub>“Please note : This position does not offer sponsorship for employment visas.”</sub> | Charlotte, NC, United States | 🛂❌ no sponsor<br>🎓 3.0+ GPA | Oct 21 |
-| Whataburger | [Data Scientist Intern](https://whataburger.wd5.myworkdayjobs.com/WAB_CAREERS/job/300-Concord-Plaza-Dr-San-Antonio-TX-78216-6903/Data-Scientist-Intern_JR10014201) | 300 Concord Plaza Dr San Antonio TX 78216-690… | ⚠ unverified | Oct 21 |
 | Adobe | [2027 Intern - Security Engineer](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Security-Engineer_R173001) | San Jose |  | Oct 20 |
 | AeroVironment | [Machine Learning Engineering Intern](https://avav.wd1.myworkdayjobs.com/AVAV/job/Centreville-VA/Machine-Learning-Engineering-Intern_8941)<br><sub>“U.S. Citizenship required.”</sub> | Centreville, VA | 🗽 citizens<br>🔒 clearance<br>🎓 3.0+ GPA | Oct 20 |
+| AeroVironment | [Software Engineering Intern](https://avav.wd1.myworkdayjobs.com/AVAV/job/Minneapolis-MN/Software-Engineering-Intern_8940)<br><sub>“U.S. Citizenship required.”</sub> | Minneapolis, MN | 🗽 citizens<br>🔒 clearance<br>🎓 3.0+ GPA | Oct 20 |
+| AeroVironment | [Software Engineering Intern](https://avav.wd1.myworkdayjobs.com/AVAV/job/San-Diego-CA/Software-Engineering-Intern_8828)<br><sub>“U.S. Citizenship required.”</sub> | San Diego, CA | 🗽 citizens<br>🔒 clearance<br>🎓 3.0+ GPA | Oct 20 |
+| Amazon | [Hardware Development Engineer Intern , Winter 2027](https://www.amazon.jobs/en/jobs/10584121/hardware-development-engineer-intern-winter-2027) | Bellevue, Washington, USA |  | Oct 20 |
+| Anduril Industries | [2027 Finance Data Analyst Intern](https://boards.greenhouse.io/andurilindustries/jobs/5269977007?gh_jid=5269977007) | Costa Mesa, California, United States |  | Oct 20 |
+| Assurant | [Summer 2027 Intern: Software Engineering Intern](https://assurant.wd1.myworkdayjobs.com/Assurant_Careers/job/Atlanta-GA/Summer-2027-Intern--Software-Engineering-Intern_R-115727-1) | Atlanta, GA |  | Oct 20 |
+| Buildertrend | [Enterprise Technology Intern](https://buildertrend.wd108.myworkdayjobs.com/External_Careers/job/Omaha-NE/Enterprise-Technology-Intern_JR-000491) | Omaha, NE |  | Oct 20 |
+| Ciena | [Software Engineer \(Security\) - Intern \(Winter 2027\)](https://ciena.wd5.myworkdayjobs.com/Careers/job/Atlanta/Software-Engineer--Security----Intern--Winter-2027-_R031926) | Atlanta |  | Oct 20 |
+| Cigna Healthcare | [Business Analytics Intern](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/Business-Analytics-Intern_26012472)<br><sub>“Therefore, this temporary internship is open only to individuals who are eligible for employment in the United States and who would not requ…”</sub> | Bloomfield, CT | 🚫 no CPT/OPT<br>⚠ unverified | Oct 20 |
+| DriveWealth | [AI Consulting Associate Program \(AI CAP\) Brokerage Intern - Summer 2027](https://boards.greenhouse.io/drivewealth/jobs/8039368003?gh_jid=8039368003)<br><sub>“Applicants must be authorized to work for any employer in the U.S. DriveWealth is unable to sponsor an employment Visa at this time.”</sub> | Office - Chicago | 🛂❌ no sponsor | Oct 20 |
+| DriveWealth | [AI Consulting Associate Program \(AI CAP\) Engineering Intern - Summer 2027](https://boards.greenhouse.io/drivewealth/jobs/8039350003?gh_jid=8039350003)<br><sub>“Applicants must be authorized to work for any employer in the U.S. DriveWealth is unable to sponsor an employment Visa at this time.”</sub> | Office - Chicago; Office - NYC | 🛂❌ no sponsor | Oct 20 |
+| DriveWealth | [AI Consulting Associate Program \(AI CAP\) Product Owner Intern - Summer 2027](https://boards.greenhouse.io/drivewealth/jobs/8038087003?gh_jid=8038087003)<br><sub>“Applicants must be authorized to work for any employer in the U.S. DriveWealth is unable to sponsor an employment Visa at this time.”</sub> | Office - Chicago; Office - NYC | 🛂❌ no sponsor | Oct 20 |
+| Greystone | [Salesforce Developer Intern - Summer 2027](https://greyco.wd108.myworkdayjobs.com/GTI/job/New-York-NY/Summer-2027---Salesforce-Developer-Intern_JR0000144) | New York, NY |  | Oct 20 |
+| Hunkemöller | [Internship IT - Analytics Engineering](https://hkm.wd3.myworkdayjobs.com/Hunkemoller_External_Career_Site/job/Headquarters-International/Internship-IT---Analytics-Engineering_JR78659) | Headquarters International |  | Oct 20 |
 
 [⬅ page 7](INTERNSHIPS-7.md) · page 8 of 17 · [page 9 ➡](INTERNSHIPS-9.md)
 

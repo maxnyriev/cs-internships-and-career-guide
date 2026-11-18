@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 1995 open · page 5 of 17 · updated 2026-11-17
+[⬅ Back to the main page](./) · 1973 open · page 5 of 17 · updated 2026-11-18
 
 [⬅ page 4](INTERNSHIPS-4.md) · page 5 of 17 · [page 6 ➡](INTERNSHIPS-6.md)
 
@@ -34,16 +34,10 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| Federal Reserve System | [2027 Information Technology Internship](https://rb.wd5.myworkdayjobs.com/FRS/job/St-Louis-MO/XMLNAME-2027-Information-Technology-Internship_R-0000034047) | St. Louis, MO |  | Nov 6 |
-| GM Financial | [Intern - Software Development Engineer](https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260831) | Arlington, TX, United States | 🎓 3.0+ GPA | Nov 6 |
-| Invesco Ltd | [Early Career Intern - Real Estate \(Data Science\)](https://invesco.wd1.myworkdayjobs.com/IVZearlycareers/job/Dallas-Texas/Early-Career-Intern---Real-Estate--Data-Science-_R-15091) | Dallas, Texas | 🎓 3.2+ GPA | Nov 6 |
-| Leidos | [AI/Automation Development Intern - Assessment &amp; Authorization](https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/AI-Automation-Development-Intern---Assessment---Authorization_R-00195319)<br><sub>“Must be a U.S. Citizen”</sub> | 6314 Remote/Teleworker US | 🗽 citizens<br>🔒 secret<br>🌐 remote | Nov 6 |
-| Motorola Solutions | [Software Presales Enablement Intern - Summer Internship 2027](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Illinois-Remote-Work/Software-Presales-Enablement-Intern---Summer-Internship-2027_R70228)<br><sub>“Employer work permit sponsorship is not available for this position”</sub> | Illinois Remote Work | 🛂❌ no sponsor<br>🌐 remote | Nov 6 |
-| Reinsurance Group of America, Incorporated | [Summer Intern - Data Analyst](https://rgare.wd1.myworkdayjobs.com/Careers/job/United-States-Chesterfield-MO-RGA-HQ/Summer-Intern---Data-Analyst_J29309) | United States, Chesterfield, MO, RGA HQ | ⚠ unverified | Nov 6 |
 | Rhoda AI | [Optical Sensing Intern - Robot Perception](https://jobs.ashbyhq.com/rhoda-ai/df2aa2a4-ca56-4fa6-b106-89a7fc6a9bb4) | Mountain View |  | Nov 6 |
 | SharkNinja | [Spring 2027: AI/Sharks Applied AI &amp; Analytics Co-op \(January to June\)](https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4725275006) | Needham, MA, United States | 🔄 co-op<br>🌱 spring | Nov 6 |
-| The New York Times | [Android Engineering Intern](https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751917005) | New York, NY |  | Nov 6 |
-| The New York Times | [iOS Engineering Intern](https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751919005) | New York, NY |  | Nov 6 |
+| The New York Times | [Android Engineering Intern](https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751917005) | New York, NY | ⚠ unverified | Nov 6 |
+| The New York Times | [iOS Engineering Intern](https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751919005) | New York, NY | ⚠ unverified | Nov 6 |
 | Tinder | [Android Engineer Intern](https://jobs.lever.co/matchgroup/f0e29495-4dd2-4bc5-9ceb-31d36f0b5a9d) | Los Angeles, California |  | Nov 6 |
 | Tinder | [Backend Engineer Intern](https://jobs.lever.co/matchgroup/54a814d1-9a73-43d7-a266-c933ffd99ce3) | Palo Alto, California |  | Nov 6 |
 | Tinder | [Data Scientist Intern](https://jobs.lever.co/matchgroup/573621f6-9931-4e39-840a-1d04171be2ff) | San Francisco, California |  | Nov 6 |
@@ -105,7 +99,7 @@
 | LLNL | [Cybersecurity Undergraduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027](https://jobs.smartrecruiters.com/LLNL/3743990016610186-cybersecurity-undergraduate-intern-cyber-and-critical-infrastructure-summer-institute-summer-2027)<br><sub>“However, this position involves U.S. Export Control; this work must be performed by a U.S. person \(U.S. citizen, U.S. lawful permanent resid…”</sub> | Livermore, CA, US | 🗽 citizens<br>🔒 clearance<br>🎓 3.0+ GPA | Nov 4 |
 | LLNL | [Power Systems Undergraduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027](https://jobs.smartrecruiters.com/LLNL/3743990016610446-power-systems-undergraduate-intern-cyber-and-critical-infrastructure-summer-institute-summer-2027)<br><sub>“However, this position involves U.S. Export Control; this work must be performed by a U.S. person \(U.S. citizen, U.S. lawful permanent resid…”</sub> | Livermore, CA, US | 🗽 citizens<br>🔒 clearance<br>🎓 3.0+ GPA | Nov 4 |
 | NASA Jet Propulsion Laboratory | [Electrical &amp; Computer Engineering Academic Part Time Intern](https://citjpl.wd5.myworkdayjobs.com/Jobs/job/JPL-Campus/Academic-Part-Time-Intern_R6220) | JPL Campus | 🎓 3.0+ GPA<br>⏱ part-time | Nov 4 |
-| Palantir Technologies | [Software Engineer, Intern - Connectivity Platform and Product](https://jobs.lever.co/palantir/130ee501-bd22-4d44-b651-39581ef97743) | New York, NY |  | Nov 4 |
+| Palantir Technologies | [Software Engineer, Internship - Connectivity Platform and Product](https://jobs.lever.co/palantir/130ee501-bd22-4d44-b651-39581ef97743) | New York, NY |  | Nov 4 |
 | Palantir Technologies | [Software Engineer, Internship - Data Connectors](https://jobs.lever.co/palantir/45e4617d-d658-4b30-8dc9-378ca84a027a) | New York, NY |  | Nov 4 |
 | Procter &amp; Gamble | [Intern, Talent Analytics &amp; Assessment Science](https://pg.wd5.myworkdayjobs.com/1000/job/CINCINNATI-GENERAL-OFFICES/Intern--Talent-Analytics---Assessment-Science_R000162095)<br><sub>“Immigration Sponsorship is not available for this role.”</sub> | CINCINNATI GENERAL OFFICES | 🛂❌ no sponsor | Nov 4 |
 | Samsung Research America | [2027 Spring Intern, Robotics Lab](https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8927812002) | 665 Clyde Avenue, Mountain View, CA, USA | 🌱 spring | Nov 4 |
@@ -118,8 +112,6 @@
 | Toyota Research Institute | [Human-Centered AI Research Intern, Human Language Models](https://jobs.lever.co/tri/d4184c04-b963-489a-9a0b-91bc57d6267e) | Los Altos, CA |  | Nov 4 |
 | Toyota Research Institute | [Robotics Research Intern, Manipulation](https://jobs.lever.co/tri/17acdd1f-f234-4a30-a313-34be94a1adcd) | Los Altos, CA |  | Nov 4 |
 | Vizient | [2027 Summer Internship - Digital Collaboration &amp; Data Insights](https://vizient.wd1.myworkdayjobs.com/Vizient_Careers/job/Chicago-IL-60607/XMLNAME-2027-Summer-Internship---Digital-Collaboration---Data-Insights_35969R) | Chicago, IL 60607 |  | Nov 4 |
-| American Express | [Campus Undergraduate Summer Internship Program - 2027 Cybersecurity AI Engineer, Enterprise Technology Services- Phoenix, AZ](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26016065)<br><sub>“Employment eligibility to work with American Express in the United States is required as the company will not pursue visa sponsorship for th…”</sub> | Phoenix, AZ, United States | 🛂❌ no sponsor<br>⚠ unverified | Nov 3 |
-| American Express | [Campus Undergraduate Summer Internship Program - 2027 Software Engineer, Enterprise Technology Services- Sunnyvale, CA](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015722)<br><sub>“Employment eligibility to work with American Express in the United States is required as the company will not pursue visa sponsorship for th…”</sub> | Sunnyvale, CA, United States | 🛂❌ no sponsor<br>⚠ unverified | Nov 3 |
 | Arrowstreet Capital | [Software Engineer Intern, Summer 2027](https://arrowstreetcapital.wd5.myworkdayjobs.com/Campus_Careers/job/Boston/Software-Engineer-Intern--Summer-2027_R1561) | Boston |  | Nov 3 |
 | ASML | [Internship- Business Systems AI](https://asml.wd3.myworkdayjobs.com/ASMLEXT1/job/San-Diego-CA-USA/Internship--Business-Systems-AI_J-00355737) | San Diego, CA, USA |  | Nov 3 |
 | AstraZeneca | [US Medical Affairs, AI &amp; Knowledge Experience Intern](https://astrazeneca.wd3.myworkdayjobs.com/Careers/job/US---Gaithersburg---MD/US-Medical-Affairs--AI---Knowledge-Experience-Intern_R-263260) | US - Gaithersburg - MD | ⚠ unverified | Nov 3 |
@@ -154,6 +146,14 @@
 | Sun Life | [Business Operations Software Engineer 2027 Co-op](https://sunlife.wd3.myworkdayjobs.com/Experienced-Jobs/job/Sun-Life-Wellesley/Business-Operations-Software-Engineer-2027-Co-op_JR00128863-3) | Sun Life Wellesley | 🔄 co-op | Nov 3 |
 | Tradeweb | [Summer 2027 Cyber Security Internship](https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301991) | New York, NY, United States |  | Nov 3 |
 | Trimble Inc | [AI Developer Intern](https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---CO-Westminster/AI-Developer-Intern_R58194) | US - CO, Westminster |  | Nov 3 |
+| Trimble Inc | [AI Developer Intern](https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---OH-Dayton/AI-Developer-Intern_R58195) | US - OH, Dayton |  | Nov 3 |
+| Trimble Inc | [Hardware/Software Testing Intern](https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---CO-Westminster/Hardware-Software-Testing-Intern_R57677-1)<br><sub>“Visa sponsorship is not available for this position.”</sub> | US - CO, Westminster | 🛂❌ no sponsor | Nov 3 |
+| Trimble Inc | [Software Engineering Intern](https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---CO-Westminster/Software-Engineering-Intern_R57676)<br><sub>“Visa sponsorship is not available for this position.”</sub> | US - CO, Westminster | 🛂❌ no sponsor | Nov 3 |
+| Trimble Inc | [Telecom Intern](https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---CO-Westminster/Telecom-Intern_R58202-1) | US - CO, Westminster |  | Nov 3 |
+| TruStage | [IT - Innovation &amp; AI Technology Internship \(Hybrid\)](https://trustage.wd1.myworkdayjobs.com/TruStage/job/Madison-WI/IT---Innovation---AI-Technology-Internship--Hybrid-_R-012293) | Madison, WI |  | Nov 3 |
+| USAFacts | [AI Product Intern](https://job-boards.greenhouse.io/usafacts/jobs/4478239009) | Bellevue, WA |  | Nov 3 |
+| Vizient | [2027 Summer Internship - Strategy Analytics Project](https://vizient.wd1.myworkdayjobs.com/Vizient_Careers/job/Chicago-IL-60607/XMLNAME-2027-Summer-Internship---Strategy-Analytics-Project_36009R) | Chicago, IL 60607 |  | Nov 3 |
+| Yanfeng | [IT Operations Intern - Summer 2027](https://fa-epuh-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/20263654) | Harrison Township, MI, United States | 🎓 3.0+ GPA | Nov 3 |
 
 [⬅ page 4](INTERNSHIPS-4.md) · page 5 of 17 · [page 6 ➡](INTERNSHIPS-6.md)
 
