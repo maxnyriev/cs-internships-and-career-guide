@@ -225,6 +225,12 @@ def new_section(new) -> str:
     return shown + f"\n\n_{len(new)} postings were posted this week. This list shows up to 3 per company; the rest are in the [internships](INTERNSHIPS.md) and [new grad](NEW_GRAD.md) lists._"
 
 
+def unverified_count(rows):
+    """Rows the last run couldn't re-check (shown with the totals, so a reader isn't handed a
+    headline count that quietly includes postings which may already have closed)."""
+    return sum(1 for r in rows if r.get("status") == "uncertain")
+
+
 def main():
     rows = dedupe(load_json(POSTINGS, []))
     for r in rows:  # an early-program row has to show the sentence that makes it one; otherwise it's listed as a normal internship
@@ -296,7 +302,7 @@ def main():
     term_counts = {k: sum(1 for r in rows if k in terms(r["title"])) for k in ("co_op", "fall", "spring", "part_time")}
     track_table = "\n".join(f"| [{name}](track-{slug}.md) | {track_counts[slug]:,} |" for slug, name in TRACKS)
     boards = len((load_yaml(COMPANIES, {}) or {}).get("companies") or [])
-    stale = sum(1 for r in rows if r.get("status") == "uncertain")
+    stale = unverified_count(rows)
     early = counts.get("early", 0)
     early_note = f"{early} open right now" if early else "None listed right now, check back soon"
     readme = f"""# Things I Wish I Knew: CS Edition
@@ -367,7 +373,8 @@ This board is provided as is, without warranty of any kind. Listings and tags ar
     (ROOT / "_data").mkdir(exist_ok=True)
     (ROOT / "_data" / "stats.json").write_text(json.dumps({"updated": today(), "internships": counts.get("internship", 0),
         "new_grad": counts.get("new_grad", 0), "early": counts.get("early", 0), "new_week": len(new), "total": len(rows),
-        "boards": boards, "tracks": track_counts, "terms": term_counts}, indent=2) + "\n", encoding="utf-8")
+        "boards": boards, "tracks": track_counts, "terms": term_counts,
+        "unverified": stale}, indent=2) + "\n", encoding="utf-8")  # the site shows this next to the counts
     for f in [ROOT / name for _, _, name in SECTIONS] + sum((list(ROOT.glob(f"{name[:-3]}-*.md")) for _, _, name in SECTIONS), []) + [ROOT / "NEW_THIS_WEEK.md", ROOT / "README.md"] + list(ROOT.glob("track-*.md")):
         size = f.stat().st_size
         if size > MAX_PAGE_BYTES:  # GitHub stops rendering markdown at 512 KB; fail before a page silently goes blank

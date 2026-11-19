@@ -690,3 +690,11 @@ def test_audit_sample_scores_a_clean_row_and_catches_an_unbacked_tag():
 
     nonus = dict(clean, location="London, United Kingdom")
     assert not audit_sample.audit_row(nonus)["us_location"][0]
+
+
+def test_unverified_rows_are_counted_for_the_site():
+    """The ⚠ count lived only inside one README sentence, so the site couldn't show it and a reader
+    saw a headline number with no hint that some rows are unconfirmed."""
+    rows = [{"status": "open"}, {"status": "uncertain"}, {"status": "uncertain"}, {}]
+    assert build_readme.unverified_count(rows) == 2
+    assert build_readme.unverified_count([]) == 0
