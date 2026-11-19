@@ -43,7 +43,7 @@ After the CS/CE-only, U.S.-only filters (below), roughly 1,900 to 2,100 roles ar
 
 ## Measured accuracy
 
-After the fixes above, I hand-checked 200 random rows from the live board (no descriptions, judged from title, location and the saved evidence):
+After the fixes above, I hand-checked 200 random rows from the live board (no descriptions, judged from title, location and the saved evidence). These were the rates **before** the fixes that sample prompted:
 
 | Check | Errors | Rate |
 |---|---|---|
@@ -53,6 +53,39 @@ After the fixes above, I hand-checked 200 random rows from the live board (no de
 | Right section? | 1 / 200 | 0.5% |
 | Tag matches its evidence sentence | 2 / 55 tagged rows | 4% |
 | Posting date in the future | 0 / 74 dated rows | 0% |
+
+### Re-measured, November 2026
+
+The hand audit above is a snapshot from before its own fixes landed, so `scripts/audit_sample.py` now
+re-measures the board whenever the rules change. It re-runs the real classifier over a seeded random
+sample, so the numbers move when the rules do, and anyone can reproduce a run:
+
+```
+python scripts/audit_sample.py --n 200 --seed 1     # writes docs/AUDIT.md
+```
+
+200 rows at each of seeds 1, 42 and 7, against 2,098 open postings:
+
+| Check | Errors | Rate |
+|---|---|---|
+| Location is in the U.S. | 0 / 600 | 0% |
+| Title passes the CS/CE rules | 0 / 600 | 0% |
+| Term has not already passed | 0 / 600 | 0% |
+| Section matches the title | 0 / 600 | 0% |
+| Every tag is reproduced by its evidence sentence | 1 / 600 | 0.2% |
+
+The one failure was a `clearance_level` of "secret" whose saved sentence stopped just before the word,
+because the level can come from a different sentence than the clearance tag's. The level now saves its
+own evidence, so that case can't recur.
+
+The sponsorship tags carry the most weight for a reader, so those were checked exhaustively rather than
+sampled: **all 327 postings tagged "does not sponsor" and all 12 tagged "sponsors" are reproduced by the
+sentence saved with them.**
+
+**What this does not measure.** It checks the board against its own stored evidence, not against the
+employer's page as it reads today: a tag can be consistent and still be stale if the posting changed.
+Whether a role is genuinely CS or CE work is still a human judgement, so each run ends with 25 rows to
+read by hand. Rates this low mean the rules agree with the evidence, not that the board is error-free.
 
 Every wrong row in that sample became a test case and a rule fix (bare "QA", "security intern" and "data center electrical" no longer count as CS; country codes like "ESP" and "BRA" are non-U.S.; "2026 Summer" roles listed after the summer started are dropped; "clearance is not required" no longer sets 🔒). The numbers above are from before those fixes, so they're an upper bound; a fresh sample is the next check.
 

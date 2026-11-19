@@ -400,6 +400,9 @@ def tags(text: str, location: str = "") -> tuple[dict, dict]:
             lvl = clearance_level(x)
             if lvl:
                 t["clearance_level"] = lvl
+                # keep the sentence the level came from: it isn't always the one the clearance tag saved,
+                # and a student checking "secret" needs to see where that word is
+                ev["clearance_level"] = x[:300]
                 break
     t["oa"] = None
     hit = _hit(sents, OA)
@@ -414,7 +417,9 @@ def tags(text: str, location: str = "") -> tuple[dict, dict]:
 def strip_html(html: str) -> str:
     import html as h
     text = re.sub(r"<(br|/p|/li|/div|/h\d)[^>]*>", "\n", h.unescape(html or ""), flags=re.I)
-    return re.sub(r"[ \t]+", " ", re.sub(r"<[^>]+>", " ", text)).strip()
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = h.unescape(text)  # some feeds double-encode, so one pass leaves &#xa; and &nbsp; in the text
+    return re.sub(r"[ \t]+", " ", text.replace("\xa0", " ")).strip()
 
 
 if __name__ == "__main__":

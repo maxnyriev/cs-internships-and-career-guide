@@ -674,3 +674,19 @@ def test_rekey_rebuilds_ids_written_by_an_older_rule():
     assert stored[0]["first_seen"] == "2026-01-01"
     assert removed[0]["id"] == "https://e.com/Job/OLD"
     assert fetch_ats.rekey(stored, removed) == 0  # already current: nothing to do
+
+
+def test_audit_sample_scores_a_clean_row_and_catches_an_unbacked_tag():
+    """The accuracy audit has to fail a tag whose saved sentence no longer supports it."""
+    import audit_sample
+    clean = {"title": "Software Engineering Intern - Summer 2027", "location": "Austin, TX",
+             "section": "internship", "url": "https://x.com/1", "company": "X",
+             "tags": {"sponsor": False, "remote": False},
+             "tag_evidence": {"sponsor": "We are unable to sponsor an employment visa."}}
+    assert all(ok for ok, _ in audit_sample.audit_row(clean).values())
+
+    unbacked = dict(clean, tags={"sponsor": False}, tag_evidence={"sponsor": "Great benefits and free lunch."})
+    assert not audit_sample.audit_row(unbacked)["tag_backed"][0]
+
+    nonus = dict(clean, location="London, United Kingdom")
+    assert not audit_sample.audit_row(nonus)["us_location"][0]

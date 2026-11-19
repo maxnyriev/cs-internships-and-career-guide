@@ -370,3 +370,21 @@ def test_applicant_side_sponsorship_wording_stays_untagged():
     """"Sponsorship is not required" can mean the applicant doesn't need it, which says nothing
     about the employer. A guess either way misleads, so it gets no tag."""
     assert tags("Visa sponsorship is not required for this role.")[0]["sponsor"] is None
+
+
+def test_clearance_level_keeps_the_sentence_it_came_from():
+    """The level often sits in a different sentence than the clearance tag's, so it saves its own
+    evidence; otherwise the board shows "secret" with nothing a student can check it against."""
+    from classify import clearance_level
+    t, ev = tags("A security clearance is required. Security Clearance Type: Secret")
+    assert t["clearance"] is True and t["clearance_level"] == "secret"
+    assert "Secret" in ev["clearance_level"]
+    assert clearance_level(ev["clearance_level"]) == "secret"
+
+
+def test_strip_html_clears_double_encoded_entities():
+    """Some feeds encode twice, so one unescape pass left &#xa; and &nbsp; in the evidence text."""
+    from classify import strip_html
+    out = strip_html("Must be a U.S. citizen.&amp;#xa;&amp;nbsp;Clearance required.")
+    assert "&#xa;" not in out and "&nbsp;" not in out and "\xa0" not in out
+    assert "U.S. citizen" in out and "Clearance required." in out
