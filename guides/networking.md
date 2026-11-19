@@ -1,6 +1,8 @@
 # Networking
 
-Networking means getting to know people who can teach you, vouch for you, or tell you about openings. A few real relationships beat hundreds of LinkedIn connections. You do not need to be outgoing. You need to ask small, specific questions.
+Networking means getting to know people who can teach you, vouch for you, or tell you about openings. A few real relationships beat hundreds of LinkedIn connections. You do not need to be outgoing. You need to ask small, specific questions. Counts and paces below are suggestions to adjust, not research findings.
+
+Why bother when you could just apply? In [Ashby's 2021-2024 data](https://www.ashbyhq.com/talent-trends-report/reports/referrals) (38 million applications, all roles), about 40% of referred candidates reached an interview versus about 3% of inbound applicants. Those are averages across every kind of job, not a promise, but they make the case that people matter.
 
 If you have about 5 hours a week or less, jump to [low on time](#low-on-time).
 
@@ -10,7 +12,7 @@ You don't know anyone yet. Start here. Each step takes under an hour.
 
 **Week 1: professors.**
 - [ ] Go to office hours once. Use the script below.
-- [ ] Find your school's CS club or ACM chapter (ask your department, or check your school's club list). Go to one meeting.
+- [ ] Find the CS club or ACM chapter on your campus (ask your department or check the club list). Go to one meeting.
 
 **Week 2: upperclassmen.**
 - [ ] Ask one junior or senior for 15 minutes. Use the script below.
@@ -34,9 +36,13 @@ If the answer is "not right now," ask: "Is there another professor or a lab I sh
 
 **Before you go,** read one page of the professor's research on the department site. Mention one thing you found interesting. This takes ten minutes and sets you apart.
 
-**Research for pay or credit.** Many undergraduate research jobs are never posted. Ask. Also ask your department whether research can count for credit.
+**Research for pay or credit.** Some undergraduate research jobs are never posted, so ask, and ask whether it can count for credit.
 
-**Summer research (REUs).** The National Science Foundation funds Research Experiences for Undergraduates (REUs): paid summer research at universities around the country, usually with a stipend and often help with housing and travel. Deadlines are usually January to March, and each site sets its own. Eligibility varies by site (some require U.S. citizenship or permanent residency, some don't), so read each listing. First-years and sophomores do get in. Search the [NSF REU site list](https://www.nsf.gov/funding/initiatives/reu). Your own school's CS or engineering department may run one too.
+**Summer research (REUs).** The National Science Foundation funds Research Experiences for Undergraduates (REUs): paid summer research at universities around the country, with a stipend and often help with housing, meals, and travel. **To apply you need to be an undergraduate and a U.S. citizen, permanent resident, or U.S. national.** Individual sites can add their own rules. Most deadlines fall between January and March, and each site has its own application. First-years and sophomores do get in. Search the [NSF REU site list](https://www.nsf.gov/funding/initiatives/reu). Your own school's CS or engineering department may run one too.
+
+A timeline if your deadline is around February 1: in October and November, shortlist 6 to 8 sites and note each one's deadline and materials. In early December, ask 2 professors for recommendation letters (give them your resume, the site list, and the deadlines; 4 weeks is a courteous lead time). In December and January, write a one-page statement and submit. On low time, apply to 3 sites instead of 8. A fill-in statement:
+
+> I'm a [year] CS student at [school]. I want to join [site] because [one specific project or topic you read about]. My preparation: [one project with a result] and [one class]. I haven't done research before, so I'm looking for [what you want to learn]. I can commit [dates] full time. My references are [names], who've seen my work in [class or club].
 
 ## Upperclassmen
 
@@ -56,7 +62,7 @@ Alumni are friendly to students from their own school. Steps:
 > Hi [Name], I'm a [year] CS student at [School]. I saw you went there too and now work at [Company] as a [role]. I'm trying to learn how people get into [field]. Could I ask you one question: [specific question, like "what did you do before your first internship that mattered most?"]? Thanks either way.
 
 3. If they reply, ask for 15 minutes. Come with 3 questions.
-4. Expect about 1 reply for every 5 to 10 messages. That's normal, not personal.
+4. As a rule of thumb, expect about 1 reply for every 5 to 10 messages. That's normal, not personal.
 
 **Follow-up template** (send within 24 hours of any chat):
 
@@ -73,7 +79,7 @@ A month later, send two lines on what you did. This is what turns one chat into 
 ## Contests and hackathons
 
 - **[ICPC](https://icpc.global)** is a team programming contest (teams of three, one computer, timed). If your school sends teams, join the practice sessions. It's good practice for solving problems under time pressure, which is what online assessments and technical interviews are. You don't need to win. Going on your resume is a plus, and the practice is the point.
-- **Hackathons** are weekend events where teams build something fast. Solo is fine, and many let you join a team at the start. Finish something small, and ignore the prizes. Find them on [Major League Hacking (MLH)](https://mlh.com) and [Devpost](https://devpost.com). Many are free; some are online.
+- **Hackathons** are weekend events where teams build something fast. Solo is fine, and many let you join a team at the start. Finish something small, and ignore the prizes. Find them on [Major League Hacking (MLH)](https://mlh.com) and [Devpost](https://devpost.com). Many are free; some are online. I haven't seen data on how much hackathons help hiring; their value is the finished project and the people you meet.
 
 ## Career fairs
 
@@ -100,7 +106,11 @@ Employers and programs sometimes ask for a reference: someone who will say good 
 
 ## Low on time
 
-On the [5-hour week](README.md#the-5-hour-week), your 1 hour on people goes to this: one alumni message a week (10 minutes), and once a month an office-hours visit or an upperclassman message. Skip clubs that meet at night unless one fits; join their chat group and read it. Even three contacts you keep warm make a difference.
+On the [5-hour week](README.md#the-5-hour-week), your 1 hour on people goes to this: one alumni message a week (10 minutes), and once a month an office-hours visit or an upperclassman message. Skip clubs that meet at night unless one fits; join their chat group (Discord or Slack) and read it, or go to a club's online events. If you commute or work, your people can be online: ask in the club chat, reply to one thread a week, and send your alumni messages from your phone. Even three contacts you keep warm make a difference.
+
+## Beware paid "networking"
+
+Real mentors and alumni don't charge you for introductions. Be careful with anyone who asks for money for a referral, a "guaranteed" interview, or a paid mentorship. The FTC's [job scams page](https://consumer.ftc.gov/articles/job-scams) lists the common pay-to-play patterns.
 
 ## Resources
 
@@ -113,7 +123,9 @@ On the [5-hour week](README.md#the-5-hour-week), your 1 hour on people goes to t
 - [Major League Hacking (MLH)](https://mlh.com) and [Devpost](https://devpost.com): hackathon calendars, in person and online.
 - [ICPC](https://icpc.global): the big team programming contest.
 - [Advent of Code](https://adventofcode.com): daily puzzles every December.
-- Security contests (CTFs): [picoCTF](https://picoctf.org) for beginners. See [Career tracks](tracks.md).
+- Security contests (CTFs): [picoCTF](https://picoctf.org) for beginners (now run as CyLab Security Academy). The National Cyber League's fall 2026 registration closed in October, so check its site for the next season. See [Career tracks](tracks.md).
+
+**Open source and first contributions:** [First Contributions](https://github.com/firstcontributions/first-contributions) and [Awesome for Beginners](https://github.com/MunGell/awesome-for-beginners). See [GitHub](github.md#resources).
 
 **Communities, scholarships, and conference trips:** [Resources](resources.md).
 

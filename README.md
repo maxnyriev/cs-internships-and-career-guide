@@ -55,11 +55,11 @@ Every row links straight to the company's application page. Postings are tagged 
 
 - **2,098 open roles** from **1,083 company job boards**, checked every day with automated tests on every run. 230 of them couldn't be re-checked recently and are marked ⚠. How it works and how accurate it is: [docs/WRITEUP.md](docs/WRITEUP.md).
 - It doesn't catch everything. Also check Handshake, LinkedIn, and [Simplify's internship lists](https://github.com/SimplifyJobs).
-- Found a missing posting, a broken link, or a mistake? [Open a GitHub issue](https://github.com/rohitpeets/cs-internships-and-career-guide/issues/new) — anyone can — or tell a McNeese ACM officer, and we'll fix it.
+- Found a missing posting, a broken link, or a mistake? [Open a GitHub issue](https://github.com/rohitpeets/cs-internships-and-career-guide/issues/new) — anyone can, and we'll fix it.
 
 ## ⚖️ Disclaimer
 
-This board is provided as is, without warranty of any kind. Listings and tags are generated automatically from employers' public job postings and can be wrong, incomplete or out of date. Always read the full posting on the employer's site. Sponsorship, CPT/OPT and citizenship tags are general information, not legal or immigration advice. This project is free, non-commercial, and not affiliated with or endorsed by any employer listed or any university.
+This board is provided as is, without warranty of any kind. Listings and tags are generated automatically from employers' public job postings and can be wrong, incomplete or out of date. Always read the full posting on the employer's site. Citizenship and clearance tags are general information, not legal advice. This project is free, non-commercial, and not affiliated with or endorsed by any employer listed or any university.
 
 ## License
 
