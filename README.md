@@ -8,28 +8,28 @@ A free starter kit for computer science and computer engineering students in the
 
 Search, filter, and browse everything in one place — easier than scrolling these files. **Start there.**
 
-Last updated **2026-11-18**.
+Last updated **2026-11-19**.
 
 ## 💼 Find jobs
 
 | List | What's inside |
 |---|---|
-| 💼 **[Internships](INTERNSHIPS.md)** | 2,046 open roles, newest first |
+| 💼 **[Internships](INTERNSHIPS.md)** | 2,197 open roles, newest first |
 | 🎓 **[New grad](NEW_GRAD.md)** | 123 full-time roles for graduating students |
 | 🌱 **[Early programs](EARLY.md)** | For freshmen and sophomores. 4 open right now |
-| 🆕 **[New this week](NEW_THIS_WEEK.md)** | 479 roles posted in the last 7 days |
+| 🆕 **[New this week](NEW_THIS_WEEK.md)** | 452 roles posted in the last 7 days |
 
 ### Find jobs by track
 
 | Track | Open roles |
 |---|---|
-| [Software](track-software.md) | 879 |
-| [Embedded and firmware](track-embedded.md) | 78 |
-| [Hardware and chips](track-hardware.md) | 120 |
-| [Security](track-security.md) | 198 |
-| [IT and networking](track-it.md) | 297 |
-| [Data and ML](track-data.md) | 601 |
-| [Government and defense](track-gov.md) | 269 |
+| [Software](track-software.md) | 920 |
+| [Embedded and firmware](track-embedded.md) | 83 |
+| [Hardware and chips](track-hardware.md) | 150 |
+| [Security](track-security.md) | 207 |
+| [IT and networking](track-it.md) | 312 |
+| [Data and ML](track-data.md) | 652 |
+| [Government and defense](track-gov.md) | 303 |
 
 _A role can fit more than one track, so the track counts add up to more than the total._
 
@@ -53,7 +53,7 @@ Every row links straight to the company's application page. Postings are tagged 
 
 ## ℹ️ About
 
-- **2,173 open roles** from **1,083 company job boards**, checked every day with automated tests on every run. 264 of them couldn't be re-checked recently and are marked ⚠. How it works and how accurate it is: [docs/WRITEUP.md](docs/WRITEUP.md).
+- **2,324 open roles** from **1,083 company job boards**, checked every day with automated tests on every run. 502 of them couldn't be re-checked recently and are marked ⚠. How it works and how accurate it is: [docs/WRITEUP.md](docs/WRITEUP.md).
 - It doesn't catch everything. Also check Handshake, LinkedIn, and [Simplify's internship lists](https://github.com/SimplifyJobs).
 - Found a missing posting, a broken link, or a mistake? [Open a GitHub issue](https://github.com/rohitpeets/cs-internships-and-career-guide/issues/new) — anyone can, and we'll fix it.
 

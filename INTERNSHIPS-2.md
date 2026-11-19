@@ -1,8 +1,8 @@
 # Internships
 
-[⬅ Back to the main page](./) · 2046 open · page 2 of 18 · updated 2026-11-18
+[⬅ Back to the main page](./) · 2197 open · page 2 of 19 · updated 2026-11-19
 
-[⬅ page 1](INTERNSHIPS.md) · page 2 of 18 · [page 3 ➡](INTERNSHIPS-3.md)
+[⬅ page 1](INTERNSHIPS.md) · page 2 of 19 · [page 3 ➡](INTERNSHIPS-3.md)
 
 **Click a job title to open the company's application page.**
 
@@ -34,8 +34,23 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| State Street | [Software Engineering Intern - Full-time Internship \(Jan - June 2027\)](https://statestreet.wd1.myworkdayjobs.com/Global/job/Quincy-Massachusetts/Software-Engineering-Intern---Full-time-Internship--Jan---June-2027-_R-801236) | Quincy, Massachusetts |  | Nov 17 |
-| State Street | [State Street Investment Management - Data Scientist - Summer Internship 2027](https://statestreet.wd1.myworkdayjobs.com/Global/job/Boston-Massachusetts/State-Street-Investment-Management---Data-Scientist---Summer-Internship-2027_R-801213) | Boston, Massachusetts |  | Nov 17 |
+| Shure | [Application Software Development Intern](https://careersus-shure.icims.com/jobs/5020/application-software-development-intern/job) | Niles, IL, US |  | — |
+| Shure | [Embedded Software Intern](https://careersus-shure.icims.com/jobs/5018/embedded-software-intern/job) | Niles, IL, US |  | — |
+| Shure | [Mobile Applications \(Android\) Intern](https://careersus-shure.icims.com/jobs/5006/mobile-applications-%28android%29-intern/job) | Niles, IL, US | ⚠ unverified | — |
+| Shure | [System Verification Engineering Intern](https://careersus-shure.icims.com/jobs/5000/system-verification-engineering-intern/job) | Skokie, IL, US |  | — |
+| Shure | [Unified Communication \(UC\) Technology Intern](https://careersus-shure.icims.com/jobs/5002/unified-communication-%28uc%29-technology-intern/job) | Skokie, IL, US |  | — |
+| Shure | [Web Analytics Intern](https://careersus-shure.icims.com/jobs/5027/web-analytics-intern/job) | Niles, IL, US |  | — |
+| Signify | [Firmware Development Engineer Intern, Cooper Lighting Solutions - Spring 2027](https://lighting.wd3.myworkdayjobs.com/jobs-and-careers/job/Atlanta/Firmware-Development-Engineer-Intern--Cooper-Lighting-Solutions---Spring-2027_367134) | Atlanta | 🌱 spring | Nov 17 |
+| Springs Window Fashions | [Consumer Business Unit - AI Analyst Internship - Summer 2027](https://careers-springswindowfashions.icims.com/jobs/12875/consumer-business-unit---ai-analyst-internship---summer-2027/job) | MIDDLETON, WI, US |  | — |
+| Springs Window Fashions | [Consumer Business Unit - Data Analyst Internship - Summer 2027](https://careers-springswindowfashions.icims.com/jobs/12874/consumer-business-unit---data-analyst-internship---summer-2027/job) | MIDDLETON, WI, US |  | — |
+| Springs Window Fashions | [Information Technology - AI Internship - summer 2027](https://careers-springswindowfashions.icims.com/jobs/12945/information-technology---ai-internship---summer-2027/job) | MIDDLETON, WI, US |  | — |
+| Springs Window Fashions | [Information Technology Internship - summer 2027](https://careers-springswindowfashions.icims.com/jobs/12908/information-technology-internship---summer-2027/job) | MIDDLETON, WI, US |  | — |
+| Springs Window Fashions | [Software Engineering Internship - Summer 2027](https://careers-springswindowfashions.icims.com/jobs/12891/software-engineering-internship---summer-2027/job) | LONG ISLAND CITY, NY, US |  | — |
+| Springs Window Fashions | [Textile Engineering Analytics &amp; Software Internship - summer 2027](https://careers-springswindowfashions.icims.com/jobs/12881/textile-engineering-analytics-%26-software-internship---summer-2027/job) | MIDDLETON, WI, US |  | — |
+| State Street | [Full Stack Development Intern, Full-time Internship \(Jan - June 2027\)](https://statestreet.wd1.myworkdayjobs.com/Global/job/Quincy-Massachusetts/Full-Stack-Development-Intern--Full-time-Internship--Jan---June-2027-_R-801232) | Quincy, Massachusetts | ⚠ unverified | Nov 17 |
+| State Street | [Software Engineer \(Intergration Services\) - Full-time Internship \(Jan - June 2027\)](https://statestreet.wd1.myworkdayjobs.com/Global/job/Quincy-Massachusetts/Software-Engineer--Intergration-Services----Full-time-Internship--Jan---June-2027-_R-801234) | Quincy, Massachusetts | ⚠ unverified | Nov 17 |
+| State Street | [Software Engineering Intern - Full-time Internship \(Jan - June 2027\)](https://statestreet.wd1.myworkdayjobs.com/Global/job/Quincy-Massachusetts/Software-Engineering-Intern---Full-time-Internship--Jan---June-2027-_R-801236) | Quincy, Massachusetts | ⚠ unverified | Nov 17 |
+| State Street | [State Street Investment Management - Data Scientist - Summer Internship 2027](https://statestreet.wd1.myworkdayjobs.com/Global/job/Boston-Massachusetts/State-Street-Investment-Management---Data-Scientist---Summer-Internship-2027_R-801213) | Boston, Massachusetts | ⚠ unverified | Nov 17 |
 | Texas Instruments | [Analog IC Design \(AI/ML\) Engineering Intern](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25020319) | Dallas, TX, United States | 🎓 3.0+ GPA | Nov 17 |
 | The Aerospace Corporation | [2027 Defensive Cyber Operations Grad Intern](https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/XMLNAME-2027-Defensive-Cyber-Operations-Grad-Intern_R017106)<br><sub>“U.S citizenship is required to obtain a security clearance.”</sub> | El Segundo, CA | 🗽 citizens<br>🔒 clearance<br>🎓 3.0+ GPA | Nov 17 |
 | The Aerospace Corporation | [2027 Embedded Software Engineering Undergrad Intern](https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/XMLNAME-2027-Embedded-Software-Engineering-Undergrad-Intern_R016949)<br><sub>“U.S citizenship is required to obtain a security clearance.”</sub> | El Segundo, CA | 🗽 citizens<br>🔒 clearance<br>🎓 3.0+ GPA | Nov 17 |
@@ -53,6 +68,8 @@
 | Altice USA | [Intern - DevOps Toolchain](https://www.optimumcareers.com/job/Bethpage-Intern-DevOps-Toolchain%E2%80%8B-NY-11714/1449507200/) | Town of Oyster Bay, New York | ⚠ unverified | — |
 | Altice USA | [Intern - Site Reliability Engineer](https://www.optimumcareers.com/job/Bethpage-Intern-Site-Reliability-Engineer-NY-11714/1449514800/) | Town of Oyster Bay, New York | ⚠ unverified | — |
 | Altice USA | [Intern - Software Developer](https://www.optimumcareers.com/job/Bethpage-Intern-Software-Developer-NY-11714/1450884000/) | Town of Oyster Bay, New York | ⚠ unverified | — |
+| Analog Devices | [Embedded Hardware &amp; Firmware Intern \(Health Solutions\)](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Embedded-Hardware---Firmware-Intern--Health-Solutions-_R269166) | US, MA, Wilmington |  | Nov 16 |
+| Analog Devices | [Software Engineering Intern \(Medical Device &amp; Healthcare Integration\)](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Software-Engineering-Intern--Medical-Device---Healthcare-Integration-_R269165) | US, MA, Wilmington |  | Nov 16 |
 | APEX Analytix | [QA Automation Intern](https://ats.rippling.com/apexanalytix-careers/jobs/ebafabc3-be09-477d-94a9-0ba244f52319) | Greensboro, North Carolina |  | — |
 | ASML | [Internship - Integrate GUI and LLM](https://asml.wd3.myworkdayjobs.com/ASMLEXT1/job/San-Jose-CA-USA/Internship---Integrate-GUI-and-LLM_J-00357014) | San Jose, CA, USA |  | Nov 16 |
 | ASML | [Internship- AI Research and Development](https://asml.wd3.myworkdayjobs.com/ASMLEXT1/job/San-Jose-CA-USA/Internship--AI-Research-and-Development_J-00357860) | San Jose, CA, USA |  | Nov 16 |
@@ -127,8 +144,8 @@
 | Huntington Ingalls Industries | [SPRING 2027 IT CO-OP](https://careers.huntingtoningalls.com/job/Newport-News-SPRING-2027-IT-CO-OP-Virg/1434270100/) | Newport News, Virginia | 🔄 co-op<br>🌱 spring | — |
 | Huntington Ingalls Industries | [Summer 2027 Internship - DevOps Engineer \(Hybrid\) - 30230](https://jobs.hii-tsd.com/job/Columbia%2C-MD-Summer-2027-Internship-DevOps-Engineer-%28Hybrid%29-30230-Mary/1430966800/) | Columbia, Maryland |  | — |
 | Huntington Ingalls Industries | [Summer 2027 Internship - Software Engineer \(Hybrid\) - 30189](https://jobs.hii-tsd.com/job/Greenville%2C-SC-Summer-2027-Internship-Software-Engineer-%28Hybrid%29-30189-Sout/1430373400/) | Greenville, South Carolina | ⚠ unverified | — |
-| ICF | [2027 Summer Intern, AI Engineer](https://icf.wd5.myworkdayjobs.com/ICFExternal_Career_Site/job/Reston-VA/XMLNAME-2027-Summer-Intern--AI-Engineer--Reston--VA-_R2603518)<br><sub>“Due to contract requirements, U.S. Citizenship is required”</sub> | Reston, VA | 🗽 citizens | Nov 16 |
-| Idaho National Laboratory | [Cybersecurity Operations Internship - Summer 2027](https://elhe.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/pro/job/2329) | Idaho Falls, ID, United States | 🎓 3.0+ GPA | Nov 16 |
+| ICF | [2027 Summer Intern, AI Engineer](https://icf.wd5.myworkdayjobs.com/ICFExternal_Career_Site/job/Reston-VA/XMLNAME-2027-Summer-Intern--AI-Engineer--Reston--VA-_R2603518)<br><sub>“Due to contract requirements, U.S. Citizenship is required”</sub> | Reston, VA | 🗽 citizens<br>⚠ unverified | Nov 16 |
+| Idaho National Laboratory | [Cybersecurity Operations Internship - Summer 2027](https://elhe.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/pro/job/2329) | Idaho Falls, ID, United States | 🎓 3.0+ GPA<br>⚠ unverified | Nov 16 |
 | IDEMIA | [Cloud Software Engineering Internship](https://uscareers-idemia.icims.com/jobs/8707/cloud-software-engineering-internship/job) | Reston, Virginia |  | — |
 | IDEMIA | [Full Stack Software Engineering Internship](https://uscareers-idemia.icims.com/jobs/8708/full-stack-software-engineering-internship/job) | Eden Prairie, Minnesota |  | — |
 | IDEMIA | [Software Engineer Internship - Summer 2027](https://uscareers-idemia.icims.com/jobs/8650/software-engineer-internship---summer-2027/job) | Reston, Virginia |  | — |
@@ -137,24 +154,7 @@
 | Integration Innovation \(i3\) | [Cybersecurity Internship](https://talent.i3-corps.com/jobs/5489) | Huntsville, Alabama |  | — |
 | Integration Innovation \(i3\) | [Data Management Internship](https://talent.i3-corps.com/jobs/5490) | Huntsville, Alabama |  | — |
 | Integration Innovation \(i3\) | [Embedded Systems Reverse Engineer Intern](https://talent.i3-corps.com/jobs/5588) | Washington, District of Columbia |  | — |
-| International | [AI/ML Intern](https://careers.international.com/jobs/60456) | Lisle, Illinois | ⚠ unverified | — |
-| International | [Digital &amp; AI Intern for Service Solutions](https://careers.international.com/jobs/60706) | Lisle, Illinois | ⚠ unverified | — |
-| International | [Digital IT Intern](https://careers.international.com/jobs/60457) | Lisle, Illinois | ⚠ unverified | — |
-| International | [General IT Intern](https://careers.international.com/jobs/60707) | Lisle, Illinois | ⚠ unverified | — |
-| International | [IT Security Intern](https://careers.international.com/jobs/60661) | Lisle, Illinois | ⚠ unverified | — |
-| Keysight Technologies | [Data Scientist, Intern](https://jobs.keysight.com/external/jobs/54570) | Santa Rosa, California |  | — |
-| Keysight Technologies | [EDA AI/ML Layout Engineering Intern](https://jobs.keysight.com/external/jobs/54606) | Calabasas, California |  | — |
-| Keysight Technologies | [EDA AI/ML Software Intern](https://jobs.keysight.com/external/jobs/54582) | Calabasas, California |  | — |
-| Keysight Technologies | [Embedded Software Engineer Intern](https://jobs.keysight.com/external/jobs/55093) | Cambridge, Massachusetts |  | — |
-| Keysight Technologies | [Quantum Application Engineering &amp; Business Development Intern](https://jobs.keysight.com/external/jobs/54643) | Santa Rosa, California |  | — |
-| Keysight Technologies | [R&amp;D Software Engineer Intern](https://jobs.keysight.com/external/jobs/54805) | Santa Clara, California |  | — |
-| Keysight Technologies | [R&amp;D Software Engineer Intern](https://jobs.keysight.com/external/jobs/54640) | Calabasas, California |  | — |
-| Keysight Technologies | [R&amp;D Software Engineer Intern](https://jobs.keysight.com/external/jobs/54414) | Santa Rosa, California |  | — |
-| Keysight Technologies | [R&amp;D Software Engineer, Intern](https://jobs.keysight.com/external/jobs/56415) | Colorado Springs, Colorado |  | — |
-| Keysight Technologies | [R&amp;D Software Engineer, Intern](https://jobs.keysight.com/external/jobs/54848) | Austin, Texas |  | — |
-| Keysight Technologies | [R&amp;D Software Engineer, Intern](https://jobs.keysight.com/external/jobs/54673) | Santa Rosa, California |  | — |
-| Keysight Technologies | [R&amp;D Software Engineering Internship](https://jobs.keysight.com/external/jobs/54724) | Colorado Springs, Colorado |  | — |
 
-[⬅ page 1](INTERNSHIPS.md) · page 2 of 18 · [page 3 ➡](INTERNSHIPS-3.md)
+[⬅ page 1](INTERNSHIPS.md) · page 2 of 19 · [page 3 ➡](INTERNSHIPS-3.md)
 
 _Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._
