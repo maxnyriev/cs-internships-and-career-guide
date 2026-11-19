@@ -74,10 +74,12 @@ def load_yaml(path: Path, default):
 
 
 def url_key(url: str) -> str:
-    """Apply URL without tracking parameters or a trailing slash; job-id parameters are kept."""
+    """Apply URL without tracking parameters or a trailing slash; job-id parameters are kept.
+    Scheme and host are lowercased (they are case-insensitive); the path and query keep their case,
+    because some boards put a case-sensitive job id there and two jobs must not share one key."""
     s = urlsplit(url.strip())
     q = [(k, v) for k, v in parse_qsl(s.query) if k.lower() not in TRACKING and not k.lower().startswith(TRACKING_PREFIX)]
-    return urlunsplit((s.scheme.lower(), s.netloc.lower(), s.path.rstrip("/"), urlencode(q), "")).lower()
+    return urlunsplit((s.scheme.lower(), s.netloc.lower(), s.path.rstrip("/"), urlencode(q), ""))
 
 
 def dedupe_rows(rows):

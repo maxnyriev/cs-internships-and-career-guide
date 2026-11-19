@@ -654,3 +654,23 @@ def test_save_json_retries_when_the_file_is_briefly_locked(tmp_path, monkeypatch
     common.save_json(p, {"a": 1})
     assert json.loads(p.read_text()) == {"a": 1}
     assert calls["n"] == 2  # failed once, then succeeded
+
+
+def test_url_key_keeps_path_case_but_drops_tracking():
+    from common import url_key
+    assert url_key("https://Example.com/Job/ABC123/?utm_source=x") == "https://example.com/Job/ABC123"
+    # two jobs whose links differ only in case are two jobs, not one
+    assert url_key("https://e.com/J/ABC") != url_key("https://e.com/j/abc")
+    assert url_key("https://e.com/j/1?gh_jid=7") == "https://e.com/j/1?gh_jid=7"  # a job id is kept
+
+
+def test_rekey_rebuilds_ids_written_by_an_older_rule():
+    """The guard against a url_key change making every posting look new: old ids are rebuilt on load,
+    so first_seen survives and nothing is counted as closed."""
+    stored = [{"id": "https://e.com/job/abc123", "url": "https://e.com/Job/ABC123", "first_seen": "2026-01-01"}]
+    removed = [{"id": "https://e.com/job/old", "url": "https://e.com/Job/OLD"}]
+    assert fetch_ats.rekey(stored, removed) == 2
+    assert stored[0]["id"] == "https://e.com/Job/ABC123"
+    assert stored[0]["first_seen"] == "2026-01-01"
+    assert removed[0]["id"] == "https://e.com/Job/OLD"
+    assert fetch_ats.rekey(stored, removed) == 0  # already current: nothing to do

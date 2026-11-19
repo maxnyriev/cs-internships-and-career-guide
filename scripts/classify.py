@@ -27,7 +27,10 @@ SPONSOR_NO = re.compile(
     r"|sponsorship\b[^.]{0,20}\b(do|does|will|can) not\b"
     r"|sponsorship[^.]{0,40}\b(is|are|will be) not (available|provided|offered)"
     r"|(require|need)s? (visa |immigration |employment )?sponsorship[^.]{0,80}\b(not be considered|ineligible|not eligible)"
-    r"|(does not|doesn't|will not|won't|not) (accept|consider) (cpt|opt|f-?1)", re.I)
+    r"|(does not|doesn't|will not|won't|not) (accept|consider) (cpt|opt|f-?1)"
+    # "candidates must not require sponsorship now or in the future" is the employer saying no;
+    # "sponsorship is not required" (applicant side) is ambiguous and deliberately left untagged
+    r"|\b(must|cannot|can ?not|may|will) not require\b[^.]{0,40}sponsorship", re.I)
 # a firm offer only: CPT/OPT eligibility isn't sponsorship, and "for select roles/candidates" isn't a promise
 SPONSOR_YES = re.compile(
     r"\b(we|will|can|able to|happy to|willing to)\s+(\w+\s+){0,2}sponsor"

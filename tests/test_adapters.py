@@ -120,3 +120,37 @@ def test_new_sources_fail_loudly_on_odd_shapes(name, where):
     board = {"workday": "acme.wd1/careers", "oracle": "acme.fa.us2/CX_1", "eightfold": "h.example.net|example.com"}[name]
     with pytest.raises(adapters.ShapeError):
         getattr(adapters, where)[name](board, RouteHttp({"oops": 1}, {}, lambda u: False))
+
+
+def test_paginate_stops_on_a_short_page():
+    pages = [[{"n": i} for i in range(20)], [{"n": 99}]]
+    rows, complete = adapters.paginate(lambda off: (pages[off // 20] if off // 20 < len(pages) else [], 21), 20)
+    assert complete and len(rows) == 21
+
+
+def test_paginate_treats_a_missing_total_as_incomplete_not_done():
+    """A feed that stops reporting its count must not look finished after one page:
+    its unseen jobs would get strikes and be closed while still open."""
+    full = [{"n": i} for i in range(20)]
+    pages = [full, full, [{"n": 1}]]
+    for bad_total in (0, None, "", "many"):
+        rows, complete = adapters.paginate(lambda off, t=bad_total: (pages[off // 20] if off // 20 < len(pages) else [], t), 20)
+        assert len(rows) == 41, f"stopped early on total={bad_total!r}"
+        assert complete
+
+
+def test_paginate_reports_a_capped_board_as_incomplete():
+    full = [{"n": i} for i in range(20)]
+    rows, complete = adapters.paginate(lambda off: (full, 10_000), 20, cap=40)
+    assert not complete and len(rows) == 40
+
+
+def test_a_skipped_malformed_posting_makes_the_board_incomplete():
+    """One unparseable row is skipped, but the board is then incomplete, so the rows
+    it didn't return are left alone instead of counted as closed."""
+    good = adapters.each([{"t": "A"}, {"t": "B"}], lambda j: {"title": j["t"]}, "src")
+    assert good.complete and len(good) == 2
+    mixed = adapters.each([{"t": "A"}, {"oops": 1}], lambda j: {"title": j["t"]}, "src")
+    assert len(mixed) == 1 and not mixed.complete
+    assert not adapters.both(mixed, True).complete
+    assert adapters.both(good, True).complete and not adapters.both(good, False).complete

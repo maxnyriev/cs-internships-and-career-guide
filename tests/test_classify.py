@@ -353,3 +353,20 @@ def test_class_year_lists_are_not_a_senior_level_role():
     assert not keep_title("Senior Software Engineer")
     assert not keep_title("Software Engineer Intern - Senior")        # ambiguous: still treated as senior-level
     assert not keep_title("Senior Software Engineer Intern, Junior Team")
+
+
+def test_employer_refusing_sponsorship_is_tagged_however_it_is_worded():
+    for text in ["Candidates must not require visa sponsorship now or in the future.",
+                 "Applicants must not require sponsorship for employment visa status.",
+                 "We are unable to sponsor or take over sponsorship of an employment visa.",
+                 "This role is not eligible for immigration sponsorship.",
+                 "Must be legally authorized to work in the US without the need for employer sponsorship."]:
+        t, ev = tags(text)
+        assert t["sponsor"] is False, text
+        assert ev["sponsor"], "the sentence behind the tag is kept so a student can check it"
+
+
+def test_applicant_side_sponsorship_wording_stays_untagged():
+    """"Sponsorship is not required" can mean the applicant doesn't need it, which says nothing
+    about the employer. A guess either way misleads, so it gets no tag."""
+    assert tags("Visa sponsorship is not required for this role.")[0]["sponsor"] is None

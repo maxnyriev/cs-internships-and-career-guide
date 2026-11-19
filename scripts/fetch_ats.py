@@ -61,6 +61,21 @@ def longest_first(boards, rows):
     return sorted(boards, key=lambda c: size.get(c["board"], 0), reverse=True)
 
 
+def rekey(*row_lists):
+    """Rebuild any id that an older version of url_key would have written (it lowercased the whole URL).
+    Runs on every load so a rule change can never make the whole board look new and close every job."""
+    fixed = 0
+    for rows in row_lists:
+        for r in rows:
+            if r.get("url"):
+                k = url_key(r["url"])
+                if r.get("id") != k:
+                    r["id"], fixed = k, fixed + 1
+    if fixed:
+        print(f"  rebuilt {fixed} posting id(s) after a url_key change")
+    return fixed
+
+
 def main():
     ap = argparse.ArgumentParser()
     mode = ap.add_mutually_exclusive_group(required=True)
@@ -88,9 +103,11 @@ def main():
         blocked = {k: v for k, v in blocked.items() if not any(f'{c["ats"]}|{c["board"]}' == k for c in boards)}
     cutoff = today_date() - timedelta(days=BLOCK_RETRY_DAYS)
     blocked = {k: v for k, v in blocked.items() if date.fromisoformat(v.get("since", today())) > cutoff}
-    rows = {r["id"]: r for r in (state["rows"] if a.local else state)}
+    stored = state["rows"] if a.local else state
     # the laptop keeps its own closed list inside local.json, so it never edits a file the Action also writes
     removed = state.get("removed", []) if a.local else load_json(REMOVED, [])
+    rekey(stored, removed)  # ids written by an older url_key are rebuilt, so nothing looks new or closed
+    rows = {r["id"]: r for r in stored}
     removed_ids = {r["id"] for r in removed}
     failed, gone, unsure, seen = [], [], set(), {}
     by_name = {(c["name"], c["ats"]): c["board"] for c in boards}

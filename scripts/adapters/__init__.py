@@ -49,14 +49,19 @@ def posted_date(v):
 
 
 def paginate(call, step, cap=1000):
-    """call(offset) -> (items, total). Pages until a short/empty page or `total`; stops at `cap` and reports it,
-    so a capped board is treated as incomplete (missing jobs aren't counted as closed)."""
+    """call(offset) -> (items, total). Pages until a short or empty page, or until `total` is reached;
+    stops at `cap` and reports it, so a capped board is treated as incomplete (missing jobs aren't
+    counted as closed). A `total` that is missing, zero or not a number is NOT read as "done": paging
+    goes on until a short page proves the end, because a feed that drops its count would otherwise
+    look complete after one page and its unseen jobs would be counted as closed."""
     out, offset = [], 0
     while True:
         items, total = call(offset)
         out += items
         offset += step
-        if not items or offset >= total:
+        if not items or len(items) < step:  # a short page is the end of the feed
+            return out, True
+        if isinstance(total, int) and not isinstance(total, bool) and total > 0 and offset >= total:
             return out, True
         if offset >= cap:
             return out, False
@@ -64,14 +69,21 @@ def paginate(call, step, cap=1000):
 
 def each(items, build, source):
     """build(item) for every item; an item missing a field is skipped and logged, so one odd posting
-    can't fail the whole board (which would leave all its rows unverified)."""
-    out = []
+    can't fail the whole board (which would leave all its rows unverified). A skip also makes the
+    result incomplete, so the skipped posting isn't counted as closed while it may still be open."""
+    out, skipped = [], 0
     for j in items:
         try:
             out.append(build(j))
         except (KeyError, TypeError, AttributeError, ValueError) as e:
+            skipped += 1
             print(f"  {source}: skipped one malformed posting ({type(e).__name__}: {str(e)[:60]})")
-    return out
+    return Jobs(out, skipped == 0)
+
+
+def both(jobs, complete):
+    """A board counts as complete only if the page walk finished AND nothing was skipped."""
+    return Jobs(jobs, complete and getattr(jobs, "complete", True))
 
 
 def gone(r, board):
@@ -151,7 +163,7 @@ def workday(board, http):
         return {"title": j["title"], "url": info.get("externalUrl") or f"{base}/{site}{path}",
                 "location": info.get("location") or j.get("locationsText", ""), "text": strip_html(info.get("jobDescription", "")),
                 "posted": posted_date(info.get("startDate"))}
-    return Jobs(each(paths.items(), build, "workday"), complete)
+    return both(each(paths.items(), build, "workday"), complete)
 
 
 def oracle(board, http):
@@ -187,7 +199,7 @@ def oracle(board, http):
             text = strip_html((items[0].get("ExternalDescriptionStr") or "") + "\n" + (items[0].get("ExternalQualificationsStr") or ""))
         return {"title": j["Title"], "url": f"{base}/hcmUI/CandidateExperience/en/sites/{site}/job/{rid}",
                 "location": j.get("PrimaryLocation", "") or "", "text": text, "posted": posted_date(j.get("PostedDate"))}
-    return Jobs(each(seen.items(), build, "oracle"), complete)
+    return both(each(seen.items(), build, "oracle"), complete)
 
 
 def smartrecruiters(board, http):
@@ -220,7 +232,7 @@ def smartrecruiters(board, http):
             where = (where + " (Remote)").strip()
         return {"title": j["name"], "url": det.get("postingUrl") or f"https://jobs.smartrecruiters.com/{board}/{pid}",
                 "location": where, "text": text, "posted": posted_date(j.get("releasedDate"))}
-    return Jobs(each(seen.items(), build, "smartrecruiters"), complete)
+    return both(each(seen.items(), build, "smartrecruiters"), complete)
 
 
 def amazon(board, http):
@@ -241,7 +253,7 @@ def amazon(board, http):
         items, ok = paginate(page(q), 100)
         complete &= ok
         seen.update((j["id"], j) for j in items if j.get("id") and keep_title(j.get("title", "")) and j.get("country_code") in ("USA", None))
-    return Jobs(each(seen.values(), lambda j: {"title": j["title"], "url": "https://www.amazon.jobs" + j["job_path"],
+    return both(each(seen.values(), lambda j: {"title": j["title"], "url": "https://www.amazon.jobs" + j["job_path"],
                   "location": j.get("normalized_location") or j.get("location", ""),
                   "text": strip_html("\n".join(j.get(k) or "" for k in ("description", "basic_qualifications", "preferred_qualifications"))),
                   "posted": posted_date(j.get("posted_date"))}, "amazon"), complete)
@@ -273,7 +285,7 @@ def eightfold(board, http):
         return {"title": j["name"], "url": j.get("canonicalPositionUrl") or f"https://{host}/careers/job/{pid}",
                 "location": j.get("location") or "; ".join(j.get("locations") or []),
                 "text": strip_html(det.get("job_description", "") or ""), "posted": posted_date(j.get("t_create"))}
-    return Jobs(each(seen.items(), build, "eightfold"), complete)
+    return both(each(seen.items(), build, "eightfold"), complete)
 
 
 CLOUD = {"greenhouse": greenhouse, "lever": lever, "ashby": ashby, "smartrecruiters": smartrecruiters, "amazon": amazon, "eightfold": eightfold}
