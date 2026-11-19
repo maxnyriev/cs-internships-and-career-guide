@@ -66,7 +66,7 @@ Alumni are your best contacts. Steps:
 2. Click **Alumni** (or **People**).
 3. Filter by where they live, where they work, and what they studied. Try "software", "engineer", or a company you like.
 4. Open 5 profiles. Pick people who graduated 3 to 8 years ago. They're recent enough to remember the same recruiting cycle.
-5. Send a request. **Connection notes are limited.** Vendor guides citing LinkedIn say about 200 characters per note and that free accounts can send only a few notes a month, but I couldn't confirm either on LinkedIn's own help pages, so check in the app. Plan for the worst case: send the plain request, and once they accept, send your message in the chat. If the note box shows up, use it.
+5. Send a request. **Connection notes are rationed on a free account.** LinkedIn's own help pages don't agree with each other: its "Personalize invitations to connect" page says three personalized notes a month, while its "Invitation limit reached" page says five. Either way it's a tiny budget, and a note maxes out at 200 characters (Premium gets unlimited notes). So treat notes as something you spend deliberately: send the plain request, and once they accept, send your message in the chat. Save a note for someone you really want to reach, and check what your own app shows before you count on it.
 
 Template that fits a short note (under about 200 characters once you fill it in):
 
