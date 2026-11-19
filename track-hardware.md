@@ -1,6 +1,6 @@
 # Hardware and chips
 
-[⬅ Back to the main page](./) · 116 open · updated 2026-11-18
+[⬅ Back to the main page](./) · 120 open · updated 2026-11-18
 
 Chip design, FPGA and ASIC work, and design verification. New to this track? Read the [Hardware and chips section of the Career tracks guide](guides/tracks.md#hardware-and-chips).
 
@@ -34,16 +34,19 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (110)
+## Internships (114)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| Leidos | [FPGA Engineer Intern](https://leidos.wd5.myworkdayjobs.com/External/job/Arlington-VA/FPGA-Engineer-Intern_R-00197304)<br><sub>“U.S. citizen - Ability to obtain DoD secret security clearance”</sub> | Arlington, VA | 🔒 secret | Nov 18 |
 | General Dynamics Mission Systems | [FPGA Engineer Intern](https://careers-gdms.icims.com/jobs/78722/fpga-engineer-intern/job) | Scottsdale, AZ, US | ⚠ unverified | — |
+| Micron Technology | [Intern - SSD Hardware Engineering](https://micron.wd1.myworkdayjobs.com/External/job/Longmont-MAX--Office-CO/Intern---SSD-Hardware-Engineering_JR114232) | Longmont-MAX- Office, CO | ⚠ unverified | Nov 17 |
+| Rockwell Automation | [PMB Hardware Engineering Intern](https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mequon-Wisconsin-United-States/PMB-Hardware-Engineering-Intern_R26-8346-1)<br><sub>“Legal authorization to work in the U.S. We will not sponsor individuals for employment visas, now or in the future, for this job opening.”</sub> | Mequon, Wisconsin, United States | 🛂❌ no sponsor | Nov 17 |
 | Shure | [System Verification Engineering Intern](https://careersus-shure.icims.com/jobs/5000/system-verification-engineering-intern/job) | Skokie, IL, US |  | — |
 | Cirrus Logic | [2027 Internship - Design Verification Engineer](https://jobs.eu.lever.co/cirrus/c71a6365-31c7-4ba1-bdc4-9f2df1fc483e) | Chandler, Arizona |  | — |
 | Cirrus Logic | [2027 Internship - Digital Design Engineer](https://jobs.eu.lever.co/cirrus/0310fbd1-a2a8-4c0f-a842-86e05ae7d98e) | Chandler, Arizona |  | — |
 | Cirrus Logic | [2027 Internship - Formal Verification Engineer](https://jobs.eu.lever.co/cirrus/533c9938-3d35-48a6-b08b-1dd1675d2bdf) | Austin, Texas |  | — |
-| KLA | [FPGA Engineer Intern](https://kla.wd1.myworkdayjobs.com/UR/job/Ann-Arbor-MI/Electrical-Design-Engineering-Intern_2641709) | Ann Arbor, MI |  | Nov 16 |
+| KLA | [FPGA Engineer Intern](https://kla.wd1.myworkdayjobs.com/UR/job/Ann-Arbor-MI/Electrical-Design-Engineering-Intern_2641709) | Ann Arbor, MI | ⚠ unverified | Nov 16 |
 | Meta | [ASIC EDA Infrastructure Engineer Intern](https://www.metacareers.com/profile/job_details/1883872846321140/) | Sunnyvale, California |  | — |
 | Ralliant | [Hardware Verification Engineer Co-Op \(Spring 2027\)](https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/10490) | Solon, OH, United States | 🔄 co-op<br>🌱 spring | Nov 16 |
 | Ralliant | [Hardware Verification Engineer Co-op \(Summer 2027\)](https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/10491) | Solon, OH, United States | 🔄 co-op | Nov 16 |
@@ -60,7 +63,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Formlabs Internships | [Hardware Systems Integration Intern \(Summer 2027\)](https://job-boards.greenhouse.io/formlabsinternships/jobs/8381595) | Somerville, MA |  | Nov 11 |
 | Cisco | [Hardware Engineer I \(Intern\) - United States](https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Hardware-Engineer-I--Intern----United-States_2024756) | San Jose, California, US | ⚠ unverified | Nov 10 |
 | Etched | [Chip Simulation Software Intern](https://jobs.ashbyhq.com/Etched/27e5bd6b-9357-45f0-9e79-cfa2bf4eeba8) | San Jose |  | Nov 10 |
-| Marvell Technology | [Design Verification Intern](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Petah-Tikva/Design-Verification-Intern_2604492) | Petah-Tikva |  | Nov 10 |
+| Marvell Technology | [Design Verification Intern](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Petah-Tikva/Design-Verification-Intern_2604492) | Petah-Tikva | ⚠ unverified | Nov 10 |
 | Skydio | [Hardware In Loop \(HIL\) Software Engineer Intern - Winter 2027](https://jobs.ashbyhq.com/skydio/add7fd86-78e6-483e-98cd-cdfc1029fded) | San Mateo, California, United States |  | Nov 10 |
 | Booz Allen | [Design and Verification Engineer Intern](https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Beavercreek-OH/Design-and-Verification-Engineer-Intern_R0252482)<br><sub>“Ability to obtain a Secret clearance”</sub> | Beavercreek, OH | 🔒 secret | Nov 5 |
 | Trimble Inc | [Hardware/Software Testing Intern](https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---CO-Westminster/Hardware-Software-Testing-Intern_R57677-1)<br><sub>“Visa sponsorship is not available for this position.”</sub> | US - CO, Westminster | 🛂❌ no sponsor | Nov 3 |
@@ -128,6 +131,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Bedrock Robotics Inc | [2027 Internship Sensor Hardware Test Engineer](https://jobs.ashbyhq.com/bedrock-robotics/1f413f83-b897-4938-a19e-ab91bd326c51) | San Francisco, CA | ⏳ 60+ days | Sep 10 |
 | The Toro Company | [Hardware and Software Engineering Intern - Ditch Witch](https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers/job/Perry-OK/Hardware-and-Software-Engineering-Intern---Ditch-Witch_JR17183)<br><sub>“We are unable to sponsor or take over sponsorship of a school/employment or any other visa, regardless of expiration date, now or in the fut…”</sub> | Perry, OK | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 10 |
 | Amazon | [Hardware Development Engineer Intern/Co-Op, ROBOTICS - 2027](https://www.amazon.jobs/en/jobs/10535282/hardware-development-engineer-intern-co-op-robotics-2027) | North Reading, Massachusetts, USA | 🔄 co-op<br>⏳ 60+ days | Sep 9 |
+| Motorola Solutions | [FPGA Design Engineering Intern - Summer 2027](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Schaumburg-IL/FPGA-Design-Engineering-Intern---Summer-2027_R68401)<br><sub>“Must be a US Citizen, permanent resident, or an MS student with work authorization \(F1 Visa on CPT accepted only for master 's-level student…”</sub> | Schaumburg, IL | 🗽 citizens<br>⏳ 60+ days | Sep 9 |
 | Qube Research &amp; Technologies | [2027 – Internship or Graduate, FPGA Engineering](https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8777855002) | London, Paris, New York | ⏳ 60+ days | Sep 8 |
 | RF-SMART | [Hardware Support Internship - Summer 2027](https://job-boards.greenhouse.io/rfsmart/jobs/5407220008)<br><sub>“Employer does not sponsor applicants for employment visa status \(e.g. H-1B visa status\).”</sub> | Jacksonville, Florida, United States | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 8 |
 | Solidigm | [2027 Graduate Hardware, Validation, and Product Engineering Internships - US](https://jobs.smartrecruiters.com/Solidigm/744000147613779-2027-graduate-hardware-validation-and-product-engineering-internships-us) | Rancho Cordova, CA, US | ⏳ 60+ days | Sep 5 |
@@ -143,7 +147,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Analog Devices | [Digital Design Engineer Intern](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-NC-Durham/Digital-Design-Engineer-Intern_R265298) | US, NC, Durham | ⏳ 60+ days | Aug 24 |
 | SpaceX | [Spring 2027 Silicon Engineering Internship/Co-op](https://boards.greenhouse.io/spacex/jobs/8636134002?gh_jid=8636134002)<br><sub>“ITAR REQUIREMENTS: To conform to U.S. Government export regulations, applicant must be a \(i\) U.S. citizen or national, \(ii\) U.S. lawful, per…”</sub> | Flexible - Any SpaceX Site | 📜 ITAR<br>🎓 3.5+ GPA<br>🔄 co-op<br>🌱 spring<br>⏳ 60+ days | Aug 3 |
 | SpaceX | [Summer 2027 Silicon Engineering Internship/Co-op](https://boards.greenhouse.io/spacex/jobs/8621763002?gh_jid=8621763002)<br><sub>“ITAR REQUIREMENTS: To conform to U.S. Government export regulations, applicant must be a \(i\) U.S. citizen or national, \(ii\) U.S. lawful, per…”</sub> | Flexible - Any SpaceX Site | 📜 ITAR<br>🎓 3.5+ GPA<br>🔄 co-op<br>⏳ 60+ days | Aug 3 |
-| HPR | [FPGA Engineering Intern - Summer 2027](https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822801003) | Needham, MA | 🎓 3.0+ GPA<br>⏳ 60+ days | Jul 31 |
+| HPR | [FPGA Engineering Intern - Summer 2027](https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822801003)<br><sub>“Please note: HPR currently does not currently provide employment sponsorship”</sub> | Needham, MA | 🛂❌ no sponsor<br>🎓 3.0+ GPA<br>⏳ 60+ days | Jul 31 |
 | Virtu Financial | [2027 Internship- Hardware Engineer \(FPGA\)](https://job-boards.greenhouse.io/virtu/jobs/8657286002) | Austin, TX | 🧪 OA<br>⏳ 60+ days | Jul 29 |
 | Base Power Company | [Hardware Engineering Intern](https://jobs.ashbyhq.com/base-power/f22cee0e-55d9-42cd-806e-1c1fc7217770) | Austin, TX | ⏳ 60+ days | May 21 |
 | Etched | [DFT Intern](https://jobs.ashbyhq.com/Etched/5f1f5739-3b58-467c-b351-ff183c94d96d) | San Jose | ⏳ 60+ days | Apr 13 |

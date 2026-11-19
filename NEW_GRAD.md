@@ -1,6 +1,6 @@
 # New Grad
 
-[⬅ Back to the main page](./) · 122 open · page 1 of 2 · updated 2026-11-18
+[⬅ Back to the main page](./) · 123 open · page 1 of 2 · updated 2026-11-18
 
 page 1 of 2 · [page 2 ➡](NEW_GRAD-2.md)
 
@@ -34,12 +34,13 @@ page 1 of 2 · [page 2 ➡](NEW_GRAD-2.md)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| CACI International | [Early Career NASA Space Reactor – 1 Freedom Flight Software Development Engineer](https://caci.wd1.myworkdayjobs.com/External/job/Houston-TX-US/Early-Career-NASA-Space-Reactor---1-Freedom-Flight-Software-Development-Engineer_335249)<br><sub>“Required: Must be a U.S. Citizen or Permanent Resident to facilitate access to USG facilities.”</sub> | Houston, TX, US | 🗽 citizens<br>⚠ unverified | Nov 18 |
 | Atoms | [AI Researcher - New Grad \(BS/MS\)](https://job-boards.greenhouse.io/atoms/jobs/8948841002) | San Francisco, CA |  | Nov 17 |
 | ATOMS Careers page | [AI Researcher - New Grad \(BS/MS\)](https://job-boards.greenhouse.io/cssmerge/jobs/8948844002) | San Francisco, CA |  | Nov 17 |
 | Amentum | [Entry Level Software Engineer - SECRET](https://pae.wd1.myworkdayjobs.com/Amentum_Careers/job/US-VA-Dahlgren/Entry-Level-Software-Engineer---SECRET_R0175348)<br><sub>“- Active Secret-level US Government Security Clearance \(US citizenship is required to maintain clearance\).”</sub> | US-VA-Dahlgren | 🗽 citizens<br>🔒 secret<br>⚠ unverified | Nov 16 |
 | Cox Enterprises | [Entry Level Software Engineer - Atlanta, GA](https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Atlanta-GA/Entry-Level-Software-Engineer---Atlanta--GA_R202680858-1)<br><sub>“No OPT, CPT, STEM/OPT or visa sponsorship now or in future.”</sub> | Atlanta GA | 🛂❌ no sponsor<br>🚫 no CPT/OPT | Nov 16 |
 | The Aerospace Corporation | [2027 Entry Level DSP &amp; SDR Engineer](https://aero.wd5.myworkdayjobs.com/External/job/Chantilly-VA/Entry-Level-DSP---SDR-Engineer_R016560)<br><sub>“U.S. citizenship is required to obtain this level of security clearance”</sub> | Chantilly, VA | 🗽 citizens<br>🔒 clearance | Nov 16 |
-| Kyndryl | [Early Career Program - Mainframe Systems Administration](https://kyndryl.wd5.myworkdayjobs.com/KyndrylEarlyCareers/job/Szekesfehervar-HUSZEALB-Alba-Mall/Early-Career-Program---Mainframe-Systems-Administration_R-71926-2) | Szekesfehervar \(HUSZEALB\) Alba Mall |  | Nov 13 |
+| Kyndryl | [Early Career Program - Mainframe Systems Administration](https://kyndryl.wd5.myworkdayjobs.com/KyndrylEarlyCareers/job/Szekesfehervar-HUSZEALB-Alba-Mall/Early-Career-Program---Mainframe-Systems-Administration_R-71926-2) | Szekesfehervar \(HUSZEALB\) Alba Mall | ⚠ unverified | Nov 13 |
 | Marsh McLennan | [Public Cloud Administrator \(Entry Level\)](https://mmc.wd1.myworkdayjobs.com/MMC/job/Louisville---West-Market/Public-Cloud-Administrator--Entry-Level-_R_368461) | Louisville - West Market |  | Nov 13 |
 | Adobe | [2027 University Graduate - Data Scientist](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-University-Graduate---Data-Scientist_R173462) | San Jose |  | Nov 12 |
 | General Motors | [Entry-Level - Compute Platforms &amp; SoC/MCU Semiconductor Systems Researcher](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/Entry-Level---Compute-Platforms---SoC-MCU-Semiconductor-Systems-Researcher_JR-202621829)<br><sub>“The position is subject to export control restrictions and requires the successful candidate to be a U.S. Person \(U.S. citizen, U.S. permane…”</sub> | Warren, Michigan, United States of America | 🗽 citizens | Nov 12 |
@@ -87,7 +88,7 @@ page 1 of 2 · [page 2 ➡](NEW_GRAD-2.md)
 | Voloridge Investment Management | [Quantitative Developer - New University Graduate](https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4419326009) | Jupiter, FL |  | Sep 24 |
 | ZipRecruiter | [Software Engineer - New Grad](https://job-boards.greenhouse.io/ziprecruiter/jobs/8127108) | Santa Monica, CA |  | Sep 24 |
 | Scale AI | [Software Engineer, Public Sector - New Grad](https://job-boards.greenhouse.io/scaleai/jobs/4736426005) | San Francisco, CA |  | Sep 23 |
-| Anduril Industries | [2027 Early Career Firmware Engineer](https://boards.greenhouse.io/andurilindustries/jobs/5246141007?gh_jid=5246141007)<br><sub>“Must be a U.S. Person due to required access to U.S. export-controlled information or facilities; U.S. clearance eligibility may b…”</sub> | Costa Mesa, California, United States | 🗽 citizens | Sep 22 |
+| Anduril Industries | [2027 Early Career Firmware Engineer](https://boards.greenhouse.io/andurilindustries/jobs/5246141007?gh_jid=5246141007)<br><sub>“Must be a U.S. Person due to required access to U.S. export-controlled information or facilities; U.S. clearance eligibility may be required…”</sub> | Costa Mesa, California, United States | 🗽 citizens | Sep 22 |
 | KBR, Inc. | [Entry Level/ Junior Army Fires Modeling and Simulation Developer](https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Fort-Belvoir-Virginia/Entry-Level--Junior-Army-Fires-Modeling-and-Simulation-Developer_R2129634)<br><sub>“A SECRET security clearance/ ability to obtain a SECRET clearance is required.”</sub> | Fort Belvoir, Virginia | 🔒 secret | Sep 22 |
 | Shield AI | [Software Engineer I - Internal Tools \(New Grad\) - R6052](https://jobs.lever.co/shieldai/633a3038-574c-45ff-babb-7e1b8b7c6196) | Seattle, Washington | ⚠ unverified<br>⏳ 60+ days | Sep 17 |
 | Stripe | [Software Engineer, Early Career — Immediate Start](https://stripe.com/jobs/search?gh_jid=8212508) | San Francisco, Seattle, New York | ⏳ 60+ days | Sep 17 |
@@ -101,7 +102,7 @@ page 1 of 2 · [page 2 ➡](NEW_GRAD-2.md)
 | Verkada | [Technical Support Engineer - University Graduate 2027](https://job-boards.greenhouse.io/verkada/jobs/5121488007)<br><sub>“We do sponsor and take over sponsorship of employment visas for this role.”</sub> | San Mateo, CA United States | 🛂✅ sponsors<br>⏳ 60+ days | Sep 8 |
 | Scale AI | [Software Engineer - New Grad](https://job-boards.greenhouse.io/scaleai/jobs/4730836005) | San Francisco, CA | ⏳ 60+ days | Sep 4 |
 | Snowflake | [AI Research Scientist, New Grad – Agents &amp; Reinforcement Learning](https://jobs.ashbyhq.com/snowflake/1bad12df-f443-426f-9d09-e96fc780d698) | US-WA-Bellevue | ⏳ 60+ days | Sep 3 |
-| Anduril Industries | [2027 Early Career Flight Software Engineer](https://boards.greenhouse.io/andurilindustries/jobs/5228868007?gh_jid=5228868007)<br><sub>“Must be a U.S. Person due to required access to U.S. export-controlled information or facilities; U.S. clearance eligibility may b…”</sub> | Costa Mesa, California, United States | 🗽 citizens<br>⏳ 60+ days | Sep 2 |
+| Anduril Industries | [2027 Early Career Flight Software Engineer](https://boards.greenhouse.io/andurilindustries/jobs/5228868007?gh_jid=5228868007)<br><sub>“Must be a U.S. Person due to required access to U.S. export-controlled information or facilities; U.S. clearance eligibility may be required…”</sub> | Costa Mesa, California, United States | 🗽 citizens<br>⏳ 60+ days | Sep 2 |
 | Mach Industries | [December 2026 New Graduate Engineer, Software / GNC](https://job-boards.greenhouse.io/machindustries/jobs/4390274009)<br><sub>“ITAR Requirements”</sub> | Huntington Beach, California, United States | 📜 ITAR<br>⏳ 60+ days | Sep 2 |
 | Ciena | [WaveLogic Software Developer - New Grad](https://ciena.wd5.myworkdayjobs.com/Careers/job/Atlanta/WaveLogic-Software-Developer---New-Grad_R031608) | Atlanta | ⏳ 60+ days | Sep 1 |
 | Nextens | [Tech Accelerate Graduate Program - Software Engineer \(Alpharetta - January\)](https://relx.wd3.myworkdayjobs.com/RiskSolutions/job/Alpharetta-GA/Tech-Accelerate-Graduate-Program---Software-Engineer--Alpharetta---January-_R117617) | Alpharetta, GA | ⏳ 60+ days | Aug 31 |
@@ -153,7 +154,6 @@ page 1 of 2 · [page 2 ➡](NEW_GRAD-2.md)
 | Databricks | [Software Engineer - New Grad, Distributed Data Systems \(2027 Start\)](https://databricks.com/company/careers/open-positions/job?gh_jid=6865704002) | Bellevue, Washington; Mountain View, Californ… | ⚠ unverified<br>⏳ 60+ days | Aug 4 |
 | Perpay | [Software Engineer, New Grad](https://job-boards.greenhouse.io/perpay/jobs/4034578007) | Philadelphia, Pennsylvania, United States | ⏳ 60+ days | Jul 7 |
 | Palantir Technologies | [Forward Deployed Software Engineer, New Grad - US Government](https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb)<br><sub>“What We Require: Active US Security clearance or eligibility and willingness to obtain a US Security clearance.”</sub> | Washington, D.C. | 🔒 clearance<br>⏳ 60+ days | Jun 30 |
-| Palantir Technologies | [Forward Deployed Software Engineer, New Grad - US Government](https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca)<br><sub>“What We Require: Active US Security clearance or eligibility and willingness to obtain a US Security clearance.”</sub> | New York, NY | 🔒 clearance<br>⏳ 60+ days | Jun 30 |
 
 page 1 of 2 · [page 2 ➡](NEW_GRAD-2.md)
 
