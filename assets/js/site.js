@@ -120,9 +120,17 @@
       var html = '<strong>' + totalOther + ' more match' + (totalOther > 1 ? 'es' : '') + ' on other pages:</strong> ';
       var links = [];
       var pages = Object.keys(pageCounts).sort();
+      var SECTION_NAMES = {
+        'INTERNSHIPS': 'Internships', 'NEW_GRAD': 'New Grad',
+        'EARLY': 'Early Programs', 'NEW_THIS_WEEK': 'New This Week'
+      };
       for (var p = 0; p < pages.length; p++) {
         var pf = pages[p];
-        var label = pf.replace('.html', '').replace(/-(\d+)$/, ' p$1');
+        var stem = pf.replace('.html', '');
+        var section = stem.replace(/-\d+$/, '');
+        var pageNum = stem.match(/-(\d+)$/);
+        var friendly = SECTION_NAMES[section] || section.replace(/_/g, ' ');
+        var label = pageNum ? friendly + ' p.' + pageNum[1] : friendly;
         links.push('<a href="' + base + pf + location.search + '">' + label + ' (' + pageCounts[pf] + ')</a>');
       }
       html += links.join(', ');
