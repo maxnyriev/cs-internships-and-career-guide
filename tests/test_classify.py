@@ -347,6 +347,26 @@ def test_us_towns_named_like_foreign_cities_are_us():
     assert not us_job("Tbilisi, Georgia") and not keep_title("Software Engineer Intern - Munich, DE")
 
 
+def test_non_us_cities_without_country_suffix_are_filtered():
+    """Cities that slipped through because the location string lacks a country name."""
+    from classify import us_job
+    # Israeli cities
+    assert not us_job("Petah-Tikva")
+    assert not us_job("IL - Petah Tikva")
+    assert not us_job("Petah Tikva")
+    # Italian cities without "Italy"
+    assert not us_job("Naples")       # the PwC posting
+    assert not us_job("Palermo")
+    assert not us_job("Anagni")
+    # Canadian provinces
+    assert not us_job("Port Coquitlam, BC")
+    assert not us_job("Georgetown, ON")
+    assert not us_job("Mississauga, ON")
+    # US Naples (Florida) should still pass
+    assert us_job("Naples, FL")
+    assert us_job("Naples, Florida")
+
+
 def test_class_year_lists_are_not_a_senior_level_role():
     assert keep_title("2027 - Cybersecurity Engineering Intern - Sophomore, Junior, Senior *")
     assert keep_title("Software Engineer Intern (Junior/Senior)")
@@ -388,3 +408,17 @@ def test_strip_html_clears_double_encoded_entities():
     out = strip_html("Must be a U.S. citizen.&amp;#xa;&amp;nbsp;Clearance required.")
     assert "&#xa;" not in out and "&nbsp;" not in out and "\xa0" not in out
     assert "U.S. citizen" in out and "Clearance required." in out
+
+
+def test_dedupe_merges_careers_page_suffix():
+    """'ATOMS Careers page' and 'Atoms' with the same title+location should dedup to one row."""
+    from common import dedupe_rows
+    rows = [
+        {"company": "Atoms", "title": "AI Research Intern  (BS/MS)", "location": "Mountain View, CA",
+         "first_seen": "2026-11-01", "url": "https://a.example.com/1"},
+        {"company": "ATOMS Careers page", "title": "AI Research Intern  (BS/MS)", "location": "Mountain View, CA",
+         "first_seen": "2026-11-02", "url": "https://a.example.com/2"},
+    ]
+    result = dedupe_rows(rows)
+    assert len(result) == 1
+    assert result[0]["first_seen"] == "2026-11-01"  # earliest kept

@@ -23,7 +23,7 @@ SECTIONS = [("internship", "Internships", "INTERNSHIPS.md"),
             ("early", "Early Programs (freshmen & sophomores)", "EARLY.md")]
 # Empty, fixed-size spot the site's filter bar fills in, so adding it never shifts the long table (GitHub shows nothing).
 FILTER_SLOT = '<div class="job-filter" id="job-filter"></div>'
-LEGEND = """<details markdown="1">
+LEGEND = """<details markdown="1" open>
 <summary>What the tags and dates mean</summary>
 
 **Tags.** Each tag comes from a sentence in the posting, shown in grey under the job title. A blank tag means the posting doesn't say.
@@ -143,6 +143,34 @@ def when(r) -> str:
     return r.get("posted") or r["first_seen"]
 
 
+_STATE_ABBREV = {
+    "alabama": "AL", "alaska": "AK", "arizona": "AZ", "arkansas": "AR", "california": "CA",
+    "colorado": "CO", "connecticut": "CT", "delaware": "DE", "florida": "FL", "georgia": "GA",
+    "hawaii": "HI", "idaho": "ID", "illinois": "IL", "indiana": "IN", "iowa": "IA",
+    "kansas": "KS", "kentucky": "KY", "louisiana": "LA", "maine": "ME", "maryland": "MD",
+    "massachusetts": "MA", "michigan": "MI", "minnesota": "MN", "mississippi": "MS",
+    "missouri": "MO", "montana": "MT", "nebraska": "NE", "nevada": "NV", "new hampshire": "NH",
+    "new jersey": "NJ", "new mexico": "NM", "new york": "NY", "north carolina": "NC",
+    "north dakota": "ND", "ohio": "OH", "oklahoma": "OK", "oregon": "OR", "pennsylvania": "PA",
+    "rhode island": "RI", "south carolina": "SC", "south dakota": "SD", "tennessee": "TN",
+    "texas": "TX", "utah": "UT", "vermont": "VT", "virginia": "VA", "washington": "WA",
+    "west virginia": "WV", "wisconsin": "WI", "wyoming": "WY", "district of columbia": "DC",
+}
+_US_SUFFIX = re.compile(r",?\s*(?:United States(?: of America)?|USA?)\s*$", re.I)
+_STATE_RE = re.compile(
+    r"\b(" + "|".join(re.escape(s) for s in sorted(_STATE_ABBREV, key=len, reverse=True)) + r")\s*$", re.I
+)
+_MULTI_SPACE = re.compile(r"\s{2,}")
+
+def norm_location(loc: str) -> str:
+    """Normalize a location string: drop US suffix, shorten full state names to abbreviations."""
+    loc = _US_SUFFIX.sub("", loc).strip().rstrip(",").strip()
+    m = _STATE_RE.search(loc)
+    if m:
+        loc = loc[:m.start()] + _STATE_ABBREV[m.group(1).lower()]
+    return _MULTI_SPACE.sub(" ", loc).strip()
+
+
 def added(d: str) -> str:
     x = date.fromisoformat(d)
     return f"{x:%b} {x.day}"
@@ -165,7 +193,7 @@ def table(rows, early=False) -> tuple[str, int]:
         if not url:
             skipped += 1
             continue
-        loc = r.get("location") or ""
+        loc = norm_location(r.get("location") or "")
         line = (f"| {text(r['company'])} | [{text(r['title'])}]({url}){evidence(r, early)} | "
                 f"{text(loc[:45])}{'…' if len(loc) > 45 else ''} | {tag_str(r)} |")
         lines.append(line + (f" {added(r['posted']) if r.get('posted') else EMDASH} |" if show_added else ""))
@@ -243,6 +271,20 @@ def main():
     launched = min((r["first_seen"] for r in rows), default=today())
     new = [r for r in rows if (r.get("posted") or (r["first_seen"] if r["first_seen"] > launched else "")) >= week_ago]
 
+    early_watchlist = ("\n\n<details markdown=\"1\" open>\n<summary><strong>Well-known programs to watch for</strong></summary>\n\n"
+                       "These programs are built for freshmen and sophomores and open once a year. "
+                       "They're added here only while applications are open.\n\n"
+                       "| Program | Typical window | Where to check |\n"
+                       "|---|---|---|\n"
+                       "| Microsoft Explore | Aug–Oct | [careers.microsoft.com](https://careers.microsoft.com/students/us/en/us-ur-swe-702) |\n"
+                       "| Google STEP | Sep–Oct | [google.com/students](https://www.google.com/about/careers/applications/students/) |\n"
+                       "| NVIDIA Ignite | Sep–Oct | [nvidia.com/careers](https://www.nvidia.com/en-us/about-nvidia/careers/university/) |\n"
+                       "| Meta University | Sep–Nov | [metacareers.com/students](https://www.metacareers.com/students-and-grads/) |\n"
+                       "| Amazon Propel | Aug–Oct | [amazon.jobs/students](https://www.amazon.jobs/en/landing_pages/campus) |\n"
+                       "| UberSTAR | Varies | [uber.com/careers](https://www.uber.com/us/en/careers/) |\n"
+                       "| Bank of America Global Technology Freshman Analyst | Aug–Oct | [bankofamerica.com/campus](https://campus.bankofamerica.com/) |\n"
+                       "\nThis list is maintained by hand. If a program is missing, [open an issue](https://github.com/rohitpeets/cs-internships-and-career-guide/issues).\n\n"
+                       "</details>\n")
     intro = {"early": "Postings that say freshmen or sophomores can apply, or programs built for them. "
                       "The grey line under each title is the sentence from the posting, so you can check it.\n\n"
                       "Big tech programs for first- and second-years, like Microsoft Explore and NVIDIA Ignite, usually open in September "
@@ -280,8 +322,10 @@ def main():
             head = f"# {name}\n\n[⬅ Back to the main page](./) · {len(part)} open" + (f" · page {idx} of {total}" if total > 1 else "") + f" · updated {today()}\n\n"
             nav = f"{section_nav(stem, idx, total)}\n\n" if total > 1 else ""
             body, _ = table(chunk, early=(key == "early"))
+            watchlist = early_watchlist if key == "early" and idx == total else ""
             return (head + nav
                     + f"{intro.get(key, '')}**Click a job title to open the company's application page.**\n\n{LEGEND}\n\n{FILTER_SLOT}\n\n{body}\n"
+                    + watchlist
                     + (f"\n{section_nav(stem, idx, total)}\n" if total > 1 else "")
                     + (tail if idx == total else "") + f"\n{DISCLAIMER}\n")
 
@@ -379,6 +423,19 @@ This board is provided as is, without warranty of any kind. Listings and tags ar
         size = f.stat().st_size
         if size > MAX_PAGE_BYTES:  # GitHub stops rendering markdown at 512 KB; fail before a page silently goes blank
             sys.exit(f"{f.name} is {size:,} bytes, over the {MAX_PAGE_BYTES:,}-byte limit; split it before publishing")
+    # search index for the site's cross-page filter (lazy-loaded by site.js on first keystroke)
+    idx = []
+    for key, _name, fname in SECTIONS:
+        stem = fname[:-3]
+        part = sorted((r for r in rows if r["section"] == key),
+                      key=lambda r: (-date.fromisoformat(when(r)).toordinal(), r["company"].lower(), r["title"].lower()))
+        part = [r for r in part if safe_url(r.get("url"))]
+        for i, r in enumerate(part):
+            page_num = i // MAX_ROWS_PER_PAGE + 1
+            page_file = f"{stem}.html" if page_num == 1 else f"{stem}-{page_num}.html"
+            idx.append([r["company"], r["title"], norm_location(r.get("location", "")), tag_str(r).replace("<br>", " "), safe_url(r["url"]), page_file])
+    (ROOT / "assets" / "search-index.json").write_text(json.dumps(idx, separators=(",", ":")), encoding="utf-8")
+
     print(f"built: {dict(counts)}, new this week {len(new)}, rows left out for unsafe links {skipped}")
 
 

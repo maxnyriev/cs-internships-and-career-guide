@@ -1,6 +1,7 @@
 """Shared helpers: paths, JSON/YAML I/O, URL keys, polite HTTP."""
 import json
 import os
+import re
 import threading
 import time
 from datetime import date, datetime, timezone
@@ -82,12 +83,19 @@ def url_key(url: str) -> str:
     return urlunsplit((s.scheme.lower(), s.netloc.lower(), s.path.rstrip("/"), urlencode(q), ""))
 
 
+_COMPANY_TAIL = re.compile(r"\s+(?:careers?\s*page|jobs?\s*(?:&\s*internships?)?|university\s+jobs?)\s*$", re.I)
+
+def _norm_company(name: str) -> str:
+    """Normalize a company name for dedup: strip trailing 'Careers page', 'Jobs', etc."""
+    return _COMPANY_TAIL.sub("", name.lower().strip()).strip()
+
+
 def dedupe_rows(rows):
     """Same company + title + location kept once (companies often post one job under several links or career sites).
     An open copy beats an unverified one; the earliest first_seen is kept, so the job doesn't look newer than it is."""
     best = {}
     for r in rows:
-        k = (r["company"].lower().strip(), " ".join(r["title"].lower().split()), " ".join((r.get("location") or "").lower().split()))
+        k = (_norm_company(r["company"]), " ".join(r["title"].lower().split()), " ".join((r.get("location") or "").lower().split()))
         cur = best.get(k)
         if cur is None:
             best[k] = r
