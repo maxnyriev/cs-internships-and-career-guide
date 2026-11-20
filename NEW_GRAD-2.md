@@ -1,12 +1,12 @@
 # New Grad
 
-[⬅ Back to the main page](./) · 123 open · page 2 of 2 · updated 2026-11-19
+[⬅ Back to the main page](./) · 122 open · page 2 of 2 · updated 2026-11-19
 
 [⬅ page 1](NEW_GRAD.md) · page 2 of 2
 
 **Click a job title to open the company's application page.**
 
-<details markdown="1">
+<details markdown="1" open>
 <summary>What the tags and dates mean</summary>
 
 **Tags.** Each tag comes from a sentence in the posting, shown in grey under the job title. A blank tag means the posting doesn't say.
@@ -34,7 +34,6 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| Palantir Technologies | [Forward Deployed Software Engineer, New Grad - US Government](https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca)<br><sub>“What We Require: Active US Security clearance or eligibility and willingness to obtain a US Security clearance.”</sub> | New York, NY | 🔒 clearance<br>⏳ 60+ days | Jun 30 |
 | Palantir Technologies | [Software Engineer, New Grad](https://jobs.lever.co/palantir/94984771-0704-446c-88c6-91ce748f6d92)<br><sub>“Active US Security clearance, or eligibility and willingness to obtain a US Security clearance.”</sub> | New York, NY | 🔒 clearance<br>⏳ 60+ days | Jul 1 |
 | Palantir Technologies | [Software Engineer, New Grad](https://jobs.lever.co/palantir/c34b424e-caf2-455a-b104-ae1096ccca29)<br><sub>“Active US Security clearance, or eligibility and willingness to obtain a US Security clearance.”</sub> | Denver, CO | 🔒 clearance<br>⏳ 60+ days | Oct 27 |
 
