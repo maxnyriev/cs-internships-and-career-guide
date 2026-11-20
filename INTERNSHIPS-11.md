@@ -2,7 +2,7 @@
 
 [⬅ Back to the main page](./) · 2195 open · page 11 of 19 · updated 2026-11-19
 
-[⬅ page 10](INTERNSHIPS-10.md) · page 11 of 19 · [page 12 ➡](INTERNSHIPS-12.md)
+[⬅ INTERNSHIPS page 10](INTERNSHIPS-10.md) · page 11 of 19 · [INTERNSHIPS page 12 ➡](INTERNSHIPS-12.md)
 
 **Click a job title to open the company's application page.**
 
@@ -155,6 +155,6 @@
 | GlobalFoundries | [APL Quantum Intern \(Summer 2027\)](https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/APL-Quantum-Intern--Summer-2027-_JR-2604434) | USA - New York - Malta | 🎓 3.0+ GPA | Oct 8 |
 | Hewlett Packard Enterprise | [ASIC Verification/Design Engineering Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Roseville-California-United-States-of-America/ASIC-Verification-Design-Engineering-Intern_1214211) | Roseville, CA | ⚠ unverified | Oct 8 |
 
-[⬅ page 10](INTERNSHIPS-10.md) · page 11 of 19 · [page 12 ➡](INTERNSHIPS-12.md)
+[⬅ INTERNSHIPS page 10](INTERNSHIPS-10.md) · page 11 of 19 · [INTERNSHIPS page 12 ➡](INTERNSHIPS-12.md)
 
 _Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._

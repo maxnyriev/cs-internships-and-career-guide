@@ -2,7 +2,7 @@
 
 [⬅ Back to the main page](./) · 2195 open · page 5 of 19 · updated 2026-11-19
 
-[⬅ page 4](INTERNSHIPS-4.md) · page 5 of 19 · [page 6 ➡](INTERNSHIPS-6.md)
+[⬅ INTERNSHIPS page 4](INTERNSHIPS-4.md) · page 5 of 19 · [INTERNSHIPS page 6 ➡](INTERNSHIPS-6.md)
 
 **Click a job title to open the company's application page.**
 
@@ -155,6 +155,6 @@
 | Cadence Design Systems | [IT Internship \(Techstop Support\)](https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/SAN-JOSE/IT-Internship--Techstop-Support-_R57021-3) | SAN JOSE |  | Nov 5 |
 | Carlisle | [IT Vendor Management Intern - CCM](https://jobs.smartrecruiters.com/Carlisle/3743990016653106-it-vendor-management-intern-ccm) | Scottsdale, AZ |  | Nov 5 |
 
-[⬅ page 4](INTERNSHIPS-4.md) · page 5 of 19 · [page 6 ➡](INTERNSHIPS-6.md)
+[⬅ INTERNSHIPS page 4](INTERNSHIPS-4.md) · page 5 of 19 · [INTERNSHIPS page 6 ➡](INTERNSHIPS-6.md)
 
 _Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._

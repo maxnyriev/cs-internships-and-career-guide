@@ -2,7 +2,7 @@
 
 [⬅ Back to the main page](./) · 2195 open · page 12 of 19 · updated 2026-11-19
 
-[⬅ page 11](INTERNSHIPS-11.md) · page 12 of 19 · [page 13 ➡](INTERNSHIPS-13.md)
+[⬅ INTERNSHIPS page 11](INTERNSHIPS-11.md) · page 12 of 19 · [INTERNSHIPS page 13 ➡](INTERNSHIPS-13.md)
 
 **Click a job title to open the company's application page.**
 
@@ -155,6 +155,6 @@
 | xAI | [Spring 2027 Software Engineering Internship/Co-op](https://job-boards.greenhouse.io/xai/jobs/5252108007) | Palo Alto, CA | 🎓 3.5+ GPA<br>🔄 co-op<br>🌱 spring | Oct 2 |
 | xAI | [Summer 2027 Software Engineering Internship/Co-op](https://job-boards.greenhouse.io/xai/jobs/5255111007) | Palo Alto, CA | 🎓 3.5+ GPA<br>🔄 co-op | Oct 2 |
 
-[⬅ page 11](INTERNSHIPS-11.md) · page 12 of 19 · [page 13 ➡](INTERNSHIPS-13.md)
+[⬅ INTERNSHIPS page 11](INTERNSHIPS-11.md) · page 12 of 19 · [INTERNSHIPS page 13 ➡](INTERNSHIPS-13.md)
 
 _Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._

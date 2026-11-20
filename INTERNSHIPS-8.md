@@ -2,7 +2,7 @@
 
 [⬅ Back to the main page](./) · 2195 open · page 8 of 19 · updated 2026-11-19
 
-[⬅ page 7](INTERNSHIPS-7.md) · page 8 of 19 · [page 9 ➡](INTERNSHIPS-9.md)
+[⬅ INTERNSHIPS page 7](INTERNSHIPS-7.md) · page 8 of 19 · [INTERNSHIPS page 9 ➡](INTERNSHIPS-9.md)
 
 **Click a job title to open the company's application page.**
 
@@ -155,6 +155,6 @@
 | Sierra Nevada Corporation | [IT Service Desk Intern \(Summer 2027\)](https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Lone-Tree-CO/IT-Support-Technician-Intern--Summer-2027-_R0030762)<br><sub>“U.S. Citizenship status is required as this position needs an active U.S. Security Clearance for employment.”</sub> | Lone Tree, CO | 🗽 citizens<br>🔒 secret | Oct 27 |
 | Sony | [Research Engineer Intern \(Ethical Creative and Protective AI Lab\)](https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Remote---New-York/Engineering-Intern--AI-Ethics-_JR-119784) | Remote - NY | 🌐 remote | Oct 27 |
 
-[⬅ page 7](INTERNSHIPS-7.md) · page 8 of 19 · [page 9 ➡](INTERNSHIPS-9.md)
+[⬅ INTERNSHIPS page 7](INTERNSHIPS-7.md) · page 8 of 19 · [INTERNSHIPS page 9 ➡](INTERNSHIPS-9.md)
 
 _Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._

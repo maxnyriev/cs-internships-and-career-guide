@@ -2,7 +2,7 @@
 
 [⬅ Back to the main page](./) · 2195 open · page 1 of 19 · updated 2026-11-19
 
-page 1 of 19 · [page 2 ➡](INTERNSHIPS-2.md)
+page 1 of 19 · [INTERNSHIPS page 2 ➡](INTERNSHIPS-2.md)
 
 **Click a job title to open the company's application page.**
 
@@ -155,6 +155,6 @@ page 1 of 19 · [page 2 ➡](INTERNSHIPS-2.md)
 | SAS | [Summer 2027 - Technical Support Intern](https://careers-sas.icims.com/jobs/46696/summer-2027---technical-support-intern/job) | Cary HQ, NC | ⚠ unverified | — |
 | Shure | [AI Specialist \(Operations\) Intern](https://careersus-shure.icims.com/jobs/5029/ai-specialist-%28operations%29-intern/job) | Niles, IL |  | — |
 
-page 1 of 19 · [page 2 ➡](INTERNSHIPS-2.md)
+page 1 of 19 · [INTERNSHIPS page 2 ➡](INTERNSHIPS-2.md)
 
 _Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._

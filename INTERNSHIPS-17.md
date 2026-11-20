@@ -2,7 +2,7 @@
 
 [⬅ Back to the main page](./) · 2195 open · page 17 of 19 · updated 2026-11-19
 
-[⬅ page 16](INTERNSHIPS-16.md) · page 17 of 19 · [page 18 ➡](INTERNSHIPS-18.md)
+[⬅ INTERNSHIPS page 16](INTERNSHIPS-16.md) · page 17 of 19 · [INTERNSHIPS page 18 ➡](INTERNSHIPS-18.md)
 
 **Click a job title to open the company's application page.**
 
@@ -155,6 +155,6 @@
 | BNY Mellon | [2027 BNY Summer Internship Program - Engineering \(Data Science\) - Jersey City, NJ](https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/81238)<br><sub>“Does not require sponsorship for employment visa status \(now or in the future\) in the country where applying.”</sub> | Jersey City, NJ | 🛂❌ no sponsor<br>🎓 3.0+ GPA<br>⏳ 60+ days | Aug 24 |
 | BNY Mellon | [2027 BNY Summer Internship Program - Engineering \(Data Science\) - Lake Mary, FL](https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/81239)<br><sub>“Does not require sponsorship for employment visa status \(now or in the future\) in the country where applying.”</sub> | Lake Mary, FL | 🛂❌ no sponsor<br>🎓 3.0+ GPA<br>⏳ 60+ days | Aug 24 |
 
-[⬅ page 16](INTERNSHIPS-16.md) · page 17 of 19 · [page 18 ➡](INTERNSHIPS-18.md)
+[⬅ INTERNSHIPS page 16](INTERNSHIPS-16.md) · page 17 of 19 · [INTERNSHIPS page 18 ➡](INTERNSHIPS-18.md)
 
 _Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._

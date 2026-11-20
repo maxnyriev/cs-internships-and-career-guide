@@ -68,6 +68,7 @@
     var allJobs = null, loadingIndex = false;
     var crossBox = document.createElement('div');
     crossBox.className = 'cross-page-results';
+    crossBox.setAttribute('aria-live', 'polite');
     crossBox.hidden = true;
     bar.parentNode.insertBefore(crossBox, bar.nextSibling);
     function loadIndex(cb) {

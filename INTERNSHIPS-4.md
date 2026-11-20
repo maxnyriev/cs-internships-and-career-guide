@@ -2,7 +2,7 @@
 
 [⬅ Back to the main page](./) · 2195 open · page 4 of 19 · updated 2026-11-19
 
-[⬅ page 3](INTERNSHIPS-3.md) · page 4 of 19 · [page 5 ➡](INTERNSHIPS-5.md)
+[⬅ INTERNSHIPS page 3](INTERNSHIPS-3.md) · page 4 of 19 · [INTERNSHIPS page 5 ➡](INTERNSHIPS-5.md)
 
 **Click a job title to open the company's application page.**
 
@@ -155,6 +155,6 @@
 | Adelphi Group | [Intern, Analytics](https://interpublic.wd5.myworkdayjobs.com/OMC/job/Washington-District-of-Columbia-United-States-of-America/Intern--Analytics_R16262) | Washington, DC | ⚠ unverified | Nov 10 |
 | Airbus | [\#Discover I 2027-2028 AI Repair Solutions Internship](https://ag.wd3.myworkdayjobs.com/Airbus/job/Sevilla---Tablada/XMLNAME--Discover-I-2027-2028-AI-Repair-Solutions_JR10455556) | Sevilla - Tablada | ⚠ unverified | Nov 10 |
 
-[⬅ page 3](INTERNSHIPS-3.md) · page 4 of 19 · [page 5 ➡](INTERNSHIPS-5.md)
+[⬅ INTERNSHIPS page 3](INTERNSHIPS-3.md) · page 4 of 19 · [INTERNSHIPS page 5 ➡](INTERNSHIPS-5.md)
 
 _Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._

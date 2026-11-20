@@ -2,7 +2,7 @@
 
 [⬅ Back to the main page](./) · 122 open · page 1 of 2 · updated 2026-11-19
 
-page 1 of 2 · [page 2 ➡](NEW_GRAD-2.md)
+page 1 of 2 · [NEW GRAD page 2 ➡](NEW_GRAD-2.md)
 
 **Click a job title to open the company's application page.**
 
@@ -155,6 +155,6 @@ page 1 of 2 · [page 2 ➡](NEW_GRAD-2.md)
 | Palantir Technologies | [Forward Deployed Software Engineer, New Grad - US Government](https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb)<br><sub>“What We Require: Active US Security clearance or eligibility and willingness to obtain a US Security clearance.”</sub> | Washington, D.C. | 🔒 clearance<br>⏳ 60+ days | Jun 30 |
 | Palantir Technologies | [Forward Deployed Software Engineer, New Grad - US Government](https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca)<br><sub>“What We Require: Active US Security clearance or eligibility and willingness to obtain a US Security clearance.”</sub> | New York, NY | 🔒 clearance<br>⏳ 60+ days | Jun 30 |
 
-page 1 of 2 · [page 2 ➡](NEW_GRAD-2.md)
+page 1 of 2 · [NEW GRAD page 2 ➡](NEW_GRAD-2.md)
 
 _Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._

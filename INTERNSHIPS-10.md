@@ -2,7 +2,7 @@
 
 [⬅ Back to the main page](./) · 2195 open · page 10 of 19 · updated 2026-11-19
 
-[⬅ page 9](INTERNSHIPS-9.md) · page 10 of 19 · [page 11 ➡](INTERNSHIPS-11.md)
+[⬅ INTERNSHIPS page 9](INTERNSHIPS-9.md) · page 10 of 19 · [INTERNSHIPS page 11 ➡](INTERNSHIPS-11.md)
 
 **Click a job title to open the company's application page.**
 
@@ -155,6 +155,6 @@
 | General Motors | [2027 Intern - AI/ML Engineer, Autonomous Vehicle ML Infrastructure](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Intern---AI-ML-Engineer--Autonomous-Vehicle-ML-Infrastructure_JR-202622410) | Sunnyvale, CA |  | Oct 14 |
 | Nissan Motor Corporation | [AI Robotics Research Intern - Summer 2027 - Santa Clara, CA](https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Santa-Clara-California---United-States-of-America/AI-Robotics-Research-Intern---Summer-2027---Santa-Clara--CA_R00214267) | Santa Clara, California - | 🎓 3.0+ GPA | Oct 14 |
 
-[⬅ page 9](INTERNSHIPS-9.md) · page 10 of 19 · [page 11 ➡](INTERNSHIPS-11.md)
+[⬅ INTERNSHIPS page 9](INTERNSHIPS-9.md) · page 10 of 19 · [INTERNSHIPS page 11 ➡](INTERNSHIPS-11.md)
 
 _Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._

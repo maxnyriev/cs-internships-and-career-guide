@@ -2,7 +2,7 @@
 
 [⬅ Back to the main page](./) · 2195 open · page 16 of 19 · updated 2026-11-19
 
-[⬅ page 15](INTERNSHIPS-15.md) · page 16 of 19 · [page 17 ➡](INTERNSHIPS-17.md)
+[⬅ INTERNSHIPS page 15](INTERNSHIPS-15.md) · page 16 of 19 · [INTERNSHIPS page 17 ➡](INTERNSHIPS-17.md)
 
 **Click a job title to open the company's application page.**
 
@@ -155,6 +155,6 @@
 | Procter &amp; Gamble | [\[January 2027 Start Date\] Analytics &amp; Insights Internship](https://pg.wd5.myworkdayjobs.com/1000/job/Taguig-City/XMLNAME--January-2027-Start-Date--Analytics---Insights-Internship_R000158430) | Taguig City | ⏳ 60+ days | Sep 2 |
 | Reflect Orbital | [Embedded Firmware Engineering Intern](https://jobs.ashbyhq.com/reflect-orbital/d5ade048-5555-4a77-b002-d117254b6e6b) | Hawthorne, CA | ⏳ 60+ days | Sep 2 |
 
-[⬅ page 15](INTERNSHIPS-15.md) · page 16 of 19 · [page 17 ➡](INTERNSHIPS-17.md)
+[⬅ INTERNSHIPS page 15](INTERNSHIPS-15.md) · page 16 of 19 · [INTERNSHIPS page 17 ➡](INTERNSHIPS-17.md)
 
 _Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._

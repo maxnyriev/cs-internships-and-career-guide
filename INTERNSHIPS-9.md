@@ -2,7 +2,7 @@
 
 [⬅ Back to the main page](./) · 2195 open · page 9 of 19 · updated 2026-11-19
 
-[⬅ page 8](INTERNSHIPS-8.md) · page 9 of 19 · [page 10 ➡](INTERNSHIPS-10.md)
+[⬅ INTERNSHIPS page 8](INTERNSHIPS-8.md) · page 9 of 19 · [INTERNSHIPS page 10 ➡](INTERNSHIPS-10.md)
 
 **Click a job title to open the company's application page.**
 
@@ -155,6 +155,6 @@
 | Procter &amp; Gamble | [Analytics &amp; Insights Internship](https://pg.wd5.myworkdayjobs.com/1000/job/CINCINNATI-GENERAL-OFFICES/Analytics---Insights-Internship_R000157696)<br><sub>“Immigration Sponsorship is not available for this role.”</sub> | CINCINNATI GENERAL OFFICES | 🛂❌ no sponsor | Oct 21 |
 | Rhoda AI | [Software Engineer Intern, Inference](https://jobs.ashbyhq.com/rhoda-ai/2de33083-782f-489e-9b91-f40761a36bf4) | Mountain View |  | Oct 21 |
 
-[⬅ page 8](INTERNSHIPS-8.md) · page 9 of 19 · [page 10 ➡](INTERNSHIPS-10.md)
+[⬅ INTERNSHIPS page 8](INTERNSHIPS-8.md) · page 9 of 19 · [INTERNSHIPS page 10 ➡](INTERNSHIPS-10.md)
 
 _Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._

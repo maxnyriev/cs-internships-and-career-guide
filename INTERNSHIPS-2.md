@@ -2,7 +2,7 @@
 
 [⬅ Back to the main page](./) · 2195 open · page 2 of 19 · updated 2026-11-19
 
-[⬅ page 1](INTERNSHIPS.md) · page 2 of 19 · [page 3 ➡](INTERNSHIPS-3.md)
+[⬅ INTERNSHIPS page 1](INTERNSHIPS.md) · page 2 of 19 · [INTERNSHIPS page 3 ➡](INTERNSHIPS-3.md)
 
 **Click a job title to open the company's application page.**
 
@@ -155,6 +155,6 @@
 | Integration Innovation \(i3\) | [Data Management Internship](https://talent.i3-corps.com/jobs/5490) | Huntsville, AL |  | — |
 | Integration Innovation \(i3\) | [Embedded Systems Reverse Engineer Intern](https://talent.i3-corps.com/jobs/5588) | Washington, DC |  | — |
 
-[⬅ page 1](INTERNSHIPS.md) · page 2 of 19 · [page 3 ➡](INTERNSHIPS-3.md)
+[⬅ INTERNSHIPS page 1](INTERNSHIPS.md) · page 2 of 19 · [INTERNSHIPS page 3 ➡](INTERNSHIPS-3.md)
 
 _Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._

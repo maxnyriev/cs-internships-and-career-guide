@@ -301,12 +301,13 @@ def main():
     skipped = 0
     def section_nav(stem, idx, total):
         name_of = (lambda i: f"{stem}.md" if i == 1 else f"{stem}-{i}.md")
+        label = stem.replace("_", " ").replace("-", " ")
         bits = []
         if idx > 1:
-            bits.append(f"[⬅ page {idx - 1}]({name_of(idx - 1)})")
+            bits.append(f"[⬅ {label} page {idx - 1}]({name_of(idx - 1)})")
         bits.append(f"page {idx} of {total}")
         if idx < total:
-            bits.append(f"[page {idx + 1} ➡]({name_of(idx + 1)})")
+            bits.append(f"[{label} page {idx + 1} ➡]({name_of(idx + 1)})")
         return " · ".join(bits)
 
     for key, name, fname in SECTIONS:

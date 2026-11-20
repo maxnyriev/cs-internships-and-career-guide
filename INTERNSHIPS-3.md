@@ -2,7 +2,7 @@
 
 [⬅ Back to the main page](./) · 2195 open · page 3 of 19 · updated 2026-11-19
 
-[⬅ page 2](INTERNSHIPS-2.md) · page 3 of 19 · [page 4 ➡](INTERNSHIPS-4.md)
+[⬅ INTERNSHIPS page 2](INTERNSHIPS-2.md) · page 3 of 19 · [INTERNSHIPS page 4 ➡](INTERNSHIPS-4.md)
 
 **Click a job title to open the company's application page.**
 
@@ -155,6 +155,6 @@
 | Camping World | [IT Support Intern](https://campingworld.wd5.myworkdayjobs.com/Jobs/job/Chicago-IL/IT-Support-Intern_26_09289) | Chicago, IL |  | Nov 13 |
 | Carnegie Mellon University | [Cyber AI Engineering Intern \(Spring 2027\)](https://cmu.wd115.myworkdayjobs.com/CMU/job/Pittsburgh-PA/Cyber-AI-Engineering-Intern--Spring-2027-_2025346-1)<br><sub>“• You will be subject to a background check and must be eligible to work in the United States without Visa sponsorship.”</sub> | Pittsburgh, PA | 🛂❌ no sponsor<br>🌱 spring | Nov 13 |
 
-[⬅ page 2](INTERNSHIPS-2.md) · page 3 of 19 · [page 4 ➡](INTERNSHIPS-4.md)
+[⬅ INTERNSHIPS page 2](INTERNSHIPS-2.md) · page 3 of 19 · [INTERNSHIPS page 4 ➡](INTERNSHIPS-4.md)
 
 _Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._

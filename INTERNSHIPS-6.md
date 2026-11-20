@@ -2,7 +2,7 @@
 
 [⬅ Back to the main page](./) · 2195 open · page 6 of 19 · updated 2026-11-19
 
-[⬅ page 5](INTERNSHIPS-5.md) · page 6 of 19 · [page 7 ➡](INTERNSHIPS-7.md)
+[⬅ INTERNSHIPS page 5](INTERNSHIPS-5.md) · page 6 of 19 · [INTERNSHIPS page 7 ➡](INTERNSHIPS-7.md)
 
 **Click a job title to open the company's application page.**
 
@@ -155,6 +155,6 @@
 | ID.me University Recruiting | [Summer Intern 2027 - Product Security Engineering Intern](https://job-boards.greenhouse.io/idmeuniversityrecruiting/jobs/8076649003) | Mountain View, CA |  | Nov 2 |
 | Insmed Incorporated | [Summer Intern – Cloud/Application Security](https://insmed.wd504.myworkdayjobs.com/EXTERNAL/job/NJ-Corporate-Headquarters/Summer-Intern---Cloud-Application-Security_R3879) | NJ Corporate Headquarters |  | Nov 2 |
 
-[⬅ page 5](INTERNSHIPS-5.md) · page 6 of 19 · [page 7 ➡](INTERNSHIPS-7.md)
+[⬅ INTERNSHIPS page 5](INTERNSHIPS-5.md) · page 6 of 19 · [INTERNSHIPS page 7 ➡](INTERNSHIPS-7.md)
 
 _Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._

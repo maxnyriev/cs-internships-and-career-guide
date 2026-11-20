@@ -2,7 +2,7 @@
 
 [⬅ Back to the main page](./) · 2195 open · page 7 of 19 · updated 2026-11-19
 
-[⬅ page 6](INTERNSHIPS-6.md) · page 7 of 19 · [page 8 ➡](INTERNSHIPS-8.md)
+[⬅ INTERNSHIPS page 6](INTERNSHIPS-6.md) · page 7 of 19 · [INTERNSHIPS page 8 ➡](INTERNSHIPS-8.md)
 
 **Click a job title to open the company's application page.**
 
@@ -155,6 +155,6 @@
 | KLA | [Software Engineer Intern](https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Software-Engineer-Intern_2642721) | Milpitas, CA |  | Oct 29 |
 | Medline Industries, LP | [IT Business Systems Intern - Summer 2027](https://medline.wd5.myworkdayjobs.com/Medline/job/Northbrook-Illinois/IT-Business-Systems-Intern---Summer-2027_R2617626) | Northbrook, IL |  | Oct 29 |
 
-[⬅ page 6](INTERNSHIPS-6.md) · page 7 of 19 · [page 8 ➡](INTERNSHIPS-8.md)
+[⬅ INTERNSHIPS page 6](INTERNSHIPS-6.md) · page 7 of 19 · [INTERNSHIPS page 8 ➡](INTERNSHIPS-8.md)
 
 _Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._

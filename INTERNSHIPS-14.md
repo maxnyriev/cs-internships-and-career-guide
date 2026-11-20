@@ -2,7 +2,7 @@
 
 [⬅ Back to the main page](./) · 2195 open · page 14 of 19 · updated 2026-11-19
 
-[⬅ page 13](INTERNSHIPS-13.md) · page 14 of 19 · [page 15 ➡](INTERNSHIPS-15.md)
+[⬅ INTERNSHIPS page 13](INTERNSHIPS-13.md) · page 14 of 19 · [INTERNSHIPS page 15 ➡](INTERNSHIPS-15.md)
 
 **Click a job title to open the company's application page.**
 
@@ -155,6 +155,6 @@
 | Blue Cross and Blue Shield of Louisiana | [CW Healthcare Data Science Intern \(Spring 2027\)](https://bcbsla.wd1.myworkdayjobs.com/Generation_Blue/job/Corporate---Baton-Rouge-LA/CW-Healthcare-Data-Science-Intern--Spring-2027-_R12151) | Corporate - Baton Rouge, LA | 🎓 3.0+ GPA<br>🌱 spring<br>⏳ 60+ days | Sep 16 |
 | Blue Cross and Blue Shield of Louisiana | [CW IT Service Management Intern \(Spring 2027\)](https://bcbsla.wd1.myworkdayjobs.com/Generation_Blue/job/Remote-LA/CW-IT-Service-Management-Intern--Spring-2027-_R12137) | Remote-LA | 🎓 2.5+ GPA<br>🌱 spring<br>🌐 remote<br>⏳ 60+ days | Sep 16 |
 
-[⬅ page 13](INTERNSHIPS-13.md) · page 14 of 19 · [page 15 ➡](INTERNSHIPS-15.md)
+[⬅ INTERNSHIPS page 13](INTERNSHIPS-13.md) · page 14 of 19 · [INTERNSHIPS page 15 ➡](INTERNSHIPS-15.md)
 
 _Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._

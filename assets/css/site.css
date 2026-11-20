@@ -86,7 +86,7 @@ p, li { text-wrap: pretty; }
 /* ---------- the sheet: a red margin line down the left of every page ---------- */
 .wrap, .page { position: relative; }
 .wrap { max-width: 1160px; margin: 0 auto; padding: 0 20px 0 20px; }
-.page { max-width: 860px; margin: 0 auto; padding: 36px 20px 64px; }
+.page { max-width: 960px; margin: 0 auto; padding: 36px 20px 64px; }
 .page.wide { max-width: 1260px; }
 @media (min-width: 900px) {
   .wrap, .page { padding-left: 120px; }

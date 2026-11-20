@@ -2,7 +2,7 @@
 
 [⬅ Back to the main page](./) · 2195 open · page 19 of 19 · updated 2026-11-19
 
-[⬅ page 18](INTERNSHIPS-18.md) · page 19 of 19
+[⬅ INTERNSHIPS page 18](INTERNSHIPS-18.md) · page 19 of 19
 
 **Click a job title to open the company's application page.**
 
@@ -70,7 +70,7 @@
 | Palantir Technologies | [Privacy and Civil Liberties Software Engineer, Internship](https://jobs.lever.co/palantir/09846827-b931-4a9f-bd64-c3bb8860187b) | New York, NY | ⏳ 60+ days | Oct 6 |
 | Palantir Technologies | [Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/4d29249a-d7e8-4c39-880d-3b35d7b2f6f6) | New York, NY | ⏳ 60+ days | Feb 24 |
 
-[⬅ page 18](INTERNSHIPS-18.md) · page 19 of 19
+[⬅ INTERNSHIPS page 18](INTERNSHIPS-18.md) · page 19 of 19
 
 **Not on this board yet:** [Microsoft](https://careers.microsoft.com/), [Google](https://www.google.com/about/careers/applications/), [Apple](https://jobs.apple.com/), [Netflix](https://jobs.netflix.com/), [AMD](https://careers.amd.com/), [Qualcomm](https://careers.qualcomm.com/), [IBM](https://www.ibm.com/careers), [ExxonMobil](https://jobs.exxonmobil.com/), [Phillips 66](https://www.phillips66.com/careers/), [Chevron](https://careers.chevron.com/), [Shell](https://www.shell.com/careers.html), [Lockheed Martin](https://www.lockheedmartinjobs.com/), [Boeing](https://jobs.boeing.com/), [Capital One](https://www.capitalonecareers.com/), [JPMorgan Chase](https://careers.jpmorgan.com/), [Goldman Sachs](https://www.goldmansachs.com/careers/), [Bloomberg](https://careers.bloomberg.com/), [Uber](https://www.uber.com/us/en/careers/), [Tesla](https://www.tesla.com/careers), [Dell Technologies](https://jobs.dell.com/), [Intuit](https://jobs.intuit.com/), [Visa](https://corporate.visa.com/en/jobs/), [Mastercard](https://careers.mastercard.com/us/en), [Target](https://corporate.target.com/careers). These companies hire CS interns, but their job sites aren't read here yet. The links go to each company's own careers page.
 

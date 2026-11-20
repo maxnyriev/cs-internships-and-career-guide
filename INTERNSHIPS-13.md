@@ -2,7 +2,7 @@
 
 [⬅ Back to the main page](./) · 2195 open · page 13 of 19 · updated 2026-11-19
 
-[⬅ page 12](INTERNSHIPS-12.md) · page 13 of 19 · [page 14 ➡](INTERNSHIPS-14.md)
+[⬅ INTERNSHIPS page 12](INTERNSHIPS-12.md) · page 13 of 19 · [INTERNSHIPS page 14 ➡](INTERNSHIPS-14.md)
 
 **Click a job title to open the company's application page.**
 
@@ -155,6 +155,6 @@
 | Tencent | [Cloud Media Services Intern](https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/Cloud-Media-Services-Intern_R107794) | US-California-Palo Alto |  | Sep 25 |
 | Tencent | [Tencent Cloud Business Development Intern - United States](https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/Tencent-Cloud-Business-Development-Intern---United-States_R108152) | US-California-Palo Alto |  | Sep 25 |
 
-[⬅ page 12](INTERNSHIPS-12.md) · page 13 of 19 · [page 14 ➡](INTERNSHIPS-14.md)
+[⬅ INTERNSHIPS page 12](INTERNSHIPS-12.md) · page 13 of 19 · [INTERNSHIPS page 14 ➡](INTERNSHIPS-14.md)
 
 _Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._

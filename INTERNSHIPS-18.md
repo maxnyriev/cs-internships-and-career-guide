@@ -2,7 +2,7 @@
 
 [⬅ Back to the main page](./) · 2195 open · page 18 of 19 · updated 2026-11-19
 
-[⬅ page 17](INTERNSHIPS-17.md) · page 18 of 19 · [page 19 ➡](INTERNSHIPS-19.md)
+[⬅ INTERNSHIPS page 17](INTERNSHIPS-17.md) · page 18 of 19 · [INTERNSHIPS page 19 ➡](INTERNSHIPS-19.md)
 
 **Click a job title to open the company's application page.**
 
@@ -155,6 +155,6 @@
 | Figure | [Validation Engineering Intern \[Winter 2027\]](https://job-boards.greenhouse.io/figureai/jobs/4606072006) | San Jose, CA | ⏳ 60+ days | Oct 1 |
 | Marmon Holdings | [Data Engineering Intern OR Student Co-Op](https://marmon.wd501.myworkdayjobs.com/Marmon_Careers/job/Milwaukee-WI/Data-Engineering-Intern-OR-Student-Co-Op_JR0000037453-1) | Milwaukee, WI | 🔄 co-op<br>⏳ 60+ days | Sep 18 |
 
-[⬅ page 17](INTERNSHIPS-17.md) · page 18 of 19 · [page 19 ➡](INTERNSHIPS-19.md)
+[⬅ INTERNSHIPS page 17](INTERNSHIPS-17.md) · page 18 of 19 · [INTERNSHIPS page 19 ➡](INTERNSHIPS-19.md)
 
 _Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._
