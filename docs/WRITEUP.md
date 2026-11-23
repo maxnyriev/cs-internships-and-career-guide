@@ -4,22 +4,22 @@ Things I Wish I Knew: CS Edition is a job board and set of guides for computer s
 
 ## How it works
 
-Every company publishes its openings through a job system: Greenhouse, Lever, Ashby, SmartRecruiters, Workday, Oracle, or its own (Amazon, and Eightfold, which Netflix uses; Netflix's robots.txt currently disallows it, so it's skipped). Most of these have a public JSON endpoint behind the career page. The board keeps a list of 977 company boards (`data/companies.yaml`) and asks each one what's open.
+Every company publishes its openings through a job system: Greenhouse, Lever, Ashby, SmartRecruiters, Workday, Oracle, or its own (Amazon, and Eightfold, which Netflix uses; Netflix's robots.txt currently disallows it, so it's skipped). Most of these have a public JSON endpoint behind the career page. The board keeps a list of about 1,080 company boards (`data/companies.yaml`) and asks each one what's open; the README shows the live count.
 
 The work is split between two machines:
 
 | Runs on | Sources | Why |
 |---|---|---|
-| GitHub Actions, daily | Greenhouse, Lever, Ashby, SmartRecruiters, Amazon, Eightfold (287 boards) | Fast, small JSON feeds; fits easily in a free run |
-| My laptop, nightly | Workday, Oracle (690 boards) | Slower: several searches plus one request per posting, which doesn't fit comfortably in a free cloud run |
+| GitHub Actions, daily | Greenhouse, Lever, Ashby, SmartRecruiters, Amazon, Eightfold (344 boards) | Fast, small JSON feeds; fits easily in a free run |
+| My laptop, nightly | Workday, Oracle (740 boards) | Slower: several searches plus one request per posting, which doesn't fit comfortably in a free cloud run |
 
 The laptop writes exactly one file, `data/local.json`, and pushes it. The Action writes everything else and merges the laptop's file in. Because the two never edit the same file, their pushes can't conflict. If the laptop is off for three days, its rows stay on the board marked ⚠ instead of disappearing.
 
-On the first full run the cloud half found 732 postings and the laptop half found 2,790, from 902 boards with 3 failures. After the CS/CE-only, U.S.-only filters (below), about 1,500 to 1,700 roles are open on a given day; the README shows the live count.
+After the CS/CE-only, U.S.-only filters (below), roughly 1,900 to 2,100 roles are open on a given day; the README shows the live count.
 
 ## Decisions and trade-offs
 
-**Company feeds instead of community lists.** The biggest open internship list on GitHub has no license, so its data isn't free to copy. Reading companies' own feeds avoids that and gives full job descriptions, which the tags need. The cost is coverage: when I measured against a larger aggregator's data, the five job systems the board read at the time reached about 54% of postings, and 58% of the postings that fit a CS student best (versus 53% of the weakest fits), so the gaps aren't concentrated in the roles that matter most.
+**Company feeds instead of community lists.** The biggest open internship list on GitHub has no license, so its data isn't free to copy. Reading companies' own feeds avoids that and gives full job descriptions, which the tags need. The cost is coverage: when I measured against a larger aggregator's data, the five job systems the board read at the time reached about 54% of postings, and 58% of the postings that fit a CS student best (versus 53% of the weakest fits), so the gaps aren't concentrated in the roles that matter most. That was an early measurement; the board now reads eight job systems across about 1,080 boards, so current coverage is higher.
 
 **Three-state tags with evidence.** Each posting gets sponsorship (yes / no / not mentioned), citizenship-required and clearance-required tags. "Not mentioned" is the default; a tag is set only on an explicit sentence, and that sentence is saved with the posting so anyone can check it. The sponsorship rule is negation-aware ("unable to sponsor" is a no), and a sentence about export licenses is ignored, because "without sponsorship for an export license" has nothing to do with visas. A wrong "sponsors" tag costs an international student the most, so the classifier errs toward saying nothing.
 
@@ -29,9 +29,11 @@ On the first full run the cloud half found 732 postings and the laptop half foun
 
 **Filtering for the audience.** A title has to look like an internship or entry-level role and name CS or computer-engineering work (an allow-list: software, data, IT, security, embedded, hardware validation, robotics and so on). "Engineer" alone isn't enough. Early runs let through civil, mechanical and geotechnical engineering, marketing internships and non-US programs. Each of those became a test case, so the filter can't quietly regress. Campus-only postings for other schools ("Engineer Intern - LSU") are dropped; the one exception is `HOME_SCHOOL` in `classify.py`, set to McNeese, where the board started. I also checked the filter against about 2,100 postings I had screened earlier for my own applications: of the ones I'd rated a strong fit, it was dropping 62. The real misses (robotics, BS/MS roles, IT operations) were fixed, and the 38 still dropped are sales, marketing or mechanical roles with "AI" in the title.
 
+**Removing duplicates.** The same job often appears under several links or career sites, so `dedupe_rows` (`scripts/common.py`) keeps one row per company, title and location — preferring an open copy over an unverified one and keeping the earliest first-seen date, so a role never looks newer than it is.
+
 **Auditing the tags.** I checked every 🛂✅ tag by hand. 4 of 17 were wrong: "No relocation assistance or visa sponsorship is available" read as a yes, and "F-1 students on CPT are eligible" counted as sponsorship. Now any "no" sentence wins, CPT/OPT never counts, and "for select candidates" isn't treated as an offer. Generic "comply with export control laws" lines no longer set the citizens-only tag (🗽). Every case from the audit is a test.
 
-**Read-only for students.** Only maintainers can change the board. Issues are turned off and `main` has a ruleset that blocks force-pushes and deletion. Students tell an ACM officer about a missing posting, and the officer adds it to `data/manual.yaml`. With 300 readers, an open write path would mean spam and broken tables.
+**Read-only for students.** Only maintainers can change the board: `main` has a ruleset that blocks force-pushes and deletion, and nobody but a maintainer can merge. Issues are open so a reader can report a missing posting or a dead link, and a maintainer adds it to `data/manual.yaml`. Issues were off while the board served one campus and suggestions came through club officers; that route no longer exists, and a public board needs some way to hear about bad data. If issues ever turn into spam, turn them off and put another contact in the README, rather than leaving readers with nowhere to go.
 
 
 **Treating feed text as untrusted.** Titles, locations and links come from other companies' systems and end up on a public page. Every cell is HTML-, markdown- and Liquid-escaped, and a link is used only if it's a plain http(s) URL, so a posting titled `Intern](https://phishing.example)` can't plant a link and one containing `{% ... %}` can't break the Pages build. The workflow's actions are pinned to commit SHAs, every Python package (indirect ones included) is pinned by hash, and the write token is only handed to the final push step.
@@ -41,7 +43,7 @@ On the first full run the cloud half found 732 postings and the laptop half foun
 
 ## Measured accuracy
 
-After the fixes above, I hand-checked 200 random rows from the live board (no descriptions, judged from title, location and the saved evidence):
+After the fixes above, I hand-checked 200 random rows from the live board (no descriptions, judged from title, location and the saved evidence). These were the rates **before** the fixes that sample prompted:
 
 | Check | Errors | Rate |
 |---|---|---|
@@ -51,6 +53,39 @@ After the fixes above, I hand-checked 200 random rows from the live board (no de
 | Right section? | 1 / 200 | 0.5% |
 | Tag matches its evidence sentence | 2 / 55 tagged rows | 4% |
 | Posting date in the future | 0 / 74 dated rows | 0% |
+
+### Re-measured, November 2026
+
+The hand audit above is a snapshot from before its own fixes landed, so `scripts/audit_sample.py` now
+re-measures the board whenever the rules change. It re-runs the real classifier over a seeded random
+sample, so the numbers move when the rules do, and anyone can reproduce a run:
+
+```
+python scripts/audit_sample.py --n 200 --seed 1     # writes docs/AUDIT.md
+```
+
+200 rows at each of seeds 1, 42 and 7, against 2,098 open postings:
+
+| Check | Errors | Rate |
+|---|---|---|
+| Location is in the U.S. | 0 / 600 | 0% |
+| Title passes the CS/CE rules | 0 / 600 | 0% |
+| Term has not already passed | 0 / 600 | 0% |
+| Section matches the title | 0 / 600 | 0% |
+| Every tag is reproduced by its evidence sentence | 1 / 600 | 0.2% |
+
+The one failure was a `clearance_level` of "secret" whose saved sentence stopped just before the word,
+because the level can come from a different sentence than the clearance tag's. The level now saves its
+own evidence, so that case can't recur.
+
+The sponsorship tags carry the most weight for a reader, so those were checked exhaustively rather than
+sampled: **all 327 postings tagged "does not sponsor" and all 12 tagged "sponsors" are reproduced by the
+sentence saved with them.**
+
+**What this does not measure.** It checks the board against its own stored evidence, not against the
+employer's page as it reads today: a tag can be consistent and still be stale if the posting changed.
+Whether a role is genuinely CS or CE work is still a human judgement, so each run ends with 25 rows to
+read by hand. Rates this low mean the rules agree with the evidence, not that the board is error-free.
 
 Every wrong row in that sample became a test case and a rule fix (bare "QA", "security intern" and "data center electrical" no longer count as CS; country codes like "ESP" and "BRA" are non-U.S.; "2026 Summer" roles listed after the summer started are dropped; "clearance is not required" no longer sets 🔒). The numbers above are from before those fixes, so they're an upper bound; a fresh sample is the next check.
 

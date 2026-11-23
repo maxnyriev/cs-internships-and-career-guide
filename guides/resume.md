@@ -1,18 +1,19 @@
 # Your First Resume
 
-A resume is a one-page summary of what you've done. A recruiter spends a few seconds on it, so it has to be clean and easy to scan. You don't need an internship to make a good one.
+A resume is a one-page summary of what you've done. Recruiters skim, so it has to be clean and easy to scan. You don't need an internship to make a good one. Employers say so too: in NACE's [Job Outlook 2026](https://naceweb.org/talent-acquisition/candidate-selection/internship-experience-often-the-deciding-factor-between-equal-candidates) (183 employers), general work experience and leadership ranked above a 3.0+ GPA when choosing between equally qualified candidates.
 
 ## The rules
 
 - **One page.** Always, until you have years of full-time work.
 - **Plain layout.** One column, one font, black text. No photo, icons, skill bars, or tables.
-- **Contact info in the body, not the header/footer area.** In Word or Google Docs, the header and footer are separate zones that some resume-reading software (an ATS, applicant tracking system) skips. Type your name and contact line as normal text at the top of the page.
+- **Contact info typed in the body of the page.** Some resume-reading software (an ATS, applicant tracking system) may skip the Word or Google Docs header and footer zones. How often that happens is unclear, but typing your name and contact line as normal text costs nothing, so do it as a cheap precaution.
 - **Standard section names:** Education, Projects, Experience, Leadership and Activities, Skills. Software and recruiters both look for these words.
-- **No objective or summary** at this stage. It takes space and says little. Your projects say more.
+- **No objective or summary** at this stage. This is my preference: it takes space and says little, and your projects say more. Some guides, including Tech Interview Handbook, suggest a short summary, so either is defensible.
 - **Working links.** Write them out short (`github.com/your-name`), and click every one in the PDF before you send it. Point project links to the repo or live demo, not your profile.
 - **Save as PDF.** Name it `FirstName_LastName_Resume.pdf`. Copy all the text out of the PDF and paste it into a plain text file. If it comes out jumbled, the software sees it jumbled too.
 - **Professional email.** Your name, not a nickname.
 - **Update dates every term:** expected graduation, "Present" on current roles, classes in progress, new GPA.
+- **Answer knockout questions carefully.** Forms ask about location, graduation date, degree, and clearance. These are the filters that really are automatic, so answer them truthfully and the same way every time ([answer sheet](applying.md#tracker-and-answer-sheet)).
 
 ## Sections, in order
 
@@ -25,24 +26,25 @@ A resume is a one-page summary of what you've done. A recruiter spends a few sec
 
 ```
 Languages: Java, Python, C, SQL
-Tools: Git, Linux, VS Code, Flask, MySQL
+Tools: Git, Linux, VS Code, Spring Boot, MySQL
 ```
 
 Leave out soft skills ("teamwork") and anything you've only watched a video about.
 
 ## Bullet formula (XYZ)
 
-Write each bullet as: **Accomplished X, measured by Y, by doing Z.** Start with a strong verb (Built, Cut, Organized, Trained, Fixed, Wrote, Led).
+Write each bullet as: **Accomplished X, measured by Y, by doing Z.** (A former Google HR executive popularized this pattern.) Start with a strong verb (Built, Cut, Organized, Trained, Fixed, Wrote, Led).
 
-- **Project:** "Cut study-planner page load from about 4 s to under 1 s (measured in Chrome DevTools) by caching course data instead of calling the API on every page."
+- **Project:** "Cut shift-board page load from about 4 s to under 1 s (measured in Chrome DevTools) by caching schedule data instead of querying the database on every page."
 - **Club:** "Grew weekly workshop attendance from about 10 to 30 by moving sessions right after intro CS labs and posting in class Discord servers."
+- **Retail:** "Handled 60+ transactions per shift at a hardware store register and cut checkout errors by double-checking returns against receipts." (Use only counts you know, like transactions per shift from the register report.)
 - **Food service:** "Trained 5 new hires on the register and drive-thru headset during the holiday rush, cutting the time the manager spent on training."
 - **Caregiving:** "Managed medications and 6+ appointments a week for a family member by setting up a shared calendar and checklist the family still uses."
 - **Campus job:** "Cut weekly inventory counting at the campus bookstore from about 6 hours to 2 by building a Google Sheets tracker with barcode-scanner input."
 
 Good numbers: real users, tests written, time or money saved, response time, records handled, people trained or led. Lines of code is not a good number.
 
-**No number? Say what it does and how you tested it.** "Built a shift-swap web app with sign-in, email alerts, and 18 unit tests for the claim logic." That's honest and specific.
+**No number? Say what it does and how you tested it.** "Built a shift-swap web app with sign-in, email alerts, and 18 JUnit tests for the claim logic." That's honest and specific.
 
 **Never invent a number.** Interviewers ask "how did you measure that?" If you guessed, you're stuck. Use "about" only for numbers you really estimated from something real.
 
@@ -62,11 +64,11 @@ B.S. in Computer Science | GPA: 3.4/4.0 | Dean's List (Fall 2025)
 Relevant courses: Data Structures (in progress), Discrete Math, Computer Organization, Intro to Java
 
 PROJECTS
-Shift Swap Board | Python, Flask, SQLite                           github.com/jordan-lee/shift-swap
+Shift Swap Board | Java, Spring Boot, SQLite                       github.com/jordan-lee/shift-swap
 - Built a web app where coworkers post and claim open shifts; 9 coworkers used it for 6 weeks
   in place of a group text thread
-- Fixed a bug that let two people claim the same shift by adding a database lock, then wrote
-  18 pytest tests for the claim logic
+- Fixed a bug that let two people claim the same shift by adding a database transaction, then
+  wrote 18 JUnit tests for the claim logic
 Bus Arrival Display | C++, ESP32, LCD                              github.com/jordan-lee/bus-display
 - Built a desk display that shows the next two campus bus times from the city's public transit feed
 - Cached results and refreshed every 30 s instead of every 5 s to stay under the feed's rate limit
@@ -83,8 +85,8 @@ Events Coordinator, Computing Club                                              
   rooms and recruited 3 upperclassmen to teach
 
 SKILLS
-Languages: Python, Java, C++, SQL, HTML/CSS
-Tools: Git, GitHub, Flask, SQLite, Linux command line, VS Code, Arduino IDE
+Languages: Java, Python, C++, SQL, HTML/CSS
+Tools: Git, GitHub, Spring Boot, SQLite, JUnit, Linux command line, VS Code, Arduino IDE
 ```
 
 ## Education edge cases
@@ -96,7 +98,7 @@ Tools: Git, GitHub, Flask, SQLite, Linux command line, VS Code, Arduino IDE
   ```
 - **Which GPA?** Applications usually mean your current school's overall GPA. If your major GPA is much stronger, you can list both, labeled: "Major GPA: 3.6 | Overall: 3.1." If you just transferred and have no GPA yet at the new school, leave it off or use your community college GPA, labeled with that school.
 - **Honors:** Dean's List (with terms), President's List, Phi Theta Kappa (the community college honor society), scholarships. One line in Education is enough.
-- **Below 3.0?** Leave GPA off. Some applications will ask; answer honestly there.
+- **GPA cutoff:** this guide says list it at 3.0 or higher. That's a convention, and some guides say 3.5. If yours is lower, leave it off. Some applications will ask; answer honestly there.
 - **Took time off or changed majors?** Just list the degree and expected date. You don't need to explain gaps on the page.
 
 ## Experience that isn't an internship
@@ -104,10 +106,10 @@ Tools: Git, GitHub, Flask, SQLite, Linux command line, VS Code, Arduino IDE
 All of these go under Experience and count:
 
 - **Research with a professor.** Ask one whose class you did well in; a few hours a week is a normal start. "Undergraduate Research Assistant" is a real title.
-- **Structured programs with code review.** Free or paid courses and fellowships where someone reviews your pull requests give you real teamwork stories (merge conflicts, review feedback).
+- **Structured programs with code review.** Courses and fellowships where someone reviews your pull requests give you real teamwork stories.
 - **Campus jobs:** IT help desk, lab assistant, library tech, web assistant for a department.
 - **TA, grader, or tutor** for a CS or math class.
-- **Short company projects:** [Forage](https://www.theforage.com) has free, self-paced job simulations from companies (list them under Projects or Certificates, not as a job). [Parker Dewey](https://www.parkerdewey.com) posts short paid "micro-internships" for students. [Extern](https://www.extern.com) offers remote project-based externships with a paid monthly membership after a short free trial; check the current price before you sign up.
+- **Short company projects:** [Forage](https://www.theforage.com) offers free, self-paced job simulations (list them under Projects or Certificates, not as a job). [Parker Dewey](https://www.parkerdewey.com) posts short paid "micro-internships" for students and recent grads. [Extern](https://www.extern.com) advertises a free trial and then paid plans, so check the price first.
 
 ## Tailor it
 
@@ -115,13 +117,32 @@ Tailor carefully for your top 10 to 15 applications. Send a solid general versio
 
 1. Paste the job posting into a doc.
 2. Highlight every tool, language, and skill it names (for example: Java, REST APIs, SQL, Linux, unit testing).
-3. For each one you have **really used**, make sure the posting's exact words appear on your resume ("REST API," not just "backend"). Put them in Skills and in a bullet that shows where you used it.
+3. For each one you have **really used**, make sure the posting's exact words appear on your resume ("REST API," not just "backend"). Put them in Skills and in a bullet that shows where you used it. Don't stuff in keywords you can't talk about.
 4. Move your most relevant project to the top of Projects.
 5. Skip anything you haven't used. Interviewers will ask about every word.
 
-## Keep it current
+**Example.** The posting says "build REST APIs in Java and write unit tests." Your general bullet: "Built a web app for coworkers to swap shifts." Tailored: "Built a Java REST API for a shift-swap app (post, claim, cancel) with 18 JUnit tests." Same project, same truth, but now it matches the words the reader is scanning for. About 20 minutes per application. Save each version as a separate PDF and note which one you sent in your tracker.
 
-Build each resume from your [wins file](README.md#start-a-wins-file), and add to that file the week you finish something. Update dates every term.
+## Keep a master points file
+
+Never write a resume from scratch. Keep one long document, your **master points file**, and build every resume by copying from it. It grows out of your [wins file](README.md#start-a-wins-file): the wins file is the raw log, the master file is the polished bullets.
+
+For each project, job, or club role, write 4 to 6 bullets in XYZ form, plus a short and a long version of the best two. Tag each bullet with the skills it shows (`Java`, `SQL`, `leadership`, `customer service`). Then:
+
+- **Tailoring** takes 20 minutes: copy the bullets whose tags match the posting.
+- **Space** is easy to manage: swap in the short versions to fit one page.
+- **Interview prep** is built in: every bullet is a claim you must be able to explain.
+
+```
+## Hardware store (Sales Associate)  [retail, training, cash handling]
+- Trained 4 new hires on the register and returns process during the 2025 holiday season
+- Balanced the register nightly and counted high-value inventory twice a week
+## Shift Swap Board  [Java, Spring Boot, SQLite, JUnit]
+- Built a web app where coworkers post and claim open shifts; 9 used it for 6 weeks
+- Fixed a double-claim bug with a database transaction; wrote 18 JUnit tests
+```
+
+Add to it the week you finish something, and update dates every term. Sort retail, caregiving, and food-service jobs into the same file: handling a rush, training people, and keeping accounts straight are real skills ([Experience bullets](#bullet-formula-xyz)).
 
 ## Resume audit
 
@@ -152,10 +173,17 @@ Run this before you send a resume anywhere. Every answer should be "yes."
 - **An upperclassman who has interned.** Ask: "What would make you skip this resume?"
 - **An AI tool, only as a second opinion.** It can catch weak verbs and typos. Check every line it changes: it may add numbers, skills, or claims that aren't true, and you're the one who'll be asked about them.
 
+**Short on time, or starting late?** In one evening: copy the sample above, replace it with your real classes, one project (even a class project), and one job, then book a review. A plain true resume this week beats a perfect one next month.
+
+## Cover letters
+
+Most internship applications don't require one. If a posting asks, write four short paragraphs: why this company, your best project and what it shows, one more reason you fit, and a thank-you. Keep it to half a page.
+
 ## Tools
 
 - **Google Docs or Word** with a plain one-column template is all you need.
-- **Optional:** the "Jake's Resume" template on [Overleaf](https://www.overleaf.com), a free LaTeX template many CS students use.
+- **Optional:** the "Jake's Resume" template on [Overleaf](https://www.overleaf.com), a free LaTeX template many CS students use. It's based on [sb2nov/resume](https://github.com/sb2nov/resume) (use the layout; don't copy its author's content).
+- **Optional:** [RenderCV](https://github.com/rendercv/rendercv) builds a PDF from a text file, if you dislike LaTeX. Run the copy-and-paste test on whatever it produces.
 
 ## Resources
 

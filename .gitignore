@@ -3,3 +3,7 @@ __pycache__/
 .venv/
 .env
 logs/
+private/
+
+probe_found.txt
+scripts/probe_candidates*.txt

@@ -1,6 +1,6 @@
 # Projects
 
-A project is a program (or a device) you build yourself. It shows you can learn, finish things, and explain them. On a first resume it counts as much as a job.
+A project is a program (or a device) you build yourself. It shows you can learn, finish things, and explain them. On a first resume it counts as much as a job. In a CodePath survey of 200+ engineering leaders ([reported by Fortune](https://fortune.com/2025/12/18/tech-hiring-slow-but-not-fully-stalled-exclusive-codepath-data-new-secret-to-land-tech-role/)), side projects or portfolios were the most-named signal outside the interview (38%), just ahead of internships (35%). It's one survey, but it fits the advice here: build something people can click and ask about.
 
 Short on time? See [a 6-week plan](#a-6-week-plan).
 
@@ -18,13 +18,19 @@ You'll hear things like:
 
 Pick the one you could finish in 2 to 4 weeks. The person who told you becomes your first user.
 
+**Worked example.** A student working at a hardware store heard: "We swap shifts in a group text and two people always claim the same one." She wrote three features: post an open shift, claim a shift, email an alert. She built it in Java with SQLite, got 9 coworkers to use it for 6 weeks, and fixed a double-claim bug along the way. That's one resume bullet, one interview story, and one honest number.
+
+If you can't think of anything, browse [App Ideas](https://github.com/florinpop17/app-ideas) (sorted by level; it hasn't been updated in over a year, so treat it as inspiration) and then change the idea to fit a real person you know.
+
 ## Three project levels
+
+This is a framework for thinking, not a rule from research.
 
 | Level | What it is | Counts for |
 |---|---|---|
-| **1. Learning** | Follow a tutorial or build a standard app (calculator, to-do list, quiz game). | Practice. Recruiters have seen thousands, so keep it off your resume once you have a level 2. |
+| **1. Learning** | Follow a tutorial or build a standard app (calculator, to-do list, quiz game). | Practice. Reviewers see a lot of these, so keep it off your resume once you have a level 2. |
 | **2. Original** | Solves a real problem for real people. You made the design choices. | Your main resume project. |
-| **3. Shipped and used** | Level 2, online or installed, with at least 3 real users and something you improved from their feedback. | Your best story in interviews. |
+| **3. Shipped and used** | Level 2, online or installed, with a few real users (3 is a good target) and something you improved from their feedback. | Your best story in interviews. |
 
 Aim to have one level 2 or 3 project by the time you apply for internships.
 
@@ -33,7 +39,7 @@ Aim to have one level 2 or 3 project by the time you apply for internships.
 A tutorial teaches you the parts. To make it yours, change it in three ways:
 
 1. **Change the data or the goal.** A weather app tutorial becomes a "should I bike to campus today?" app that also checks your class times.
-2. **Add something the tutorial didn't have.** Sign-in, saved history, email alerts, a test suite, or a second data source.
+2. **Add something the tutorial didn't have.** Sign-in, saved history, email alerts, a test suite, or a second data source. [Public APIs](https://github.com/public-apis/public-apis) lists free data sources, but many listed APIs go stale, so test one before you build on it.
 3. **Break and fix it.** Feed it bad input. Fix what crashes. Write down one fix.
 
 Done looks like: you can explain every file without the tutorial open, and the project does something the tutorial doesn't.
@@ -46,14 +52,12 @@ A finished small project beats five half-finished big ones. If a project is not 
 
 ## A 6-week plan
 
-About 5 hours a week. On the [5-hour week](README.md#the-5-hour-week), where the project gets 2 hours, give each step twice as long.
+About 5 hours a week, roughly 30 hours total. On the [5-hour week](README.md#the-5-hour-week), where the project gets 2 hours, give each step twice as long.
 
 - **Week 1:** Talk to your 5 people. Pick one. Write 3 features.
 - **Weeks 2 to 4:** One feature per week. Push to GitHub at the end of every block.
 - **Week 5:** Make it work for someone else: write a README, fix the first-run problems.
 - **Week 6:** Get 3 people to use it. Fix the top thing that confuses them.
-
-That's about 30 hours, enough for a real level 2 project.
 
 ## Using AI tools
 
@@ -68,20 +72,36 @@ AI coding tools can speed you up. They can also leave you with a project you can
 
 - [ ] Put the code on GitHub from day one ([GitHub guide](github.md)).
 - [ ] Write a README: a screenshot, what it does, how to run it. It must be true of the code.
-- [ ] Put it online if it's a website. A dead link is worse than no link.
+- [ ] Put it online if it's a website. A dead link is worse than no link (my judgment).
 - [ ] Add a live link or a short demo video to the repo's About box.
 - [ ] Get **3 real users**. Watch one of them try it without helping. Write down what confused them and fix it.
-- [ ] Write down one bug you fixed or one thing you measured. That's your interview story.
+- [ ] Optional: add a few tests so you can say "18 tests."
+- [ ] Write your 4-line interview story (below).
 - [ ] Prepare a one-page defense sheet for the project. See [project deep dive](interviews.md#project-deep-dive).
 - [ ] Add it to your [resume](resume.md) with an honest bullet.
+
+**Done looks like:** a stranger can follow your README to run it, 3 people have used it, and you can explain one bug and one tradeoff out loud.
 
 **Where to host:**
 
 - **Static sites** (HTML, CSS, JavaScript only): [GitHub Pages](https://pages.github.com) is free and simple.
 - **Apps with a server or database:** several services have free plans that work for small projects (for example Render, Netlify, Cloudflare Pages, and Hugging Face Spaces for ML demos). Free plans change and may put your app to sleep when nobody is using it, so check the current limits before you rely on one, and open the link yourself before every application.
-- **No hosting at all?** A 60-second screen recording linked from your README works.
+- **No hosting at all?** A 60-second screen recording linked from your README works, and is the right choice for a Java desktop app or a command-line tool.
 
 Never put passwords or API keys in your code. Use an environment variable, and keep an example file (`.env.example`) with fake values.
+
+**Do you need a portfolio website?** Not to start. I couldn't find solid data either way, so this is my advice: a GitHub profile with a good README does the job, and the time is better spent on a project.
+
+## Your 4-line interview story
+
+Every project needs a story you can tell in 30 seconds. Four lines:
+
+1. **Problem:** "Coworkers at my store swapped shifts in a group text and double-booked."
+2. **What I built:** "A Java web app where people post and claim shifts, with email alerts."
+3. **One hard thing:** "Two people could claim the same shift at once. I fixed it with a database transaction and a unique constraint."
+4. **Result:** "Nine coworkers used it for six weeks, and I wrote 18 tests."
+
+Then add a [defense sheet](interviews.md#project-deep-dive) for the follow-up questions.
 
 ## Be honest about results
 
@@ -102,21 +122,21 @@ These also count as project experience. Some need more background, so they are l
 | **Hackathon** | No | A weekend, a team, a demo. Beginners and solo entrants are welcome at many. |
 | **Research with a professor** | No | Ask one whose class you did well in. See [networking](networking.md). |
 | **Class capstone or team project** | No | Treat it like a real project: write a README, keep a log of decisions, and save your metrics. |
-| **Open source** | Some | Start with documentation fixes and issues labeled "good first issue." Plan on 20 or more hours before your first accepted change. |
+| **Open source** | Some | Start with documentation fixes and issues labeled "good first issue." Your first accepted change often takes longer than you expect, so pick a small one. [First Contributions](https://github.com/firstcontributions/first-contributions) is a safe practice run. |
 | **Structured fellowships or programs** | Often | Some are competitive and ask for a project already. Apply after you have one finished project. |
 
 ## Resources
 
 **Start**
-- [The Missing Semester](https://missing.csail.mit.edu): the terminal, Git, and editor skills classes skip.
 - [The Odin Project](https://www.theodinproject.com): free web development path, project-based.
+- [OSSU Computer Science](https://github.com/ossu/computer-science): a free self-study CS curriculum. It's big, so use it as a map, not a plan.
 
 **Build**
-- [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x): tutorials for building your own Git, database, shell, and more.
-- [App Ideas](https://github.com/florinpop17/app-ideas): project ideas sorted by level.
-- [Full Stack Open](https://fullstackopen.com): modern web development (React, Node) from the University of Helsinki.
-- [Crafting Interpreters](https://craftinginterpreters.com): build a programming language; free to read online.
-- [Exercism](https://exercism.org): practice exercises in many languages with free mentoring.
+- [Project-Based Learning](https://github.com/practical-tutorials/project-based-learning): tutorials grouped by language, including a Java section.
+- [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x): tutorials for building your own Git, database, shell, and more. Quality varies, so pick recent ones.
+- [Full Stack Open](https://fullstackopen.com): a free university-run course on modern web development (React, Node).
+- [Crafting Interpreters](https://craftinginterpreters.com): build a programming language; free to read online (the book has a Java part).
+- [Exercism](https://exercism.org): practice exercises in many languages, including Java, with free mentoring.
 
 **Hardware**
 - [Adafruit Learn](https://learn.adafruit.com): step-by-step electronics and microcontroller projects.

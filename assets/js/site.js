@@ -64,6 +64,112 @@
     var TERMS = /co-op|fall|spring|part-time/;
     var timer = null;
 
+    /* Cross-page search: lazy-load the full index on first keystroke */
+    var allJobs = null, loadingIndex = false;
+    var crossBox = document.createElement('div');
+    crossBox.className = 'cross-page-results';
+    crossBox.setAttribute('aria-live', 'polite');
+    crossBox.hidden = true;
+    bar.parentNode.insertBefore(crossBox, bar.nextSibling);
+    function loadIndex(cb) {
+      if (allJobs) return cb();
+      if (loadingIndex) return;
+      loadingIndex = true;
+      var base = document.querySelector('link[rel="canonical"]');
+      var root = base ? base.href.replace(/[^/]*$/, '') : location.href.replace(/[^/]*$/, '');
+      fetch(root + 'assets/search-index.json').then(function (r) { return r.json(); }).then(function (data) {
+        allJobs = data; cb();
+      }).catch(function () { loadingIndex = false; });
+    }
+    var currentPageFile = location.pathname.split('/').pop() || 'index.html';
+    if (currentPageFile.indexOf('.') === -1) currentPageFile += '.html';
+
+    function matchesFilter(text, words) {
+      for (var w = 0; w < words.length; w++) {
+        var variants = expandWord(words[w]);
+        var found = false;
+        for (var v = 0; !found && v < variants.length; v++) {
+          if (text.indexOf(variants[v]) !== -1) found = true;
+        }
+        if (!found) return false;
+      }
+      return true;
+    }
+
+    function searchCrossPage(words, openOnly, remoteOnly, termOnly) {
+      if (!allJobs || !words.length && !openOnly && !remoteOnly && !termOnly) {
+        crossBox.hidden = true; return;
+      }
+      // Index entries: [company, title, location, tags, url, page_file]
+      var pageCounts = {};  // page_file → count
+      var totalOther = 0;
+      for (var i = 0; i < allJobs.length; i++) {
+        var j = allJobs[i];
+        if (j[5] === currentPageFile) continue;  // skip current page
+        var text = (j[0] + ' ' + j[1] + ' ' + j[2] + ' ' + j[3]).toLowerCase();
+        if (words.length && !matchesFilter(text, words)) continue;
+        if (openOnly && RESTRICTED.test(j[3].toLowerCase())) continue;
+        if (remoteOnly && text.indexOf('remote') === -1) continue;
+        if (termOnly && !TERMS.test(j[3].toLowerCase())) continue;
+        pageCounts[j[5]] = (pageCounts[j[5]] || 0) + 1;
+        totalOther++;
+      }
+      if (totalOther === 0) { crossBox.hidden = true; return; }
+      // Build links grouped by section
+      var base = location.pathname.replace(/[^/]*$/, '');
+      var html = '<strong>' + totalOther + ' more match' + (totalOther > 1 ? 'es' : '') + ' on other pages:</strong> ';
+      var links = [];
+      var pages = Object.keys(pageCounts).sort();
+      var SECTION_NAMES = {
+        'INTERNSHIPS': 'Internships', 'NEW_GRAD': 'New Grad',
+        'EARLY': 'Early Programs', 'NEW_THIS_WEEK': 'New This Week'
+      };
+      for (var p = 0; p < pages.length; p++) {
+        var pf = pages[p];
+        var stem = pf.replace('.html', '');
+        var section = stem.replace(/-\d+$/, '');
+        var pageNum = stem.match(/-(\d+)$/);
+        var friendly = SECTION_NAMES[section] || section.replace(/_/g, ' ');
+        var label = pageNum ? friendly + ' p.' + pageNum[1] : friendly;
+        links.push('<a href="' + base + pf + location.search + '">' + label + ' (' + pageCounts[pf] + ')</a>');
+      }
+      html += links.join(', ');
+      crossBox.innerHTML = html;
+      crossBox.hidden = false;
+    }
+
+    /* State name ↔ abbreviation aliases so "texas" finds "TX" and vice versa. */
+    var STATE_ALIASES = {
+      'alabama':'al','alaska':'ak','arizona':'az','arkansas':'ar','california':'ca',
+      'colorado':'co','connecticut':'ct','delaware':'de','florida':'fl','georgia':'ga',
+      'hawaii':'hi','idaho':'id','illinois':'il','indiana':'in','iowa':'ia',
+      'kansas':'ks','kentucky':'ky','louisiana':'la','maine':'me','maryland':'md',
+      'massachusetts':'ma','michigan':'mi','minnesota':'mn','mississippi':'ms',
+      'missouri':'mo','montana':'mt','nebraska':'ne','nevada':'nv','new hampshire':'nh',
+      'new jersey':'nj','new mexico':'nm','new york':'ny','north carolina':'nc',
+      'north dakota':'nd','ohio':'oh','oklahoma':'ok','oregon':'or','pennsylvania':'pa',
+      'rhode island':'ri','south carolina':'sc','south dakota':'sd','tennessee':'tn',
+      'texas':'tx','utah':'ut','vermont':'vt','virginia':'va','washington':'wa',
+      'west virginia':'wv','wisconsin':'wi','wyoming':'wy',
+      'district of columbia':'dc','d.c.':'dc'
+    };
+    var ABBREV_TO_STATE = {};
+    Object.keys(STATE_ALIASES).forEach(function (name) { ABBREV_TO_STATE[STATE_ALIASES[name]] = name; });
+
+    var CITY_ALIASES = {
+      'nyc':'new york','sf':'san francisco','la':'los angeles','dc':'washington',
+      'philly':'philadelphia','atl':'atlanta','chi':'chicago','dfw':'dallas',
+      'stl':'st. louis','slc':'salt lake city'
+    };
+
+    function expandWord(w) {
+      var out = [w];
+      if (STATE_ALIASES[w]) out.push(STATE_ALIASES[w]);
+      if (ABBREV_TO_STATE[w]) out.push(ABBREV_TO_STATE[w]);
+      if (CITY_ALIASES[w]) out.push(CITY_ALIASES[w]);
+      return out;
+    }
+
     function apply() {
       index();
       var words = q.value.toLowerCase().trim().split(/\s+/).filter(Boolean);
@@ -71,7 +177,14 @@
       // Decide every row first, then write once per row (no layout reads in between).
       for (var i = 0; i < rows.length; i++) {
         var r = rows[i], ok = true;
-        for (var w = 0; ok && w < words.length; w++) if (r.text.indexOf(words[w]) === -1 && r.tags.indexOf(words[w]) === -1) ok = false;
+        for (var w = 0; ok && w < words.length; w++) {
+          var variants = expandWord(words[w]);
+          var found = false;
+          for (var v = 0; !found && v < variants.length; v++) {
+            if (r.text.indexOf(variants[v]) !== -1 || r.tags.indexOf(variants[v]) !== -1) found = true;
+          }
+          if (!found) ok = false;
+        }
         if (ok && open.checked && RESTRICTED.test(r.tags)) ok = false;
         if (ok && remote.checked && r.tags.indexOf('remote') === -1 && r.text.indexOf('remote') === -1) ok = false;
         if (ok && term.checked && !TERMS.test(r.tags)) ok = false;
@@ -83,7 +196,11 @@
         if (rows[j].next !== rows[j].show) { rows[j].show = rows[j].next; rows[j].el.hidden = !rows[j].show; }
       }
       var filtered = words.length || open.checked || remote.checked || term.checked;
-      count.textContent = filtered ? 'Showing ' + shown + ' of ' + total + ' jobs' : total + ' jobs';
+      count.textContent = filtered ? 'Showing ' + shown + ' of ' + total + ' jobs on this page' : total + ' jobs';
+
+      // Cross-page results (only if index is loaded)
+      if (filtered && allJobs) searchCrossPage(words, open.checked, remote.checked, term.checked);
+      else crossBox.hidden = true;
 
       var p = new URLSearchParams();
       if (q.value.trim()) p.set('q', q.value.trim());
@@ -95,15 +212,39 @@
     }
     function later() { clearTimeout(timer); timer = setTimeout(apply, 150); }
 
-    q.addEventListener('input', later);
-    [open, remote, term].forEach(function (c) { c.addEventListener('change', apply); });
+    q.addEventListener('input', function () {
+      loadIndex(function () {
+        // Re-run cross-page after index arrives
+        var words = q.value.toLowerCase().trim().split(/\s+/).filter(Boolean);
+        if (words.length || open.checked || remote.checked || term.checked) {
+          searchCrossPage(words, open.checked, remote.checked, term.checked);
+        }
+      });
+      later();
+    });
+    [open, remote, term].forEach(function (c) {
+      c.addEventListener('change', function () {
+        loadIndex(function () {
+          var words = q.value.toLowerCase().trim().split(/\s+/).filter(Boolean);
+          searchCrossPage(words, open.checked, remote.checked, term.checked);
+        });
+        apply();
+      });
+    });
     bar.addEventListener('submit', function (e) { e.preventDefault(); apply(); });
     q.addEventListener('keydown', function (e) { if (e.key === 'Escape' && q.value) { q.value = ''; apply(); } });
     // Only filter at load when the URL asks for it; otherwise just show the count.
-    if (q.value || open.checked || remote.checked || term.checked) apply();
+    if (q.value || open.checked || remote.checked || term.checked) {
+      apply();
+      loadIndex(function () {
+        var words = q.value.toLowerCase().trim().split(/\s+/).filter(Boolean);
+        searchCrossPage(words, open.checked, remote.checked, term.checked);
+      });
+    }
     else count.textContent = total + ' jobs';
     q.addEventListener('focus', function () {
       if ('requestIdleCallback' in window) requestIdleCallback(index); else setTimeout(index, 0);
+      loadIndex(function () {}); // pre-fetch index on focus
     }, { once: true });
   }
 
@@ -152,7 +293,25 @@
     });
   }
 
-  function init() { setupFilter(); setupCopy(); setupScrollTables(); }
+  /* ---------- 4. Back-to-top button on long pages ---------- */
+  function setupBackToTop() {
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'back-to-top';
+    btn.setAttribute('aria-label', 'Back to top');
+    btn.textContent = '↑ Top';
+    btn.hidden = true;
+    document.body.appendChild(btn);
+    var visible = false;
+    function toggle() {
+      var show = window.scrollY > 600;
+      if (show !== visible) { visible = show; btn.hidden = !show; }
+    }
+    window.addEventListener('scroll', toggle, { passive: true });
+    btn.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+  }
+
+  function init() { setupFilter(); setupCopy(); setupScrollTables(); setupBackToTop(); }
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
   } else { init(); }

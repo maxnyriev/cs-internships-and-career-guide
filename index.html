@@ -2,6 +2,8 @@
 layout: default
 home: true
 title: "Things I Wish I Knew: CS Edition"
+seo:
+  title: "Things I Wish I Knew: CS Edition — Free CS Internship Board"
 ---
 {% assign s = site.data.stats %}
 {% assign t = s.tracks %}
@@ -23,6 +25,7 @@ title: "Things I Wish I Knew: CS Edition"
   <section class="block" id="jobs" aria-labelledby="jobs-title">
     <h2 id="jobs-title"><span class="mark-h">The lists</span></h2>
     <p class="sub">Each list shows where a job is, when it was posted, and any rules the posting states (citizenship, clearance, sponsorship), quoted from the posting itself.</p>
+    {% if s.unverified and s.unverified > 0 %}<p class="sub">A row marked <strong>⚠</strong> is one the board couldn't re-check on its last run, so it may already have closed: {{ s.unverified }} of {{ s.total }} right now. Everything else was confirmed on the company's own feed today.</p>{% endif %}
     <div class="grid jobs">
       <a class="card featured" href="{{ '/INTERNSHIPS.html' | relative_url }}">
         <h3>Internships</h3>

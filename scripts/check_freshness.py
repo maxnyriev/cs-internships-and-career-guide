@@ -17,7 +17,14 @@ def main():
     local = load_json(LOCAL, None)
     if not local:
         sys.exit("::error::data/local.json is missing: the laptop job has never pushed")
-    fetched = datetime.fromisoformat(local["fetched_at"])
+    stamp = local.get("fetched_at")
+    try:
+        fetched = datetime.fromisoformat(stamp)
+    except (TypeError, ValueError):
+        sys.exit(f"::error::data/local.json has no usable fetched_at ({stamp!r}), so the laptop data's age "
+                 f"can't be checked. Re-run scripts/local/nightly.ps1.")
+    if fetched.tzinfo is None:
+        fetched = fetched.replace(tzinfo=timezone.utc)  # a file written before fetched_at carried a zone
     hours = (datetime.now(timezone.utc) - fetched).total_seconds() / 3600
     n = len(local.get("rows", []))
     if hours > MAX_HOURS:

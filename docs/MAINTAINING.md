@@ -13,7 +13,7 @@ python -m pytest -q
 
 ## Everyday tasks
 
-**Add a posting by hand.** Students send missing postings to an ACM officer (Issues are turned off, so nothing comes in through GitHub). Add it to `data/manual.yaml` (the format is at the top of `scripts/load_manual.py`) and push. The `notes` field is never shown on the board or tagged, but this repo is public, so anything in it is readable on GitHub: don't put private details there. A quick run publishes it within a few minutes. Hand-added links are checked daily and drop off once they've been closed on two checks.
+**Add a posting by hand.** Students report a missing posting or a broken link by opening a GitHub issue. Add it to `data/manual.yaml` (the format is at the top of `scripts/load_manual.py`) and push. The `notes` field is never shown on the board or tagged, but this repo is public, so anything in it is readable on GitHub: don't put private details there. A quick run publishes it within a few minutes. Hand-added links are checked daily and drop off once they've been closed on two checks.
 
 **Add a company.** Find its job board link and add one line to `data/companies.yaml`:
 

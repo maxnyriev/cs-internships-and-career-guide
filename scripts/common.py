@@ -1,6 +1,7 @@
 """Shared helpers: paths, JSON/YAML I/O, URL keys, polite HTTP."""
 import json
 import os
+import re
 import threading
 import time
 from datetime import date, datetime, timezone
@@ -57,7 +58,14 @@ def save_json(path: Path, obj) -> None:
         text = json.dumps(obj, indent=1, ensure_ascii=False, sort_keys=True) + "\n"
     tmp = path.with_suffix(path.suffix + ".tmp")
     tmp.write_text(text, encoding="utf-8")
-    os.replace(tmp, path)
+    for attempt in range(5):  # Windows: antivirus or the search indexer can briefly lock the file, so the rename retries
+        try:
+            os.replace(tmp, path)
+            return
+        except PermissionError:
+            if attempt == 4:
+                raise
+            time.sleep(0.3 * (attempt + 1))
 
 
 def load_yaml(path: Path, default):
@@ -67,10 +75,19 @@ def load_yaml(path: Path, default):
 
 
 def url_key(url: str) -> str:
-    """Apply URL without tracking parameters or a trailing slash; job-id parameters are kept."""
+    """Apply URL without tracking parameters or a trailing slash; job-id parameters are kept.
+    Scheme and host are lowercased (they are case-insensitive); the path and query keep their case,
+    because some boards put a case-sensitive job id there and two jobs must not share one key."""
     s = urlsplit(url.strip())
     q = [(k, v) for k, v in parse_qsl(s.query) if k.lower() not in TRACKING and not k.lower().startswith(TRACKING_PREFIX)]
-    return urlunsplit((s.scheme.lower(), s.netloc.lower(), s.path.rstrip("/"), urlencode(q), "")).lower()
+    return urlunsplit((s.scheme.lower(), s.netloc.lower(), s.path.rstrip("/"), urlencode(q), ""))
+
+
+_COMPANY_TAIL = re.compile(r"\s+(?:careers?\s*page|jobs?\s*(?:&\s*internships?)?|university\s+jobs?)\s*$", re.I)
+
+def _norm_company(name: str) -> str:
+    """Normalize a company name for dedup: strip trailing 'Careers page', 'Jobs', etc."""
+    return _COMPANY_TAIL.sub("", name.lower().strip()).strip()
 
 
 def dedupe_rows(rows):
@@ -78,7 +95,7 @@ def dedupe_rows(rows):
     An open copy beats an unverified one; the earliest first_seen is kept, so the job doesn't look newer than it is."""
     best = {}
     for r in rows:
-        k = (r["company"].lower().strip(), " ".join(r["title"].lower().split()), " ".join((r.get("location") or "").lower().split()))
+        k = (_norm_company(r["company"]), " ".join(r["title"].lower().split()), " ".join((r.get("location") or "").lower().split()))
         cur = best.get(k)
         if cur is None:
             best[k] = r

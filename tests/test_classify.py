@@ -347,9 +347,78 @@ def test_us_towns_named_like_foreign_cities_are_us():
     assert not us_job("Tbilisi, Georgia") and not keep_title("Software Engineer Intern - Munich, DE")
 
 
+def test_non_us_cities_without_country_suffix_are_filtered():
+    """Cities that slipped through because the location string lacks a country name."""
+    from classify import us_job
+    # Israeli cities
+    assert not us_job("Petah-Tikva")
+    assert not us_job("IL - Petah Tikva")
+    assert not us_job("Petah Tikva")
+    # Italian cities without "Italy"
+    assert not us_job("Naples")       # the PwC posting
+    assert not us_job("Palermo")
+    assert not us_job("Anagni")
+    # Canadian provinces
+    assert not us_job("Port Coquitlam, BC")
+    assert not us_job("Georgetown, ON")
+    assert not us_job("Mississauga, ON")
+    # US Naples (Florida) should still pass
+    assert us_job("Naples, FL")
+    assert us_job("Naples, Florida")
+
+
 def test_class_year_lists_are_not_a_senior_level_role():
     assert keep_title("2027 - Cybersecurity Engineering Intern - Sophomore, Junior, Senior *")
     assert keep_title("Software Engineer Intern (Junior/Senior)")
     assert not keep_title("Senior Software Engineer")
     assert not keep_title("Software Engineer Intern - Senior")        # ambiguous: still treated as senior-level
     assert not keep_title("Senior Software Engineer Intern, Junior Team")
+
+
+def test_employer_refusing_sponsorship_is_tagged_however_it_is_worded():
+    for text in ["Candidates must not require visa sponsorship now or in the future.",
+                 "Applicants must not require sponsorship for employment visa status.",
+                 "We are unable to sponsor or take over sponsorship of an employment visa.",
+                 "This role is not eligible for immigration sponsorship.",
+                 "Must be legally authorized to work in the US without the need for employer sponsorship."]:
+        t, ev = tags(text)
+        assert t["sponsor"] is False, text
+        assert ev["sponsor"], "the sentence behind the tag is kept so a student can check it"
+
+
+def test_applicant_side_sponsorship_wording_stays_untagged():
+    """"Sponsorship is not required" can mean the applicant doesn't need it, which says nothing
+    about the employer. A guess either way misleads, so it gets no tag."""
+    assert tags("Visa sponsorship is not required for this role.")[0]["sponsor"] is None
+
+
+def test_clearance_level_keeps_the_sentence_it_came_from():
+    """The level often sits in a different sentence than the clearance tag's, so it saves its own
+    evidence; otherwise the board shows "secret" with nothing a student can check it against."""
+    from classify import clearance_level
+    t, ev = tags("A security clearance is required. Security Clearance Type: Secret")
+    assert t["clearance"] is True and t["clearance_level"] == "secret"
+    assert "Secret" in ev["clearance_level"]
+    assert clearance_level(ev["clearance_level"]) == "secret"
+
+
+def test_strip_html_clears_double_encoded_entities():
+    """Some feeds encode twice, so one unescape pass left &#xa; and &nbsp; in the evidence text."""
+    from classify import strip_html
+    out = strip_html("Must be a U.S. citizen.&amp;#xa;&amp;nbsp;Clearance required.")
+    assert "&#xa;" not in out and "&nbsp;" not in out and "\xa0" not in out
+    assert "U.S. citizen" in out and "Clearance required." in out
+
+
+def test_dedupe_merges_careers_page_suffix():
+    """'ATOMS Careers page' and 'Atoms' with the same title+location should dedup to one row."""
+    from common import dedupe_rows
+    rows = [
+        {"company": "Atoms", "title": "AI Research Intern  (BS/MS)", "location": "Mountain View, CA",
+         "first_seen": "2026-11-01", "url": "https://a.example.com/1"},
+        {"company": "ATOMS Careers page", "title": "AI Research Intern  (BS/MS)", "location": "Mountain View, CA",
+         "first_seen": "2026-11-02", "url": "https://a.example.com/2"},
+    ]
+    result = dedupe_rows(rows)
+    assert len(result) == 1
+    assert result[0]["first_seen"] == "2026-11-01"  # earliest kept

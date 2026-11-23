@@ -627,21 +627,74 @@ def test_import_leads_upgrades_http_urls_to_https():
     assert import_leads.https_url(" http://x.com/j ") == "https://x.com/j"
 
 
-def test_split_pages_keeps_every_page_under_the_byte_limit():
+def test_paginate_caps_pages_at_the_row_limit():
     import build_readme
-    items = list(range(1000))
-    pages = build_readme.split_pages(items, lambda chunk, idx, total: "x" * (len(chunk) * 100), limit=10_000)
-    assert len(pages) > 1
-    assert all(len(p.encode("utf-8")) <= 10_000 for p in pages)
-    assert sum(len(p) for p in pages) == 1000 * 100  # every item rendered exactly once across the pages
-
-
-def test_split_pages_stays_single_when_it_fits():
-    import build_readme
-    assert build_readme.split_pages([1, 2, 3], lambda chunk, idx, total: "small", limit=10_000) == ["small"]
+    pages = build_readme.paginate(list(range(300)), size=120)
+    assert [len(p) for p in pages] == [120, 120, 60]
+    assert build_readme.paginate([], size=120) == [[]]  # empty list still yields one page
 
 def test_longest_first_orders_boards_by_last_known_size():
     import fetch_ats
     boards = [{"board": "a"}, {"board": "b"}, {"board": "c-new"}]
     rows = {1: {"board": "b"}, 2: {"board": "b"}, 3: {"board": "a"}}  # b=2, a=1, c-new=0 (no history)
     assert [c["board"] for c in fetch_ats.longest_first(boards, rows)] == ["b", "a", "c-new"]
+
+def test_save_json_retries_when_the_file_is_briefly_locked(tmp_path, monkeypatch):
+    import common
+    p = tmp_path / "x.json"
+    calls = {"n": 0}
+    real = common.os.replace
+    def flaky(src, dst):
+        calls["n"] += 1
+        if calls["n"] == 1:
+            raise PermissionError("locked")
+        return real(src, dst)
+    monkeypatch.setattr(common.os, "replace", flaky)
+    monkeypatch.setattr(common.time, "sleep", lambda s: None)
+    common.save_json(p, {"a": 1})
+    assert json.loads(p.read_text()) == {"a": 1}
+    assert calls["n"] == 2  # failed once, then succeeded
+
+
+def test_url_key_keeps_path_case_but_drops_tracking():
+    from common import url_key
+    assert url_key("https://Example.com/Job/ABC123/?utm_source=x") == "https://example.com/Job/ABC123"
+    # two jobs whose links differ only in case are two jobs, not one
+    assert url_key("https://e.com/J/ABC") != url_key("https://e.com/j/abc")
+    assert url_key("https://e.com/j/1?gh_jid=7") == "https://e.com/j/1?gh_jid=7"  # a job id is kept
+
+
+def test_rekey_rebuilds_ids_written_by_an_older_rule():
+    """The guard against a url_key change making every posting look new: old ids are rebuilt on load,
+    so first_seen survives and nothing is counted as closed."""
+    stored = [{"id": "https://e.com/job/abc123", "url": "https://e.com/Job/ABC123", "first_seen": "2026-01-01"}]
+    removed = [{"id": "https://e.com/job/old", "url": "https://e.com/Job/OLD"}]
+    assert fetch_ats.rekey(stored, removed) == 2
+    assert stored[0]["id"] == "https://e.com/Job/ABC123"
+    assert stored[0]["first_seen"] == "2026-01-01"
+    assert removed[0]["id"] == "https://e.com/Job/OLD"
+    assert fetch_ats.rekey(stored, removed) == 0  # already current: nothing to do
+
+
+def test_audit_sample_scores_a_clean_row_and_catches_an_unbacked_tag():
+    """The accuracy audit has to fail a tag whose saved sentence no longer supports it."""
+    import audit_sample
+    clean = {"title": "Software Engineering Intern - Summer 2027", "location": "Austin, TX",
+             "section": "internship", "url": "https://x.com/1", "company": "X",
+             "tags": {"sponsor": False, "remote": False},
+             "tag_evidence": {"sponsor": "We are unable to sponsor an employment visa."}}
+    assert all(ok for ok, _ in audit_sample.audit_row(clean).values())
+
+    unbacked = dict(clean, tags={"sponsor": False}, tag_evidence={"sponsor": "Great benefits and free lunch."})
+    assert not audit_sample.audit_row(unbacked)["tag_backed"][0]
+
+    nonus = dict(clean, location="London, United Kingdom")
+    assert not audit_sample.audit_row(nonus)["us_location"][0]
+
+
+def test_unverified_rows_are_counted_for_the_site():
+    """The ⚠ count lived only inside one README sentence, so the site couldn't show it and a reader
+    saw a headline number with no hint that some rows are unconfirmed."""
+    rows = [{"status": "open"}, {"status": "uncertain"}, {"status": "uncertain"}, {}]
+    assert build_readme.unverified_count(rows) == 2
+    assert build_readme.unverified_count([]) == 0

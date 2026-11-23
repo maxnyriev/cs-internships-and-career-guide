@@ -11,10 +11,10 @@
 > | "New this week" at the top of the README | Its own page, `NEW_THIS_WEEK.md`, plus `track-*.md` pages and `_data/stats.json` for the site |
 > | Multi-city clones collapse into one row listing every location | One row per company, title and location, merged at ingest (`common.dedupe_rows`) |
 > | `tests.yml` for pull requests | Built: `.github/workflows/tests.yml`, read-only |
-> | Collaborators: Rohit and the ACM officers | Rohit only so far; officers still to be added (with two-factor authentication on) |
+> | Collaborators: Rohit | Rohit only; any maintainer added later needs two-factor authentication on |
 > | Fixtures for every source | Saved fixtures for Greenhouse, Lever, Ashby; shape tests for Workday, Oracle, Eightfold, Amazon |
 
-A public GitHub repo that lists internships, new-grad roles and early-career programs for computer science and computer engineering students, refreshed daily. Built and owned by Rohitpreet Singh as a portfolio project. Only the maintainers (Rohit and the ACM officers) can change it; everyone else has read access.
+A public GitHub repo that lists internships, new-grad roles and early-career programs for computer science and computer engineering students, refreshed daily. Built and owned by Rohitpreet Singh as a portfolio project. Only maintainers can change it; everyone else has read access and can open an issue.
 
 ## 1. Goals and constraints
 
@@ -24,7 +24,7 @@ A public GitHub repo that lists internships, new-grad roles and early-career pro
 | Content | Three sections: Summer internships, New-grad roles, Early programs for freshmen and sophomores, plus a "New this week" section at the top |
 | Refresh | Daily (scheduled GitHub Action), plus an immediate run when a maintainer adds postings by hand |
 | Freshness | Postings confirmed closed twice in a row are removed; postings that can't be verified are flagged ⚠ instead of removed |
-| Access | Maintainers (Rohit + ACM officers) write; everyone else reads. No student submissions through GitHub |
+| Access | Maintainers write; everyone else reads. Readers report bad data through GitHub issues |
 | Applied tracking | Not in v1; students use their own tools (see section 6) |
 | Visibility | Public repo |
 | Budget | Free: public repos get free GitHub Actions minutes on standard runners and free GitHub Pages |
@@ -39,7 +39,7 @@ A public GitHub repo that lists internships, new-grad roles and early-career pro
 
 | Source | What it gives | Notes |
 |---|---|---|
-| **Company job boards** in `companies.yaml` (955 boards: 523 Workday, 158 Greenhouse, 153 Oracle, 53 SmartRecruiters, 36 Ashby, 32 Lever) | Every open role at each company, with full descriptions | Each company's own public board feed. The list was built from the apply links of Rohit's Nov 5 scan (company name and its own board address only). Coverage check against that scan: Greenhouse + Lever + Ashby + Workday reach about 44% of postings and 42% of companies |
+| **Company job boards** in `companies.yaml` (about 1,080 boards; `_data/stats.json` carries the current count. At the Nov 5 build: 523 Workday, 158 Greenhouse, 153 Oracle, 53 SmartRecruiters, 36 Ashby, 32 Lever) | Every open role at each company, with full descriptions | Each company's own public board feed. The list was built from the apply links of Rohit's Nov 5 scan (company name and its own board address only). Coverage check against that scan: Greenhouse + Lever + Ashby + Workday reach about 44% of postings and 42% of companies |
 | **More ATS feeds:** Workable, Recruitee, Breezy HR, HireHive, Manatal | Startups and small companies, especially YC companies | Each has a documented public JSON endpoint per company; same adapter pattern as Greenhouse |
 | **YC company pass** (`scripts/find_boards.py`, monthly) | Y Combinator startups | YC's own job site has no public API and needs a login, so it isn't used. Instead, YC company names are checked against Ashby, Greenhouse, Lever and Workable; boards that exist are added to `companies.yaml` |
 | **Hacker News "Who is hiring"** (`scripts/adapters/hn.py`, monthly) | Startup roles posted in the monthly thread | Official HN API / Algolia HN search API; only top-level comments mentioning intern, new grad or similar; each becomes a row linking to its HN comment | *(planned)*
@@ -159,7 +159,7 @@ Scheduled once a day, and runnable by hand. When a maintainer pushes a change to
    - last updated date and a count per section
    - ⏳ for postings older than 60 days, ⚠ for uncertain links
    - tag legend, and links to other public boards for breadth
-   - a line telling students to send posting suggestions to an ACM officer
+   - a line telling readers to open a GitHub issue for a missing posting or a broken link
 
 8. **Commit** if anything changed.
 
@@ -187,15 +187,15 @@ The heavy and fragile work runs on Rohit's laptop; the GitHub Action stays light
 
 ## 5. Access
 
-**Who can write.** Collaborators are Rohit and the ACM officers. Everyone else, students included, has read access, which a public repo gives automatically.
+**Who can write.** Only maintainers; Rohit is the only one so far. Everyone else has read access, which a public repo gives automatically, and can open an issue.
 
 **Repo settings:**
-- **Issues, Discussions and Wiki:** turned off, so there's no public write surface.
+- **Issues:** open, so readers can report a missing posting or a dead link. Discussions and the wiki stay off. An issue is a report, not a write path: nothing reaches the board until a maintainer edits `manual.yaml`.
 - **Branch ruleset on `main`:** blocks force-pushes and deletion.
 - **Pull requests:** anyone can open a pull request against a public repo, but only collaborators can merge one. Outside PRs are closed without merging. If the repo settings offer a way to turn pull requests off or limit them to collaborators, use it.
 - **Forks:** anyone can fork a public repo. A fork is the other person's copy and never changes the board.
 
-**Student suggestions** go to an ACM officer outside GitHub (Discord, email, in person). The officer adds the posting to `manual.yaml`.
+**Reader reports** come in as GitHub issues. A maintainer checks the posting and adds it to `manual.yaml`.
 
 ## 6. Applied tracking
 
@@ -212,8 +212,8 @@ The heavy and fragile work runs on Rohit's laptop; the GitHub Action stays light
 
 ## 8. Ownership and maintenance
 
-- **Account:** the repo lives under Rohit's account, with ACM officers as collaborators.
-- **Succession:** before Rohit graduates, transfer the repo to an ACM GitHub organization. GitHub keeps stars and redirects the old URL.
+- **Account:** the repo lives under Rohit's account.
+- **Succession:** before Rohit graduates, transfer the repo to whoever keeps it running. GitHub keeps stars and redirects the old URL.
 - **Failures:** failed scheduled runs email the owner. `docs/MAINTAINING.md` covers re-running, adding a posting or company, handling a source that changes its format, and setting up the laptop job. *(planned)*
 - **Rule for maintainers:** edit only `manual.yaml` and `companies.yaml`. Everything else is generated; hand edits to generated files cause rebase conflicts and are overwritten.
 - **Schedule pauses:** GitHub pauses scheduled workflows on public repos after 60 days without repository activity. Daily bot commits should count as activity; if the board ever goes quiet, re-enable the workflow from the Actions tab.

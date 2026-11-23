@@ -27,7 +27,10 @@ SPONSOR_NO = re.compile(
     r"|sponsorship\b[^.]{0,20}\b(do|does|will|can) not\b"
     r"|sponsorship[^.]{0,40}\b(is|are|will be) not (available|provided|offered)"
     r"|(require|need)s? (visa |immigration |employment )?sponsorship[^.]{0,80}\b(not be considered|ineligible|not eligible)"
-    r"|(does not|doesn't|will not|won't|not) (accept|consider) (cpt|opt|f-?1)", re.I)
+    r"|(does not|doesn't|will not|won't|not) (accept|consider) (cpt|opt|f-?1)"
+    # "candidates must not require sponsorship now or in the future" is the employer saying no;
+    # "sponsorship is not required" (applicant side) is ambiguous and deliberately left untagged
+    r"|\b(must|cannot|can ?not|may|will) not require\b[^.]{0,40}sponsorship", re.I)
 # a firm offer only: CPT/OPT eligibility isn't sponsorship, and "for select roles/candidates" isn't a promise
 SPONSOR_YES = re.compile(
     r"\b(we|will|can|able to|happy to|willing to)\s+(\w+\s+){0,2}sponsor"
@@ -73,7 +76,7 @@ UNDERGRAD = re.compile(r"\b(bs|b\.s\.|bachelor'?s?|undergrad\w*)\b", re.I)
 
 NON_US = re.compile(r"\b(united kingdom|uk|england|scotland|wales|london|glasgow|edinburgh|belfast|northampton|ireland|dublin|cork|galway|"
     r"netherlands|amsterdam|eindhoven|rotterdam|germany|berlin|munich|hamburg|frankfurt|stuttgart|cologne|france|paris|lyon|toulouse|grenoble|suresnes|aubervilliers|"
-    r"spain|madrid|barcelona|portugal|lisbon|italy|milan|rome|switzerland|zurich|geneva|belgium|brussels|austria|vienna|denmark|copenhagen|"
+    r"spain|madrid|barcelona|portugal|lisbon|italy|milan|rome|naples|palermo|switzerland|zurich|geneva|belgium|brussels|austria|vienna|denmark|copenhagen|"
     r"sweden|stockholm|norway|oslo|finland|helsinki|poland|warsaw|krakow|wroclaw|gdansk|czech\w*|prague|brno|romania|bucharest|hungary|budapest|"
     r"greece|athens|turkey|istanbul|ukraine|kyiv|lithuania|vilnius|estonia|tallinn|latvia|riga|serbia|belgrade|croatia|bulgaria|"
     r"india|bangalore|bengaluru|hyderabad|pune|chennai|mumbai|delhi|noida|gurgaon|gurugram|kolkata|ahmedabad|sri lanka|colombo|pakistan|bangladesh|"
@@ -87,10 +90,11 @@ NON_US = re.compile(r"\b(united kingdom|uk|england|scotland|wales|london|glasgow
     r"armenia|yerevan|tbilisi|kazakhstan|almaty|uzbekistan|tashkent|morocco|casablanca|tunisia|ghana|accra|jordan|amman|lebanon|beirut|cyprus|malta|"
     r"luxembourg|iceland|slovakia|bratislava|slovenia|ljubljana|belarus|minsk|moldova|ecuador|quito|uruguay|montevideo|panama|dominican republic|"
     r"bahrain|kuwait|oman|nepal|kathmandu|cambodia|mongolia|basel|getafe|lysaker|north york|tan uyen|zaragoza|warszawa|wuxi|jiangsu|ovar|babenhausen|"
+    r"petah[- ]?tikva|anagni|subang|port coquitlam|"
     r"emea|apac|latam|europe)\b", re.I)
 # country codes ("Zaragoza, ESP", "BRA", "Ovar, PT"); two-letter codes that are also US states are left out on purpose
 COUNTRY_CODE = re.compile(r"\b(BRA|ESP|PRT|POL|CHN|IRL|DEU|GBR|CAN|MEX|FRA|ITA|NLD|SWE|JPN|KOR|SGP|AUS|ISR|ARE|ROU|CZE|HUN|AUT|CHE|BEL|DNK|NOR|FIN|PHL|VNM|MYS|THA|IDN|TWN|HKG|ARG|CHL|COL|CRI|ZAF|EGY|TUR|GRC|IND)\b"
-                          r"|,\s*(PT|PL|ES|MX|BR|SE|MY|VN|CN|IE|GB|UK|FR|NL|JP|KR|SG|AU|AE|RO|CZ|HU|AT|CH|BE|DK|NO|FI|PH|TH|TW|HK|CL|CR|ZA|EG|TR|GR)\s*$")
+                          r"|,\s*(PT|PL|ES|MX|BR|SE|MY|VN|CN|IE|GB|UK|FR|NL|JP|KR|SG|AU|AE|RO|CZ|HU|AT|CH|BE|DK|NO|FI|PH|TH|TW|HK|CL|CR|ZA|EG|TR|GR|BC|AB|ON|QC|MB|SK|NS|NB|PE|NL)\s*$")
 US_MARK = re.compile(r"(?i:\b(united states|usa|u\.s\.a?\.?)(?!\w))|\bUS\b")
 
 
@@ -105,7 +109,7 @@ _STATE_NAMES = ("alabama|alaska|arizona|arkansas|california|colorado|connecticut
                 "nebraska|nevada|new hampshire|new jersey|new mexico|new york|north carolina|north dakota|ohio|oklahoma|oregon|"
                 "pennsylvania|rhode island|south carolina|south dakota|tennessee|texas|utah|vermont|virginia|washington|west virginia|"
                 "wisconsin|wyoming")
-_TOWN_STATE = (r"\b(?i:rome|paris|athens|berlin|dublin|vienna|milan|geneva|lisbon|moscow),\s*"
+_TOWN_STATE = (r"\b(?i:rome|paris|athens|berlin|dublin|vienna|milan|geneva|lisbon|moscow|naples|palermo),\s*"
                r"(?:AL|AK|AZ|AR|CA|CO|CT|DC|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN|MS|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY"
                r"|(?i:" + _STATE_NAMES + r"))\b")
 US_TOWN = re.compile(_TOWN_STATE)
@@ -397,6 +401,9 @@ def tags(text: str, location: str = "") -> tuple[dict, dict]:
             lvl = clearance_level(x)
             if lvl:
                 t["clearance_level"] = lvl
+                # keep the sentence the level came from: it isn't always the one the clearance tag saved,
+                # and a student checking "secret" needs to see where that word is
+                ev["clearance_level"] = x[:300]
                 break
     t["oa"] = None
     hit = _hit(sents, OA)
@@ -411,7 +418,9 @@ def tags(text: str, location: str = "") -> tuple[dict, dict]:
 def strip_html(html: str) -> str:
     import html as h
     text = re.sub(r"<(br|/p|/li|/div|/h\d)[^>]*>", "\n", h.unescape(html or ""), flags=re.I)
-    return re.sub(r"[ \t]+", " ", re.sub(r"<[^>]+>", " ", text)).strip()
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = h.unescape(text)  # some feeds double-encode, so one pass leaves &#xa; and &nbsp; in the text
+    return re.sub(r"[ \t]+", " ", text.replace("\xa0", " ")).strip()
 
 
 if __name__ == "__main__":

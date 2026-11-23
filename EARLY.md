@@ -1,6 +1,6 @@
 # Early Programs (freshmen & sophomores)
 
-[⬅ Back to the main page](./) · 3 open · updated 2026-11-17
+[⬅ Back to the main page](./) · 4 open · updated 2026-11-19
 
 Postings that say freshmen or sophomores can apply, or programs built for them. The grey line under each title is the sentence from the posting, so you can check it.
 
@@ -10,7 +10,7 @@ Only a few programs are open at a time. Freshmen and sophomores should also chec
 
 **Click a job title to open the company's application page.**
 
-<details markdown="1">
+<details markdown="1" open>
 <summary>What the tags and dates mean</summary>
 
 **Tags.** Each tag comes from a sentence in the posting, shown in grey under the job title. A blank tag means the posting doesn't say.
@@ -28,7 +28,7 @@ Only a few programs are open at a time. Freshmen and sophomores should also chec
 - 🌐 **remote** · ⏳ **60+ days**: the company posted it more than 60 days ago. Some big companies keep one posting open all year, so it may still be hiring
 - ⚠ **unverified**: the company's job feed left it out at least once, or its link couldn't be checked recently. It may have closed
 
-**Posted** is the date the company posted the job. A date with * is when this board first saw it, because that company's job site doesn't give one. Companies sometimes re-post a job, which resets its date.
+**Posted** is the date the company posted the job. A dash (—) means the company's job site doesn't publish one. Companies sometimes re-post a job, which resets its date.
 
 > 🛂❌ usually means no visa sponsorship later (for example H-1B). Unless the row also shows 🚫, CPT or OPT may still work. Check with the recruiter. None of this is legal or immigration advice.
 
@@ -36,10 +36,31 @@ Only a few programs are open at a time. Freshmen and sophomores should also chec
 
 <div class="job-filter" id="job-filter"></div>
 
-| Company | Role | Location | Tags |
-|---|---|---|---|
-| AstraZeneca | [Commercial IT Intern, Undergraduate](https://astrazeneca.wd3.myworkdayjobs.com/Careers/job/US---Wilmington---DE/Commercial-IT-Intern--Undergraduate_R-264455)<br><sub>“We are looking for Sophomore and Junior students majoring in Computer Science, Business Administration, IT, MIS, or a related field for a 12…”</sub> | US - Wilmington - DE | ⚠ unverified |
-| AstraZeneca | [Finance AI &amp; Data Analytics Intern, Undergraduate - LIFT Program](https://astrazeneca.wd3.myworkdayjobs.com/Careers/job/US---Wilmington---DE/Finance-AI---Data-Analytics-Intern--Undergraduate---LIFT-Program_R-264458)<br><sub>“We are seeking sophomore and junior undergraduate students interested in Finance, Artificial Intelligence, Data Analytics, and Digital Trans…”</sub> | US - Wilmington - DE | 🚫 no CPT/OPT<br>🎓 3.0+ GPA<br>⚠ unverified |
-| TruStage | [Information Technology - Development and Infrastructure Internship \(hybrid\)](https://trustage.wd1.myworkdayjobs.com/TruStage/job/Wisconsin---Remote/Enterprise-Information---Technology-Internship--Hybrid-_R-012155)<br><sub>“Most appropriate for freshmen and sophomores.”</sub> | Wisconsin - Remote | 🌐 remote |
+| Company | Role | Location | Tags | Posted |
+|---|---|---|---|---|
+| CrowdStrike | [AI Research Launch Intern](https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Sunnyvale-CA/AI-Research-Launch-Intern_R30599)<br><sub>“The CrowdStrike Launch Internship Program is an exclusive early-career opportunity designed for exceptional freshmen and sophomore level stu…”</sub> | USA - Sunnyvale, CA |  | Nov 17 |
+| AstraZeneca | [Commercial IT Intern, Undergraduate](https://astrazeneca.wd3.myworkdayjobs.com/Careers/job/US---Wilmington---DE/Commercial-IT-Intern--Undergraduate_R-264455)<br><sub>“We are looking for Sophomore and Junior students majoring in Computer Science, Business Administration, IT, MIS, or a related field for a 12…”</sub> | US - Wilmington - DE | ⚠ unverified | Nov 16 |
+| AstraZeneca | [Finance AI &amp; Data Analytics Intern, Undergraduate - LIFT Program](https://astrazeneca.wd3.myworkdayjobs.com/Careers/job/US---Wilmington---DE/Finance-AI---Data-Analytics-Intern--Undergraduate---LIFT-Program_R-264458)<br><sub>“We are seeking sophomore and junior undergraduate students interested in Finance, Artificial Intelligence, Data Analytics, and Digital Trans…”</sub> | US - Wilmington - DE | 🚫 no CPT/OPT<br>🎓 3.0+ GPA<br>⚠ unverified | Nov 16 |
+| TruStage | [Information Technology - Development and Infrastructure Internship \(hybrid\)](https://trustage.wd1.myworkdayjobs.com/TruStage/job/Wisconsin---Remote/Enterprise-Information---Technology-Internship--Hybrid-_R-012155)<br><sub>“Most appropriate for freshmen and sophomores.”</sub> | Wisconsin - Remote | 🌐 remote | Nov 16 |
+
+
+<details markdown="1" open>
+<summary><strong>Well-known programs to watch for</strong></summary>
+
+These programs are built for freshmen and sophomores and open once a year. They're added here only while applications are open.
+
+| Program | Typical window | Where to check |
+|---|---|---|
+| Microsoft Explore | Aug–Oct | [careers.microsoft.com](https://careers.microsoft.com/students/us/en/us-ur-swe-702) |
+| Google STEP | Sep–Oct | [google.com/students](https://www.google.com/about/careers/applications/students/) |
+| NVIDIA Ignite | Sep–Oct | [nvidia.com/careers](https://www.nvidia.com/en-us/about-nvidia/careers/university/) |
+| Meta University | Sep–Nov | [metacareers.com/students](https://www.metacareers.com/students-and-grads/) |
+| Amazon Propel | Aug–Oct | [amazon.jobs/students](https://www.amazon.jobs/en/landing_pages/campus) |
+| UberSTAR | Varies | [uber.com/careers](https://www.uber.com/us/en/careers/) |
+| Bank of America Global Technology Freshman Analyst | Aug–Oct | [bankofamerica.com/campus](https://campus.bankofamerica.com/) |
+
+This list is maintained by hand. If a program is missing, [open an issue](https://github.com/rohitpeets/cs-internships-and-career-guide/issues).
+
+</details>
 
 _Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._
